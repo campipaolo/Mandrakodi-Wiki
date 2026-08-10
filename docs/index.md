@@ -2,7 +2,9 @@
 
 ![icon](images/icon.gif)
 
-Unisciti al Gruppo Telegram](https://t.me/mandrakodi_support){.md-button}
+[Gruppo Teelegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
 
 ------
+
+[Guida Installazione](installazione/install.md){.md-button .md-button--primary} [Guide](guide/tutorials.md){.md-button .md-button--primary} [FAQ](faq/faq.md){.md-button .md-button--primary}
 
