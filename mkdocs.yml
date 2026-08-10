@@ -1,0 +1,27 @@
+site_name: Mandrakodi Wiki
+site_description: Guida e documentazione per Mandrakodi
+site_author: MandraKodi
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Passa al tema chiaro
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Passa al tema scuro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Guida Installazione: installazione.md
