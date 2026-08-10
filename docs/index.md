@@ -4,7 +4,7 @@
 
 [https://t.me/mandrakodi_support](Unisciti al nostro gruppo Telegram)
 
-![icon](/home/server/Documenti/Mandrakodi-Wiki/docs/images/icon.gif)
+![icon](images/icon.gif)
 
 ------
 
