@@ -6,5 +6,5 @@
 
 ------
 
-[ :material-arrow-right-bold: Installazione ](installazione/install.md){.md-button .md-button--primary} [ :material-arrow-right-bold: Guide ](guide/tutorials.md){.md-button .md-button--primary} [ :material-arrow-right-bold: FAQ ](faq/faq.md.md){.md-button .md-button--primary}
+[ :material-arrow-right-bold: Installazione ](installazione/install.md){.md-button .md-button--primary} [ :material-arrow-right-bold: Guide ](guide/tutorials.md){.md-button .md-button--primary} [ :material-arrow-right-bold: FAQ ](faq/faq.md){.md-button .md-button--primary}
 
