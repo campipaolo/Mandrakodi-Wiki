@@ -24,7 +24,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Guida Installazione: installazione.md
+  - Installazione: install.md
+  - Guide: tutotials.md
+  - FAQ: faq.md    
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
