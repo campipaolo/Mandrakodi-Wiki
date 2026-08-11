@@ -48,10 +48,10 @@ E' possibile sia impostare dei valori min/max sia selezionare una risoluzione vi
 
 
 
-!!! tip "Buffer / Cache"
-Kodi ha un suo sistema interno per gestire cache con modalità buffer impostabilando una dimensione memoria per varie tipologie di flussi online/locali
+!!! tip "Buffer/Cache"
+    Kodi ha un suo sistema interno per gestire cache con modalità buffer impostabilando una dimensione memoria per varie tipologie di flussi online/locali
 
-??? "Impostazioni Buffer/Cache Kodi"
+   ??? info "Impostazioni Buffer/Cache"
     **Avviare Kodi**
 
     * Impostazioni, "Servizi" 
@@ -64,7 +64,7 @@ Kodi ha un suo sistema interno per gestire cache con modalità buffer impostabil
 
 
 !!! caution "Attenzione"
-        **Si ricorda che, in ogni caso, quando il server della fonte è sovraccarico il buffering persiste comunque.**
+    Si ricorda che, in ogni caso, quando il server della fonte è sovraccarico il buffering persiste comunque.
 
 
 
