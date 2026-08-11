@@ -13,7 +13,7 @@
     Per un pieno funzionamento di Kodi con tutte le sue dipendenze corrette, scaricare Kodi dal proprio sito seguendo i passaggi sotto riportati per i vari Sistemi Operativi.
 
 !!! important "Importante"
-    Per un pieno funzionamento di Kodi con tutte me sue dipendenze corrette, scaricare Kodi dal proprio sito seguendo i passaggi sotto riportati per i vari Sistemi Operativi.
+    Qualora Kodi fosse pre installato senza essere sicuri se installato con installer preso da sito, disinstallare e procedere seguendo istruzioni di seguito a seconda del Sistema Operativo 
 
 ??? info "Kodi per Windows"
     **Installer per Windows**

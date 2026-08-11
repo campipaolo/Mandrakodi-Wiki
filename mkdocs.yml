@@ -26,7 +26,7 @@ theme:
 nav:
   - Home: index.md
   - Installazione: installazione/install.md
-  - Guide: guide/tutotials.md
+  - Guide: guide/tutorials.md
   - FAQ: faq/faq.md
 
 markdown_extensions:
