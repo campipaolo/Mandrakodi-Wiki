@@ -6,26 +6,22 @@
 
 ------
 
-> [!TIP]
->
-> 1) Installare Kodi sul proprio dispositivo
+
+
+!!! tip "Consiglio!"
+    1) Installare Kodi sul proprio dispositivo
 
 
 
-!!! tip "Il mio titolo personalizzato!"
-    Testo del suggerimento...
+!!! warning "Attenzione"
+
+​    Per un pieno funzionamento di kodi con tutte le sue  dipendenze corrette, scaricare  Kodi dal proprio sito seguendo i   passaggi sotto riportati per i vari Sistemi Operativi
 
 
 
-> [!CAUTION]
->
-> Per un pieno funzionamento di kodi con tutte le sue  dipendenze corrette, scaricare  Kodi dal proprio sito seguendo i passaggi sotto riportati per i vari Sistemi Operativi
+!!! importantt "Importante"
 
-
-
-> [!IMPORTANT]
->
-> Se Kodi è già pre installato e non si è certi che tale versione provenga dal suo sito, disinstallarlo e procedere seguendo i passaggi sotto riportati per i vari Sistemi Operativi
+​    Per un pieno funzionamento di kodi con tutte le sue  dipendenze corrette, scaricare  Kodi dal proprio sito seguendo i passaggi sotto riportati per i vari Sistemi Operativi
 
 
 
@@ -66,11 +62,9 @@
 
 
 
+!!! tip "Consiglio!"
 
-
-> [!TIP]
->
-> 2) Installare addon MandraKodi
+2. Installare addon Mandrakod
 
 
 
