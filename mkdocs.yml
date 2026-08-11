@@ -4,6 +4,7 @@ site_author: MandraKodi
 
 theme:
   name: material
+  language: it
   palette:
     - scheme: slate
       primary: indigo
@@ -28,10 +29,10 @@ nav:
   - Guide: guide/tutotials.md
   - FAQ: faq/faq.md    
 markdown_extensions:
-  - attr_list
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - admonition
+  - pymdownx.blocks.admonition
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
