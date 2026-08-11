@@ -27,28 +27,34 @@
 
 
 ??? info "Kodi Per Windows"
-    Installer per Windows
+       Installer per Windows
 
     * https://kodi.tv/download/windows/
     * Selezionare sezione "Raccomanded"
     * Scaricare Installer 32bit o 64bit (NON Windows Store)
 
+
+
 ??? info "Kodi per Android/AndroidTv"
-Installer per Android/AndroidTv
+       Installer per Android/AndroidTv
 
     * https://kodi.tv/download/android/
     * Selezionare sezione "Raccomanded"
     * Scaricare Installer ARMV7A32bit (AndroidTv fino V12) o ARMV8A64bit (Smartphone/Tablet/AndroidTv >14)
 
+
+
 ??? info "macOS"
-Installer per macOS 
+       Installer per macOS 
 
     * https://kodi.tv/download/macos/
     * Selezionare sezione "Raccomanded"
     * Scaricare Installer Intel (x86_x64) ARM64
 
+
+
 ??? info "Kodi per Linux"
-Installer Flatpak 
+       Installer Flatpak 
 
     * https://flathub.org/en/apps/tv.kodi.Kodi
     * Premere pulsante "Install" o installare da proprio Store
@@ -68,7 +74,7 @@ Installer Flatpak
 
 
 ??? info "Mandrakodi"
-   Guida installazione
+       Guida installazione
 
     * Fase 1: Inserimento Sorgente
     1 - Cliccare sulla rotellina delle impostazioni 
