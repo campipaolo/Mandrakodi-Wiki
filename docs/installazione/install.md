@@ -72,4 +72,4 @@ Installer Flatpak
 
     * Fase 1: Inserimento Sorgente
     1 - Cliccare sulla rotellina delle impostazioni 
-    ![kodi_settings](/home/server/Documenti/Mandrakodi-Wiki/docs/images/kodi_settings.jpg)
+    ![kodi_settings](images/kodi_settings.jpg)
