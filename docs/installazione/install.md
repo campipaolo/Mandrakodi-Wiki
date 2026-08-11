@@ -18,34 +18,38 @@
 ??? info "Kodi per Windows"
     **Installer per Windows**
 
-    * https://kodi.tv/download/windows/
+    * [Download Windows](https://kodi.tv/download/windows/) 
     * Selezionare sezione "Recommended"
     * Scaricare Installer 32bit o 64bit (NON Windows Store)
 
 ??? info "Kodi per Android / Android TV"
     **Installer per Android / Android TV**
 
-    * https://kodi.tv/download/android/
+    * [Download Android/AndroidTv] (https://kodi.tv/download/android/)
     * Selezionare sezione "Recommended"
     * Scaricare Installer ARMV7A 32bit (Android TV fino v12) o ARMV8A 64bit (Smartphone/Tablet/Android TV >14)
 
 ??? info "macOS"
     **Installer per macOS**
 
-    * https://kodi.tv/download/macos/
+    * [Download macOS] (https://kodi.tv/download/macos/)
     * Selezionare sezione "Recommended"
     * Scaricare Installer Intel (x86_64) o ARM64
 
 ??? info "Kodi per Linux"
     **Installer Flatpak**
 
-    * https://flathub.org/en/apps/tv.kodi.Kodi
+    * [Download Linux] (https://flathub.org/en/apps/tv.kodi.Kodi)
     * Premere pulsante "Install" o installare dal proprio Store
     * Da terminale digitare:
     
       ```bash
       sudo flatpak install flathub tv.kodi.Kodi
       ```
+
+
+
+
 
 !!! tip "Fase 2"
     Installare l'addon Mandrakodi.
@@ -89,8 +93,9 @@
       9. Adesso, nella maschera Gestore File, vi comparirà il nome che avete scelto
     
     ![kodi_source_select](../images/kodi_source_select.jpg)
-    
-    
+
+
+​    
     * **Fase 2:  Installazione Add-on**
      Pre-requisito: Installare dal Repository Ufficiale add-on YouTube (questo passaggio scaricherà dei componenti aggiuntivi necessari per MandraKodi)
      
@@ -133,8 +138,9 @@
       7. Attendere fino a quando non compare il messaggio “Add-on installato” 
     
       ![kodi_mandra_installed](../images/kodi_mandra_installed.jpg)
-    
-    
+
+
+​    
     * **Fase 3:  Installazione script aggiuntivi**
        A) Script.module.resolveurl 
        Questi i passaggi da seguire: 
@@ -159,8 +165,9 @@
        Attendere fino a quando non compare il messaggio “Add-on installato” 
         
        ![kodi_resolverurl_installed](../images/kodi_resolverurl_installed.jpg)
-       
-       
+
+
+​       
        * **Fase 4: Configurazione addon**
          1. Cliccare sulla rotellina delle impostazioni 
     
@@ -191,4 +198,4 @@
     	![kodi_mandra_settings2](../images/kodi_mandra_settings2.jpg)
 
 
-  
+
