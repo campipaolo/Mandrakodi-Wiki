@@ -51,14 +51,14 @@ E' possibile sia impostare dei valori min/max sia selezionare una risoluzione vi
 !!! tip "Buffer/Cache"
     Kodi ha un suo sistema interno per gestire cache con modalità buffer impostabilando una dimensione memoria per varie tipologie di flussi online/locali
 
-  ??? info "Buffer/Cache"
+??? info "Buffer/Cache"
     **Avviare Kodi**
 
-    * Impostazioni, "Servizi" 
-    * In basso a sinistr cliccare su pulsante "Base" fino a selezionare "Esperto"
-    * Sulla sinistra compare menù "Cache"
-    * Modalità Buffer: selezionare "Buffer di tutti i files sytem internet"
-    * Dimensione  Memoria: "64 MB"
+    * Impostazioni, **"Servizi"**
+    * In basso a sinistra cliccare sul pulsante **"Base"** fino a selezionare **"Esperto"**
+    * Sulla sinistra compare il menu **"Cache"**
+    * Modalità Buffer: selezionare **"Buffer di tutti i file system internet"**
+    * Dimensione Memoria: **"64 MB"**
     * Uscire da Kodi e rientrare
 
 
