@@ -27,23 +27,13 @@ nav:
   - Home: index.md
   - Installazione: installazione/install.md
   - Guide: guide/tutotials.md
-  - FAQ: faq/faq.md    
+  - FAQ: faq/faq.md
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.blocks.admonition:
-      types:
-        - note
-        - attention
-        - caution
-        - danger
-        - error
-        - hint
-        - important
-        - tip
-        - warning
+  - pymdownx.blocks.admonition
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
- 
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
