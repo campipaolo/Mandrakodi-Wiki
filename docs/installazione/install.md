@@ -29,7 +29,7 @@
     * Selezionare sezione "Recommended"
     * Scaricare Installer ARMV7A 32bit (Android TV fino v12) o ARMV8A 64bit (Smartphone/Tablet/Android TV >14)
 
-??? info "macOS"
+??? info "Kodi per macOS"
     **Installer per macOS**
 
     * [Download macOS] (https://kodi.tv/download/macos/)
