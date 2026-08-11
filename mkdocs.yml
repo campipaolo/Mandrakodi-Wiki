@@ -32,9 +32,18 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.blocks.admonition
+  - pymdownx.blocks.admonition:
+      types:
+        - note
+        - attention
+        - caution
+        - danger
+        - error
+        - hint
+        - important
+        - tip
+        - warning
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
  
