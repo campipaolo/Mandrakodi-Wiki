@@ -1,8 +1,8 @@
-[Tornaa alle guide](../tutorials.md){.md-button .md-button--primary} [Torna alla Home](../index.md){.md-button .md-button--primary} 
+[Tornaa alle guide](../guide/tutorials.md){.md-button .md-button--primary} [Torna alla Home](../index.md){.md-button .md-button--primary} 
 
 ------
 
-!!! warning "DNS: imprescindibili!"
+!!! warning "DNS: Obbligatori al giorno d'oggi!"
 ❓ Cosa c'entra con KODI/MANDRAKODI?
 
 La maggior parte dei siti di streaming italiani non ha server in Italia: la magistratura, non potendo chiuderli, chiede a tutti i provider Internet di oscurarli, ossia di cancellare i record dei siti dal loro database
@@ -15,37 +15,35 @@ Se la pagina non si apre, o se vi compare la scritta che il sito è sotto seques
 ❓ Come posso RISOLVERE?
 Basta cambiare server DNS, impostandone uno che non oscura.
 
-
+------
 
 ??? info "DNS  rete fissa"
     **Elenco DNS**
 
     * Opendns 
-      - formato IPV4
+    - formato IPV4
       dns primario: 208.67.222.222
       dns secondario: 208.67.220.220
       - formato IPV6
       dns primario: 2620:119:35::35 
       dns secondario: 2620:119:53::53
     * Cloudflare 
-      - formato IPV4
+    - formato IPV4
       dns primario: 1.1.1.1
       dns secondario: 1.0.0.1
       - formato IPV6
       dns primario: 2606:4700:4700::1111 
       dns secondario: 2606:4700:4700::1001
 
-
 ??? info "DNS  rete mobile"
     **Elenco DNS**
 
-    * Opendns 
-     dns.opendns.com
+    * Opendns
+      dns.opendns.com
     * Cloudflare 
       1dot1dot1dot1.cloudflare-dns.com 
 
-
-
+------
 
 !!! important "Guide per router di rete fissa"
     Di seguito guide per impostare i DNS sui router dei principali Internet Service Provider Italiani
@@ -146,7 +144,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
     * Dns non si possono inserire sul router dell’operatore 
     * Inserirli manualmente sul dispositivo (vedi sezione più sotto)
-    
+
 
 
 
@@ -155,7 +153,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
     * 
-    
+
 
 
 
@@ -164,7 +162,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
     * E' possibile richiedere solo IP Pubblico Statico a €4,90 al mese
-    
+
 
 
 
@@ -173,7 +171,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
     * E' possibile richiedere solo IP Pubblico Dinamico con una tantum €10
-    
+
 
 
 
@@ -182,5 +180,61 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
     * E' possibile solo con router di proprietà
-    
+
+------
+
+!!! important "DNS su singolo dipositivo"
+    Di seguito guide per impostare i DNS sui singolo dispositivo ove router non disponga di opzione per inserirli al suo interno
+
+??? info "Rete fissa"
+    **Rete fissa/AndroiTv/Firestick**
+
+    * Smartphone Android: (passaggi indicativi a seconda versione Android e UI del modello)
+      Impostazioni, rete e internet
+      Selezionare la propria connessione wifi
+      A fianco della connessione premere su icona a forma di ingranaggio (proprietà connessione)
+      In alto a destra premere su icona a forma di matita (modifica impostazioni)
+      Nella sezione “Impostazioni IP” selezionare “IP Statico”
+      Nella sezione “Gateway” inserire ip del proprio router (es. 192.168.1.1)
+      Nella sezione “Lunghezza prefisso rete” inserire “24”
+      Nella sezione “Indirizzo IP” inserire ip diverso da Gateway  (es. 192.168.1.10)
+      Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario formato IPV4
+      Eseguire [test dns](https://dnsleaktest.com)
+      Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati 
+    * Android Tv: (passaggi indicativi a seconda versione Android) 
+      Impostazioni (icona a forma di ingranaggio in alto a destra)
+      Rete Internet
+      Selezionare la propria connessione wifi
+      Nella sezione “Impostazioni IP”v selezionare “Statico” 
+      Nella sezione “Indirizzo IP” inserire ip diverso da quello del proprio router
+      Nella sezione “Gateway” inserire ip del proprio router (es. 192.168.1.1)
+      Nella sezione “Lunghezza prefisso rete” inserire “24”
+      Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario formato IPV4
+      Eseguire [test dns](https://dnsleaktest.com)
+      Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+    * Firestick
+      Cliccare  su "Impostazioni"
+      Selezionare "Sistemi"
+      Selezionare "WI-FI"
+      Selezionare la tua rete WI-FI e dimentica la rete WI-FI premendo il pulsante con 3 linee 
+      Premere il pulsante di selezione
+      Selezionare la propria rete WI-FI
+      Immettere la psw WI-FI e fare clic su "Avanzate"
+      Inserire ip diverso da quello del proprio router
+      Per il “Gateway” predefinito, inserire ip del proprio router (es. 192.168.1.1)
+      Inserire '24' per 'Lunghezza prefisso di rete' e fare clic su 'Avanti'
+      Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario formato IPV4
+      Cliccare su connetti
+      Eseguire [test dns](https://dnsleaktest.com)
+      Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+
+??? info "Rete mobile"
+    **Smartphone/Tablet Android**
+
+    * Impostazioni, rete e internet
+    * Selezionare “DNS Privato”
+    * Selezionare “Nome host del provider DNS Privato”
+    * Inserire DNS per rete mobile
+
+
 
