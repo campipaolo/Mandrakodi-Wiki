@@ -186,47 +186,55 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 !!! important "DNS su singolo dipositivo"
     Di seguito guide per impostare i DNS sui singolo dispositivo ove router non disponga di opzione per inserirli al suo interno
 
-??? info "Rete fissa"
-    **Configurazione DNS per Rete Fissa**
+??? info "Android"
+    **Smartphone/Tablet**
 
-    * **Smartphone Android:**
-      1. Impostazioni, rete e internet
-      2. A fianco della connessione premere su icona a forma di ingranaggio (proprietà connessione)
-      3. In alto a destra premere su icona a forma di matita (modifica impostazioni)
-      4. Nella sezione “Impostazioni IP” selezionare “IP Statico”
-      5. Nella sezione “Gateway” inserire ip del proprio router (es. 192.168.1.1)
-      6. Nella sezione “Lunghezza prefisso rete” inserire “24”
-      7. Nella sezione “Indirizzo IP” inserire ip diverso da Gateway  (es. 192.168.1.10)
-      8. Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario
-      9. Salvare le impostazioni
-      10. Eseguire [test dns](https://dnsleaktest.com)
-      11. Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
-    
-    * **Android TV:**
-      1. Impostazioni (icona a forma di ingranaggio in alto a destra)
-      2. Rete Internet
-      3. Selezionare la propria connessione wifi
-      4. Nella sezione “Impostazioni IP”v selezionare “Statico”
-      5. Nella sezione “Indirizzo IP” inserire ip diverso da quello del proprio router
-      6. Nella sezione “Gateway” inserire ip del proprio router (es. 192.168.1.1)
-      7. Nella sezione “Lunghezza prefisso rete” inserire “24”
-      8. Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario
-      9. Eseguire [test dns](https://dnsleaktest.com)
-      10. Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
-    
-    * **Fire TV Stick:**
-      1. Cliccare  su "Impostazioni"
-      2. Selezionare "Sistemi"
-      3. Selezionare "WI-FI"
-      4. Selezionare la tua rete WI-FI e dimentica la rete WI-FI premendo il pulsante con 3 linee
-      5. Premere il pulsante di selezione
-      6. Selezionare la propria rete WI-FI
-      7. Immettere la psw WI-FI e fare clic su "Avanzate"
-      8. Inserire ip diverso da quello del proprio router
-      9. Per il “Gateway” predefinito, inserire ip del proprio router (es. 192.168.1.1)
-      10. Inserire '24' per 'Lunghezza prefisso di rete' e fare clic su 'Avanti'
-      11. Eseguire [test dns](https://dnsleaktest.com)
-      12. Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+    * Impostazioni, rete e internet
+    * In alto a destra premere su icona a forma di matita (modifica impostazioni) 
+    * Se attivo disattivarlo da app windtre / area clienti / servizio clienti
+    * Nella sezione “Impostazioni IP” selezionare “IP Statico”
+    * Nella sezione “Gateway” inserire ip del proprio router (es. 192.168.1.1)
+    * Nella sezione “Lunghezza prefisso rete” inserire “24”
+    * Nella sezione “Indirizzo IP” inserire ip diverso da Gateway (es. 192.168.1.10)
+    * Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario
+    * Inserire i dns in formato IPV4
+    * Salvare le impostazioni 
+    * Eseguire [test dns](https://dnsleaktest.com)
+    * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+
+??? info "AndroidTv"
+    **Tv/Chiavetta/Box**
+
+    * Impostazioni (icona a forma di ingranaggio in alto a destra)
+    * Rete Internet 
+    * Selezionare la propria connessione wifi
+    * Nella sezione “Impostazioni IP”v selezionare “Statico”
+    * Nella sezione “Indirizzo IP” inserire ip diverso da quello del proprio router
+    * Nella sezione “Lunghezza prefisso rete” inserire “24”
+    * Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario
+    * Inserire i dns in formato IPV4
+    * Salvare le impostazioni 
+    * Eseguire [test dns](https://dnsleaktest.com)
+    * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+
+??? info "Firestick"
+    **Chiavette Firestick Android**
+
+    * Cliccare su "Impostazioni"
+    * Selezionare "Sistemi" 
+    * Selezionare "WI-FI"
+    * Selezionare la tua rete WI-FI e dimentica la rete WI-FI premendo il pulsante con 3 linee
+    * Nella sezione “Indirizzo IP” inserire ip diverso da quello del proprio router
+    * Premere il pulsante di selezione
+    * Selezionare la propria rete WI-FI
+    * Immettere la psw WI-FI e fare clic su "Avanzate"
+    * Inserire ip diverso da quello del proprio router 
+    * Per il “Gateway” predefinito, inserire ip del proprio router (es. 192.168.1.1)
+    *  Inserire '24' per 'Lunghezza prefisso di rete' e fare clic su 'Avanti'
+    * Inserire i dns in formato IPV4
+    * Eseguire [test dns](https://dnsleaktest.com)
+    * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+
 
 
 ??? info "Rete mobile"
