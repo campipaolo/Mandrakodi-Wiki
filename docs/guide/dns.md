@@ -22,18 +22,26 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
     * Opendns 
     - formato IPV4
-      dns primario: 208.67.222.222
-      dns secondario: 208.67.220.220
+      dns primario:
+      208.67.222.222
+      dns secondario: 
+      208.67.220.220
       - formato IPV6
-      dns primario: 2620:119:35::35 
-      dns secondario: 2620:119:53::53
+      dns primario: 
+      2620:119:35::35 
+      dns secondario: 
+      2620:119:53::53
     * Cloudflare 
     - formato IPV4
-      dns primario: 1.1.1.1
-      dns secondario: 1.0.0.1
+      dns primario: 
+      1.1.1.1
+      dns secondario: 
+      1.0.0.1
       - formato IPV6
-      dns primario: 2606:4700:4700::1111 
-      dns secondario: 2606:4700:4700::1001
+      dns primario: 
+      2606:4700:4700::1111 
+      dns secondario: 
+      2606:4700:4700::1001
 
 ??? info "DNS  rete mobile"
     **Elenco DNS**
@@ -151,9 +159,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ??? info "SKY Wifi"
     **SKY Wifi  FTTH**
 
-    * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * 
-
+    * Dns non si possono inserire né sul router dell’operatore, inserirli sul singolo dispositivo
 
 
 
@@ -184,7 +190,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ------
 
 !!! important "DNS su singolo dipositivo"
-    Di seguito guide per impostare i DNS sui singolo dispositivo ove router non disponga di opzione per inserirli al suo interno
+    Di seguito guide per impostare i DNS sui singolo dispositivo ove router non disponga di opzione per inserirli al suo interno e per connessioni rete mobile
 
 ??? info "Android"
     **Smartphone/Tablet**
