@@ -190,17 +190,17 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Rete fissa/AndroiTv/Firestick**
 
     * Smartphone Android: (passaggi indicativi a seconda versione Android e UI del modello)
-      Impostazioni, rete e internet
-      Selezionare la propria connessione wifi
-      A fianco della connessione premere su icona a forma di ingranaggio (proprietà connessione)
-      In alto a destra premere su icona a forma di matita (modifica impostazioni)
-      Nella sezione “Impostazioni IP” selezionare “IP Statico”
-      Nella sezione “Gateway” inserire ip del proprio router (es. 192.168.1.1)
-      Nella sezione “Lunghezza prefisso rete” inserire “24”
-      Nella sezione “Indirizzo IP” inserire ip diverso da Gateway  (es. 192.168.1.10)
-      Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario formato IPV4
-      Eseguire [test dns](https://dnsleaktest.com)
-      Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati 
+      1. Impostazioni, rete e internet
+      2. Selezionare la propria connessione wifi
+      3.A fianco della connessione premere su icona a forma di ingranaggio (proprietà connessione)
+      4. In alto a destra premere su icona a forma di matita (modifica impostazioni)
+      5. Nella sezione “Impostazioni IP” selezionare “IP Statico”
+      6. Nella sezione “Gateway” inserire ip del proprio router (es. 192.168.1.1)
+      7. Nella sezione “Lunghezza prefisso rete” inserire “24”
+      8. Nella sezione “Indirizzo IP” inserire ip diverso da Gateway  (es. 192.168.1.10)
+      9. Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario formato IPV4
+      10. Eseguire [test dns](https://dnsleaktest.com)
+      11. Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati 
     * Android Tv: (passaggi indicativi a seconda versione Android) 
       Impostazioni (icona a forma di ingranaggio in alto a destra)
       Rete Internet
