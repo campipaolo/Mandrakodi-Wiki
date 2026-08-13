@@ -3,8 +3,7 @@
 ------
 
 !!! warning "Richiedere assistenza nel gruppo Telegram"
-    **Prima** di chiedere, **leggete** quantomeno tutta la  **Wiki** compresa sezione **FAQ**.
-     Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio** indicare quanto sotto riportato:
+    **Prima** di chiedere, **leggete** quantomeno tutta la  **Wiki** compresa sezione **FAQ**. <br>Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio** indicare quanto sotto riportato <br> **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e chi persevera verrà **ammonito**
 
 ??? info "Info obbligatorie per assistenza"
     **Riportare in chat in unico messaggio**
@@ -15,18 +14,15 @@
     * DNS utilizzati, dove sono stati impostati (Device o Router) ed esito  [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
-!!! caution "Attenzione"
-    **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e chi persevera verrà **ammonito**
+------
 
-
-
-!!! important "Importante"
-    Qualora in chat venga richiesto di fornire un "Log" seguire le seguenti indicazioni  
+!!! important "Invio File Log"
+    Qualora in chat venga richiesto di fornire un "**Log**" seguire le seguenti indicazioni  
 
 ??? info "Invio Log"
     **Avviare Kodi**
 
-    * Impostazioni, "Addon"
+    * Dalla pagina principale di Kodi, "Impostazioni", "Addon"
     * "Installa da repository", "Addon Programmi"
     * "Kodi Logfile Uploader", "Installa"
     * Premere "Avvia" (l'addon è avviabile anche dalla pagina principale di Kodi nella sezione "Addon Programmi")
@@ -38,5 +34,4 @@
     * Segnatevi quel link e inviatelo al bot delle credenziali anteponendo la parola log
     (Esempio:
     log https://paste.kodi.tv/ukoxehudej)
-    
 

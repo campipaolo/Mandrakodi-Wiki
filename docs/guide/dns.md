@@ -2,7 +2,7 @@
 
 ------
 
-!!! warning "DNS: Obbligatori al giorno d'oggi!"
+!!! warning "DNS: **Obbligatori** al giorno d'oggi!"
 ❓ Cosa c'entra con KODI/MANDRAKODI?
 
 La maggior parte dei siti di streaming italiani non ha server in Italia: la magistratura, non potendo chiuderli, chiede a tutti i provider Internet di oscurarli, ossia di cancellare i record dei siti dal loro database
@@ -23,25 +23,25 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Opendns 
     	- formato IPV4
       	  dns primario:
-      	  208.67.222.222
+      	  	208.67.222.222
       	  dns secondario: 
-      	  208.67.220.220
+      	  	208.67.220.220
         - formato IPV6
       	  dns primario: 
-      	  2620:119:35::35 
+      	  	2620:119:35::35 
       	  dns secondario: 
-      	  2620:119:53::53
+      	  	2620:119:53::53
     * Cloudflare 
         - formato IPV4
           dns primario: 
-          1.1.1.1
+          	1.1.1.1
           dns secondario: 
-          1.0.0.1
+          	1.0.0.1
         - formato IPV6
       	  dns primario: 
-          2606:4700:4700::1111 
+          	2606:4700:4700::1111 
           dns secondario: 
-         2606:4700:4700::1001
+         	2606:4700:4700::1001
 
 ??? info "DNS  rete mobile"
     **Elenco DNS**
@@ -54,7 +54,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ------
 
 !!! important "Guide per router di rete fissa"
-    Di seguito guide per impostare i DNS sui router dei principali Internet Service Provider Italiani (menù/voci potrebbero variare leggermente a seconda del modello e del firmware cambiato nel tempo)
+    Di seguito guide per impostare i DNS sui router dei principali Internet Service Provider Italiani (menù/voci **potrebbero variare leggermente** a seconda del modello e del firmware cambiato nel tempo)
 
 ??? info "Vodafone"
     **Vodafone Station FTTC e FTTH**

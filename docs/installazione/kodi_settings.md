@@ -22,9 +22,7 @@ E' possibile sia impostare dei valori min/max sia selezionare una risoluzione vi
     * Premere "OK" per confermare
 
 !!! warning "Come cambiare risoluzione video"
-    Mentre si è in play, tasto centrale del telecomando o toccare touch smartphone 
-    In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video'
-    Si apre finestra con elencate le varie risoluzioni video disponibili da poter selezionare
+    Mentre si è in play, tasto centrale del telecomando o toccare touch smartphone <br> In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video' <br> Si apre finestra con elencate le varie risoluzioni video disponibili da poter selezionare
 
 
 
@@ -32,7 +30,7 @@ E' possibile sia impostare dei valori min/max sia selezionare una risoluzione vi
 
 !!! tip "Flussi DaddyLive"
     I canali **DaddyLive**, utilizzano il plugin **inputstream.ffmpegdirect**.
-    Questo plugin, di default, utilizza la funzione **TimeShift** per permettere il riavvolgimento della live. Per farlo, salva dei     file nella cartella di Kodi che vengono cancellati quando si ferma il video. Su device con poca memoria (esempio la FireStick), può creare problemi. 
+    Questo plugin, di default, utilizza la funzione **TimeShift** per permettere il riavvolgimento della live. <br>  Per farlo, salva dei     file nella cartella di Kodi che vengono cancellati quando si ferma il video. <br>  Su device con poca memoria (esempio la FireStick), può creare problemi. 
 
 ??? info "Impostazioni Flussi DaddyLive"
     **Avviare Kodi**
@@ -49,7 +47,7 @@ E' possibile sia impostare dei valori min/max sia selezionare una risoluzione vi
 
 
 !!! tip "Buffer/Cache"
-    Kodi ha un suo sistema interno per gestire cache con modalità buffer impostabilando una dimensione memoria per varie tipologie di flussi online/locali
+    Kodi ha un suo sistema interno per gestire **cache con modalità buffer** impostabilando una dimensione memoria per varie tipologie di flussi online/locali
 
 ??? info "Buffer/Cache"
     **Avviare Kodi**
@@ -64,7 +62,7 @@ E' possibile sia impostare dei valori min/max sia selezionare una risoluzione vi
 
 
 !!! warning "Attenzione"
-    Si ricorda che, in ogni caso, quando il server della fonte è sovraccarico il buffering persiste comunque.
+    Si ricorda che, in ogni caso, **quando il server della fonte è sovraccarico il buffering persiste comunque**.
 
 
 

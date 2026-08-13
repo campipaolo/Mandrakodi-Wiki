@@ -10,10 +10,10 @@
     Installare Kodi sul proprio dispositivo.
 
 !!! warning "Attenzione"
-    Per un pieno funzionamento di Kodi con tutte le sue dipendenze corrette, scaricare Kodi dal proprio sito seguendo i passaggi sotto riportati per i vari Sistemi Operativi.
+    Per un pieno funzionamento di Kodi con tutte le sue dipendenze corrette, **scaricare Kodi dal proprio sito** seguendo i passaggi sotto riportati per i vari Sistemi Operativi.
 
 !!! important "Importante"
-    Qualora Kodi fosse pre installato senza essere sicuri se installato con installer preso da sito, disinstallare e procedere seguendo istruzioni di seguito a seconda del Sistema Operativo 
+    Qualora Kodi fosse **pre installato** senza essere sicuri se installato con installer preso da sito, disinstallare e procedere seguendo istruzioni di seguito a seconda del Sistema Operativo 
 
 ??? info "Kodi per Windows"
     **Installer per Windows**
@@ -70,7 +70,7 @@
     
          ![kodi_source_add](../images/kodi_source_add.jpg)
     
-      4. Nella maschera, cliccare su **\<Nessuno\>**:
+      4. Nella maschera, cliccare su **<Nessuno>**:
     
          ![kodi_source_boxurl](../images/kodi_source_boxurl.jpg)
     
