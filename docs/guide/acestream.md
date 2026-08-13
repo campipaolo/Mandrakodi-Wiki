@@ -4,10 +4,10 @@
 
 !!! tip "Acestream, flussi P2P ad alta qualità"
     Sono link che sfruttano un protocollo basato sulla condivisione di flussi streaming audiovisivi tramite rete **p2p** (peer to peer) il che vuol dire creare interconnessioni tra più utenti e il server proprio come accadeva anni or sono con eMule/Torrent. 
-Questo significa che “chi guarda in streaming, trasmette anche agli altri utenti, ovvero più utenti guardano e condividono a loro volta ad altri , meno blocchi ci sono durante la visione”: **questo avviene esclusivamente solo se sul proprio router viene aperta la porta 8621 udp**
+    Questo significa che “chi guarda in streaming, trasmette anche agli altri utenti, ovvero più utenti guardano e condividono a loro volta ad altri , meno blocchi ci sono durante la visione”: **questo avviene esclusivamente solo se sul proprio router viene aperta la porta 8621 udp**
 
   !!! warning "Lingua contenuti"
-    I link Acestream sono pressochè totalmente stranieri, in quanto in Italia poco utilizzati per mancanza di cultura di condivisione alla base di tutti i sistemi P2P (Emule, Torrent ecc)
+    I link Acestream sono **praticamente totalmente stranieri**, in quanto in Italia poco utilizzati per mancanza di cultura di condivisione alla base di tutti i sistemi P2P (Emule, Torrent ecc)
 
 ------
 
@@ -28,7 +28,7 @@ Questo significa che “chi guarda in streaming, trasmette anche agli altri uten
     **Installer MOD per Android/AndroidTv/Firestick**
 
     * [Download Android ARMV8A 64bit] (https://)
-    * [Download AndroidTv/Firestick ARMV7A 32bit] (https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
+    * [Download AndroidTv/Firestick ARMV7A 32bit] (https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)(https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
     * Avviare Acestream una prima volta per dargli i permessi
     * Tornare alla home page col tasto dedicato per  lasciarlo aperto in background
     * Avviare Kodi, in Mandrakodi, entrare nella sezione “HELP ME!”

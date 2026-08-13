@@ -1,7 +1,7 @@
 /* Aumenta la dimensione del testo del contenuto dei blocchi */
 .md-typeset .admonition,
 .md-typeset details {
-  font-size: 1rem; /* Valore di default standard: ~0.8rem. Puoi impostare 0.9rem, 1rem o 16px */
+  font-size: 0.8rem; /* Valore di default standard: ~0.8rem. Puoi impostare 0.9rem, 1rem o 16px */
 }
 
 /* Aumenta la dimensione del titolo del blocco (opzionale) */
@@ -12,5 +12,5 @@
 
 /* Riduce la dimensione del testo semplice del corpo della pagina */
 .md-typeset {
-  font-size: 0.75rem; /* Il default di Material è 0.8rem (~16px). Puoi provarlo a 0.75rem o 0.7rem */
+  font-size: 0.80rem; /* Il default di Material è 0.8rem (~16px). Puoi provarlo a 0.75rem o 0.7rem */
 }
