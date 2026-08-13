@@ -7,7 +7,7 @@
 /* Aumenta la dimensione del titolo del blocco (opzionale) */
 .md-typeset .admonition-title,
 .md-typeset summary {
-  font-size: 1.2rem;   /* Regola la dimensione del titolo a piacimento */
+  font-size: 1rem;   /* Regola la dimensione del titolo a piacimento */
 }
 
 /* Riduce la dimensione del testo semplice del corpo della pagina */
