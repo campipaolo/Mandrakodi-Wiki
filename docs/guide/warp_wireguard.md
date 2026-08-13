@@ -62,14 +62,14 @@
 
 ------
 
-!!! important " Fase 2 - Invio file da Pc/Smartphone a dispositivo AndroidTv/Firestick"
+!!! important " Fase 2 - "Localsed" per inviare file da Pc/Smartphone a dispositivo AndroidTv/Firestick"
     Inviare ad AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard
 
 ??? info "Localsend"
     **Windows/Android/AndroidTv/Firestick**
 
-    * Installare "Localsend"
-    [Loalsend Windows](https://localsend.org/it/download?os=windows)
+    * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
+    * [Loalsend Windows](https://localsend.org/it/download?os=windows)
     * [Loalsend Android/AndroidTv](https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
     * [Loalsend Firestick](https://github.com/localsend/localsend/releases) LocalSend-x.x.x-android-arm32v7.apk
     * Avviare Localsend prima sul dispositivo "mittente" e poi su quello "ricevente"
@@ -88,7 +88,7 @@
 ??? info "Wireguard"
     **Android/AndroidTv/Firestick**
 
-    
+
     * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “i” elenca la cronologia
     * Cliccare apk Wireguard 
     * Consentire installazione delle app da Localsend (se richiesto) e installarlo
