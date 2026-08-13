@@ -26,8 +26,8 @@
 ??? info "AceServe per Android/AndroidTv/Firestick"
     **Installer MOD per Android/AndroidTv/Firestick**
 
-    * [Download Android ARMV8A 64bit] (https://)
-    * [Download Android ARMV7A 32bit] (https://download.acestream.media/products/acestream-full/win/latest)(https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
+    * [Download Android ARMV8A 64bit](https://)
+    * [Download Android ARMV7A 32bit](https://download.acestream.media/products/acestream-full/win/latest)(https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
     * Avviare Acestream una prima volta per dargli i permessi
     * Tornare alla home page col tasto dedicato per  lasciarlo aperto in background
     * Avviare Kodi, in Mandrakodi, entrare nella sezione “HELP ME!”
