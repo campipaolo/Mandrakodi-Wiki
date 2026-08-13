@@ -3,8 +3,7 @@
 ------
 
 !!! tip "Warp / Wireguard"
-    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura "WARP"  <br>
-prova prova 
+    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura "WARP"  <br> Warp (WIndows/macOS/Linux/Android/Ios) una volta installato non richiede caltre configurazioni <br> Wireguard (AndroidTv/Firestick) una volta installato richiede file ".conf" per funzionare correttamente 
 
  
 
