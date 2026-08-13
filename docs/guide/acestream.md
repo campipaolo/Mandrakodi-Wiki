@@ -6,8 +6,8 @@
     Sono link che sfruttano un protocollo basato sulla condivisione di flussi streaming audiovisivi tramite rete **p2p** (peer to peer) il che vuol dire creare interconnessioni tra più utenti e il server proprio come accadeva anni or sono con eMule/Torrent. 
     Questo significa che “chi guarda in streaming, trasmette anche agli altri utenti, ovvero più utenti guardano e condividono a loro volta ad altri , meno blocchi ci sono durante la visione”: **questo avviene esclusivamente solo se sul proprio router viene aperta la porta 8621 udp**
 
- !!! warning "Lingua contenuti"
-     I link Acestream sono **praticamente totalmente stranieri**, in quanto in Italia poco utilizzati per mancanza di cultura di condivisione alla base di tutti i sistemi P2P (Emule, Torrent ecc)
+ !!! warning "Attenzione"
+    I link Acestream sono **praticamente totalmente stranieri**, in quanto in Italia poco utilizzati per mancanza di cultura di condivisione alla base di tutti i sistemi P2P (Emule, Torrent ecc)
 
 ------
 
