@@ -62,7 +62,7 @@
 
 ------
 
-!!! important " Fase 2 - "Localsed" per inviare file da Pc/Smartphone a dispositivo AndroidTv/Firestick"
+!!! important " Fase 2 - "Localsend" per inviare file da Pc/Smartphone a dispositivo AndroidTv/Firestick"
     Inviare ad AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard
 
 ??? info "Localsend"
