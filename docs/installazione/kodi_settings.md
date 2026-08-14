@@ -8,8 +8,7 @@
 
 
 !!! tip "Flussi MPD"
-    I link MDP sfruttano la libreria di kodi "**inputstream-adaptive**" che regola automaticamente la risoluzione video del flusso a seconda della propria connessione e del dispositivo.
-E' possibile sia impostare dei valori min/max sia selezionare una risoluzione video a piacimento tra quelle disponibili per ogni flusso video 
+    I link MDP sfruttano la libreria di kodi "**inputstream-adaptive**" che regola automaticamente la risoluzione video del flusso a seconda della propria connessione e del dispositivo <br> E' possibile sia impostare dei valori min/max sia selezionare una risoluzione video a piacimento tra quelle disponibili per ogni flusso video 
 
 ??? info "Impostazioni Flussi MPD"
     **Avviare Kodi**

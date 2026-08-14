@@ -72,7 +72,7 @@
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
     * [Loalsend Windows](https://localsend.org/it/download?os=windows)
     * [Loalsend Android/AndroidTv](https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
-    * [Loalsend Firestick](https://github.com/localsend/localsend/releases) LocalSend-x.x.x-android-arm32v7.apk
+    * [Loalsend Firestick](https://github.com/localsend/localsend/releases) LocalSend-x.x.x-android-arm32v7.apk (scaricare con app Downloader)
     * Avviare Localsend prima sul dispositivo "mittente" e poi su quello "ricevente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare file/files da inviare
@@ -110,13 +110,13 @@
 
 
     * Installare WG Tunnel
-    * [WG Tunnel AndroidTv/Firestick 32bit](https://github.com/wgtunnel/android/releases/download/5.3.0/wgtunnel-standalone-v5.3.0-arm64.apk) wgtunnel-standalone-vx.x.x-armv7.apk
-    * [WG Tunnel Android 64bit](https://github.com/wgtunnel/android/releases/download/5.3.0/wgtunnel-fdroid-v5.3.0-arm64.apk) wgtunnel-standalone-vx.x.x-armv64.apk
-    * [WG Tunnel Windows 64bit](https://github.com/wgtunnel/desktop/releases/download/1.0.2/wgtunnel-1.0.2.x64.msix) wgtunnel-x.x.x.x64.msix
-    * [WG Tunnel Linux 64bit](https://github.com/wgtunnel/desktop/releases/download/1.0.2/wgtunnel_1.0.2_amd64.deb) wgtunnel_x.x.x_amd64.deb
+    * [WG Tunnel AndroidTv/Firestick 32bit](https://github.com/wgtunnel/android/releases/) wgtunnel-standalone-vx.x.x-armv7.apk
+    * [WG Tunnel Android 64bit](https://github.com/wgtunnel/android/releases) wgtunnel-standalone-vx.x.x-armv64.apk
+    * [WG Tunnel Windows 64bit](https://github.com/wgtunnel/desktop/releases) wgtunnel-x.x.x.x64.msix
+    * [WG Tunnel Linux 64bit](https://github.com/wgtunnel/desktop/releases) wgtunnel_x.x.x_amd64.deb
     * Avviare WG Tunnel
     * Alla prima apertura, WG Tunnel potrebbe chiedere il permesso di accedere ai file
-    * Aperto Wireguard, premere il pulsante "+" e selezionare l'opzione "importa da file"
+    * Aperto WG Tunnel, premere il pulsante "+" e selezionare l'opzione "importa da file"
     * Importato il file, sarà presente nella schermata principale 
     * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
