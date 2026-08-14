@@ -39,10 +39,11 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ??? info "DNS  rete mobile"
     **Elenco DNS**
 
-    * Opendns
-    	dns.opendns.com
-    * Cloudflare 
-    	1dot1dot1dot1.cloudflare-dns.com 
+    * Opendns:<br>
+      dns.opendns.com
+      
+    * Cloudflare:<br> 
+      1dot1dot1dot1.cloudflare-dns.com 
 
 ------
 
