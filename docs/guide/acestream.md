@@ -60,7 +60,7 @@
     * Passaggi per configurazione (una sola volta)
     * Avviare Kodi, in Mandrakodi, entrare nella sezione “HELP ME!”
     * Cliccare "PLAYER .XML (org.free.aceserve)"
-    * Uscire da Kodi e rientrare
+    * Uscire da Kodi e rientrare<br>
     
     * Passaggi per avviare i link Ace
     * Avviare Kodi
