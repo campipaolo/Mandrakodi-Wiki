@@ -17,7 +17,7 @@
     **Installer per Windows**
 
     * [Download Windows](https://download.acestream.media/products/acestream-full/win/latest) 
-    * Scaricare [playercorefactory - windows.xml](https://download.acestream.media/products/acestream-full/win/latest)
+    * Scaricare [playercorefactory - windows.xml](https://)
     * Rinominare il file in "playercorefactory.xml"
     * Con editor di testo tipo "Notepad" aprire il file
     * Sostituire ”{TuoUtente}” col proprio nome utente e salvare il file
@@ -43,7 +43,7 @@
 
 ------
 
-!!! tip "Player interno Kodi / Player esterno (es. Vlc)"
+!!! important "Fase 2 - Player interno Kodi / Player esterno (es. Vlc)"
     - "ENGINE":   sfrutta motore di AceServe **rimanendo all'interno di Kodi**  usando il suo **player interno** <br>                           (richieste più risorse hardware, solo per device con 2Gb Ram)
     - "DIRETTO":   sfrutta motore di AceServe ma **esce da Kodi** usando un **player esterno** (es. Vlc) <br>                           (richieste meno risorse hardware, per dispositivi con 1,5Gb Ram)  
 
