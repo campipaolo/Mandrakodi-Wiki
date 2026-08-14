@@ -20,8 +20,8 @@
 ??? info "> 2) Addon Under Maintenance" "
     
 
-     Motivo: MandraKodi non riesce a raggiungere la pagina di inizio <br
-     Soluzione: Svuotare la cache di Kodi e controllare la connessione internet 
+    Motivo: MandraKodi non riesce a raggiungere la pagina di inizio <br>
+    Soluzione: Svuotare la cache di Kodi e controllare la connessione internet 
     
 
 
@@ -32,8 +32,8 @@
 aggiornato" "
     
 
-     Motivo: MandraKodi non riesce a raggiungere la pagina degli aggiornamenti <br>
-     Soluzione: Svuotare la cache di Kodi e controllare la connessione internet 
+    Motivo: MandraKodi non riesce a raggiungere la pagina degli aggiornamenti <br>
+    Soluzione: Svuotare la cache di Kodi e controllare la connessione internet 
     
 
 
@@ -44,8 +44,8 @@ aggiornato" "
 recuperare i link da alcuni siti" "
     
 
-     Motivo: MandraKodi ha trovato dei DNS diversi da quelli di Cloudflare e/o Opendns <br>
-     Soluzione: Modificare i DNS sul router, se possibile. In alternativa, modificarli
+    Motivo: MandraKodi ha trovato dei DNS diversi da quelli di Cloudflare e/o Opendns <br>
+    Soluzione: Modificare i DNS sul router, se possibile. In alternativa, modificarli
     sul device dove è installato Kodi (in questa Wiki sezione Guide >>> DNS) 
     
 
@@ -56,7 +56,7 @@ recuperare i link da alcuni siti" "
 ??? info  "> 5)  "Spiacenti, la fonte non è raggiungibile" "
     
 
-     Motivo: Il BOT che gestisce la sezione, non è riuscito a recuperare i dati dal
+    Motivo: Il BOT che gestisce la sezione, non è riuscito a recuperare i dati dal
     sito/lista che fa da fonte alla sezione <br>
     Soluzione: Segnalare la sezione che non funziona nel gruppo di supporto (in questa Wiki, sezione Installazione >>> Richiedere  Assistenza) 
     
@@ -69,7 +69,7 @@ recuperare i link da alcuni siti" "
 'Fonte/Lista/Sezione" "
     
 
-     Motivo: La fonte del link ha risposto in modo inaspettato e, MandraKodi, non è
+    Motivo: La fonte del link ha risposto in modo inaspettato e, MandraKodi, non è
     riuscito a recuperare il link <br>
     Soluzione: Cambiare fonte e segnalare la sezione sul gruppo di supporto (in questa Wiki, sezione Installazione >>> Richiedere  Assistenza) 
     
@@ -78,9 +78,14 @@ recuperare i link da alcuni siti" "
 
 ------
 
-??? info "> 7)  "Lo script '**script.module.resolveurl**' non risulta installato" "
+??? info  "> 7)  "Lo script '**script.module.resolveurl**' non risulta installato" "
+    
 
-  Motivo: MandraKodi non ha trovato il plugin <br>  Soluzione: Installare il plugin (in questa Wiki, sezione Installazione)
+    Motivo: MandraKodi non ha trovato il plugin <br>
+    Soluzione: Installare il plugin (in questa Wiki, sezione Installazione) 
+    
+
+
 
 ------
 
@@ -88,6 +93,16 @@ recuperare i link da alcuni siti" "
 informazioni su questo messaggio" "
 
   Motivo: Il link recuperato da MandraKodi, e inviato al player, non funziona <br>  Soluzione: Cambiare link
+
+??? info  "> 8)  "Riproduzione fallita di uno o più elementi. Controlla il log per ulteriori
+informazioni su questo messaggio" "
+    
+
+    Motivo: Il link recuperato da MandraKodi, e inviato al player, non funziona <br>
+    Soluzione: Cambiare link 
+    
+
+
 
 ------
 
