@@ -2,7 +2,7 @@
 
 ![icon](images/icon.gif)
 
-[Assistenza](../installazione/ask_help.md){.md-button .md-button--primary}
+[Assistenza](ask_help.md){.md-button .md-button--primary}
 
 ------
 
