@@ -17,24 +17,24 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
 ------
 
-??? info "DNS  rete fissa"
-    **Elenco DNS**
+??? info "DNS rete fissa"
+    Elenco DNS
 
-    * **OpenDNS (IPv4):**
-          * `208.67.222.222`
-          * `208.67.220.220`
+    * Opendns formato IPV4:<br>
+      208.67.222.222<br>
+      208.67.220.220
     
-        * **OpenDNS (IPv6):**
-          * `2620:119:35::35`
-          * `2620:119:53::53`
+    * Opendns formato IPV6:<br>
+      2620:119:35::35<br>
+      2620:119:53::53
     
-        * **Cloudflare (IPv4):**
-          * `1.1.1.1`
-          * `1.0.0.1`
+    * Cloudflare formato IPV4:<br>
+      1.1.1.1<br>
+      1.0.0.1
     
-        * **Cloudflare (IPv6):**
-          * `2606:4700:4700::1111`
-          * `2606:4700:4700::1001`
+    * Cloudflare formato IPV6:<br>
+      2606:4700:4700::1111<br>
+      2606:4700:4700::1001
 
 ??? info "DNS  rete mobile"
     **Elenco DNS**
