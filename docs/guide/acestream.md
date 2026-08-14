@@ -10,6 +10,9 @@
 
 ------
 
+!!! important "Fase 1 - Installazione"
+    Installare sul proprio dispositivo  
+
 ??? info "Acestream per Windows"
     **Installer per Windows**
 
@@ -21,7 +24,6 @@
     * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
     * Copiare il file nel percorso “C:/utenti/nomeutente/appdata/roaming/kodi/userdata”
     * Avviare Acestream
-    * In Mandrakodi provare un qualunque link ace con opzione “DIRETTO”
 
 ??? info "AceServe per Android/AndroidTv/Firestick"
     **Installer MOD per Android/AndroidTv/Firestick**
@@ -30,23 +32,46 @@
     * [Download Android ARMV7A 32bit](https://)
     * Avviare Acestream una prima volta per dargli i permessi
     * Tornare alla home page col tasto dedicato per  lasciarlo aperto in background
-    * Avviare Kodi, in Mandrakodi, entrare nella sezione “HELP ME!”
-    * Cliccare "PLAYER .XML (org.free.aceserve)"
-    * Uscire da Kodi e rientrare
-    * In Mandrakodi provare un qualunque link ace con opzione “ENGINE”
 
 ??? info "Acestream per Linux"
     **Pacchetti per Linux**
 
     * Installare Acestream a seconda della propria distribuzione in formato "Snap" o "Flatpak"
     * Avviare Acestream
-    * In Mandrakodi provare un qualunque link ace con opzione “ENGINE”
 
 
 
 ------
 
-!!! important "AceServe con dispositivi poco performanti"
+!!! tip "Player interno Kodi / Player esterno (es. Vlc)"
+    - "ENGINE":   sfrutta motore di AceServe **rimanendo all'interno di Kodi**  usando il suo **player interno** <br>                           (richieste più risorse hardware, solo per device con 2Gb Ram)
+    - "DIRETTO":   sfrutta motore di AceServe ma **esce da Kodi** usando un **player esterno** (es. Vlc) <br>                           (richieste meno risorse hardware, per dispositivi con 1,5Gb Ram)  
+
+??? info "Opzione ENGINE"
+    **Play all'interno di Kodi**
+
+    * Avviare Kodi
+    * In Mandrakodi avviare un link Ace
+    * Usare opzione "ENGINE"
+
+??? info "Opzione DIRETTO"
+    **Play con player esterno (es. Vlc)**
+
+    * Passaggi per configurazione (una sola volta)
+    * Avviare Kodi, in Mandrakodi, entrare nella sezione “HELP ME!”
+    * Cliccare "PLAYER .XML (org.free.aceserve)"
+    * Uscire da Kodi e rientrare
+    
+    * Passaggi per avviare i link Ace
+    * Avviare Kodi
+    * In Mandrakodi avviare un link Ace
+    * Usare opzione "DIRETTO"
+    * Selezionare "org.free.aceserve"
+    * Selezionare player esterno (es. Vlc)
+
+------
+
+!!! important "EXTRA - AceServe con dispositivi poco performanti"
     Con dispositivi poco performanti  (tv/chiavetta con 1Gb/1,5Gb Ram e 8Gb storage) è consigliabile eseguire AceServe su **altro dispositivo** (generalmente smartphone) **purché connesso alla medesima rete,**  sfruttando maggiori risorse per cache disco e ram 
 
 ??? info "Kodi Tv/Chiavetta + AceServe Smartphone"

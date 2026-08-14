@@ -57,12 +57,13 @@
     * ./wgcf status
     * ls
     * cp wgcf-profile.conf ~/storage/downloads
+    ls ~/storage/downloads
     * exit
     * N.B.: il file ".conf"  sarà reperibile nella cartella Download del prprio device
 
 ------
 
-!!! important " Fase 2 - "Localsend" per inviare file da Pc/Smartphone a dispositivo AndroidTv/Firestick"
+!!! important " Fase 2 - Installazione Localsend"
     Inviare ad AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard
 
 ??? info "Localsend"
@@ -92,14 +93,33 @@
     * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “i” elenca la cronologia
     * Cliccare apk Wireguard 
     * Consentire installazione delle app da Localsend (se richiesto) e installarlo
-    * Avviare Localsend prima sul dispositivo "mittente" e poi su quello "ricevente"
     * Alla prima apertura, WireGuard potrebbe chiedere il permesso di accedere ai file
     * Concedere l'autorizzazione, se non appare richiesta, uscire e rientrare
     * Aperto Wireguard, premere il pulsante "+" e selezionare l'opzione "importa da file"
     * Importato il file, sarà presente nella schermata principale 
     * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
-    * Eventuale file apk Wireguard può essre cliccato e installato
+
+------
+
+!!! important " EXTRA - WG Tunnel (alternativa sempre con file ".conf")"
+    Installare WG Tunnel su Windows/Linux/Android/AndroidTv/Firestick
+
+??? info "WG Tunnel"
+    **Pc Windows/Linux/Android/AndroidTv/Firestick**
+
+
+    * Installare WG Tunnel
+    * [WG Tunnel AndroidTv/Firestick 32bit](https://github.com/wgtunnel/android/releases/download/5.3.0/wgtunnel-standalone-v5.3.0-arm64.apk) wgtunnel-standalone-vx.x.x-armv7.apk
+    * [WG Tunnel Android 64bit](https://github.com/wgtunnel/android/releases/download/5.3.0/wgtunnel-fdroid-v5.3.0-arm64.apk) wgtunnel-standalone-vx.x.x-armv64.apk
+    * [WG Tunnel Windows 64bit](https://github.com/wgtunnel/desktop/releases/download/1.0.2/wgtunnel-1.0.2.x64.msix) wgtunnel-x.x.x.x64.msix
+    * [WG Tunnel Linux 64bit](https://github.com/wgtunnel/desktop/releases/download/1.0.2/wgtunnel_1.0.2_amd64.deb) wgtunnel_x.x.x_amd64.deb
+    * Avviare WG Tunnel
+    * Alla prima apertura, WG Tunnel potrebbe chiedere il permesso di accedere ai file
+    * Aperto Wireguard, premere il pulsante "+" e selezionare l'opzione "importa da file"
+    * Importato il file, sarà presente nella schermata principale 
+    * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare
+    * Al primo avvio verrà chiesta conferma di attivazione
 
 ------
 
