@@ -2,7 +2,7 @@
 
 ------
 
-[ :material-arrow-right-bold: Impostazioni Kodi](kodi_settings.md){.md-button .md-button--primary}  [ :material-arrow-right-bold: Richiedere Assistenza ](ask_help.md){.md-button .md-button--primary} 
+[ :material-arrow-right-bold: Impostazioni Kodi](kodi_settings.md){.md-button .md-button--primary}  [ :material-arrow-right-bold: Assistenza ](ask_help.md){.md-button .md-button--primary} 
 
 ------
 
