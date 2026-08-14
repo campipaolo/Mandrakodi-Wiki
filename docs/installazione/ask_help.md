@@ -14,6 +14,8 @@
     * DNS utilizzati, dove sono stati impostati (Device o Router) ed esito  [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
+[Gruppo Teelegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
+
 ------
 
 !!! important "Invio File Log"

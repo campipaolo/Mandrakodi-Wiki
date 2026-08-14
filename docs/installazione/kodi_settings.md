@@ -5,7 +5,48 @@
 !!! important "Importante"
     Di seguito settaggi consigliati per migliori prestazioni dei vari flussi video 
 
+------
 
+!!! tip "Players Esterni"
+    A partire da Kodi 21.2 è possibile sfruttare players esterni (es. Ace, Vlc, Mx Player) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, con alcuni passaggi diversi
+
+??? info "Players Esterni con Android/AndroidTv/Firestick"
+    **Avviare Kodi**
+
+    * Entrare in Mandrakodi, sezione “HELP ME!”
+    * Cliccare "PLAYER .XML (org.free.aceserve)"
+    * Uscire da Kodi e rientrare, accedere a Mandrakodi
+    * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
+    * Tenere premuto sul link e selezionare voce "riproduci con"
+    * Dall'elenco selezionare player installato
+
+??? info "Players Esterni con Windows"
+    **In Windows**
+
+    * Scaricare [playercorefactory - windows.xml](https://)
+    * Rinominare il file in "playercorefactory.xml"<br> 
+    
+    Il File "playercorefactory.xml" contiene le voci per vari players esterni, va modificato<br>
+    
+    * Con editor di testo tipo "Notepad" aprire il file
+    * Sostituire tutte le voci ”{TuoUtente}” col proprio nome utente e salvare il file
+    * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
+    * Copiare il file nel percorso “C:/utenti/nomeutente/appdata/roaming/kodi/userdata”
+    * Entrare in Mandrakodi
+    * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
+    * Tenere premuto sul link e selezionare voce "riproduci con"
+    * Dall'elenco selezionare player installato
+
+
+
+!!! warning "Installare i vari player esterni"
+    I players esterni (Vlc, Mx Player, ecc) vanno prima installati sul dispositivo 
+
+------
+
+
+
+------
 
 !!! tip "Flussi MPD"
     I link MDP sfruttano la libreria di kodi "**inputstream-adaptive**" che regola automaticamente la risoluzione video del flusso a seconda della propria connessione e del dispositivo <br> E' possibile sia impostare dei valori min/max sia selezionare una risoluzione video a piacimento tra quelle disponibili per ogni flusso video 
@@ -23,9 +64,7 @@
 !!! warning "Come cambiare risoluzione video"
     Mentre si è in play, tasto centrale del telecomando o toccare touch smartphone <br> In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video' <br> Si apre finestra con elencate le varie risoluzioni video disponibili da poter selezionare
 
-
-
-
+------
 
 !!! tip "Flussi DaddyLive"
     I canali **DaddyLive**, utilizzano il plugin **inputstream.ffmpegdirect**.
@@ -41,9 +80,7 @@
     ![daddylive_no_time_shift](../images/daddylive_no_time_shift.jpg)
     * Uscire da Kodi e rientrare
 
-
-
-
+------
 
 !!! tip "Buffer/Cache"
     Kodi ha un suo sistema interno per gestire **cache con modalità buffer** impostabilando una dimensione memoria per varie tipologie di flussi online/locali

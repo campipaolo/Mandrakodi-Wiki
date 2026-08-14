@@ -17,12 +17,6 @@
     **Installer per Windows**
 
     * [Download Windows](https://download.acestream.media/products/acestream-full/win/latest) 
-    * Scaricare [playercorefactory - windows.xml](https://)
-    * Rinominare il file in "playercorefactory.xml"
-    * Con editor di testo tipo "Notepad" aprire il file
-    * Sostituire ”{TuoUtente}” col proprio nome utente e salvare il file
-    * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
-    * Copiare il file nel percorso “C:/utenti/nomeutente/appdata/roaming/kodi/userdata”
     * Avviare Acestream
 
 ??? info "AceServe per Android/AndroidTv/Firestick"
@@ -30,7 +24,7 @@
 
     * [Download Android ARMV8A 64bit](https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
     * [Download Android ARMV7A 32bit](https://)
-    * Avviare Acestream una prima volta per dargli i permessi
+    * Avviare AceServe una prima volta per dargli i permessi
     * Tornare alla home page col tasto dedicato per  lasciarlo aperto in background
 
 ??? info "Acestream per Linux"
@@ -57,17 +51,14 @@
 ??? info "Opzione DIRETTO"
     **Play con player esterno (es. Vlc)**
 
-    * Passaggi per configurazione (una sola volta)
-    * Avviare Kodi, in Mandrakodi, entrare nella sezione “HELP ME!”
-    * Cliccare "PLAYER .XML (org.free.aceserve)"
-    * Uscire da Kodi e rientrare<br>
-    
-    * Passaggi per avviare i link Ace
     * Avviare Kodi
     * In Mandrakodi avviare un link Ace
     * Usare opzione "DIRETTO"
     * Selezionare "org.free.aceserve"
     * Selezionare player esterno (es. Vlc)
+
+!!! warning "ATTENZIONE"
+    Prima eseguire passaggi inerenti ai "Players Esterni" nella sezione Installazione >>> Impostazioni Kodi 
 
 ------
 
