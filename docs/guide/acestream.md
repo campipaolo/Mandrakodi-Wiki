@@ -58,7 +58,7 @@
     * Selezionare player esterno (es. Vlc)
 
 !!! warning "ATTENZIONE"
-    Prima eseguire passaggi inerenti ai "Players Esterni" nella sezione Installazione >>> Impostazioni Kodi 
+    Prima eseguire passaggi inerenti ai "Players Esterni" nella sezione Installazione >>> Impostazioni Kodi (se non precedentemente eseguita)
 
 ------
 
