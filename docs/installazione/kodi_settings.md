@@ -8,7 +8,7 @@
 ------
 
 !!! tip "Players Esterni"
-    A partire da Kodi 21.2 è possibile sfruttare players esterni (es. Ace, Vlc, Mx Player,Wuffy) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
+    A partire da Kodi 21.2 è possibile sfruttare players esterni (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
 
 ??? info "Players Esterni con Android/AndroidTv/Firestick"
     **Avviare Kodi**
@@ -26,7 +26,7 @@
     * Scaricare [playercorefactory - windows.xml](https://)
     * Rinominare il file in "playercorefactory.xml"<br> 
     
-    Il File "playercorefactory.xml" contiene le voci per vari players esternio<br>
+    Il File "playercorefactory.xml" contiene le voci per vari players esterni<br>
     
     * Con editor di testo tipo "Notepad" aprire il file "playercorefactory.xml"
     * Sostituire tutte le voci ”{TuoUtente}” col proprio nome utente e salvare il file
@@ -79,16 +79,16 @@
 ------
 
 !!! tip "Buffer/Cache"
-    Kodi ha un suo sistema interno per gestire **cache con modalità buffer** impostabilando una dimensione memoria per varie tipologie di flussi online/locali
+    Kodi ha un suo sistema interno per gestire **cache con modalità buffer** per impostare una dimensione memoria per varie tipologie di flussi online/locali
 
 ??? info "Impostazioni Buffer/Cache"
     **Avviare Kodi**
 
-    * Impostazioni, **"Servizi"**
-    * In basso a sinistra cliccare sul pulsante **"Base"** fino a selezionare **"Esperto"**
-    * Sulla sinistra compare il menu **"Cache"**
-    * Modalità Buffer: selezionare **"Buffer di tutti i file system internet"**
-    * Dimensione Memoria: **"64 MB"**
+    * Impostazioni, "Servizi"
+    * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
+    * Sulla sinistra compare il menu "Cache"
+    * Modalità Buffer: selezionare "Buffer di tutti i file system internet"
+    * Dimensione Memoria: "64 MB"
     * Uscire da Kodi e rientrare
 
 

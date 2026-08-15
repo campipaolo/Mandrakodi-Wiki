@@ -14,8 +14,8 @@
 
 ------
 
-!!! tip "Fase 1 - Installazione"
-    Installare Kodi sul proprio dispositivo
+!!! tip "Fase 1 - Installazione Kodi"
+    Installare Kodi su Windows/maOS/Linux/Android/AndroidTv/iOS/Firestick
 
 ??? info "Kodi per Windows"
     **Installer per Windows**
@@ -151,11 +151,11 @@
 
 ------
 
-!!! tip "Fase 2 - Installazione addon"
+!!! tip "Fase 2 - Installazione addon Mandrakodi"
     Installare l'addon Mandrakodi
 
 ??? info "Mandrakodi"
-    **Guida all'installazione**
+    **Guida Installazione**
 
     * **Fase 1: Inserimento Sorgente**
       1. Cliccare sulla rotellina delle impostazioni:

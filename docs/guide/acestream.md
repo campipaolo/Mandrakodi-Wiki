@@ -22,9 +22,9 @@
 ??? info "AceServe per Android/AndroidTv/Firestick"
     **Installer MOD per Android/AndroidTv/Firestick**
 
-    * [Download Android ARMV8A 64bit](https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
-    * [Download Android ARMV7A 32bit](https://)
-    * Avviare AceServe una prima volta per dargli i permessi
+    * [Download Android ARMV8A 64bit](https://www.dropbox.com/scl/fi/sz1kjiwgtnww1bjsmryfn/Aceserve-1.5.5-64bit.apk?rlkey=u8ekpvc4yq14wzvrwburg7jis&st=86575k8p&dl=1)
+    * [Download Android ARMV7A 32bit](https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
+    * Avviare AceServe una prima volta per dare i permessi
     * Tornare alla home page col tasto dedicato per  lasciarlo aperto in background
 
 ??? info "Acestream per Linux"
