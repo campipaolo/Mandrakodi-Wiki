@@ -153,7 +153,7 @@
       * Ripetere i passaggi 1 – 5 fatti per l'installazione dell'add-on MandraKodi.
       * Nell'elenco che compare, selezionare il file `script.module.resolveurl.xxx-2.1.35.zip` (o la versione attualmente disponibile):
     
-        ![kodi_mandra_installed](kodi_resolverxxx_select.jpg)
+        ![kodi_mandra_installed](../images/kodi_resolverxxx_select.jpg)
     
       * Attendere fino a quando non compare il messaggio *"Add-on installato"*:
     
