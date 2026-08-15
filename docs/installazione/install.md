@@ -90,40 +90,40 @@
     	5. Tocca Signature.
     	6. Al termine della firma, tocca Install.
     	7. Attendi il completamento dell’installazione.
-    6. Dopo l’installazione
-    	Una volta terminata l’installazione:
-    	L’app dovrebbe comparire sulla schermata Home.
-    	Puoi provare ad aprirla.
-    	Se iOS non la avvia, controlla Impostazioni → Generali → VPN e gestione
+    6. Dopo l’installazione<br> 
+    	Una volta terminata l’installazione:<br>
+    	● L’app dovrebbe comparire sulla schermata Home.
+    	● Puoi provare ad aprirla.
+    	● Se iOS non la avvia, controlla Impostazioni → Generali → VPN e gestione
     	dispositivo.
-    	Se il certificato è stato revocato, l’app potrebbe smettere di funzionare.
+    	● Se il certificato è stato revocato, l’app potrebbe smettere di funzionare.
     7. Problemi comuni
-    	- “Integrity could not be verified”
-    	Di solito significa che iOS non riesce a verificare correttamente la firma dell’app.
-    	Possibili cause:
-    	● certificato revocato;
-    	● firma non valida;
-    	● profilo/certificato non configurato correttamente;
-    	● IPA modificato o danneggiato.
-    	- ESign non si installa
-    	Controlla:
-    	1. che il profilo DNS sia stato installato correttamente;
-    	2. che il certificato utilizzato sia ancora valido;
-    	3. che l’installazione non sia stata bloccata da iOS.
-    	- L’app si installa ma non si apre
-    	Il certificato potrebbe essere stato revocato oppure l’IPA potrebbe essere incompatibile 	 con il dispositivo/iOS.
-    	- ESign smette improvvisamente di funzionare
-    	È possibile che il certificato utilizzato sia stato revocato. Il sito stesso segnala che 	 gli utenti ESign possono incontrare problemi di verifica e revoca.
-    8. La cosa più importante: sicurezza
+    	- “Integrity could not be verified”<br>
+    	   Di solito significa che iOS non riesce a verificare correttamente la firma dell’app.<br>
+    	Possibili cause:<br>
+    		● certificato revocato;
+    		● firma non valida;
+    		● profilo/certificato non configurato correttamente;
+    		● IPA modificato o danneggiato.
+    	- ESign non si installa<br>
+    	  Controlla:<br>
+    		1. che il profilo DNS sia stato installato correttamente;
+    		2. che il certificato utilizzato sia ancora valido;
+    		3. che l’installazione non sia stata bloccata da iOS.
+    	- L’app si installa ma non si apre<br>
+    	  Il certificato potrebbe essere stato revocato oppure l’IPA potrebbe essere       incompatibile 	 con il dispositivo/iOS.<br>
+    	- ESign smette improvvisamente di funzionare<br>
+    		È possibile che il certificato utilizzato sia stato revocato. Il sito stesso segnala         che gli utenti ESign possono incontrare problemi di verifica e revoca.
+    8. La cosa più importante: sicurezza<br>
     	ESign può essere utile, ma il rischio principale non è necessariamente ESign in sé:
-    	sono soprattutto i file IPA, i profili di configurazione e i certificati scaricati da 		fonti non ufficiali.
-    	- Prima di installare qualcosa:
-    	● evita IPA provenienti da fonti sconosciute;
-    	● controlla sempre cosa stai installando;
-    	● non inserire il tuo Apple ID o la password in siti che promettono certificati;
-    	● non installare profili DNS che non riconosci;
-    	● non autorizzare certificati Enterprise di organizzazioni sconosciute;
-    	● per app importanti, preferisci App Store o metodi ufficiali Apple.
+    	sono soprattutto i file IPA, i profili di configurazione e i certificati scaricati da 		fonti non ufficiali.<br>
+    	- Prima di installare qualcosa:<br>
+    		● evita IPA provenienti da fonti sconosciute;
+    		● controlla sempre cosa stai installando;
+    		● non inserire il tuo Apple ID o la password in siti che promettono certificati;
+    		● non installare profili DNS che non riconosci;
+    		● non autorizzare certificati Enterprise di organizzazioni sconosciute;
+    		● per app importanti, preferisci App Store o metodi ufficiali Apple.
 
 
 
