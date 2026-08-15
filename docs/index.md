@@ -12,8 +12,6 @@
 !!! warning "Qualità e stabilità"
     La qualità è la stabilità di questi link dipendono esclusivamente dal server che li trasmette.  <br>Molti server (soprattutto quelli che trasmettono eventi live sul web), quando le richieste aumentano, *abbassano la qualità* per *guadagnare sulla stabilità*. <br>Altri, invece, **raggiunta una soglia di banda**, cominciano a dare **problemi di blocchi continui** (il server non riesce a trasmettere la quantità necessaria di “informazioni” per permettere una visione fluida)
 
-<a href="https://download.wireguard.com/android-client/" target="_blank" rel="noopener noreferrer">Wireguard</a>
-
 ------
 
 [ :material-arrow-right-bold: Installazione ](installazione/install.md){.md-button .md-button--primary} [ :material-arrow-right-bold: Guide ](guide/tutorials.md){.md-button .md-button--primary} [ :material-arrow-right-bold: FAQ ](faq/faq.md){.md-button .md-button--primary}
