@@ -3,7 +3,7 @@
 ------
 
 !!! warning "Come richiedere assistenza nel gruppo Telegram"
-    **Prima** di chiedere, **leggete** quantomeno tutta la  **Wiki** compresa la sezione **[FAQ](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/)**. <br>Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto riportato <br> **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e chi persevera verrà **ammonito**
+    **Prima** di chiedere, **leggete** quantomeno tutta la  **Wiki** compresa la sezione **[FAQ](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/)**. <br>Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto riportato <br> **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e chi persevera verrà prima  *ammonito* e poi  **bannato**
 
 ??? info "Info obbligatorie per assistenza"
     **Riportare in chat in unico messaggio**

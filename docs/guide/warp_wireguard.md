@@ -76,7 +76,7 @@
 ------
 
 !!! important " Fase 3 - Localsend"
-    Inviare ad AndroidTv/Firestick file ".conf ed eventuale Apk Wireguard per Firestick" 
+    Inviare a AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard per Firestick" 
 
 ??? info "Localsend"
     **Windows/Android/AndroidTv/Firestick**

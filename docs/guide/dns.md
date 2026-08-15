@@ -18,7 +18,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ------
 
 ??? info "DNS rete fissa"
-    Elenco DNS
+    **Elenco DNS**
 
     * Opendns formato IPV4:<br>
       208.67.222.222<br>
@@ -161,7 +161,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Eolo FWA**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile richiedere solo IP Pubblico Statico a €4,90 al mese
+    * E' possibile solo con router di proprietà in cascata o richiedendo solo IP Pubblico Statico a €4,90 al mese
 
 
 

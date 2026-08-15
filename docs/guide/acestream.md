@@ -38,8 +38,8 @@
 ------
 
 !!! important "Fase 2 - Player interno Kodi / Player esterno (es. Vlc, Mx Player)"
-    - "ENGINE":   sfrutta motore di Ace **rimanendo all'interno di Kodi**  usando il suo **player interno** <br>                           (richieste più risorse hardware, solo per device con 2Gb Ram)
-    - "DIRETTO":   sfrutta motore di Ace ma **esce da Kodi** usando un **player esterno** (es. Vlc, Mx Player) <br>                           (richieste meno risorse hardware, per dispositivi con 1,5Gb Ram)  
+    - "**ENGINE**":   sfrutta motore di Ace **rimanendo all'interno di Kodi**  usando il suo **player interno** <br>                           (richieste più risorse hardware, solo per device con 2Gb Ram)
+    - "**DIRETTO**":   sfrutta motore di Ace ma **esce da Kodi** usando un **player esterno** (es. Vlc, Mx Player) <br>                           (richieste meno risorse hardware, per dispositivi con 1,5Gb Ram)  
 
 ??? info "Opzione **ENGINE**"
     **Play all'interno di Kodi**
