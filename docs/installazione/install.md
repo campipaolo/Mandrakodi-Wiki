@@ -138,26 +138,26 @@
          ![kodi_mandra_installed](../images/kodi_mandra_installed.jpg)
     
     * **Fase 3: Installazione script aggiuntivi**
-      
-      **A) Script.module.resolveurl**
-      * Ripetere i passaggi 1 – 5 fatti per l'installazione dell'add-on MandraKodi.
-      * Nell'elenco che compare, selezionare il file `script.module.resolveurl-5.1.92.zip` (o la versione attualmente disponibile):
     
-        ![kodi_resolverurl_select](../images/kodi_resolverurl_select.jpg)
+    **A) Script.module.resolveurl**
+    * Ripetere i passaggi 1 – 5 fatti per l'installazione dell'add-on MandraKodi.
+    * Nell'elenco che compare, selezionare il file `script.module.resolveurl-5.1.92.zip` (o la versione attualmente disponibile):
     
-      * Attendere fino a quando non compare il messaggio *"Add-on installato"*:
+    ![kodi_resolverurl_select](../images/kodi_resolverurl_select.jpg)
     
-        ![kodi_resolverxxx_select](../images/kodi_resolverxxx_select.jpg)
+    * Attendere fino a quando non compare il messaggio *"Add-on installato"*:
     
-      **B) Script.module.resolveurl.xxx**
-      * Ripetere i passaggi 1 – 5 fatti per l'installazione dell'add-on MandraKodi.
-      * Nell'elenco che compare, selezionare il file `script.module.resolveurl.xxx-2.1.35.zip` (o la versione attualmente disponibile):
+    ![kodi_resolverurl_installed](../images/kodi_resolverurl_installed.jpg)
     
-        ![kodi_resolverxxx_select](../../images/kodi_resolverxxx_select.jpg)
+    **B) Script.module.resolveurl.xxx**
+    * Ripetere i passaggi 1 – 5 fatti per l'installazione dell'add-on MandraKodi.
+    * Nell'elenco che compare, selezionare il file `script.module.resolveurl.xxx-2.1.35.zip` (o la versione attualmente disponibile):
     
-      * Attendere fino a quando non compare il messaggio *"Add-on installato"*:
+    ![kodi_resolverxxx_select](../images/kodi_resolverxxx_select.jpg)
     
-        ![kodi_resolverurl_installed](../images/kodi_resolverurl_installed.jpg)
+    * Attendere fino a quando non compare il messaggio *"Add-on installato"*:
+    
+    ![kodi_resolverurl_installed](../images/kodi_resolverurl_installed.jpg)
     
     * **Fase 4: Configurazione addon**
       1. Cliccare sulla rotellina delle impostazioni:
