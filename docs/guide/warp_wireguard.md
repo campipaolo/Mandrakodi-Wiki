@@ -3,7 +3,7 @@
 ------
 
 !!! tip "Warp / Wireguard"
-    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  **"WARP"**  <br>    Warp (Pc desktop/Android/IOS) **[si installa da qui](https://one.one.one.one)**, non richiede altre configurazioni <br>    Wireguard (AndroidTv/Firestick) una volta installato richiede file ".conf" per funzionare correttamente 
+    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - Warp (Pc desktop/Android/IOS) **[si installa da qui](https://one.one.one.one)**, non richiede altre configurazioni <br>    - Wireguard (AndroidTv/Firestick) una volta installato richiede file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su più dispositivi contemporaneamente da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
@@ -57,23 +57,35 @@
     * ./wgcf status
     * ls
     * cp wgcf-profile.conf ~/storage/downloads
-    ls ~/storage/downloads
+    * ls ~/storage/downloads
     * exit
     * N.B.: il file ".conf"  sarà reperibile nella cartella Download del prprio device
 
 ------
 
-!!! important " Fase 2 - Installazione Localsend"
-    Inviare ad AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard
+!!! important " Fase 2 - Wireguard AndroidTv/Firestick"
+    Installare per  AndroidTv / Scaricare Apk per Firestick 
+
+??? info "Wireguard"
+    **AndroidTv/Firestick**
+
+    * [Wireguard AndroidTv/Firestick](https://download.wireguard.com/android-client/)
+    * Utenti AndroidTv: installare con link "Google Play Store"
+    * Utenti Firestick: con App downloader scaricare Apk "com.wireguard.android-x.x.xxxxx.apk"
+
+------
+
+!!! important " Fase 3 - Localsend"
+    Inviare ad AndroidTv/Firestick file ".conf ed eventuale Apk Wireguard per Firestick" 
 
 ??? info "Localsend"
     **Windows/Android/AndroidTv/Firestick**
 
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
-    * [Loalsend Windows](https://localsend.org/it/download?os=windows)
+    [Loalsend Windows](https://localsend.org/it/download?os=windows)
     * [Loalsend Android/AndroidTv](https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
-    * [Loalsend Firestick](https://github.com/localsend/localsend/releases) LocalSend-x.x.x-android-arm32v7.apk (scaricare con app Downloader)
-    * Avviare Localsend prima sul dispositivo "mittente" e poi su quello "ricevente"
+    * [Loalsend Firestick](https://github.com/localsend/localsend/releases) LocalSend-x.x.x-android-arm32v7.apk (scaricare con app Downloader
+    * Avviare Localsend prima sul dispositivo "ricevente" e poi su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare file/files da inviare
     * Selezionare dispositivo "ricevente"
@@ -83,11 +95,11 @@
 
 ------
 
-!!! important " Fase 3 - Installazione WIreguard"
-    Installare Wireguard su AndroidTv/Firestick
+!!! important " Fase 4 - Installare WIreguard su  Firestick "
+    Installazione Apk Wireguard per Firestick
 
-??? info "Wireguard"
-    **Android/AndroidTv/Firestick**
+??? info "Wireguard per Firestick"
+    **Firestick**
 
 
     * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “i” elenca la cronologia
@@ -95,18 +107,30 @@
     * Consentire installazione delle app da Localsend (se richiesto) e installarlo
     * Alla prima apertura, WireGuard potrebbe chiedere il permesso di accedere ai file
     * Concedere l'autorizzazione, se non appare richiesta, uscire e rientrare
-    * Aperto Wireguard, premere il pulsante "+" e selezionare l'opzione "importa da file"
+
+------
+
+!!! important " Fase 5 - Configurare Wireguard"
+    Impostare Wireguard su AndroidTv/Firestick
+
+??? info "Wireguard"
+    **AndroidTv/Firestick**
+
+
+    * Aprire Wireguard, premere il pulsante "+" e selezionare l'opzione "importa da file"
     * Importato il file, sarà presente nella schermata principale 
     * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
 
 ------
 
+
+
 !!! important " EXTRA - WG Tunnel (alternativa sempre con file ".conf")"
     Installare WG Tunnel su Windows/Linux/Android/AndroidTv/Firestick
 
 ??? info "WG Tunnel"
-    **Pc Windows/Linux/Android/AndroidTv/Firestick**
+    **Windows/Linux/Android/AndroidTv/Firestick**
 
 
     * Installare WG Tunnel

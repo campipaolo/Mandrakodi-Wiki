@@ -158,7 +158,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
 
 ??? info "Eolo"
-    **Eolo 5G**
+    **Eolo FWA**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
     * E' possibile richiedere solo IP Pubblico Statico a €4,90 al mese
@@ -174,9 +174,8 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
 
 
-
-??? info "Enel"
-    **Aruba  FTTC e FTTH**
+??? info "Edison"
+    **Edison  FTTC e FTTH**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
     * E' possibile solo con router di proprietà

@@ -2,13 +2,13 @@
 
 ------
 
-!!! important "Importante"
+!!! important "Impostazioni Kodi"
     Di seguito settaggi consigliati per migliori prestazioni dei vari flussi video 
 
 ------
 
 !!! tip "Players Esterni"
-    A partire da Kodi 21.2 è possibile sfruttare players esterni (es. Ace, Vlc, Mx Player) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, con alcuni passaggi diversi
+    A partire da Kodi 21.2 è possibile sfruttare players esterni (es. Ace, Vlc, Mx Player,Wuffy) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
 
 ??? info "Players Esterni con Android/AndroidTv/Firestick"
     **Avviare Kodi**
@@ -26,9 +26,9 @@
     * Scaricare [playercorefactory - windows.xml](https://)
     * Rinominare il file in "playercorefactory.xml"<br> 
     
-    Il File "playercorefactory.xml" contiene le voci per vari players esterni, va modificato<br>
+    Il File "playercorefactory.xml" contiene le voci per vari players esternio<br>
     
-    * Con editor di testo tipo "Notepad" aprire il file
+    * Con editor di testo tipo "Notepad" aprire il file "playercorefactory.xml"
     * Sostituire tutte le voci ”{TuoUtente}” col proprio nome utente e salvare il file
     * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
     * Copiare il file nel percorso “C:/utenti/nomeutente/appdata/roaming/kodi/userdata”
@@ -40,16 +40,12 @@
 
 
 !!! warning "Installare i vari player esterni"
-    I players esterni (Vlc, Mx Player, ecc) vanno prima installati sul dispositivo 
-
-------
-
-
+    I players esterni (es. Ace, Vlc, Mx Player,Wuffy) vanno **prima** installati sul dispositivo 
 
 ------
 
 !!! tip "Flussi MPD"
-    I link MDP sfruttano la libreria di kodi "**inputstream-adaptive**" che regola automaticamente la risoluzione video del flusso a seconda della propria connessione e del dispositivo <br> E' possibile sia impostare dei valori min/max sia selezionare una risoluzione video a piacimento tra quelle disponibili per ogni flusso video 
+    I link MDP sfruttano la libreria di kodi "**inputstream-adaptive**" che *regola automaticamente* la risoluzione video del flusso a seconda della propria connessione e del dispositivo <br> E' possibile sia impostare dei valori min/max sia selezionare una risoluzione video a piacimento tra quelle disponibili per ogni flusso video 
 
 ??? info "Impostazioni Flussi MPD"
     **Avviare Kodi**
@@ -85,7 +81,7 @@
 !!! tip "Buffer/Cache"
     Kodi ha un suo sistema interno per gestire **cache con modalità buffer** impostabilando una dimensione memoria per varie tipologie di flussi online/locali
 
-??? info "Buffer/Cache"
+??? info "Impostazioni Buffer/Cache"
     **Avviare Kodi**
 
     * Impostazioni, **"Servizi"**

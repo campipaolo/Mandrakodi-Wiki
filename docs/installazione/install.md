@@ -27,21 +27,21 @@
 ??? info "Kodi per Android / Android TV"
     **Installer per Android / Android TV**
 
-    * [Download Android/AndroidTv] (https://kodi.tv/download/android/)
+    * [Download Android/AndroidTv](https://kodi.tv/download/android/)
     * Selezionare sezione "Recommended"
     * Scaricare Installer ARMV7A 32bit (Android TV fino v12) o ARMV8A 64bit (Smartphone/Tablet/Android TV >14)
 
 ??? info "Kodi per macOS"
     **Installer per macOS**
 
-    * [Download macOS] (https://kodi.tv/download/macos/)
+    * [Download macOS](https://kodi.tv/download/macos/)
     * Selezionare sezione "Recommended"
     * Scaricare Installer Intel (x86_64) o ARM64
 
 ??? info "Kodi per Linux"
     **Installer Flatpak**
 
-    * [Download Linux] (https://flathub.org/en/apps/tv.kodi.Kodi)
+    * [Download Linux](https://flathub.org/en/apps/tv.kodi.Kodi)
     * Premere pulsante "Install" o installare dal proprio Store
     * Da terminale digitare:
     
@@ -64,13 +64,13 @@
     
       2. Cliccare su **File**:
     
-         ![kodi_settings](../images/kodi_settings.jpg)
+         ![kodi_settings](../images/kodi_file.jpg)
     
       3. Nella maschera che compare (Gestore File), cliccare su **Aggiungi sorgente**:
     
          ![kodi_source_add](../images/kodi_source_add.jpg)
     
-      4. Nella maschera, cliccare su **<Nessuno>**:
+      4. Nella maschera, cliccare su **Nessuno**:
     
          ![kodi_source_boxurl](../images/kodi_source_boxurl.jpg)
     
@@ -143,7 +143,7 @@
       * Ripetere i passaggi 1 – 5 fatti per l'installazione dell'add-on MandraKodi.
       * Nell'elenco che compare, selezionare il file `script.module.resolveurl-5.1.92.zip` (o la versione attualmente disponibile):
     
-        ![kodi_resolverurl_select](../images/kodi_resolverurl_select.jpg)
+        ![kodi_resolverurl_select](../images/kodi_resolverurl_select.jpgkodi_resolverurl_select.jpg)
     
       * Attendere fino a quando non compare il messaggio *"Add-on installato"*:
     
@@ -153,7 +153,7 @@
       * Ripetere i passaggi 1 – 5 fatti per l'installazione dell'add-on MandraKodi.
       * Nell'elenco che compare, selezionare il file `script.module.resolveurl.xxx-2.1.35.zip` (o la versione attualmente disponibile):
     
-        ![kodi_resolverxxx_select](../images/kodi_resolverxxx_select.jpg)
+        ![kodi_resolverurl_select](../images/kodi_resolverurl_select.jpgkodi_resolverurl_select.jpg)
     
       * Attendere fino a quando non compare il messaggio *"Add-on installato"*:
     

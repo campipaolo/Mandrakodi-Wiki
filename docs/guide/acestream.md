@@ -2,11 +2,11 @@
 
 ------
 
-!!! tip "Acestream, flussi P2P ad alta qualità"
+!!! tip "Ace, flussi P2P ad alta qualità"
     Sono link che sfruttano un protocollo basato sulla condivisione di flussi streaming audiovisivi tramite rete **p2p** (peer to peer) il che vuol dire creare interconnessioni tra più utenti e il server proprio come accadeva anni or sono con eMule/Torrent. <br>Questo significa che “chi guarda in streaming, trasmette anche agli altri utenti, ovvero più utenti guardano e condividono a loro volta ad altri , meno blocchi ci sono durante la visione”: **questo avviene esclusivamente solo se sul proprio router viene aperta la porta 8621 udp**
 
 !!! warning "Lingua contenuti"
-    I link acestream sono **praticamente totalmente stranieri**, in quentoin Italia poco utilizzati per mancanza della coltura di condivisione alla base di tutti i sistemi P2P come appunto Acestream, Emule, Torrent ecc
+    I link Ace sono **praticamente totalmente stranieri**, in quentoin Italia poco utilizzati per mancanza della coltura di condivisione alla base di tutti i sistemi P2P come appunto Acestream, Emule, Torrent ecc
 
 ------
 
@@ -37,19 +37,19 @@
 
 ------
 
-!!! important "Fase 2 - Player interno Kodi / Player esterno (es. Vlc)"
-    - "ENGINE":   sfrutta motore di AceServe **rimanendo all'interno di Kodi**  usando il suo **player interno** <br>                           (richieste più risorse hardware, solo per device con 2Gb Ram)
-    - "DIRETTO":   sfrutta motore di AceServe ma **esce da Kodi** usando un **player esterno** (es. Vlc) <br>                           (richieste meno risorse hardware, per dispositivi con 1,5Gb Ram)  
+!!! important "Fase 2 - Player interno Kodi / Player esterno (es. Vlc, Mx Player)"
+    - "ENGINE":   sfrutta motore di Ace **rimanendo all'interno di Kodi**  usando il suo **player interno** <br>                           (richieste più risorse hardware, solo per device con 2Gb Ram)
+    - "DIRETTO":   sfrutta motore di Ace ma **esce da Kodi** usando un **player esterno** (es. Vlc, Mx Player) <br>                           (richieste meno risorse hardware, per dispositivi con 1,5Gb Ram)  
 
-??? info "Opzione ENGINE"
+??? info "Opzione **ENGINE**"
     **Play all'interno di Kodi**
 
     * Avviare Kodi
     * In Mandrakodi avviare un link Ace
     * Usare opzione "ENGINE"
 
-??? info "Opzione DIRETTO"
-    **Play con player esterno (es. Vlc)**
+??? info "Opzione **DIRETTO**"
+    **Play con player esterno (es. Vlc, Mx Player)**
 
     * Avviare Kodi
     * In Mandrakodi avviare un link Ace
@@ -58,14 +58,14 @@
     * Selezionare player esterno (es. Vlc)
 
 !!! warning "ATTENZIONE"
-    Prima eseguire passaggi inerenti ai "Players Esterni" nella sezione Installazione >>> Impostazioni Kodi (se non precedentemente eseguita)
+    Prima eseguire passaggi inerenti ai "[Players Esterni](https://campipaolo.github.io/Mandrakodi-Wiki/installazione/kodi_settings/)" (se non precedentemente eseguita)
 
 ------
 
 !!! important "EXTRA - AceServe con dispositivi poco performanti"
     Con dispositivi poco performanti  (tv/chiavetta con 1Gb/1,5Gb Ram e 8Gb storage) è consigliabile eseguire AceServe su **altro dispositivo** (generalmente smartphone) **purché connesso alla medesima rete,**  sfruttando maggiori risorse per cache disco e ram 
 
-??? info "Kodi Tv/Chiavetta + AceServe Smartphone"
+??? info "Kodi su Tv/Chiavetta + AceServe su Smartphone"
     **Eseguire AceServe su dispositivo terzo**
 
     * Installare AcesServe sullo smartphone
