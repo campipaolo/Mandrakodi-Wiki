@@ -17,6 +17,9 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
 ------
 
+!!! important "DNS suggeriti"
+    Di seguito elenco DNS suggeriti per rete fissa e mobile
+
 ??? info "DNS rete fissa"
     **Elenco DNS**
 
