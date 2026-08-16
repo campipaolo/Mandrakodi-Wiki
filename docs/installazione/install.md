@@ -41,107 +41,107 @@
 ??? info "Kodi per iOS"
     **Guida con Esign**
 
-    # Come installare Kodi su iOS
+    Come installare Kodi su iOS
     
-    ## 1. Che cos’è ESign?
-    **ESign** è uno strumento per firmare file IPA e installare applicazioni su iPhone e iPad.
+    1. Che cos’è ESign?
+    	**ESign** è uno strumento per firmare file IPA e installare applicazioni su iPhone e iPad.
     
-    ## 2. Installare il profilo DNS
-    1. Apri **Safari** sull’iPhone.
-    2. Vai al sito [https://www.applejr.xyz/?m=1](https://www.applejr.xyz/?m=1)
-    3. Clicca su **AppleJrDNS**.
-    4. Scarica il profilo.
-    5. Quando iOS segnala che è stato scaricato un profilo, apri **Impostazioni**
-    6. Tocca **Profilo scaricato**
-    7. Controlla attentamente il nome dell’organizzazione e ciò che il profilo vuole configurare
-    8. Se sei sicuro della provenienza, procedi con l’installazione
-    9. In alternativa, puoi trovare il profilo da:
+    2. Installare il profilo DNS
+    	1. Apri **Safari** sull’iPhone.
+    	2. Vai al sito [https://www.applejr.xyz/?m=1](https://www.applejr.xyz/?m=1)
+    	3. Clicca su **AppleJrDNS**.
+    	4. Scarica il profilo.
+    	5. Quando iOS segnala che è stato scaricato un profilo, apri **Impostazioni**
+    	6. Tocca **Profilo scaricato**
+    	7. Controlla attentamente il nome dell’organizzazione e ciò che il profilo vuole configurare
+    	8. Se sei sicuro della provenienza, procedi con l’installazione
+    	9. In alternativa, puoi trovare il profilo da:
        **`Impostazioni` → `Generali` → `VPN e gestione dispositivo**
     
-    ## 3. Installare ESign
-    Dopo aver configurato il DNS
-    1. Vai alla pagina [https://api.khoindvn.eu.org/fSfJEA](https://api.khoindvn.eu.org/fSfJEA)
-    2. Apri la sezione **Esign**
-    3. Scegli una delle installazioni ESign disponibili
-    4. Tocca **Install**
-    5. Attendi che iOS completi l’installazione
+    3. Installare ESign
+    	Dopo aver configurato il DNS
+    	1. Vai alla pagina [https://api.khoindvn.eu.org/fSfJEA](https://api.khoindvn.eu.org/fSfJEA)
+    	2. Apri la sezione **Esign**
+    	3. Scegli una delle installazioni ESign disponibili
+    	4. Tocca **Install**
+    	5. Attendi che iOS completi l’installazione
     
-    > **Nota:** Dopo l’installazione, potrebbe essere necessario autorizzare il certificato aziendale andando su:
-    > ***`Impostazioni` → `Generali` → `VPN e gestione dispositivo`***
+    	**Nota:** Dopo l’installazione, potrebbe essere necessario autorizzare il certificato aziendale andando su:
+    	***`Impostazioni` → `Generali` → `VPN e gestione dispositivo`***
     
-    ## 4. Autorizzare l’app
-    Se iOS non permette di aprire ESign
-    1. Vai in **Impostazioni**
-    2. Apri **Generali**
-    3. Vai in **VPN e gestione dispositivo**
-    4. Seleziona il profilo/certificato relativo all’app[cite
-    5. Verifica attentamente l’organizzazione indicata
-    6. Se riconosci e ti fidi del certificato, puoi procedere con l’autorizzazione
+    4. Autorizzare l’app
+    	Se iOS non permette di aprire ESign
+    	1. Vai in **Impostazioni**
+    	2. Apri **Generali**
+    	3. Vai in **VPN e gestione dispositivo**
+    	4. Seleziona il profilo/certificato relativo all’app[cite
+    	5. Verifica attentamente l’organizzazione indicata
+    	6. Se riconosci e ti fidi del certificato, puoi procedere con l’autorizzazione
     
-    > ⚠️ **Attenzione:** Se compare un messaggio come *“Impossibile verificare l’integrità dell’app”*, non cercare semplicemente di aggirarlo installando certificati casuali: il certificato potrebbe essere stato revocato o non essere più valido
+    	⚠️ **Attenzione:** Se compare un messaggio come *“Impossibile verificare l’integrità dell’app”*, non cercare semplicemente di aggirarlo installando certificati casuali: il certificato potrebbe essere stato revocato o non essere più valido
     
-    ## 5. Installare un file IPA
-    Una volta configurato ESign
-    1. Scarica il file `.ipa` di Kodi da qui: [https://kodiipa.com](https://kodiipa.com)
-    2. Apri **ESign**
-    3. Tocca i **tre puntini**
-    4. Seleziona **Import**
-    5. Cerca il file IPA nell’app **File**
-    6. Tocca il file
-    7. Conferma l’importazione
+    5. Installare un file IPA
+    	Una volta configurato ESign
+    	1. Scarica il file `.ipa` di Kodi da qui: [https://kodiipa.com](https://kodiipa.com)
+    	2. Apri **ESign**
+    	3. Tocca i **tre puntini**
+    	4. Seleziona **Import**
+    	5. Cerca il file IPA nell’app **File**
+    	6. Tocca il file
+    	7. Conferma l’importazione
     
-    Il file dovrebbe comparire nella lista di ESign[cite
+    	Il file dovrebbe comparire nella lista di ESign[cite
     
-    ## 6. Firmare l’IPA
-    1. Tocca il file IPA importato
-    2. Seleziona **Signature**
-    3. Apri **More Settings**
-    4. Se disponibile, abilita **Remove mobileprovision after signing**
-    5. Tocca **Signature**
-    6. Al termine della firma, tocca **Install**
-    7. Attendi il completamento dell’installazione
+    6. Firmare l’IPA
+    	1. Tocca il file IPA importato
+    	2. Seleziona **Signature**
+    	3. Apri **More Settings**
+    	4. Se disponibile, abilita **Remove mobileprovision after signing**
+    	5. Tocca **Signature**
+    	6. Al termine della firma, tocca **Install**
+    	7. Attendi il completamento dell’installazione
     
-    ## 7. Dopo l’installazione
-    Una volta terminata l’installazione
-    * L’app dovrebbe comparire sulla schermata **Home**
-    * Puoi provare ad aprirla
-    * Se iOS non la avvia, controlla: `Impostazioni` → `Generali` → `VPN e gestione dispositivo`
-    * Se il certificato è stato revocato, l’app potrebbe smettere di funzionare
+    7. Dopo l’installazione
+    	Una volta terminata l’installazione
+    	* L’app dovrebbe comparire sulla schermata **Home**
+    	* Puoi provare ad aprirla
+    	* Se iOS non la avvia, controlla: `Impostazioni` → `Generali` → `VPN e gestione dispositivo`
+    	* Se il certificato è stato revocato, l’app potrebbe smettere di funzionare
     
-    ## 8. Problemi comuni
+    8. Problemi comuni
     
-    ### ❌ “Integrity could not be verified”
-    Di solito significa che iOS non riesce a verificare correttamente la firma dell’app
+    	❌ “Integrity could not be verified”
+    	Di solito significa che iOS non riesce a verificare correttamente la firma dell’app
     
-    **Possibili cause:**
-    * Certificato revocato
-    * Firma non valida;
-    * Profilo/certificato non configurato correttamente;
-    * IPA modificato o danneggiato[cite: 1].
+    	**Possibili cause:**
+    	* Certificato revocato
+    	* Firma non valida;
+    	* Profilo/certificato non configurato correttamente;
+    	* IPA modificato o danneggiato[cite: 1].
     
-    ### ❌ ESign non si installa
-    Controlla che:
-    1. Il profilo DNS sia stato installato correttamente[;
-    2. Il certificato utilizzato sia ancora valido;
-    3. L’installazione non sia stata bloccata da iOS
+    	❌ ESign non si installa
+    	Controlla che:
+    	1. Il profilo DNS sia stato installato correttamente[;
+    	2. Il certificato utilizzato sia ancora valido;
+    	3. L’installazione non sia stata bloccata da iOS
     
-    ### ❌ L’app si installa ma non si apre
-    Il certificato potrebbe essere stato revocato oppure l’IPA potrebbe essere incompatibile con il dispositivo/iOS
+    	❌ L’app si installa ma non si apre
+    	Il certificato potrebbe essere stato revocato oppure l’IPA potrebbe essere incompatibile con il dispositivo/iOS
     
-    ### ❌ ESign smette improvvisamente di funzionare
-    È possibile che il certificato utilizzato sia stato revocato.
-    Il sito stesso segnala che gli utenti ESign possono incontrare problemi di verifica e revoca
+    	❌ ESign smette improvvisamente di funzionare
+    	È possibile che il certificato utilizzato sia stato revocato.
+    	Il sito stesso segnala che gli utenti ESign possono incontrare problemi di verifica e revoca
     
-    ## 9. La cosa più importante: sicurezza 🛡️
-    ESign può essere utile, ma il rischio principale non è necessariamente ESign in sé: **sono soprattutto i file IPA, i profili di configurazione e i certificati scaricati da fonti non ufficiali**
+    9. La cosa più importante: sicurezza 🛡️
+    	ESign può essere utile, ma il rischio principale non è necessariamente ESign in sé: **sono soprattutto i file IPA, i profili di configurazione e i certificati scaricati da fonti non ufficiali**
     
-    Prima di installare qualcosa[:
-    * **Evita IPA** provenienti da fonti sconosciute;
-    * **Controlla sempre** cosa stai installando;
-    * **Non inserire mai** il tuo Apple ID o la password in siti che promettono certificati[;
-    * **Non installare** profili DNS che non riconosci;
-    * **Non autorizzare** certificati Enterprise di organizzazioni sconosciute;
-    * Per app importanti, **preferisci App Store** o metodi ufficiali Apple
+    	Prima di installare qualcosa[:
+    	* **Evita IPA** provenienti da fonti sconosciute;
+    	* **Controlla sempre** cosa stai installando;
+    	* **Non inserire mai** il tuo Apple ID o la password in siti che promettono certificati[;
+    	* **Non installare** profili DNS che non riconosci;
+    	* **Non autorizzare** certificati Enterprise di organizzazioni sconosciute;
+    	* Per app importanti, **preferisci App Store** o metodi ufficiali Apple
     
     
     
