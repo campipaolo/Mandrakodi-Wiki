@@ -1,8 +1,4 @@
-[Torna alla Home](../index.md){.md-button .md-button--primary}
-
-------
-
-[ :material-arrow-right-bold: Impostazioni Kodi](kodi_settings.md){.md-button .md-button--primary}  [ :material-arrow-right-bold: Assistenza ](ask_help.md){.md-button .md-button--primary} 
+[Torna alla Home](../index.md){.md-button .md-button--primary} [ :material-arrow-right-bold: Assistenza ](ask_help.md){.md-button .md-button--primary} 
 
 ------
 
@@ -142,9 +138,10 @@
     	* **Non installare** profili DNS che non riconosci;<br>
     	* **Non autorizzare** certificati Enterprise di organizzazioni sconosciute;<br>
     	* Per app importanti, **preferisci App Store** o metodi ufficiali Apple
-    
-    
-    
+
+
+​    
+​    
 
 
 
