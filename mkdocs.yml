@@ -20,8 +20,6 @@ theme:
         name: Passa al tema scuro
   features:
     - navigation.tabs
-    - navigation.sections
-    - search.suggest
 
 nav:
   - Home: index.md
@@ -37,7 +35,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.blocks.admonition
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 extra_css:
   - stylesheets/extra.css
