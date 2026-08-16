@@ -3,7 +3,7 @@
 ------
 
 !!! tip "Warp / Wireguard"
-    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - Warp (Pc desktop/Android/IOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** altre configurazioni <br>    - Wireguard (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - Warp (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** altre configurazioni <br>    - Wireguard (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su più dispositivi contemporaneamente da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
@@ -11,7 +11,7 @@
 ------
 
 !!! important " Fase 1 - creare file configurazione per Wireguard"
-    Esistono più metodi per creare file ".conf" da utilizare in WIreguard su AndroidTv/Firestick <br>    - Sito Config Generator (scadenza 90gg) <br>    - Pc desktop con "WGCF" (nessuna scadenza) <br>    - Smartphone Android con app "Termux" (nessuna scadenza)
+    Esistono più metodi per creare file ".conf" da utilizare in WIreguard su AndroidTv/Firestick <br>    - Sito Config Generator (scadenza 90gg) <br>    - Windows/macOS/Linux con "WGCF" (nessuna scadenza) <br>    - Smartphone Android con app "Termux" (nessuna scadenza)
 
 ??? info "Sito Config Generator"
        **Scadenza 90gg**
@@ -23,7 +23,7 @@
       ![wireguard_config_online](../images/wireguard_config_online.jpg)
     * N.B.: verificare che il file salvato abbia l'estensione ".conf" (se necessario rinominarlo)
 
-??? info "Pc desktop con WGCF"
+??? info "Windows/macOS/Linux con WGCF"
        **Nessuna scadenza**
 
     * [WGCG](https://github.com/ViRb3/wgcf/releases) 
@@ -79,11 +79,10 @@
     Inviare a AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard per Firestick" 
 
 ??? info "Localsend"
-    **Windows/Android/AndroidTv/Firestick**
+    **Windows/macOS/Linux/Android/AndroidTv/iOS/Firestick**
 
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
-    * [Loalsend Windows](https://localsend.org/it/download?os=windows)
-    * [Loalsend Android/AndroidTv](https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+    * [Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS](https://localsend.org/it/download)
     * [Loalsend Firestick](https://github.com/localsend/localsend/releases) LocalSend-x.x.x-android-arm32v7.apk (scaricare con app Downloader
     * Avviare Localsend prima sul dispositivo "ricevente" e poi su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
