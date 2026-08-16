@@ -3,7 +3,7 @@
 ------
 
 !!! tip "Warp / Wireguard"
-    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - Warp (Pc desktop/Android/IOS) **[si installa da qui](https://one.one.one.one)**, non richiede altre configurazioni <br>    - Wireguard (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - Warp (Pc desktop/Android/IOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** altre configurazioni <br>    - Wireguard (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su più dispositivi contemporaneamente da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
@@ -82,7 +82,7 @@
     **Windows/Android/AndroidTv/Firestick**
 
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
-    [Loalsend Windows](https://localsend.org/it/download?os=windows)
+    * [Loalsend Windows](https://localsend.org/it/download?os=windows)
     * [Loalsend Android/AndroidTv](https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
     * [Loalsend Firestick](https://github.com/localsend/localsend/releases) LocalSend-x.x.x-android-arm32v7.apk (scaricare con app Downloader
     * Avviare Localsend prima sul dispositivo "ricevente" e poi su quello "mittente"
