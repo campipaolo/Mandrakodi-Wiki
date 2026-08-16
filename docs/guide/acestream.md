@@ -51,7 +51,7 @@
 
 
 !!! warning "ATTENZIONE"
-    Prima eseguire procedura per abilitare i "[Players Esterni](https://campipaolo.github.io/Mandrakodi-Wiki/installazione/kodi_settings/)" (se non precedentemente eseguita)
+    Per "Opzione DIRETTO" prima eseguire procedura per abilitare i "[Players Esterni](https://campipaolo.github.io/Mandrakodi-Wiki/installazione/kodi_settings/)" (se non precedentemente eseguita)
 
 ??? info "Opzione **DIRETTO**"
     **Play con player esterno (es. Vlc, Mx Player)**
