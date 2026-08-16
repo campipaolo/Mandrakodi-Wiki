@@ -49,7 +49,7 @@
 
 ??? info "11) Posso fare richiesta di inserimento contenuti non presenti nell'addon?"
     **Motivo:** Le fonti da cui attinge Mandrakodi non sono gestite direttamente dallo sviluppatore  .  
-    **Soluzione:** Nel gruppo di assistenza è possibile richiedere fornendo Titolo/Tipologia contenuto/Anno: **se disponibile nel web**,  verrà comunicato l'inserimento.
+    **Soluzione:** se il file è recuperabile verrà inserito il link nell'apposita sezione REQUEST.
 
 ??? info "12) Il contenuto è instabile: c'è buffering, la qualità è bassa!"
     **Motivo:** Le fonti da cui attinge Mandrakodi non sono gestite direttamente dallo sviluppatore  .  
@@ -61,5 +61,5 @@
 
 ??? info "14) Come posso sapere su quale canale viene trasmesso un evento live"
     **Motivo:** L'addon non prevede EPG degli eventi live  .  
-    **Soluzione:**  Sul sito https://www.livesoccertv.com/it/schedules/ è possibile sapere su  **quale** canale viene trasmesso un evento.
+    **Soluzione:**  Il sito https://www.livesoccertv.com/it/schedules/ èinforma su quali canali **italiani e stranieri** viene trasmesso l'evento live di interesse: *non fissarsi* sul solo contenuto con *commento in italiano*, i canali *stranieri* spesso offrono *maggiore qualità e stabilità*.
 
