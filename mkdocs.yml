@@ -28,7 +28,7 @@ nav:
   - Installazione: installazione/install.md
   - Guide: guide/tutorials.md
   - FAQ: faq/faq.md
-  - Assistebza: ask_help.md
+  - Assistenza: ask_help.md
 
 markdown_extensions:
   - attr_list
