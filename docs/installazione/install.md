@@ -139,9 +139,10 @@
     	* **Non autorizzare** certificati Enterprise di organizzazioni sconosciute;<br>
     	* Per app importanti, **preferisci App Store** o metodi ufficiali Apple
 
-  ??? info "Kodi per Linux"
-    Installer Flatpak
+??? info "Kodi per Linux"
 
+    Installer Flatpak
+    
     * [Download Linux](https://flathub.org/en/apps/tv.kodi.Kodi)
     * Premere pulsante "Install" o installare dal proprio Store
     * Da terminale digitare:
