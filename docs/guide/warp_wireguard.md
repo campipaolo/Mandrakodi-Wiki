@@ -11,17 +11,17 @@
 ------
 
 !!! important " Fase 1 - creare file configurazione per Wireguard"
-    Esistono più metodi per creare file ".conf" da utilizare in WIreguard su AndroidTv/Firestick <br>    - Sito Config Generator (scadenza 90gg) <br>    - Pc desktop (Windows) con "WGCF" (nessuna scadenza) <br>    - Smartphone Android con app "Termux" (nessuna scadenza)
+    Esistono più metodi per creare file ".conf" da utilizare in WIreguard su AndroidTv/Firestick <br>    - Sito Config Generator (scadenza 90gg) <br>    - Pc desktop con "WGCF" (nessuna scadenza) <br>    - Smartphone Android con app "Termux" (nessuna scadenza)
 
 ??? info "Sito Config Generator"
        **Scadenza 90gg**
 
     * [Config Generator](https://lanrat.github.io/wireguard-warp-generator/) 
     * Premere il pulsante "Generate Warp Config"
-    * Premere bottone "Download warp.conf"
+    * Premere il pulsante "Download warp.conf"
     * Il file così creato, ha una durata di 90 giorni trascorsi i quali va rigenerato
       ![wireguard_config_online](../images/wireguard_config_online.jpg)
-    * N.B.: verificare che il file salvato abbia l'estensione ".conf"
+    * N.B.: verificare che il file salvato abbia l'estensione ".conf" (se necessario rinominarlo)
 
 ??? info "Pc desktop con WGCF"
        **Nessuna scadenza**
@@ -118,7 +118,7 @@
 
 
     * Aprire Wireguard, premere il pulsante "+" e selezionare l'opzione "importa da file"
-    * Importato il file, sarà presente nella schermata principale 
+    * Importato il file ".conf", sarà presente nella schermata principale 
     * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
 
@@ -141,7 +141,7 @@
     * Avviare WG Tunnel
     * Alla prima apertura, WG Tunnel potrebbe chiedere il permesso di accedere ai file
     * Aperto WG Tunnel, premere il pulsante "+" e selezionare l'opzione "importa da file"
-    * Importato il file, sarà presente nella schermata principale 
+    * Importato il file ".conf", sarà presente nella schermata principale 
     * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
 

@@ -48,6 +48,11 @@
     * In Mandrakodi avviare un link Ace
     * Usare opzione "ENGINE"
 
+
+
+!!! warning "ATTENZIONE"
+    Prima eseguire procedura per abilitare i "[Players Esterni](https://campipaolo.github.io/Mandrakodi-Wiki/installazione/kodi_settings/)" (se non precedentemente eseguita)
+
 ??? info "Opzione **DIRETTO**"
     **Play con player esterno (es. Vlc, Mx Player)**
 
@@ -57,8 +62,7 @@
     * Selezionare "org.free.aceserve"
     * Selezionare player esterno (es. Vlc)
 
-!!! warning "ATTENZIONE"
-    Prima eseguire passaggi inerenti ai "[Players Esterni](https://campipaolo.github.io/Mandrakodi-Wiki/installazione/kodi_settings/)" (se non precedentemente eseguita)
+
 
 ------
 

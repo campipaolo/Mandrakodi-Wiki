@@ -164,7 +164,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Eolo FWA**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile solo con router di proprietà in cascata o richiedendo solo IP Pubblico Statico a €4,90 al mese
+    * E' possibile solo con router di proprietà in cascata o richiedendo IP Pubblico Statico a €4,90 al mese
 
 
 
@@ -173,7 +173,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Aruba  FTTH**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile richiedere solo IP Pubblico Dinamico con una tantum €10
+    * E' possibile richiedere IP Pubblico Dinamico con una tantum €10
 
 
 

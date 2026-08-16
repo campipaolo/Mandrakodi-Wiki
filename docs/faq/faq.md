@@ -55,11 +55,11 @@
     **Motivo:** Le fonti da cui attinge Mandrakodi non sono gestite direttamente dallo sviluppatore  .  
     **Soluzione:**  il lavoro dello sviluppatore si ferma al **recupero** dei link, il quale **una volta mandato in Play**, non può fare nulla per qualunque problema di streaming vi si presenti. 
 
-??? info "13) Perchè per ogni canale live non c'è riportata guida EPG?"
-    **Motivo:** Lo sviluppatore ha creato una sezione apposita che raggruppa gli EPG per ogni canale live presente
-    **Soluzione:**  Nella sezione "**Live**" >>> "**Italy Epg**" si trovano i canali italiani con la propria programmazione 
+??? info "13) Perchè per ogni canale live non c'è riportata guida EPG?
+    **Motivo:** Lo sviluppatore ha creato una sezione apposita che raggruppa gli EPG per ogni canale live presente  .  
+    **Soluzione:**  Nella sezione "**Live**" >>> "**Italy Epg**" si trovano i canali italiani con la propria programmazione
 
-??? info "14) Come posso sapere su quale canale viene trasmesso un evento live?"
-    **Motivo:** L'addon non prevede EPG degli eventi live
-    **Soluzione:**  Sul sito https://www.livesoccertv.com/it/schedules/ è possibile sapere su  **quale** canale viene trasmesso un evento
+??? info "14) Come posso sapere su quale canale viene trasmesso un evento live"
+    **Motivo:** L'addon non prevede EPG degli eventi live  .  
+    **Soluzione:**  Sul sito https://www.livesoccertv.com/it/schedules/ è possibile sapere su  **quale** canale viene trasmesso un evento.
 
