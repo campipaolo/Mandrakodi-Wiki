@@ -5,7 +5,7 @@
 !!! warning "Gruppo Telegram: regolamento e richiesta assistenza  "
     
 
--  In telegram impostare nome utente e foto (anche generica) imposta come "visibile a tutti" nelle impostazioni della privacy (qualora poi venissero omesse nel periodo successivo all'entrata, si verrà bannati)
+-  In telegram impostare nome utente e foto profilo (anche generica) "visibile a tutti" nelle impostazioni della privacy (qualora poi venissero omesse nel periodo successivo all'entrata, si verrà bannati)
 -  Non contattare in privato gli Admin previa richiesta scritta nella chat del gruppo
 - Non contattare in privato gli Admin qualora il gruppo risulti chiuso in sola lettura
 - **Prima** di chiedere, **leggere**  tutta la sezione  [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione **[FAQ](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/)**. <br>Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto riportato <br> **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e chi persevera verrà prima  *ammonito* e poi  **bannato**
