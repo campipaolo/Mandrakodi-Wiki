@@ -43,7 +43,7 @@
 
     Come installare Kodi su iOS
     
-    1. Che cos’è ESign?
+    1. Che cos’è ESign?<br>
     	**ESign** è uno strumento per firmare file IPA e installare applicazioni su iPhone e iPad.
     
     2. Installare il profilo DNS
@@ -110,37 +110,37 @@
     
     8. Problemi comuni
     
-    	❌ “Integrity could not be verified”
-    	Di solito significa che iOS non riesce a verificare correttamente la firma dell’app
+    	❌ “Integrity could not be verified”<br>
+    	Di solito significa che iOS non riesce a verificare correttamente la firma dell’app<br>
     
-    	**Possibili cause:**
-    	* Certificato revocato
-    	* Firma non valida;
-    	* Profilo/certificato non configurato correttamente;
-    	* IPA modificato o danneggiato[cite: 1].
+    	**Possibili cause:**<br>
+    	* Certificato revocato<br>
+    	* Firma non valida;<br>
+    	* Profilo/certificato non configurato correttamente;<br>
+    	* IPA modificato o danneggiato<br>
     
-    	❌ ESign non si installa
-    	Controlla che:
-    	1. Il profilo DNS sia stato installato correttamente[;
-    	2. Il certificato utilizzato sia ancora valido;
-    	3. L’installazione non sia stata bloccata da iOS
+    	❌ ESign non si installa<br>
+    	Controlla che:<br>
+    	1. Il profilo DNS sia stato installato correttamente;<br>
+    	2. Il certificato utilizzato sia ancora valido;<br>
+    	3. L’installazione non sia stata bloccata da iOS<br>
     
-    	❌ L’app si installa ma non si apre
-    	Il certificato potrebbe essere stato revocato oppure l’IPA potrebbe essere incompatibile con il dispositivo/iOS
+    	❌ L’app si installa ma non si apre<br>
+    	Il certificato potrebbe essere stato revocato oppure l’IPA potrebbe essere incompatibile con il dispositivo/iOS<br>
     
-    	❌ ESign smette improvvisamente di funzionare
-    	È possibile che il certificato utilizzato sia stato revocato.
-    	Il sito stesso segnala che gli utenti ESign possono incontrare problemi di verifica e revoca
+    	❌ ESign smette improvvisamente di funzionare<br>
+    	È possibile che il certificato utilizzato sia stato revocato<br>
+    	Il sito stesso segnala che gli utenti ESign possono incontrare problemi di verifica e revoca<br>
     
-    9. La cosa più importante: sicurezza 🛡️
-    	ESign può essere utile, ma il rischio principale non è necessariamente ESign in sé: **sono soprattutto i file IPA, i profili di configurazione e i certificati scaricati da fonti non ufficiali**
+    9. La cosa più importante: sicurezza 🛡️<br>
+    	ESign può essere utile, ma il rischio principale non è necessariamente ESign in sé: **sono soprattutto i file IPA, i profili di configurazione e i certificati scaricati da fonti non ufficiali**<br>
     
-    	Prima di installare qualcosa[:
-    	* **Evita IPA** provenienti da fonti sconosciute;
-    	* **Controlla sempre** cosa stai installando;
-    	* **Non inserire mai** il tuo Apple ID o la password in siti che promettono certificati[;
-    	* **Non installare** profili DNS che non riconosci;
-    	* **Non autorizzare** certificati Enterprise di organizzazioni sconosciute;
+    	Prima di installare qualcosa:<br>
+    	* **Evita IPA** provenienti da fonti sconosciute;<br>
+    	* **Controlla sempre** cosa stai installando;<br>
+    	* **Non inserire mai** il tuo Apple ID o la password in siti che promettono certificati;<br>
+    	* **Non installare** profili DNS che non riconosci;<br>
+    	* **Non autorizzare** certificati Enterprise di organizzazioni sconosciute;<br>
     	* Per app importanti, **preferisci App Store** o metodi ufficiali Apple
     
     
