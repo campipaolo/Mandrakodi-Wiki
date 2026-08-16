@@ -76,7 +76,7 @@
 ------
 
 !!! important " Fase 3 - Localsend"
-    Inviare a AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard per Firestick" 
+    Inviare a AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard per Firestick
 
 ??? info "Localsend"
     **Windows/macOS/Linux/Android/AndroidTv/iOS/Firestick**
@@ -143,6 +143,4 @@
     * Importato il file ".conf", sarà presente nella schermata principale 
     * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
-
-------
 
