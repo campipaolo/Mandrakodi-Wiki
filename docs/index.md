@@ -2,7 +2,7 @@
 
 ![icon](images/icon.gif)
 
-[:material-arrow-right-bold: Assistenza](../ask_help/){ .md-button .md-button--primary }
+[:material-arrow-right-bold: Assistenza](ask_help.md){ .md-button .md-button--primary }
 
 ------
 
