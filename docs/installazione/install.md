@@ -145,7 +145,7 @@
     
     * [Download Linux](https://flathub.org/en/apps/tv.kodi.Kodi)
     * Premere pulsante "Install" o installare dal proprio Store
-    * Da terminale digitare:
+    * Oppure da terminale digitare:
     
     ```bash
     sudo flatpak install flathub tv.kodi.Kodi
