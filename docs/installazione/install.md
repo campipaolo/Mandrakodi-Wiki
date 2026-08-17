@@ -17,21 +17,21 @@
     **Installer per Windows**
 
     * [Download Windows](https://kodi.tv/download/windows/) 
-    * Selezionare sezione "Recommended"
-    * Scaricare Installer 32bit o 64bit (NON Windows Store)
+    * Selezionare sezione "**Recommended**"
+    * Scaricare Installer 32bit o 64bit (**NON** Windows Store)
 
 ??? info "Kodi per Android / Android TV"
     **Installer per Android / Android TV**
 
     * [Download Android/AndroidTv](https://kodi.tv/download/android/)
-    * Selezionare sezione "Recommended"
+    * Selezionare sezione "**Recommended**"
     * Scaricare Installer ARMV7A 32bit (Android TV fino v12) o ARMV8A 64bit (Smartphone/Tablet/Android TV >14)
 
 ??? info "Kodi per macOS"
     **Installer per macOS**
 
     * [Download macOS](https://kodi.tv/download/macos/)
-    * Selezionare sezione "Recommended"
+    * Selezionare sezione "**Recommended**"
     * Scaricare Installer Intel (x86_64) o ARM64
 
 ??? info "Kodi per iOS"
