@@ -18,10 +18,10 @@
 
     * [Config Generator](https://lanrat.github.io/wireguard-warp-generator/) 
     * Premere il pulsante "Generate Warp Config"
-    * Premere il pulsante "Download warp.conf"
+    * Premere il pulsante "**Download warp.conf**"
     * Il file così creato, ha una durata di 90 giorni trascorsi i quali va rigenerato
       ![wireguard_config_online](../images/wireguard_config_online.jpg)
-    * N.B.: verificare che il file salvato abbia l'estensione ".conf" (se necessario rinominarlo)
+    * N.B.: verificare che il file salvato abbia l'estensione "**.conf**" (se necessario **rinominarlo**)
 
 ??? info "Windows/macOS/Linux con WGCF"
        **Nessuna scadenza**
@@ -29,8 +29,8 @@
     * [WGCG](https://github.com/ViRb3/wgcf/releases) 
     * Scorrere fino alla sezione "Assets" (premere "Show All" per espandere l'elenco)
     * Windows 64bit: wgcf_x.x.x_windows_amd64.exe	Windows ARM: wgcf_x.x.x_windows_arm64.exe 
-    * Copiare il file scaricato sul Desktop
-    * Rinominarlo in "wgcf.exe"
+    * Copiare il file scaricato sul **Desktop**
+    * **Rinominarlo** in "wgcf.exe"
     * Premere il tasto Windows, scrivere "cmd" e premere invio
     * Digitare "cd desktop" e premere invio
     * Digitare "wgcf.exe register" e premere invio
@@ -42,7 +42,7 @@
 
     * [Termux Play Store](https://play.google.com/store/apps/details?id=com.termux&hl=it) 
     * Installare ed avviare 
-    * N.B.: di seguito comandi da copiaree poi incollare in termux, uno alla volta (quando richiesto premere invio alla domanda "Y" o scrivere Yes per confermare) 
+    * N.B.: di seguito comandi da copiaree poi incollare in termux, **uno alla volta** (quando richiesto premere invio alla domanda "Y" o scrivere Yes per confermare) 
     * termux-setup-storage (abilitare permesso scrittura  su dispositivo)
     * pkg install wget
     * pkg install git 
@@ -59,7 +59,7 @@
     * cp wgcf-profile.conf ~/storage/downloads
     * ls ~/storage/downloads
     * exit
-    * N.B.: il file ".conf"  sarà reperibile nella cartella Download del prprio device
+    * N.B.: il file ".conf"  sarà reperibile nella cartella **Download** del prprio device
 
 ------
 
@@ -70,8 +70,8 @@
     **AndroidTv/Firestick**
 
     * [Wireguard AndroidTv/Firestick](https://download.wireguard.com/android-client/)
-    * Utenti AndroidTv: installare con link "Google Play Store"
-    * Utenti Firestick: con App downloader scaricare Apk "com.wireguard.android-x.x.xxxxx.apk"
+    * Utenti **AndroidTv**: installare con link "Google Play Store"
+    * Utenti **Firestick**: con App downloader scaricare Apk "com.wireguard.android-x.x.xxxxx.apk"
 
 ------
 
@@ -84,12 +84,12 @@
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
     * [Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS](https://localsend.org/it/download)
     * [Loalsend Firestick](https://github.com/localsend/localsend/releases) LocalSend-x.x.x-android-arm32v7.apk (scaricare con app Downloader
-    * Avviare Localsend prima sul dispositivo "ricevente" e poi su quello "mittente"
+    * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare file/files da inviare
     * Selezionare dispositivo "ricevente"
     * Sul dispositivo "ricevente" dare conferma per ricevere  
-    * N.B.: la cartella "Download" è quella di default per la ricezione
+    * N.B.: la cartella "**Download**" è quella di default per la ricezione
     * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “i” elenca la cronologia
 
 ------
@@ -101,7 +101,7 @@
     **Firestick**
 
 
-    * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “i” elenca la cronologia
+    * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “**i**” elenca la cronologia dei file ricevuti
     * Cliccare apk Wireguard 
     * Consentire installazione delle app da Localsend (se richiesto) e installarlo
     * Alla prima apertura, WireGuard potrebbe chiedere il permesso di accedere ai file
@@ -120,6 +120,7 @@
     * Importato il file ".conf", sarà presente nella schermata principale 
     * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
+    * N.B.: qualora non fosse possibile selezionare il file ".conf" durante l'importazione, installare dallo Store **file manager** come "x-plore " o simili
 
 ------
 
