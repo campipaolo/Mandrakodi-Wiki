@@ -23,19 +23,19 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ??? info "DNS rete fissa"
     **Elenco DNS**
 
-    * Opendns formato IPV4:<br>
+    * Opendns formato **IPV4**:<br>
       208.67.222.222<br>
       208.67.220.220
     
-    * Opendns formato IPV6:<br>
+    * Opendns formato **IPV6**:<br>
       2620:119:35::35<br>
       2620:119:53::53
     
-    * Cloudflare formato IPV4:<br>
+    * Cloudflare formato **IPV4**:<br>
       1.1.1.1<br>
       1.0.0.1
     
-    * Cloudflare formato IPV6:<br>
+    * Cloudflare formato **IPV6**:<br>
       2606:4700:4700::1111<br>
       2606:4700:4700::1001
 
@@ -60,13 +60,13 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Digitare nella barra degli indirizzi: http://vodafone.station/ 
     * Inserire le credenziali di accesso. 
       Se non sono state cambiate, si trovano sull'etichetta posta sotto / lato della Station 
-    * Nell'angolo in alto a destra un menu a tendina,  o un pulsante che mostri la modalità  attuale (es. "Modalità base"), selezionare “Modalità Utente Esperto” 
+    * Nell'angolo in alto a destra un menu a tendina,  o un pulsante che mostri la modalità  attuale (es. "Modalità base"), selezionare “**Modalità Utente Esperto**” 
     * Nel menu a sinistra o in alto, cliccare su "Internet" 
     * All'interno di questa sezione, cliccare la voce "DNS" 
-    * Nella sezione “DNS Sicuro”, selezionare “Manuale” 
+    * Nella sezione “**DNS Sicuro**”, selezionare “**Manuale**” 
     * Appena sotto attivare opzione “Configura il DNS per tutti i tuoi dispositivi” 
-    * Inserire i dns sia in formato IPV4 che IPV6 
-    * Salvare i cambiamenti premendo il pulsante “Applica” 
+    * Inserire i dns sia in formato **IPV4** che **IPV6** 
+    * Salvare i cambiamenti premendo il pulsante “**Applica**” 
     * Riavviare Vodafine Station 
     * Eseguire [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
@@ -80,15 +80,15 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Digitare nella barra degli indirizzi: 192.168.1.254 
     * Effettuare l’accesso al pannello di gestione dell’iliadbox inserendo la password scelta
     * Doppio clic sull’icona Parametri della iliadbox
-    * Cliccare su Modalità avanzata 
-    * Doppio clic su DHCP 
+    * Cliccare su ""**Modalità avanzata**"" 
+    * Doppio clic su "**DHCP**"" 
     * Selezionare scheda Server DHCP 
-    * Inserire dns primario e secondario in formato IPV4 
+    * Inserire dns primario e secondario in formato **IPV4** 
     * Cliccare su Salva e poi su OK 
-    * Doppio clic su Configurazione IPv6 
+    * Doppio clic su "**Configurazione IPv6**" 
     * Selezionare scheda DNS IPv6 
-    * Spuntare la voce Forza l’uso di server DNS IPv6 personalizzati 
-    * Inserire dns primario e secondario in formato IPV6 
+    * Spuntare la voce "**Forza l’uso di server DNS IPv6 personalizzati**" 
+    * Inserire dns primario e secondario in formato **IPV6** 
     * Eseguire [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
@@ -99,9 +99,9 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
     * Con un browser (Chrome, Firefox, ecc.) da un dispositivo connesso alla Station 
     * Digitare nella barra degli indirizzi: 192.168.1.254
-    * Nell'angolo in alto a destra un menu a tendina,  o un pulsante che mostri la modalità attuale (es. "Modalità base"), selezionare “Modalità Utente Esperto” 
-    * Cliccare sulla scheda “Internet”
-    * Nella sezione “DNS & DDNS”  disabilitare “DNS protetto”
+    * Nell'angolo in alto a destra un menu a tendina,  o un pulsante che mostri la modalità attuale (es. "Modalità base"), selezionare “**Modalità Utente Esperto**” 
+    * Cliccare sulla scheda “**Internet**”
+    * Nella sezione “DNS & DDNS”  disabilitare “**DNS protetto**”
     * Salvare le modifiche 
     * Sui vari dispositivi ricreare connessione alla rete Fastweb in modalità avanzata 
     * Sui vari dispositivi impostare manualmente i Dns 
@@ -115,11 +115,11 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 
     * Con un browser (Chrome, Firefox, ecc.) da un dispositivo connesso alla Station 
     * Digitare l'indirizzo IP del router ed inserire le credenziali, indicate nell'etichetta sul router
-    * In alto premere su “Rete Locale”
+    * In alto premere su “**Rete Locale**”
     * Sulla sinistra premere su ”LAN”
-    *  destra selezionare “Server DHCP” 
-    * Nella sezione “ISP DNS” premere “Off” 
-    * Inserire i  Dns in formato IPV4 
+    * Sulla destra selezionare “**Server DHCP**” 
+    * Nella sezione “ISP DNS” premere “**Off**” 
+    * Inserire i  Dns in formato **IPV4** 
     * Salvare le modifiche
     * Eseguire [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
@@ -135,9 +135,9 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Con un browser (Chrome, Firefox, ecc.) da un dispositivo connesso al Router
     * Digitare l'indirizzo IP del router ed inserire le credenziali, indicate nell'etichetta sul router 
     * Accedere  al menu di configurazione tramite il pulsante (tre linee in alto a destra) 
-    * Selezionare  sezione “Network”  e poi  “Rete Locale LAN”
-    * Scorrere le impostazioni fino alla sezione “Valori DNS” impostare DNS su “DNS statico” 
-    * nserire i dns in formato IPV4
+    * Selezionare  sezione “Network”  e poi  “**Rete Locale LAN**”
+    * Scorrere le impostazioni fino alla sezione “Valori DNS” impostare DNS su “**DNS statico**” 
+    * nserire i dns in formato **IPV4**
     * Salvare la configurazione cliccando sul tasto “Applica” 
     * Eseguire [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
@@ -148,7 +148,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Tim FTTC e FTTH**
 
     * Dns non si possono inserire sul router dell’operatore 
-    * Inserirli manualmente sul dispositivo (vedi sezione più sotto)
+    * Inserirli sul **dispositivo** (vedi sezione più sotto)
 
 
 
@@ -156,7 +156,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ??? info "SKY Wifi"
     **SKY Wifi  FTTH**
 
-    * Dns non si possono inserire né sul router dell’operatore, inserirli sul singolo dispositivo
+    * Dns non si possono inserire né sul router dell’operatore, inserirli sul singolo **dispositivo**
 
 
 
@@ -164,7 +164,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Eolo FWA**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile solo con router di proprietà in cascata o richiedendo IP Pubblico Statico a €4,90 al mese
+    * E' possibile solo con **router di proprietà** in cascata o richiedendo **IP Pubblico Statico** a €4,90 al mese
 
 
 
@@ -173,7 +173,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Aruba  FTTH**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile richiedere IP Pubblico Dinamico con una tantum €10
+    * E' possibile richiedere **IP Pubblico Dinamico** con una tantum €10
 
 
 
@@ -181,7 +181,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Edison  FTTC e FTTH**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile solo con router di proprietà
+    * E' possibile solo con **router di proprietà**
 
 ------
 
@@ -194,12 +194,12 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Impostazioni, rete e internet
     * In alto a destra premere su icona a forma di matita (modifica impostazioni) 
     * Se attivo disattivarlo da app windtre / area clienti / servizio clienti
-    * Nella sezione “Impostazioni IP” selezionare “IP Statico”
+    * Nella sezione “Impostazioni IP” selezionare “**IP Statico**”
     * Nella sezione “Gateway” inserire ip del proprio router (es. 192.168.1.1)
     * Nella sezione “Lunghezza prefisso rete” inserire “24”
     * Nella sezione “Indirizzo IP” inserire ip diverso da Gateway (es. 192.168.1.10)
     * Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario
-    * Inserire i dns in formato IPV4
+    * Inserire i dns in formato **IPV4**
     * Salvare le impostazioni 
     * Eseguire [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
@@ -210,11 +210,11 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Impostazioni (icona a forma di ingranaggio in alto a destra)
     * Rete Internet 
     * Selezionare la propria connessione wifi
-    * Nella sezione “Impostazioni IP”v selezionare “Statico”
+    * Nella sezione “Impostazioni IP” e selezionare “**Statico**”
     * Nella sezione “Indirizzo IP” inserire ip diverso da quello del proprio router
     * Nella sezione “Lunghezza prefisso rete” inserire “24”
     * Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario
-    * Inserire i dns in formato IPV4
+    * Inserire i dns in formato **IPV4**
     * Salvare le impostazioni 
     * Eseguire [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
@@ -225,7 +225,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Cliccare su "Impostazioni"
     * Selezionare "Sistemi" 
     * Selezionare "WI-FI"
-    * Selezionare la tua rete WI-FI e dimentica la rete WI-FI premendo il pulsante con 3 linee
+    * Selezionare la tua rete WI-FI e **dimentica la rete WI-FI** premendo il pulsante con 3 linee
     * Nella sezione “Indirizzo IP” inserire ip diverso da quello del proprio router
     * Premere il pulsante di selezione
     * Selezionare la propria rete WI-FI
@@ -233,7 +233,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Inserire ip diverso da quello del proprio router 
     * Per il “Gateway” predefinito, inserire ip del proprio router (es. 192.168.1.1)
     *  Inserire '24' per 'Lunghezza prefisso di rete' e fare clic su 'Avanti'
-    * Inserire i dns in formato IPV4
+    * Inserire i dns in formato **IPV4**
     * Eseguire [test dns](https://dnsleaktest.com)
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
