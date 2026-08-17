@@ -25,12 +25,12 @@
     * [Download Android ARMV8A 64bit](https://www.dropbox.com/scl/fi/sz1kjiwgtnww1bjsmryfn/Aceserve-1.5.5-64bit.apk?rlkey=u8ekpvc4yq14wzvrwburg7jis&st=86575k8p&dl=1)
     * [Download Android ARMV7A 32bit](https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
     * Avviare AceServe una prima volta per dare i permessi
-    * Tornare alla home page col tasto dedicato per  lasciarlo aperto in background
+    * Tornare alla home page col tasto dedicato per **lasciarlo aperto in background**
 
 ??? info "Acestream per Linux"
     **Pacchetti per Linux**
 
-    * Installare Acestream a seconda della propria distribuzione in formato "Snap" o "Flatpak"
+    * Installare Acestream a seconda della propria distribuzione in formato "**Snap**" o "**Flatpak**"
     * Avviare Acestream
 
 
@@ -46,7 +46,7 @@
 
     * Avviare Kodi
     * In Mandrakodi avviare un link Ace
-    * Usare opzione "ENGINE"
+    * Usare opzione "**ENGINE**"
 
 
 
@@ -58,8 +58,8 @@
 
     * Avviare Kodi
     * In Mandrakodi avviare un link Ace
-    * Usare opzione "DIRETTO"
-    * Selezionare "org.free.aceserve"
+    * Usare opzione "**DIRETTO**"
+    * Selezionare "**org.free.aceserve**"
     * Selezionare player esterno (es. Vlc)
 
 
@@ -76,8 +76,8 @@
     * Avviare AcesServe sullo smartphone
     * Avviare Kodi su Tv/Chiavetta, dalla pagina principale, scorrere su addon
     * Tenere premuto sull'icona di Mandrakodi, poi "Impostazioni"
-    * Nella scheda "Personal List", poi "Appo1", copiare come da foto inserendo IP smartphone
+    * Nella scheda "**Personal List**", poi "**Appo1**", copiare come da foto inserendo IP smartphone
       ![acestream_app01](../images/acestream_app01.jpg)
-    * N.B.: IP smartphone è visibile dalle proprietà della connessione Wifi
-    * In Mandrakodi provare un qualunque link ace sempre e solo con opzione “ENGINE”
+    * N.B.: **IP smartphone** è visibile dalle proprietà della connessione Wifi
+    * In Mandrakodi provare un qualunque link ace sempre e solo con opzione “**ENGINE**”
 

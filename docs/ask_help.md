@@ -18,7 +18,7 @@
     * Gestore internet (Tim, Wind, Vodafone ecc.) fisso/mobile Wifi/Lan/Hotspot 
     * [Dns utilizzati](https://campipaolo.github.io/Mandrakodi-Wiki/guide/dns/), dove sono stati impostati (Device o Router)
     * Esito [test dns](https://dnsleaktest.com)<br>
-      Selezionare "**Extended tes**t" e attendere, deve segnare ISP con nome dei dns impostati
+      Selezionare "**Extended test**" e attendere, deve segnare ISP con nome dei dns impostati
 
 [Entra Nel Gruppo Teelegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
 
