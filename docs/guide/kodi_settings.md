@@ -13,11 +13,11 @@
 ??? info "Players Esterni con Android/AndroidTv/Firestick"
     **Avviare Kodi**
 
-    * Entrare in Mandrakodi, sezione “HELP ME!”
+    * Entrare in Mandrakodi, sezione “**HELP ME!**”
     * Cliccare "PLAYER .XML (org.free.aceserve)"
     * Uscire da Kodi e rientrare, accedere a Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
-    * Tenere premuto sul link e selezionare voce "riproduci con"
+    * Tenere premuto sul link e selezionare voce "**riproduci con**"
     * Dall'elenco selezionare player installato
 
 ??? info "Players Esterni con Windows"
@@ -29,12 +29,12 @@
     Il File "playercorefactory.xml" contiene le voci per vari players esterni<br>
     
     * Con editor di testo tipo "Notepad" aprire il file "playercorefactory.xml"
-    * Sostituire tutte le voci ”{TuoUtente}” col proprio nome utente e salvare il file
+    * Sostituire tutte le voci ”**{TuoUtente}**” col proprio **nome utente** e salvare il file
     * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
     * Copiare il file nel percorso “C:/utenti/nomeutente/appdata/roaming/kodi/userdata”
     * Entrare in Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
-    * Tenere premuto sul link e selezionare voce "riproduci con"
+    * Tenere premuto sul link e selezionare voce "**riproduci con**"
     * Dall'elenco selezionare player installato
 
 
@@ -52,7 +52,7 @@
 
     * Impostazioni, "Addon", "I miei addon" "Lettore Video Inputstream", Inputstream Adaptive" 
     * "Lettore Video Inputstream", Inputstream Adaptive", "Configura"
-    * Tipo selezione del flusso: "OSD manuale"
+    * Tipo selezione del flusso: "**OSD manuale**"
     * Risoluzione massima:  "1080p"
     * Risoluzione minima:  "1080p"
     * Premere "OK" per confermare
@@ -71,7 +71,7 @@
 
     * Tenere premuto/tasto destro su icona dell'addon Mandrakodi 
     * "Impostazioni"
-    * Sezione "Personal List" poi "app02"
+    * Sezione "**Personal List**" poi "**app02**"
     * All'interno scrivere "no_time_shift"
     ![daddylive_no_time_shift](../images/daddylive_no_time_shift.jpg)
     * Uscire da Kodi e rientrare
@@ -86,7 +86,7 @@
 
     * Impostazioni, "Servizi"
     * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
-    * Sulla sinistra compare il menu "Cache"
+    * Sulla sinistra compare il menu "**Cache**"
     * Modalità Buffer: selezionare "Buffer di tutti i file system internet"
     * Dimensione Memoria: "64 MB"
     * Uscire da Kodi e rientrare
