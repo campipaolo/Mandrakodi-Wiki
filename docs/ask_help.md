@@ -18,7 +18,7 @@
     * Gestore internet (Tim, Wind, Vodafone ecc.) fisso/mobile Wifi/Lan/Hotspot 
     * [Dns utilizzati](https://campipaolo.github.io/Mandrakodi-Wiki/guide/dns/), dove sono stati impostati (Device o Router)
     * Esito [test dns](https://dnsleaktest.com)<br>
-      Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+      Selezionare "**Extended tes**t" e attendere, deve segnare ISP con nome dei dns impostati
 
 [Entra Nel Gruppo Teelegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
 
@@ -35,11 +35,11 @@
     * "Kodi Logfile Uploader", "Installa"
     * Premere "Avvia" (l'addon è avviabile anche dalla pagina principale di Kodi nella sezione "Addon Programmi")
     * In Mandrakodi ripetere i passaggi che hanno generato l'errore
-    * Dalla home di Mandrakodi, andare su "Help Me" e cliccare su "Send Log" 
+    * Dalla home di Mandrakodi, andare su "**Help Me**" e cliccare su "**Send Log**" 
     * Se l'errore succede prima di accedere alla home di MandraKodi, o al momento dell'invio, aprire direttamente il plugin da Addon > Programm
-    * Nella maschera che compare, viene chiesto se, il file, lo si vuole visualizzare (view) o inviarlo (upload), cliccare su upload
+    * Nella maschera che compare, viene chiesto se, il file, lo si vuole visualizzare (view) o inviarlo (upload), cliccare su "**upload**"
     * Comparirà una seconda maschera che restituisce il link per vedere il log dal web
-    * Segnare quel link e inviarlo al bot delle credenziali anteponendo la parola log
+    * Segnare quel link e **inviarlo al bot delle credenziali** anteponendo la parola log
     (Esempio:<br>
     log https://paste.kodi.tv/ukoxehudej)
 
