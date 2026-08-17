@@ -14,3 +14,13 @@
 .md-typeset {
   font-size: 0.80rem; /* Il default di Material è 0.8rem (~16px). Puoi provarlo a 0.75rem o 0.7rem */
 }
+.md-button.btn-custom {
+  background-color: #ff5722;
+  border-color: #ff5722;
+  color: #ffffff;
+}
+
+.md-button.btn-custom:hover {
+  background-color: #e64a19;
+  border-color: #e64a19;
+}
