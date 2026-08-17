@@ -3,7 +3,7 @@
 ------
 
 !!! tip "Warp / Wireguard"
-    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - Warp (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** altre configurazioni <br>    - Wireguard (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - Warp (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - Wireguard (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su più dispositivi contemporaneamente da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....

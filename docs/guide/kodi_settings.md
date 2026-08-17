@@ -54,7 +54,7 @@
     * "Lettore Video Inputstream", Inputstream Adaptive", "Configura"
     * Tipo selezione del flusso: "**OSD manuale**"
     * Risoluzione massima:  "1080p"
-    * Risoluzione minima:  "7200p"
+    * Risoluzione minima:  "720p"
     * Premere "OK" per confermare
 
 !!! warning "Come cambiare risoluzione video"
