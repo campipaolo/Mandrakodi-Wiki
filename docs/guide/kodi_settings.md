@@ -35,7 +35,7 @@
     * Entrare in Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
     * Tenere premuto sul link e selezionare voce "**riproduci con**"
-    * Dall'elenco selezionare player installato
+    * Dall'elenco selezionare player esterno
 
 
 
@@ -54,7 +54,7 @@
     * "Lettore Video Inputstream", Inputstream Adaptive", "Configura"
     * Tipo selezione del flusso: "**OSD manuale**"
     * Risoluzione massima:  "1080p"
-    * Risoluzione minima:  "1080p"
+    * Risoluzione minima:  "7200p"
     * Premere "OK" per confermare
 
 !!! warning "Come cambiare risoluzione video"
