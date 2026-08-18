@@ -2,14 +2,20 @@
 
 ------
 
-!!! important "Guide e impostazioni"
-    Di seguito guide e impostazioni utili al corretto funzionamento delle varie sezioni dell'addon  
+!!! tip "Impostazioni e guide"
+    Di seguito tutorials utili al **corretto funzionamento** delle varie sezioni dell'addon 
 
 ------
 
+!!! important "Impostazioni kodi e DNS"
+    **Setup**  vari per Kodi e dispositivo
+
 [:material-book-open-page-variant: Impostazioni Kodi](kodi_settings.md){.md-button .md-button--primary}	[:material-book-open-page-variant: DNS](dns.md){ .md-button .md-button--primary } <br>
 
-<br>
+------
+
+!!! important "App esterne a Kodi"
+    **Tutorials** vari per sezioni di Mandrakodi
 
  [:material-book-open-page-variant: Warp / Wireguard](warp_wireguard.md){ .md-button .md-button--primary }     [:material-book-open-page-variant: Acestream](acestream.md){ .md-button .md-button--primary }
 
