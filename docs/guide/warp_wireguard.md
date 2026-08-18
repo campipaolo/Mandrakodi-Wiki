@@ -35,6 +35,7 @@
     * Digitare "cd desktop" e premere invio
     * Digitare "wgcf.exe register" e premere invio
     * Quando richiesto andare su "Yes" e premere invio
+    * Digitare "wgcf.exe generate" e premere invio
     * Sul desktop saranno presenti due file, l'unico da conservare è "wgcf-profile.conf"
 
 ??? info "Smartphone Android con app Termux"
