@@ -23,7 +23,7 @@
 ??? info "Players Esterni con Windows"
     **In Windows**
 
-    * Scaricare [playercorefactory - windows.xml](https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/pfc_win.xml) tenere premuto/tasto destro, salvare il files
+    * Scaricare [playercorefactory - windows.xml](https://) tenere premuto/tasto destro, salvare il files
     * Rinominare il file in "playercorefactory.xml"<br> 
     
     Il File "playercorefactory.xml" contiene le voci per vari players esterni<br>
