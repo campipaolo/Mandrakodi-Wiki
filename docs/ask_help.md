@@ -1,4 +1,4 @@
-[:material-home: Torna alla Home](../){ .md-button .md-button--primary }
+[:material-home: Torna alla Home](../){ .md-button .md-button--primary } [:material-comment-question: Torna alla Home](...//faq/faq.md){ .md-button .md-button--primary }
 
 ------
 
