@@ -3,7 +3,7 @@
 ------
 
 !!! tip "Impostazioni e guide"
-    Di seguito tutorials utili al **corretto funzionamento** delle varie sezioni dell'addon 
+    Di seguito tutorials utili al **corretto funzionamento** delle varie sezioni di Mandrakodi
 
 ------
 
@@ -14,8 +14,8 @@
 
 ------
 
-!!! important "App esterne a Kodi"
-    **Tutorials** vari per sezioni di Mandrakodi
+!!! important "App/Software esterni a Kodi"
+    **Tutorials** vari per App/Software necessari ad alcune sezioni di Mandrakodi
 
  [:material-book-open-page-variant: Warp / Wireguard](warp_wireguard.md){ .md-button .md-button--primary }     [:material-book-open-page-variant: Acestream](acestream.md){ .md-button .md-button--primary }
 
