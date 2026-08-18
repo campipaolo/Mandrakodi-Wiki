@@ -14,5 +14,5 @@
 
 ------
 
-[ :material-arrow-right-bold: Installazione ](installazione/install.md){.md-button .md-button--primary} [ :material-arrow-right-bold: Guide ](guide/tutorials.md){.md-button .md-button--primary} [ :material-arrow-right-bold: FAQ ](faq/faq.md){.md-button .md-button--primary}
+[:material-cog-box: Installazione ](installazione/install.md){.md-button .md-button--primary} [:material-book-open-page-variant: Guide ](guide/tutorials.md){.md-button .md-button--primary} [:material-comment-question: FAQ ](faq/faq.md){.md-button .md-button--primary}
 
