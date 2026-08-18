@@ -1,4 +1,4 @@
-[Torna alla Home](../){ .md-button .md-button--primary }
+[:material-home: Torna alla Home](../){ .md-button .md-button--primary }
 
 ------
 
