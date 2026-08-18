@@ -7,9 +7,9 @@
 
 ------
 
-[ :material-arrow-right-bold: Impostazioni Kodi](kodi_settings.md){.md-button .md-button--primary}	[:material-arrow-right-bold: DNS](dns.md){ .md-button .md-button--primary } <br>
+[:material-book-open-page-variant: Impostazioni Kodi](kodi_settings.md){.md-button .md-button--primary}	[:material-book-open-page-variant: DNS](dns.md){ .md-button .md-button--primary } <br>
 
 <br>
 
- [:material-arrow-right-bold: Warp / Wireguard](warp_wireguard.md){ .md-button .md-button--primary }     [:material-arrow-right-bold: Acestream](acestream.md){ .md-button .md-button--primary }
+ [:material-book-open-page-variant: Warp / Wireguard](warp_wireguard.md){ .md-button .md-button--primary }     [:material-book-open-page-variant: Acestream](acestream.md){ .md-button .md-button--primary }
 
