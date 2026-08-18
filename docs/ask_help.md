@@ -25,7 +25,7 @@
     * Esito [test dns](https://dnsleaktest.com)<br>
       Selezionare "**Extended test**" e attendere, deve segnare ISP con nome dei dns impostati
 
-[Entra Nel Gruppo Teelegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
+[:fontawesome-brands-telegram: Entra Nel Gruppo Teelegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
 
 ------
 
