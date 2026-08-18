@@ -2,18 +2,21 @@
 
 ------
 
-!!! warning "DNS: **Obbligatori** al giorno d'oggi!"
+!!! tip "DNS: questi sconosciuti"
+
 ❓ Cosa c'entra con KODI/MANDRAKODI?
 
 La maggior parte dei siti di streaming italiani non ha server in Italia: la magistratura, non potendo chiuderli, chiede a tutti i provider Internet di oscurarli, ossia di cancellare i record dei siti dal loro database
 In questo modo, chiunque usi i loro DNS (tutti in pratica) non riuscirà a raggiungerli.
-Siccome il mio addon, come anche altri, non fa altro che visitare i vari siti per estrapolarne il contenuto, anch'esso non sarà in grado di contattarli.
 Alcuni siti cercano di contrastare questi continui oscuramenti cambiando dominio di frequente (pertanto a volte potrebbero andare, a volte no), altri invece hanno proprio rinunciato a modificarlo.
 Per provare se il vostro problema sia davvero legato ai DNS basta visitare con un browser lo stesso sito (esempio https://1.dlhd.sx). 
 Se la pagina non si apre, o se vi compare la scritta che il sito è sotto sequestro, avete i DNS di default.
 
 ❓ Come posso RISOLVERE?
 Basta cambiare server DNS, impostandone uno che non oscura.
+
+!!! warning "DNS: **Obbligatori** al giorno d'oggi!"
+    Mandrakodi, come anche altri addon, non fa altro che visitare i vari siti per estrapolarne il contenuto, anch'esso non sarà in grado di contattarli.
 
 ------
 

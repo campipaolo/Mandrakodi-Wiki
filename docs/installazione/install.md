@@ -5,12 +5,12 @@
 !!! warning "Importante"
     Qualora Kodi fosse **pre installato** senza essere sicuri se installato con installer preso da sito, disinstallare e procedere seguendo istruzioni di seguito a seconda del Sistema Operativo 
 
-!!! important "Attenzione"
+!!! tip "Attenzione"
     Per un pieno funzionamento di Kodi con tutte le sue dipendenze corrette, **scaricare Kodi dal proprio sito** per i vari Sistemi Operativi seguendo i passaggi sotto riportati
 
 ------
 
-!!! tip "Fase 1 - Installazione Kodi"
+!!! important "Fase 1 - Installazione Kodi"
     Installare Kodi su Windows/maOS/Linux/Android/AndroidTv/iOS/Firestick
 
 ??? info "Kodi per Windows"
@@ -151,7 +151,7 @@
     sudo flatpak install flathub tv.kodi.Kodi
     ```
 
-!!! tip "Fase 2 - Installazione addon Mandrakodi"
+!!! important "Fase 2 - Installazione addon Mandrakodi"
     Installare l'addon Mandrakodi
 
 ??? info "Mandrakodi"

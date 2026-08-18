@@ -2,12 +2,12 @@
 
 ------
 
-!!! important "Impostazioni Kodi"
+!!! tip "Impostazioni Kodi"
     Di seguito settaggi consigliati per migliori prestazioni dei vari flussi video 
 
 ------
 
-!!! tip "Players Esterni"
+!!! important "Players Esterni"
     A partire da Kodi 21.2 è possibile sfruttare players esterni (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
 
 ??? info "Players Esterni con Android/AndroidTv/Firestick"
@@ -44,7 +44,7 @@
 
 ------
 
-!!! tip "Flussi MPD"
+!!! important "Flussi MPD"
     I link MDP sfruttano la libreria di kodi "**inputstream-adaptive**" che *regola automaticamente* la risoluzione video del flusso a seconda della propria connessione e del dispositivo <br> E' possibile sia impostare dei valori min/max sia selezionare una risoluzione video a piacimento tra quelle disponibili per ogni flusso video 
 
 ??? info "Impostazioni Flussi MPD"
@@ -62,7 +62,7 @@
 
 ------
 
-!!! tip "Flussi DaddyLive"
+!!! important "Flussi DaddyLive"
     I canali **DaddyLive**, utilizzano il plugin **inputstream.ffmpegdirect**.
     Questo plugin, di default, utilizza la funzione **TimeShift** per permettere il riavvolgimento della live. <br>  Per farlo, salva dei     file nella cartella di Kodi che vengono cancellati quando si ferma il video. <br>  Su device con poca memoria (esempio la FireStick), può creare problemi. 
 
@@ -78,7 +78,7 @@
 
 ------
 
-!!! tip "Buffer/Cache"
+!!! important "Buffer/Cache"
     Kodi ha un suo sistema interno per gestire **cache con modalità buffer** per impostare una dimensione memoria per varie tipologie di flussi online/locali
 
 ??? info "Impostazioni Buffer/Cache"

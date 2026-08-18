@@ -2,13 +2,18 @@
 
 ------
 
-!!! warning "Gruppo Telegram: regolamento e richiesta assistenza  "
-    
+!!! warning "Gruppo Telegram: regolamento "
 
--  In telegram impostare nome utente e foto profilo (anche generica) "visibile a tutti" nelle impostazioni della privacy (qualora poi venissero omessi nel periodo successivo all'entrata, si verrà bannati)
+-  In telegram impostare *nome utente* e *foto profilo* (anche generica) "*visibile a tutti*" nelle impostazioni della privacy (qualora poi venissero omessi nel periodo successivo all'entrata, si verrà bannati)
 -  Non contattare in privato gli Admin previa richiesta scritta nella chat del gruppo
 - Non contattare in privato gli Admin qualora il gruppo risulti chiuso in sola lettura
-- **Prima** di chiedere, **leggere**  tutta la sezione  [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione **[FAQ](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/)**. <br>Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto riportato <br> **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e chi persevera verrà prima  *ammonito* e poi  **bannato**
+
+!!! tip Gruppo Telegram: richiesta assistenza"
+
+**Prima** di scrivere nel gruppo, **leggere**  tutta la sezione  [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione **[FAQ](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/)**. <br>Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto <br>**NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e chi persevera verrà prima  *ammonito* e poi  **bannato** 
+
+!!! important "Come richiedere assistenza"
+    Informazioni obbligatorie per una **corretta richiesta** di assistenza / segnalazione 
 
 ??? info "Info obbligatorie per assistenza"
     **Riportare in chat in unico messaggio**
