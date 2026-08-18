@@ -43,7 +43,7 @@
 
     * [Termux Play Store](https://play.google.com/store/apps/details?id=com.termux&hl=it) 
     * Installare ed avviare 
-    * N.B.: di seguito comandi da copiaree poi incollare in termux, **uno alla volta** (quando richiesto premere invio alla domanda "Y" o scrivere Yes per confermare) 
+    * N.B.: di seguito comandi da copiare e poi incollare in termux, **uno alla volta** (quando richiesto premere invio alla domanda "Y" o scrivere Yes per confermare) 
     * termux-setup-storage (abilitare permesso scrittura  su dispositivo)
     * pkg install wget
     * pkg install git 
@@ -72,7 +72,7 @@
 
     * [Wireguard AndroidTv/Firestick](https://download.wireguard.com/android-client/)
     * Utenti **AndroidTv**: installare con link "Google Play Store"
-    * Utenti **Firestick**: con App downloader scaricare Apk "com.wireguard.android-x.x.xxxxx.apk"
+    * Utenti **Firestick**: scaricare Apk "com.wireguard.android-x.x.xxxxx.apk"
 
 ------
 
