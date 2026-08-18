@@ -23,10 +23,10 @@ theme:
 
 nav:
   - ':material-home: Home': index.md
-  - ':material-cog-box; Installazione': install.md
+  - ':material-cog-box: Installazione': install.md
   - ':material-book-open-page-variant: Guide': guide.md
   - ':material-comment-question: FAQ': faq/faq.md
-  - ':material-face-agent:': ask_help.md
+  - ':material-face-agent: Assistenza': ask_help.md
 
 markdown_extensions:
   - attr_list
