@@ -1,17 +1,17 @@
-[Tornaa alle guide](../guide/tutorials.md){.md-button .md-button--primary} [Torna alla Home](../index.md){.md-button .md-button--primary} [:material-arrow-right-bold: Assistenza](../ask_help.md){ .md-button .md-button--primary }
+[Torna alle guide](../guide/tutorials.md){.md-button .md-button--primary} [Torna alla Home](../index.md){.md-button .md-button--primary} [:material-arrow-right-bold: Assistenza](../ask_help.md){ .md-button .md-button--primary }
 
 ------
 
 !!! tip "Warp / Wireguard"
-    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - Warp (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - Wireguard (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    Sono richiesti per alcuni link iinseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - **Wireguard** (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
-    File ".conf" è utilizzabile su più dispositivi contemporaneamente da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
+    File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
 
 ------
 
 !!! important " Fase 1 - creare file configurazione per Wireguard"
-    Esistono più metodi per creare file ".conf" da utilizare in WIreguard su AndroidTv/Firestick <br>    - Sito Config Generator (scadenza 90gg) <br>    - Windows/macOS/Linux con "WGCF" (nessuna scadenza) <br>    - Smartphone Android con app "Termux" (nessuna scadenza)
+    Esistono più metodi per creare file ".conf" da utilizare in WIreguard su AndroidTv/Firestick <br>    - Sito Config Generator (**scadenza 90gg**) <br>    - Windows/macOS/Linux con "WGCF" (**nessuna scadenza**) <br>    - Smartphone Android con app "Termux" (**nessuna scadenza**)
 
 ??? info "Sito Config Generator"
        **Scadenza 90gg**
@@ -64,7 +64,7 @@
 ------
 
 !!! important " Fase 2 - Wireguard"
-    Installare su  AndroidTv / Scaricare Apk per Firestick 
+    **Installare** su  **AndroidTv** / Scaricare **Apk** per **Firestick** 
 
 ??? info "Wireguard"
     **AndroidTv/Firestick**
@@ -76,7 +76,7 @@
 ------
 
 !!! important " Fase 3 - Localsend"
-    Inviare a AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard per Firestick
+    **Inviare** a AndroidTv/Firestick file ".conf" ed eventuale Apk Wireguard per Firestick
 
 ??? info "Localsend"
     **Windows/macOS/Linux/Android/AndroidTv/iOS/Firestick**
@@ -95,7 +95,7 @@
 ------
 
 !!! important " Fase 4 - Installare WIreguard su  Firestick "
-    Installazione Apk Wireguard per Firestick
+    **Installazione** Apk Wireguard per **Firestick**
 
 ??? info "Wireguard per Firestick"
     **Firestick**
@@ -110,7 +110,7 @@
 ------
 
 !!! important " Fase 5 - Configurare Wireguard"
-    Impostare Wireguard su AndroidTv/Firestick
+    **Impostare** Wireguard su AndroidTv/Firestick
 
 ??? info "Wireguard"
     **AndroidTv/Firestick**
@@ -126,8 +126,8 @@
 
 
 
-!!! important " EXTRA - WG Tunnel (alternativa sempre con file ".conf")"
-    Installare WG Tunnel su Windows/Linux/Android/AndroidTv/Firestick
+!!! important " EXTRA - WG Tunnel (sempre con file ".conf")"
+    Installare **alternativa** "WG Tunnel" su Windows/Linux/Android/AndroidTv/Firestick
 
 ??? info "WG Tunnel"
     **Windows/Linux/Android/AndroidTv/Firestick**

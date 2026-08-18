@@ -3,7 +3,7 @@
 ------
 
 !!! tip "Domande & Risposte a problemi e dubbi più comuni"
-    Di seguito elenco di D/R ad errori frequenti con risposte e soluzioni per risolvere
+    Di seguito elenco di D/R ad errori **frequenti** con risposte e soluzioni per risolvere
 
 ------
 

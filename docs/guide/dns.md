@@ -15,13 +15,13 @@ Se la pagina non si apre, o se vi compare la scritta che il sito è sotto seques
 ❓ Come posso RISOLVERE?
 Basta cambiare server DNS, impostandone uno che non oscura.
 
-!!! warning "DNS: **Obbligatori** al giorno d'oggi!"
-    Mandrakodi, come anche altri addon, non fa altro che visitare i vari siti per estrapolarne il contenuto, anch'esso senza aver impostati i DNS, non sarà in grado di raggiungere i vari siti delle porprie fonti web.
+!!! warning "DNS: Obbligatori al giorno d'oggi!"
+    Mandrakodi, come anche altri addon, non fa altro che visitare i vari siti per estrapolarne il contenuto, anch'esso **senza** aver impostato i **DNS**, **non** sarà in grado di **raggiungere** i vari **siti** delle porprie fonti web.
 
 ------
 
 !!! important "DNS suggeriti"
-    Di seguito elenco DNS suggeriti per rete fissa e mobile
+    Di seguito elenco DNS suggeriti per rete **fissa** e **mobile**
 
 ??? info "DNS rete fissa"
     **Elenco DNS**
@@ -189,7 +189,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ------
 
 !!! important "DNS su singolo dipositivo"
-    Di seguito guide per impostare i DNS sui singolo dispositivo ove router non disponga di opzione per inserirli al suo interno e per connessioni rete mobile
+    Di seguito guide per impostare i DNS sui **singolo dispositivo** ove router non disponga di opzione per inserirli al suo interno e per connessioni di rete mobile
 
 ??? info "Android"
     **Smartphone/Tablet**

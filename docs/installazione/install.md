@@ -11,7 +11,7 @@
 ------
 
 !!! important "Fase 1 - Installazione Kodi"
-    Installare Kodi su Windows/maOS/Linux/Android/AndroidTv/iOS/Firestick
+    **Installare** Kodi su Windows/maOS/Linux/Android/AndroidTv/iOS/Firestick
 
 ??? info "Kodi per Windows"
     **Installer per Windows**
@@ -152,7 +152,7 @@
     ```
 
 !!! important "Fase 2 - Installazione addon Mandrakodi"
-    Installare l'addon Mandrakodi
+    Installare l'addon **Mandrakodi**
 
 ??? info "Mandrakodi"
     **Guida Installazione**

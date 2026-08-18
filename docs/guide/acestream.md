@@ -3,7 +3,7 @@
 ------
 
 !!! tip "Ace, flussi P2P ad alta qualità"
-    Sono link che sfruttano un protocollo basato sulla condivisione di flussi streaming audiovisivi tramite rete **p2p** (peer to peer) il che vuol dire creare interconnessioni tra più utenti e il server proprio come accadeva anni or sono con eMule/Torrent. <br>Questo significa che “chi guarda in streaming, trasmette anche agli altri utenti, ovvero più utenti guardano e condividono a loro volta ad altri , meno blocchi ci sono durante la visione”: **questo avviene esclusivamente se sul proprio router viene aperta la porta 8621 udp**
+    Sono link che sfruttano un protocollo basato sulla condivisione di flussi streaming audiovisivi tramite rete **p2p** (peer to peer) il che vuol dire creare interconnessioni tra più utenti e il server proprio come accadeva anni or sono con eMule/Torrent. <br>Questo significa che “chi guarda in streaming, trasmette anche agli altri utenti, ovvero *più utenti guardano e condividono a loro volta ad altri* , *meno blocchi ci sono durante la visione*”: **questo avviene esclusivamente se sul proprio router viene aperta la porta 8621 udp**
 
 !!! warning "Lingua contenuti"
     I link Ace sono **praticamente totalmente stranieri**, in quanto in Italia - salvo rare occasioni - poco utilizzati per mancanza della coltura di condivisione alla base di tutti i sistemi P2P come appunto Acestream, Emule, Torrent ecc
@@ -11,7 +11,7 @@
 ------
 
 !!! important "Fase 1 - Installazione"
-    Installare sul proprio dispositivo  
+    **Installare** sul proprio dispositivo  
 
 ??? info "Acestream per Windows"
     **Installer per Windows**
@@ -67,7 +67,7 @@
 ------
 
 !!! important "EXTRA - AceServe con dispositivi poco performanti"
-    Con dispositivi poco performanti  (tv/chiavetta con 1Gb/1,5Gb Ram e 8Gb storage) è consigliabile eseguire AceServe su **altro dispositivo** (generalmente smartphone) **purché connesso alla medesima rete,**  sfruttando maggiori risorse per cache disco e ram 
+    Con *dispositivi poco performanti*  (tv/chiavetta con 1Gb/1,5Gb Ram e 8Gb storage) è consigliabile eseguire AceServe su **altro dispositivo** (generalmente smartphone) **purché connesso alla medesima rete,**  sfruttando maggiori risorse per cache disco e ram 
 
 ??? info "Kodi su Tv/Chiavetta + AceServe su Smartphone"
     **Eseguire AceServe su dispositivo terzo**
