@@ -14,4 +14,14 @@
 .md-typeset {
   font-size: 0.80rem; /* Il default di Material è 0.8rem (~16px). Puoi provarlo a 0.75rem o 0.7rem */
 }
+.md-typeset .md-button.btn-danger {
+  background-color: #e53935;
+  border-color: #e53935;
+  color: #ffffff;
+}
 
+/* Effetto al passaggio del mouse (hover) */
+.md-typeset .md-button.btn-danger:hover {
+  background-color: #c62828;
+  border-color: #c62828;
+}
