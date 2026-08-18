@@ -1,4 +1,4 @@
-[:material-arrow-left-bold: Torna alla Home](../index.md){ .md-button .md-button--primary }  [:material-arrow-right-bold: Assistenza](..//ask_help.md){ .md-button .md-button--primary } 
+[Torna alla Home](../index.md){.md-button .md-button--primary}  [:material-arrow-right-bold: Assistenza](..//ask_help.md){ .md-button .md-button--primary } 
 
 ------
 
