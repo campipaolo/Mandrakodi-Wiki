@@ -2,7 +2,7 @@
 
 ![icon](images/icon.gif)
 
-[:material-lifebuoy: Assistenza](ask_help.md){ .md-button .md-button--primary }
+[:material-face-agent: Assistenza](ask_help.md){ .md-button .md-button--primary }
 
 ------
 
