@@ -2,7 +2,7 @@
 
 ![icon](images/icon.gif)
 
-[:material-face-agent: Assistenza](ask_help.md) { .md-button .md-button--primary .btn-danger }
+[:material-face-agent: Assistenza](ask_help.md) { .md-button style="background-color: #e53935; border-color: #e53935; color: white;" }
 
 ------
 
