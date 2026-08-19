@@ -72,8 +72,8 @@
 
     * [Wireguard](https://download.wireguard.com/android-client/)
     
-    * Utenti *AndroidTv**: installare con link "Google Play Store"
-    * Utenti *Firestick**: Scaricare "com.wireguard.android-x.x.xxxxxxxx.apk"
+    * Utenti **AndroidTv**: installare con link "Google Play Store"
+    * Utenti **Firestick**: Scaricare "com.wireguard.android-x.x.xxxxxxxx.apk"
 
 ------
 
