@@ -70,7 +70,7 @@
 ??? info "Wireguard"
     **AndroidTv/Firestick**
 
-    * [AndroidTv/](https://download.wireguard.com/android-client/)
+    * [AndroidTv](https://download.wireguard.com/android-client/)
     * Utenti **[AndroidTv]**(https://download.wireguard.com/android-client/): installare con link "Google Play Store"
     * Utenti **Firestick**: provare una o più fonti<br>
     [F-Droid](https://f-droid.org/packages/org.localsend.localsend_app/): scaricare apk versione "armeabi-v7a"<br>
