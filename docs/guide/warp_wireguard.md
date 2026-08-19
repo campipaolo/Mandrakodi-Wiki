@@ -70,9 +70,11 @@
 ??? info "Wireguard"
     **AndroidTv/Firestick**
 
-    * [Wireguard AndroidTv/Firestick](https://download.wireguard.com/android-client/)
-    * Utenti **AndroidTv**: installare con link "Google Play Store"
-    * Utenti **Firestick**: scaricare Apk "com.wireguard.android-x.x.xxxxx.apk"
+    * [AndroidTv/](https://download.wireguard.com/android-client/)
+    * Utenti **[AndroidTv]**(https://download.wireguard.com/android-client/): installare con link "Google Play Store"
+    * Utenti **Firestick**: provare una o più fonti<br>
+    [F-Droid](https://f-droid.org/packages/org.localsend.localsend_app/): scaricare apk versione "armeabi-v7a"<br>
+    [Github](https://github.com/localsend/localsend/releases): scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"
 
 ------
 
