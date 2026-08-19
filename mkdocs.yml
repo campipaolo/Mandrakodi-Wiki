@@ -23,7 +23,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Installazione: /installazione/install.md
+  - Installazione: installazione/install.md
   - Guide: guide/tutorials.md
   - FAQ: faq/faq.md
   - Assistenza: ask_help.md
