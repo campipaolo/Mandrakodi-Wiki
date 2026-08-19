@@ -10,6 +10,9 @@
 !!! important "Players Esterni"
     A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
 
+!!! warning "Installare i vari player esterni"
+    I players esterni (es. Ace, Vlc, Mx Player,Wuffy) vanno **prima** installati sul dispositivo
+
 ??? info "Players Esterni con Android/AndroidTv/Firestick"
     **Avviare Kodi**
 
@@ -37,10 +40,7 @@
     * Tenere premuto sul link e selezionare voce "**riproduci con**"
     * Dall'elenco selezionare player esterno
 
-
-
-!!! warning "Installare i vari player esterni"
-    I players esterni (es. Ace, Vlc, Mx Player,Wuffy) vanno **prima** installati sul dispositivo 
+ 
 
 ------
 
