@@ -28,7 +28,8 @@
 
     * [WGCG](https://github.com/ViRb3/wgcf/releases) 
     * Scorrere fino alla sezione "Assets" (premere "Show All" per espandere l'elenco)
-    * Windows 64bit: wgcf_x.x.x_windows_amd64.exe	Windows ARM: wgcf_x.x.x_windows_arm64.exe 
+    * Windows 64bit: wgcf_x.x.x_windows_amd64.exe<br>
+      Windows ARM: wgcf_x.x.x_windows_arm64.exe 
     * Copiare il file scaricato sul **Desktop**
     * **Rinominarlo** in "wgcf.exe"
     * Premere il tasto Windows, scrivere "cmd" e premere invio

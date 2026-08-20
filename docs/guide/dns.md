@@ -151,7 +151,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     **Tim FTTC e FTTH**
 
     * Dns non si possono inserire sul router dell’operatore 
-    * Inserirli sul ** singolo dispositivo**
+    * Inserirli sul **singolo dispositivo**
 
 
 
