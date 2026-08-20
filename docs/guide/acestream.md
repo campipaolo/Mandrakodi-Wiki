@@ -60,7 +60,7 @@
     * In Mandrakodi avviare un link Ace
     * Usare opzione "**DIRETTO**"
     * Selezionare "**org.free.aceserve**"
-    * Selezionare player esterno (es. Vlc)
+    * Selezionare player esterno (es. Vlc, Mx Player)
 
 
 
