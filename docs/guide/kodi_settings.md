@@ -11,9 +11,9 @@
     A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
 
 !!! warning "Installare i vari player esterni"
-    I players esterni (es. Ace, Vlc, Mx Player,Wuffy) vanno **prima** installati sul dispositivo
+    I players esterni (es. Mx Player, Wuffy Player) vanno **prima** installati sul dispositivo<br> [Mx Player Apk 32bit](https://) / [Mx Player Apk 64bit](https://)<br> [Wuffy Player Apk 32bit](https://) / [Wuffy Player Apk 64bit](https://)<br> 
 
-??? info "Players Esterni con Android/AndroidTv/Firestick"
+??? info "Impostare Players Esterni con Android/AndroidTv/Firestick"
     **Avviare Kodi**
 
     * Entrare in Mandrakodi, sezione “**HELP ME!**”
@@ -23,24 +23,20 @@
     * Tenere premuto sul link e selezionare voce "**riproduci con**"
     * Dall'elenco selezionare player installato
 
-??? info "Players Esterni con Windows"
+??? info "Impostare Players Esterni con Windows"
     **In Windows**
 
     * Scaricare [playercorefactory - windows.xml](https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/pfc_win.xml) tenere premuto/tasto destro, salvare il files
-    * Rinominare il file in "playercorefactory.xml"<br> 
-    
-    Il File "playercorefactory.xml" contiene le voci per vari players esterni<br>
-    
-    * Con editor di testo tipo "Notepad" aprire il file "playercorefactory.xml"
-    * Sostituire tutte le voci ”**{TuoUtente}**” col proprio **nome utente** e salvare il file
+    * Rinominare il file in "playercorefactory.xml" 
     * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
-    * Copiare il file nel percorso “C:/utenti/nomeutente/appdata/roaming/kodi/userdata”
+    * Copiare il file nel percorso “C:/utenti/**tuonomeutente**/appdata/roaming/kodi/userdata”
     * Entrare in Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
     * Tenere premuto sul link e selezionare voce "**riproduci con**"
     * Dall'elenco selezionare player esterno
 
  
+
 
 ------
 
