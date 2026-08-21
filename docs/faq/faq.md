@@ -45,7 +45,7 @@
 
 ??? info "10) La sezione Last Minute non è aggiornata / quando vengono inseriti i link"
     **Motivo:** I links vengono aggiunti all'ultimo momento prima dell'evento **SOLO SE** lo sviluppatore può farlo.  
-    **Soluzione:** Cambiare sezione **senza chiedere quando e se verranno inseriti** tali link **non sono una regola fissa**.
+    **Soluzione:** Cambiare sezione **senza chiedere quando e se verranno inseriti** tali link che **non sono una regola fissa**.
 
 ??? info "11) Posso fare richiesta di inserimento contenuti non presenti nell'addon?"
     **Motivo:** Le fonti da cui attinge Mandrakodi non sono gestite direttamente dallo sviluppatore  .  
