@@ -61,5 +61,5 @@
 
 ??? info "14) Come posso sapere su quale canale viene trasmesso un evento live"
     **Motivo:** L'addon non prevede EPG degli eventi live  .  
-    **Soluzione:**  Il sito https://www.livesoccertv.com/it/schedules/ èinforma su quali canali **italiani e stranieri** viene trasmesso l'evento live di interesse: *non fissarsi* sul solo contenuto con *commento in italiano*, i canali *stranieri* spesso offrono *maggiore qualità e stabilità*.
+    **Soluzione:**  Il sito https://www.livesoccertv.com/it/schedules/ e informa su quali canali **italiani e stranieri** viene trasmesso l'evento live di interesse: *non fissarsi* sul solo contenuto con *commento in italiano*, i canali *stranieri* spesso offrono *maggiore qualità e stabilità*.
 
