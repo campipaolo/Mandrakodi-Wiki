@@ -2,11 +2,10 @@
 
 ------
 
-!!! warning "Gruppo Telegram: regolamento "
-
--  In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy (qualora poi venissero omessi nel periodo successivo all'entrata, si verrà bannati)
--  **Non** contattare in privato gli Admin previa richiesta scritta nella chat del gruppo
-- **Non** contattare in privato gli Admin qualora il gruppo risulti chiuso in sola lettura
+!!! warning "Gruppo Telegram: regolamento"
+    * In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy (qualora poi venissero omessi nel periodo successivo all'entrata, si verrà bannati)
+    * **Non** contattare in privato gli Admin previa richiesta scritta nella chat del gruppo
+    * **Non** contattare in privato gli Admin qualora il gruppo risulti chiuso in sola lettura
 
 !!! tip "Gruppo Telegram: richiesta assistenza"
 
