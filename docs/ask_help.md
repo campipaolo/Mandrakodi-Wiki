@@ -7,7 +7,7 @@
     * **Non** contattare in privato gli Admin previa richiesta scritta nella chat del gruppo
     * **Non** contattare in privato gli Admin qualora il gruppo risulti chiuso in sola lettura
 
-!!! tip "MandraKodi"
+!!! tip "Gruppo Telegram: richiedere assistenza"
      Prima di scrivere nel gruppo, leggere tutta la sezione [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione [**FAQ**](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/). <br> Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto.<br> **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e chi persevera verrà prima *ammonito* e poi *bannato*.
 
 
