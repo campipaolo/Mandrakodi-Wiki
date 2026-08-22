@@ -12,6 +12,32 @@
 !!! warning "Qualità e stabilità"
     La qualità è la stabilità di questi link dipendono esclusivamente dal server che li trasmette.  <br>Molti server (soprattutto quelli che trasmettono eventi live sul web), quando le richieste aumentano, *abbassano la qualità* per *guadagnare sulla stabilità*. <br>Altri, invece, **raggiunta una soglia di banda**, cominciano a dare **problemi di blocchi continui** (il server non riesce a trasmettere la quantità necessaria di “informazioni” per permettere una visione fluida)
 
+
+
+> [!NOTE]
+>
+> nota
+
+> [!TIP]
+>
+> suggerimento
+
+> [!IMPORTANT]
+>
+> importante
+
+> [!WARNING]
+>
+> avvertenza
+
+> [!CAUTION]
+>
+> attenzione
+
+
+
+
+
 ------
 
 [:material-cog-box: Installazione ](installazione/install.md){.md-button .md-button--primary} [:material-book-open-page-variant: Guide ](guide/tutorials.md){.md-button .md-button--primary} [:material-comment-question: FAQ ](faq/faq.md){.md-button .md-button--primary}
