@@ -15,26 +15,19 @@
 
 
 > [!NOTE]
->
-> nota
+> Questo è un blocco di nota.
 
 > [!TIP]
->
-> suggerimento
+> Questo è un suggerimento utile.
 
 > [!IMPORTANT]
->
-> importante
+> Informazione importante da non perdere.
 
 > [!WARNING]
->
-> avvertenza
+> Attenzione a questo passaggio.
 
 > [!CAUTION]
->
-> attenzione
-
-
+> Avviso di pericolo o azione irreversibile.
 
 
 
