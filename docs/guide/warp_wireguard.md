@@ -11,7 +11,7 @@
 ------
 
 !!! important " Fase 1 - creare file configurazione per Wireguard"
-    Esistono più metodi per creare file ".conf" da utilizzare in WIreguard su AndroidTv/Firestick <br>    - Sito Online Generator (**nessuna scadenza**) <br>    - Windows/macOS/Linux con "WGCF" (**nessuna scadenza**) <br>    - Smartphone Android con app "Termux" (**nessuna scadenza**)
+    Esistono più metodi per creare file ".conf" da utilizzare in WIreguard su AndroidTv/Firestick <br>    - Sito Config Generator (**nessuna scadenza**) <br>    - Windows/macOS/Linux con "WGCF" (**nessuna scadenza**) <br>    - Smartphone Android con app "Termux" (**nessuna scadenza**)
 
 ??? info "Sito Config Generator"
        **Nessuna scadenza**
