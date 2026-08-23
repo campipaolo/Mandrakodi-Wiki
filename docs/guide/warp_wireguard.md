@@ -16,7 +16,7 @@
 ??? info "Sito Config Generator"
        **Nessuna scadenza**
 
-    * [Online Generator](https://warp-generator.vercel.app)<br>
+    * [Config Generator](https://warp-generator.vercel.app)<br>
       (c'è scritto "WARP" ma va bene per Wireguard)
     * Premere il pulsante "Download Config"
     * N.B.: verificare che il file salvato abbia l'estensione "**.conf**" (se necessario **rinominarlo**)
