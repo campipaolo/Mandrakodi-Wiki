@@ -11,16 +11,14 @@
 ------
 
 !!! important " Fase 1 - creare file configurazione per Wireguard"
-    Esistono più metodi per creare file ".conf" da utilizzare in WIreguard su AndroidTv/Firestick <br>    - Sito Config Generator (**scadenza 90gg**) <br>    - Windows/macOS/Linux con "WGCF" (**nessuna scadenza**) <br>    - Smartphone Android con app "Termux" (**nessuna scadenza**)
+    Esistono più metodi per creare file ".conf" da utilizzare in WIreguard su AndroidTv/Firestick <br>    - Sito Online Generator (**nessuna scadenza**) <br>    - Windows/macOS/Linux con "WGCF" (**nessuna scadenza**) <br>    - Smartphone Android con app "Termux" (**nessuna scadenza**)
 
 ??? info "Sito Config Generator"
-       **Scadenza 90gg**
+       **Nessuna scadenza**
 
-    * [Config Generator](https://lanrat.github.io/wireguard-warp-generator/) 
-    * Premere il pulsante "Generate Warp Config"
-    * Premere il pulsante "**Download warp.conf**"
-    * Il file così creato, ha una durata di 90 giorni trascorsi i quali va rigenerato
-      ![wireguard_config_online](../images/wireguard_config_online.jpg)
+    * [Online Generator](https://warp-generator.vercel.app)<br>
+      (c'è scitto "WARP" ma va bene per Wireguard)
+    * Premere il pulsante "Download Config"
     * N.B.: verificare che il file salvato abbia l'estensione "**.conf**" (se necessario **rinominarlo**)
 
 ??? info "Windows/macOS/Linux con WGCF"
