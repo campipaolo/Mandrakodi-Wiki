@@ -2,8 +2,8 @@
 
 ------
 
-!!! tip "WARP / Amnesia Vpn"
-    Sono richiesti per alcuni link inseriti in Mandrakodi contrassegnati con dicitura  "**WARP**"  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - **Amnezia Vpn** (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+!!! tip "Links WARP""
+    Sono links che richiedono l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - **Amnezia Vpn** (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
