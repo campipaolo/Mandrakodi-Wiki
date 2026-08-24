@@ -18,6 +18,7 @@
 
     **N.B.: qualora app "Dowloader" non funzionasse, usare smartphone/tablet/pc<br>
       Il file scaricato poi si invia a AndroidTv/Firestick seguendo i passaggi della "Fase 3"**<br>
+      
     * [Config Generator](https://warp-generator.vercel.app)<br>
       (c'è scritto "WARP" ma va bene ugualmente)
     * Premere il pulsante "Generate"
@@ -34,6 +35,7 @@
 
     **N.B.: qualora app "Dowloader" non funzionasse, usare smartphone/tablet/pc<br>
       Il file scaricato poi si invia a AndroidTv/Firestick seguendo i passaggi della "Fase 3"**<br>
+      
     * [AndroidTv/Firestick](https://github.com/amnezia-vpn/amneziawg-android/releases/latest): Scaricare "AmneziaWG-x.x.xxxxxxxxx.apk"
 
 ------
@@ -67,6 +69,7 @@
 
 
     **N.B.: chi ha scaricato apk con Downloader, ha già installato l'app, diversamente l'apk è presente nella cartella "Download"**<br> 
+    
     * In "Localsend" sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “**i**” elenca la cronologia dei file ricevuti
     * Cliccare apk Amnezia Vpn 
     * Consentire installazione delle app da Localsend (se richiesto) e installarlo
