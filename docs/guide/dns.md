@@ -190,7 +190,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
 ------
 
 !!! important "DNS su singolo dipositivo"
-    Di seguito guide per impostare i DNS sui **singolo dispositivo** ove router non disponga di opzione per inserirli al suo interno e per connessioni di rete mobile
+    <span id="dnsdispositivo"></span>Di seguito guide per impostare i DNS sui **singolo dispositivo** ove router non disponga di opzione per inserirli al suo interno e per connessioni di rete mobile
 
 ??? info "Android"
     **Smartphone/Tablet**
