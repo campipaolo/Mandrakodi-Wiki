@@ -3,7 +3,7 @@
 ------
 
 !!! warning "Gruppo Telegram: regolamento"
-    **Regolamento del Gruppo** {: #regolamento}
+    **Regolamento del Gruppo** {: #regolamento }
 
     * In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy: qualora poi venissero omessi nel periodo successivo all'entrata, si verrà bannati
     * E' **vietato** chiedere **DOVE** vedere cosa (pena ammonizioni e poi ban) girate l'addon e imparate le varie sezioni
@@ -17,7 +17,7 @@
 
 
 !!! important "Come richiedere assistenza"
-    Informazioni **obbligatorie** per una *corretta richiesta* di assistenza / segnalazione {: #rinfo}
+    Informazioni **obbligatorie** per una *corretta richiesta* di assistenza / segnalazione {: #rinfo }
 
 ??? info "Info obbligatorie per assistenza"
     **Riportare in chat in unico messaggio**
