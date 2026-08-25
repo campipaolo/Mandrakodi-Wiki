@@ -153,7 +153,7 @@
     ```
 
 !!! important "Fase 2 - Installazione addon Mandrakodi"
-    Installare l'addon **Mandrakodi**
+    <span id="mandrakodi"></span>Installare l'addon **Mandrakodi**
 
 ??? info "Mandrakodi"
     **Guida Installazione**
