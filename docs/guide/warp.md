@@ -49,7 +49,7 @@
     * [Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS](https://localsend.org/it/download)
     * Utenti **Firestick**: provare una o più fonti<br>
     [F-Droid](https://f-droid.org/packages/org.localsend.localsend_app/): scaricare apk versione "armeabi-v7a"<br>
-    [Github](https://github.com/localsend/localsend/releases): scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
+    [Github](https://github.com/localsend/localsend/releases/latest): scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare files da inviare
