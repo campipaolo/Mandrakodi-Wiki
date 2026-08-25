@@ -152,8 +152,8 @@
     sudo flatpak install flathub tv.kodi.Kodi
     ```
 
-!!! important "Fase 2 - Installazione addon Mandrakodi"
-    <span id="addon"></span>**Installare l'addon Mandrakodi**
+!!! important "Fase 2 - Installazione addon Mandrakodi"    
+     <span id="addon"></span> **Installare l'addon Mandrakodi**
 
 ??? info "Mandrakodi"
     **Guida Installazione**
