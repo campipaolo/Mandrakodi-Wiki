@@ -17,7 +17,7 @@
 
 
 !!! important "Come richiedere assistenza"
-    Informazioni **obbligatorie** per una *corretta richiesta* di assistenza / segnalazione {: #rinfo }
+    ### Informazioni **obbligatorie** per una *corretta richiesta* di assistenza / segnalazione {#rinfo}
 
 ??? info "Info obbligatorie per assistenza"
     **Riportare in chat in unico messaggio**
