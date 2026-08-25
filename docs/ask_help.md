@@ -17,7 +17,7 @@
 
 
 !!! important "Come richiedere assistenza"
-    ### Informazioni **obbligatorie** per una *corretta richiesta* di assistenza / segnalazione {#rinfo}
+    <span id="info"></span>**Informazioni obbligatorie** per una *corretta richiesta* di assistenza / segnalazione
 
 ??? info "Info obbligatorie per assistenza"
     **Riportare in chat in unico messaggio**
