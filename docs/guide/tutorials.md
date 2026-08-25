@@ -17,5 +17,5 @@
 !!! important "App/Software esterni a Kodi"
     **Tutorials** vari per App/Software necessari ad alcune sezioni di Mandrakodi
 
- [:material-book-open-page-variant: Warp / Wireguard](warp_wireguard.md){ .md-button .md-button--primary }     [:material-book-open-page-variant: Acestream](acestream.md){ .md-button .md-button--primary }
+ [:material-book-open-page-variant: WARP](warp.md){ .md-button .md-button--primary }     [:material-book-open-page-variant: Acestream](acestream.md){ .md-button .md-button--primary }
 
