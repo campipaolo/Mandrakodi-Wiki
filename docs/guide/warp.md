@@ -20,10 +20,9 @@
       Il file scaricato poi si invia a AndroidTv/Firestick seguendo i passaggi della "Fase 3"**<br>
       
     * [Config Generator](https://warp-generator.vercel.app)<br>
-      (c'è scritto "WARP" ma va bene ugualmente)
     * Premere il pulsante "Generate"
     * Premere il pulsante "Download Config"
-    * N.B.: verificare che il file salvato abbia l'estensione "**.conf**" (se necessario **rinominarlo**)
+    * N.B.: verificare che il file salvato abbia l'estensione "**.conf**" (se diversa, **rinominare** l'estensione)
 
 ------
 
