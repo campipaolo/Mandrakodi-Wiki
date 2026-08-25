@@ -2,7 +2,7 @@
 
 ------
 
-!!! tip "Links "WARP""
+!!! tip "WARP"
     I links con dicitura "**WARP**" richiedono l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - **Amnezia Vpn** (AndroidTv/Firestick) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
