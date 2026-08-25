@@ -8,7 +8,7 @@
 ------
 
 !!! important "Players Esterni"
-    A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
+    <span id="players"></span>A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
 
 !!! warning "Installare i vari players esterni"
     I players esterni (es. Ace, Mx Player, Wuffy Player, Ace) vanno **prima** installati sul dispositivo<br> [Mx Player Apk 32bit](https://) / [Mx Player Apk 64bit](https://)<br> [Wuffy Player Apk 32bit](https://) / [Wuffy Player Apk 64bit](https://)<br>[Ace (Guida installazione)](https://campipaolo.github.io/Mandrakodi-Wiki/guide/acestream/)
@@ -36,6 +36,7 @@
     * Dall'elenco selezionare player esterno
 
  
+
 
 
 ------
