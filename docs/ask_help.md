@@ -32,7 +32,7 @@
 ------
 
 !!! important "Invio File Log"
-    Qualora in chat venga richiesto di fornire un "**Log**" seguire le seguenti indicazioni  
+    <span id="log"></span>Qualora in chat venga richiesto di fornire un "**Log**" seguire le seguenti indicazioni  
 
 ??? info "Invio Log"
     **Avviare Kodi**
