@@ -26,7 +26,7 @@
 ??? info "Impostare Players Esterni con Windows"
     **In Windows**
 
-    * Scaricare [playercorefactory - windows.xml](https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/pfc_win.xml) tenere premuto/tasto destro, salvare il files
+    * Scaricare <a href="https://download.acestream.media/products/acestream-full/win/latest" target="_blank">playercorefactory - windows.xml</a> tenere premuto/tasto destro, salvare il files
     * Rinominare il file in "playercorefactory.xml" 
     * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
     * Copiare il file nel percorso “C:/utenti/**tuonomeutente**/appdata/roaming/kodi/userdata”
@@ -36,6 +36,7 @@
     * Dall'elenco selezionare player esterno
 
  
+
 
 
 
