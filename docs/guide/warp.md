@@ -3,53 +3,55 @@
 ------
 
 !!! tip "WARP"
-    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - **Amnezia Vpn** (*AndroidTv/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - **Wireguard** (*AndroidTv/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
 
 ------
 
-!!! important "Fase 1 - creare file configurazione per Amnesia Vpn"
-    Creare file ".conf" (**senza scadenza**) da utilizzare in Amnesia Vpn su AndroidTv/Firestick
+!!! important "Fase 1 - creare file configurazione per Wireguard"
+    Creare file ".conf" **senza scadenza** da utilizzare in Wireguard su AndroidTv/Firestick
 
-??? info "Sito Config Generator"
+??? info "Sito Config Generato e convertitore per Wireguard"
        **Generare file ".conf" senza scadenza**
 
-    **N.B.: qualora app "Dowloader" non funzionasse, usare smartphone/tablet/pc<br>
-      Il file scaricato poi si invia a AndroidTv/Firestick seguendo i passaggi della "Fase 3"**<br>
-      
-    * [Config Generator](https://warp-generator.vercel.app)<br>
-    * Premere il pulsante "Generate"
-    * Premere il pulsante "Download Config"
-    * N.B.: verificare che il file salvato abbia l'estensione "**.conf**" (se diversa, **rinominare** l'estensione)
+    * <a href="https://warp-generator.vercel.app" target="_blank">Config Generator</a>
+    * Premere il pulsante "Generate" per generare la configurazione
+    * Premere il pulsante "Copy" per copiare negli appunti la configurazione
+    * <a href="https://campipaolo.github.io/Mandrakodi-Wiki/guide/converter.html" target="_blank">Convertitore per Wireguard</a>
+    * Nel box di testo "Input" incollare la configurazione
+    * Premere il pulsante "Converti" per generare configurazione nel box di testo "Ouput"
+    * Premere il pulsante "Scarica file" per salvare file ".conf"
+    * N.B.: verificare che il file salvato "wireguard" abbia l'estensione "**.conf**" (se diversa, **rinominare** correggendo)
 
 ------
 
-!!! important "Fase 2 - Amnezia Vpn"
+!!! important "Fase 2 - Wireguard per ANdroidTv/Firestick"
     **Apk per AndroidTv/Firestick** 
 
-??? info "Amnezia Vpn"
+??? info "Wireguard"
     **AndroidTv/Firestick**
 
-    **N.B.: qualora app "Dowloader" non funzionasse, usare smartphone/tablet/pc<br>
-      Il file scaricato poi si invia a AndroidTv/Firestick seguendo i passaggi della "Fase 3"**<br>
-      
-    * [AndroidTv/Firestick](https://github.com/amnezia-vpn/amneziawg-android/releases/latest): Scaricare "AmneziaWG-x.x.xxxxxxxxx.apk"
+    * <a href="https://download.wireguard.com/android-client/" target="_blank">Wireguard</a>
+    * AndroidTv: installare con link "Google Play Sttore"
+    * Firestick: scaricare apk "com.wireguard.android-x.x.xxxxxxxx.apk"
 
 ------
 
 !!! important "Fase 3 - Localsend"
-    **Inviare** a AndroidTv/Firestick file ".conf" e Apk Amnezia Vpn
+    **Inviare** a AndroidTv/Firestick file ".conf" ed eventuale Apk Firestick
 
 ??? info "Localsend"
     **Windows/macOS/Linux/Android/AndroidTv/iOS/Firestick**
 
+    **N.B.: Sito supporta app "Downloader" per scaricare Apk**<br>
+    
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
-    * [Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS](https://localsend.org/it/download)
+    * <a href="https://localsend.org/it/download" target="_blank">Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS</a>
     * Utenti **Firestick**: provare una o più fonti<br>
-    [F-Droid](https://f-droid.org/packages/org.localsend.localsend_app/): scaricare apk versione "armeabi-v7a"<br>
-    [Github](https://github.com/localsend/localsend/releases/latest): scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
+     <a href="https://f-droid.org/packages/org.localsend.localsend_app/"target="_blank">scaricare apk versione "armeabi-v7a"</a><br>
+    [Github](https://github.com/localsend/localsend/releases/latest" target="_blank">scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"</a><br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare files da inviare
@@ -60,33 +62,33 @@
 
 ------
 
-!!! important "Fase 4 - Installare Amnezia Vpn  su  AndroidTv/Firestick"
-    **Installazione** Apk Amnezia Vpn su **AndroidTv/Firestick**
+!!! important "Fase 4 - Installare Wireguard  su  AndroidTv/Firestick"
+    **Installazione** Wireguard Vpn su **AndroidTv/Firestick**
 
-??? info "Amnezia Vpn  per AndroidTv/Firestick"
+??? info "Wireguard  per AndroidTv/Firestick"
     **AndroidTv/Firestick**
 
 
     **N.B.: chi ha scaricato apk con Downloader, ha già installato l'app, diversamente l'apk è presente nella cartella "Download"**<br> 
     
     * In "Localsend" sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “**i**” elenca la cronologia dei file ricevuti
-    * Cliccare apk Amnezia Vpn 
+    * Cliccare apk Wireguard 
     * Consentire installazione delle app da Localsend (se richiesto) e installarlo
-    * Alla prima apertura, Amnezia Vpn potrebbe chiedere il permesso di accedere ai file
+    * Alla prima apertura, Wireguard potrebbe chiedere il permesso di accedere ai file
     * Concedere l'autorizzazione, se non appare richiesta, uscire e rientrare
 
 ------
 
-!!! important " Fase 5 - Configurare Amnezia Vpn"
-    **Impostare** Amnezia Vpn su AndroidTv/Firestick
+!!! important " Fase 5 - Configurare Wireguard"
+    **Impostare** Wireguard su AndroidTv/Firestick
 
-??? info "Amnezia Vpn"
+??? info "Wireguard"
     **AndroidTv/Firestick**
 
 
-    * Aprire Amnezia Vpn, premere il pulsante "+", poi "File with connection settings"
+    * Aprire Wireguard, premere il pulsante "+", poi "Importa da file o archivio"
     * Importare il file ".conf", sarà quindi presente nella schermata principale
-    * Cliccare l'interruttore "Connect" per attivare/disattivare
+    * Cliccare l'interruttore in coorispondenza a destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
     * N.B.: qualora non fosse possibile selezionare il file ".conf" durante l'importazione, installare dallo Store **file manager** come "x-plore " o simili
 
