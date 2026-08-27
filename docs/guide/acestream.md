@@ -16,14 +16,15 @@
 ??? info "Acestream per Windows"
     **Installer per Windows**
 
-    * [Download Windows](https://download.acestream.media/products/acestream-full/win/latest) 
+    * <a href="https://download.acestream.media/products/acestream-full/win/latest" target="_blank">Download Windows</a> 
     * Avviare Acestream
 
 ??? info "AceServe per Android/AndroidTv/Firestick"
     **Installer MOD per Android/AndroidTv/Firestick**
 
-    * [Download Android ARMV8A 64bit](https://www.dropbox.com/scl/fi/sz1kjiwgtnww1bjsmryfn/Aceserve-1.5.5-64bit.apk?rlkey=u8ekpvc4yq14wzvrwburg7jis&st=86575k8p&dl=1)
-    * [Download Android ARMV7A 32bit](https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1)
+    * <a href="https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1" target="_blank">Download Android ARMV7A 32bit</a>
+    
+    * <a href="https://www.dropbox.com/scl/fi/sz1kjiwgtnww1bjsmryfn/Aceserve-1.5.5-64bit.apk?rlkey=u8ekpvc4yq14wzvrwburg7jis&st=86575k8p&dl=1" target="_blank">Download Android ARMV8A 36bit</a>
     * Avviare AceServe una prima volta per dare i permessi
     * Tornare alla home page col tasto dedicato per **lasciarlo aperto in background**
 
