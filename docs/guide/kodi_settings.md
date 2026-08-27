@@ -26,7 +26,7 @@
 ??? info "Impostare Players Esterni con Windows"
     **In Windows**
 
-    * Scaricare <a href="https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/pfc_win.xml" target="_blank">playercorefactory - windows.xml</a>
+    * Scaricare <a href="https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/pfc_win.xml" target="_blank">playercorefactory - windows.xml</a> tasto destro/tenere prenuto sul link e salvare
     * Rinominare il file in "playercorefactory.xml" 
     * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
     * Copiare il file nel percorso “C:/utenti/**tuonomeutente**/appdata/roaming/kodi/userdata”
