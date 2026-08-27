@@ -3,7 +3,7 @@
 ------
 
 !!! tip "WARP"
-    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione <br>    - **Wireguard** (*AndroidTv/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) *[si installa da qui](https://one.one.one.one)*, **non richiede** alcuna configurazione<br>    - **Wireguard** (*AndroidTv/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
@@ -23,7 +23,7 @@
     * Nel box di testo "Input" incollare la configurazione
     * Premere il pulsante "Converti" per generare configurazione nel box di testo "Ouput"
     * Premere il pulsante "Scarica file" per salvare file ".conf"
-    * N.B.: verificare che il file salvato "wireguard" abbia l'estensione "**.conf**" (se diversa, **rinominare** correggendo)
+    * N.B.: verificare che il file "wireguard" salvato abbia l'estensione "**.conf**" (se diversa, **rinominare** correggendo)
 
 ------
 
@@ -34,7 +34,7 @@
     **AndroidTv/Firestick**
 
     * <a href="https://download.wireguard.com/android-client/" target="_blank">Wireguard</a>
-    * AndroidTv: installare con link "Google Play Sttore"
+    * AndroidTv: installare con link "Google Play Store"
     * Firestick: scaricare apk "com.wireguard.android-x.x.xxxxxxxx.apk"
 
 ------
@@ -50,7 +50,7 @@
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
     * <a href="https://localsend.org/it/download" target="_blank">Sito Web</a> Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS<br>
     * Utenti **Firestick**: provare una o più fonti<br>
-      <a href="https://f-droid.org/packages/org.localsend.localsend_app/" target="_blank"> F-Droid</a>scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
+      <a href="https://f-droid.org/packages/org.localsend.localsend_app/" target="_blank"> F-Droid</a> scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
       <a href="https://github.com/localsend/localsend/releases/latest" target="_blank">Github</a> scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
