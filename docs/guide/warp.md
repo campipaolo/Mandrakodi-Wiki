@@ -13,7 +13,7 @@
 !!! important "Fase 1 - creare file configurazione per Wireguard"
     Creare file ".conf" **senza scadenza** da utilizzare in Wireguard su AndroidTv/Firestick
 
-??? info "Sito Config Generato e convertitore per Wireguard"
+??? info "Web Config Generator + Web Convertitore per Wireguard"
        **Generare file ".conf" senza scadenza**
 
     * <a href="https://warp-generator.vercel.app" target="_blank">Config Generator</a>
@@ -27,8 +27,8 @@
 
 ------
 
-!!! important "Fase 2 - Wireguard per ANdroidTv/Firestick"
-    **Apk per AndroidTv/Firestick** 
+!!! important "Fase 2 - Wireguard per AdroidTv/Firestick"
+    Apk per **AndroidTv/Firestick** 
 
 ??? info "Wireguard"
     **AndroidTv/Firestick**
