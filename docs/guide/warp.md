@@ -45,8 +45,6 @@
 ??? info "Localsend"
     **Windows/macOS/Linux/Android/AndroidTv/iOS/Firestick**
 
-    **N.B.: Sito supporta app "Downloader" per scaricare Apk**<br>
-    
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
     * <a href="https://localsend.org/it/download" target="_blank">Sito Web</a> Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS<br>
     * Utenti **Firestick**: provare una o più fonti<br>
@@ -88,7 +86,7 @@
 
     * Aprire Wireguard, premere il pulsante "+", poi "Importa da file o archivio"
     * Importare il file ".conf", sarà quindi presente nella schermata principale
-    * Cliccare l'interruttore in coorispondenza a destra per attivare/disattivare
+    * Cliccare l'interruttore in corrispondenza a destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
     * N.B.: qualora non fosse possibile selezionare il file ".conf" durante l'importazione, installare dallo Store **file manager** come "x-plore " o simili
 
