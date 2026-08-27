@@ -48,10 +48,10 @@
     **N.B.: Sito supporta app "Downloader" per scaricare Apk**<br>
     
     * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
-    * <a href="https://localsend.org/it/download" target="_blank">Sito Web:</a>Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS<br>
+    * <a href="https://localsend.org/it/download" target="_blank">Sito Web</a> Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS<br>
     * Utenti **Firestick**: provare una o più fonti<br>
-      <a href="https://f-droid.org/packages/org.localsend.localsend_app/" target="_blank">XF-Droid</a>scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
-      <a href="https://github.com/localsend/localsend/releases/latest" target="_blank">Github"</a>scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
+      <a href="https://f-droid.org/packages/org.localsend.localsend_app/" target="_blank"> F-Droid</a>scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
+      <a href="https://github.com/localsend/localsend/releases/latest" target="_blank">Github</a> scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare files da inviare
