@@ -3,7 +3,7 @@
 ------
 
 !!! tip "WARP"
-    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** <a href="https://one.one.one.one/" target="_blank">*si installa da qui*</a>, **non richiede** alcuna configurazione<br>    - **Wireguard** (*AndroidTv/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) <a href="https://one.one.one.one/" target="_blank">*si installa da qui*</a>, **non richiede** alcuna configurazione<br>    - **Wireguard** (*AndroidTv/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
@@ -28,7 +28,7 @@
 ------
 
 !!! important "Fase 2 - Wireguard per AdroidTv/Firestick"
-    Play Store / Apk **AndroidTv/Firestick** 
+    Play Store AndroidTv / Apk **Firestick** 
 
 ??? info "Wireguard"
     **AndroidTv/Firestick**
@@ -60,15 +60,13 @@
 
 ------
 
-!!! important "Fase 4 - Installare Wireguard  su  AndroidTv/Firestick"
-    **Installazione** Wireguard Vpn su **AndroidTv/Firestick**
+!!! important "Fase 4 - Installare Wireguard  su  Firestick"
+    **Installazione** Wireguard su **Firestick**
 
-??? info "Wireguard  per AndroidTv/Firestick"
-    **AndroidTv/Firestick**
+??? info "Wireguard  su Firestick"
+    **Firestick**
 
 
-    **N.B.: chi ha scaricato apk con Downloader, ha già installato l'app, diversamente l'apk è presente nella cartella "Download"**<br> 
-    
     * In "**Localsend**" sul dispositivo "**ricevente**" in alto a destra l'icona a fianco alla “**i**” elenca la cronologia dei file ricevuti
     * Cliccare apk Wireguard 
     * Consentire installazione delle app da Localsend (se richiesto) e installarlo

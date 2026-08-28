@@ -23,7 +23,7 @@
 ??? info "Kodi per Android / Android TV"
     **Installer per Android / Android TV**
 
-    * <a href="https://kodi.tv/download/android/" target="_blank">Android/AbdroidTv</a>
+    * <a href="https://kodi.tv/download/android/" target="_blank">Android/AndroidTv</a>
     * Selezionare sezione "**Recommended**"
     * Scaricare Installer ARMV7A 32bit (AndroidTv/Firestick Android 9 - 12)<br>
       Scaricare installer ARMV8A 64bit (Smartphone/Tablet Android 12 - 16)
@@ -144,7 +144,7 @@
 
     Installer Flatpak
     
-    * [Download Linux](https://flathub.org/en/apps/tv.kodi.Kodi)
+    * <a href="https://flathub.org/en/apps/tv.kodi.Kodi" target="_blank">Linux</a>
     * Premere pulsante "Install" o installare dal proprio Store
     * Oppure da terminale digitare:
     
