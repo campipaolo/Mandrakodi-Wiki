@@ -13,4 +13,11 @@
 /* Riduce la dimensione del testo semplice del corpo della pagina */
 .md-typeset {
   font-size: 0.80rem; /* Il default di Material è 0.8rem (~16px). Puoi provarlo a 0.75rem o 0.7rem */
-
+}
+/* Evidenziazione parole cercate */
+mark {
+  background-color: #ffeb3b !important; /* Giallo acceso */
+  color: #000000 !important;             /* Testo nero per alto contrasto */
+  padding: 2px 4px;
+  border-radius: 2px;
+}
