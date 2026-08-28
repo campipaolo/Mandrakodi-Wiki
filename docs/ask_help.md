@@ -24,7 +24,7 @@
     * Dispositivo utilizzato, versione sistema operativo, [versione Kodi](https://campipaolo.github.io/Mandrakodi-Wiki/installazione/install/)
     * Gestore internet (Tim, Wind, Vodafone ecc.) fisso/mobile Wifi/Lan/Hotspot 
     * [Dns utilizzati](https://campipaolo.github.io/Mandrakodi-Wiki/guide/dns/), dove sono stati impostati (Device o Router)
-    * Esito [test dns](https://dnsleaktest.com)<br>
+    * Esito <a href="https://dnsleaktest.com" target="_blank">test dns</a>
       Selezionare "**Extended test**" e attendere, deve segnare ISP con nome dei dns impostati
 
 [:fontawesome-brands-telegram: Entra Nel Gruppo Teelegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
