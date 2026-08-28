@@ -71,7 +71,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Inserire i dns sia in formato **IPV4** che **IPV6** 
     * Salvare i cambiamenti premendo il pulsante “**Applica**” 
     * Riavviare Vodafine Station 
-    * Eseguire [test dns](https://dnsleaktest.com)
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 
@@ -92,7 +92,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Selezionare scheda DNS IPv6 
     * Spuntare la voce "**Forza l’uso di server DNS IPv6 personalizzati**" 
     * Inserire dns primario e secondario in formato **IPV6** 
-    * Eseguire [test dns](https://dnsleaktest.com)
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 
@@ -108,7 +108,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Salvare le modifiche 
     * Sui vari dispositivi ricreare connessione alla rete Fastweb in modalità avanzata 
     * Sui vari dispositivi impostare manualmente i Dns 
-    * Eseguire [test dns](https://dnsleaktest.com)
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 
@@ -124,7 +124,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Nella sezione “ISP DNS” premere “**Off**” 
     * Inserire i  Dns in formato **IPV4** 
     * Salvare le modifiche
-    * Eseguire [test dns](https://dnsleaktest.com)
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 
@@ -142,7 +142,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Scorrere le impostazioni fino alla sezione “Valori DNS” impostare DNS su “**DNS statico**” 
     * nserire i dns in formato **IPV4**
     * Salvare la configurazione cliccando sul tasto “Applica” 
-    * Eseguire [test dns](https://dnsleaktest.com)
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 
@@ -205,7 +205,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario
     * Inserire i dns in formato **IPV4**
     * Salvare le impostazioni 
-    * Eseguire [test dns](https://dnsleaktest.com)
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 ??? info "AndroidTv"
@@ -220,7 +220,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Nelle sezioni “DNS 1” e “DNS 2” inserire Dns primario e secondario
     * Inserire i dns in formato **IPV4**
     * Salvare le impostazioni 
-    * Eseguire [test dns](https://dnsleaktest.com)
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 ??? info "Firestick"
@@ -238,7 +238,7 @@ Basta cambiare server DNS, impostandone uno che non oscura.
     * Per il “Gateway” predefinito, inserire ip del proprio router (es. 192.168.1.1)
     *  Inserire '24' per 'Lunghezza prefisso di rete' e fare clic su 'Avanti'
     * Inserire i dns in formato **IPV4**
-    * Eseguire [test dns](https://dnsleaktest.com)
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 
