@@ -90,3 +90,26 @@
     * Al primo avvio verrà chiesta conferma di attivazione
     * N.B.: qualora non fosse possibile selezionare il file ".conf" durante l'importazione, installare dallo Store **file manager** come "x-plore " o simili
 
+------
+
+!!! important " EXTRA - WG Tunnel (sempre con file ".conf")"
+    Installare **alternativa** "WG Tunnel" su Windows/Linux/Android/AndroidTv/Firestick
+
+??? info "WG Tunnel"
+    **Windows/Linux/Android/AndroidTv/Firestick**
+
+
+    * Installare WG Tunnel
+    * AndroidTv/Firestick 32bit <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">wgtunnel-standalone-vx.x.x-armv7.apk</a>
+    * Smartphone/Tablet 64bit <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">wgtunnel-standalone-vx.x.x-armv64.apk</a>
+    * Windows 64bit <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">wgtunnel-x.x.x.x64.msix</a>
+    * Linux 64bit <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">wgtunnel_1.0.2_amd64.deb</a>
+    * Avviare WG Tunnel
+    * Alla prima apertura, WG Tunnel potrebbe chiedere il permesso di accedere ai file
+    * Aperto WG Tunnel, premere il pulsante "**+**" e selezionare l'opzione "**importa da file**
+    * Importato il file ".conf", sarà presente nella schermata principale 
+    * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare 
+    * Al primo avvio verrà chiesta conferma di attivazione 
+
+------
+
