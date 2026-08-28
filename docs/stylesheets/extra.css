@@ -14,18 +14,21 @@
 .md-typeset {
   font-size: 0.80rem; /* Il default di Material è 0.8rem (~16px). Puoi provarlo a 0.75rem o 0.7rem */
 }
-/* Evidenziazione per la modalità chiara e scura */
-mark,
-[data-md-color-scheme="slate"] mark {
-  background-color: #ffd600 !important; /* Giallo acceso ad alta visibilità */
-  color: #000000 !important;             /* Testo nero per contrasto */
-  padding: 1px 4px;
-  border-radius: 3px;
-  font-weight: 500;
+/* Sovrascrive le variabili CSS globali di MkDocs per l'evidenziazione */
+:root,
+[data-md-color-scheme="slate"] {
+  --md-typeset-mark-color: #ffd600 !important; /* Giallo acceso */
 }
 
-/* Evidenziazione specifica per i risultati di ricerca in Dark Mode */
-[data-md-color-scheme="slate"] .md-typeset mark {
-  background-color: #ffd600 !important;
-  color: #000000 !important;
+/* Forzatura diretta su tutti gli elementi mark, inclusi quelli della ricerca in Dark Mode */
+mark,
+.md-typeset mark,
+.md-search-result__teaser mark,
+[data-md-color-scheme="slate"] mark,
+[data-md-color-scheme="slate"] .md-typeset mark,
+[data-md-color-scheme="slate"] .md-search-result__teaser mark {
+  background-color: #ffd600 !important; /* Sfondo Giallo */
+  color: #000000 !important;             /* Testo Nero leggibile */
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
 }
