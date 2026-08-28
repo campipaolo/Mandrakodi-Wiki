@@ -20,6 +20,8 @@ theme:
         name: Passa al tema scuro
   features:
     - navigation.tabs
+    - search.highlight
+    - search.suggest
 
 nav:
   - Home: index.md
