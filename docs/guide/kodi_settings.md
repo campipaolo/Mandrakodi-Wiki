@@ -27,8 +27,8 @@
     **In Windows**
 
     * Scaricare <a href="https://raw.githubusercontent.com/mandrakodi/mandrakodi.github.io/main/pfc_win.xml" target="_blank">playercorefactory - windows.xml</a> tasto destro/tenere prenuto sul link e salvare
-    * Rinominare il file in "playercorefactory.xml" 
-    * Con esplora file abilitare la visualizzazione di file e cartelle nascoste
+    * **Rinominare** il file in "playercorefactory.xml" 
+    * Con esplora file **abilitare** la visualizzazione di file e cartelle nascoste
     * Copiare il file nel percorso “C:/utenti/**tuonomeutente**/appdata/roaming/kodi/userdata”
     * Entrare in Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
@@ -36,6 +36,7 @@
     * Dall'elenco selezionare player esterno
 
  
+
 
 
 
@@ -48,8 +49,8 @@
 ??? info "Impostazioni Flussi MPD"
     **Avviare Kodi**
 
-    * Impostazioni, "Addon", "I miei addon" "Lettore Video Inputstream", Inputstream Adaptive" 
-    * "Lettore Video Inputstream", Inputstream Adaptive", "Configura"
+    * Impostazioni, "Addon", "I miei addon" "**Lettore Video Inputstream**", Inputstream Adaptive" 
+    * "Lettore Video Inputstream", Inputstream Adaptive", "**Configura**"
     * Tipo selezione del flusso: "**OSD manuale**"
     * Risoluzione massima:  "1080p"
     * Risoluzione minima:  "720p"
@@ -82,7 +83,7 @@
 ??? info "Impostazioni Buffer/Cache"
     **Avviare Kodi**
 
-    * Impostazioni, "Servizi"
+    * Impostazioni, "**Servizi**"
     * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
     * Sulla sinistra compare il menu "**Cache**"
     * Modalità Buffer: selezionare "Buffer di tutti i file system internet"
