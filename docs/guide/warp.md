@@ -103,7 +103,7 @@
     * AndroidTv/Firestick 32bit <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">wgtunnel-standalone-vx.x.x-armv7.apk</a>
     * Smartphone/Tablet 64bit <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">wgtunnel-standalone-vx.x.x-armv64.apk</a>
     * Windows 64bit <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">wgtunnel-x.x.x.x64.msix</a>
-    * Linux 64bit <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">wgtunnel_1.0.2_amd64.deb</a>
+    * Linux 64bit <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">wgtunnel_x.x.x_amd64.deb</a>
     * Avviare WG Tunnel
     * Alla prima apertura, WG Tunnel potrebbe chiedere il permesso di accedere ai file
     * Aperto WG Tunnel, premere il pulsante "**+**" e selezionare l'opzione "**importa da file**
