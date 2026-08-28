@@ -41,6 +41,7 @@
 
 
 
+
 ------
 
 !!! important "Flussi MPD"
@@ -63,7 +64,7 @@
 
 !!! important "Flussi DaddyLive"
     I canali **DaddyLive**, utilizzano il plugin **inputstream.ffmpegdirect**.
-    Questo plugin, di default, utilizza la funzione **TimeShift** per permettere il **riavvolgimento** della live. <br>  Per farlo, salva dei file nella cartella di Kodi che vengono cancellati quando si ferma il video. <br>  Su device con poca memoria (esempio la FireStick), può creare problemi. 
+    Questo plugin, di default, utilizza la funzione **TimeShift** per permettere il **riavvolgimento** della live<br>  Per farlo, salva dei file nella cartella di Kodi che vengono cancellati quando si ferma il video. <br>  Su device con poca memoria (esempio la FireStick), può creare problemi 
 
 ??? info "Impostazioni Flussi DaddyLive"
     **Avviare Kodi**
@@ -93,7 +94,7 @@
 
 
 !!! warning "Attenzione"
-    Si ricorda che, in ogni caso, **quando il server della fonte è sovraccarico il buffering persiste comunque**.
+    Si ricorda che, in ogni caso, **quando il server della fonte è sovraccarico il buffering persiste comunque**
 
 
 

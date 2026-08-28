@@ -3,7 +3,7 @@
 ------
 
 !!! warning "Gruppo Telegram: regolamento"
-    **Regolamento del Gruppo** {: #regolamento }
+    <span id="regole"></span>**Regolamento del Gruppo**
 
     * In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy: qualora poi venissero omessi nel periodo successivo all'entrata, *si verrà bannati*
     * E' **vietato** *chiedere* **DOVE** vedere cosa (*pena ammonizioni e poi ban*) girate l'addon e imparate le varie sezioni
@@ -12,7 +12,7 @@
     * **Non contattare in privato gli Admin** qualora il gruppo risulti chiuso in sola lettura (*si verrà bannati*)
 
 !!! tip "Gruppo Telegram: richiedere assistenza"
-     Prima di scrivere nel gruppo, leggere tutta la sezione [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione [**FAQ**](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/). <br> Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto.<br> **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e *chi persevera verrà prima *ammonito* e poi bannato*.
+     Prima di scrivere nel gruppo, leggere tutta la sezione [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione [**FAQ**](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/). <br> Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto.<br> **NB:** Qualunque messaggio che non contenga queste informazioni, sarà **eliminato** e *chi persevera verrà prima *ammonito* e poi bannato*
 
 !!! important "Come richiedere assistenza"
     <span id="info"></span>**Informazioni obbligatorie** per una *corretta richiesta* di assistenza / segnalazione
