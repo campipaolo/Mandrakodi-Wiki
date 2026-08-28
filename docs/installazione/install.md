@@ -16,22 +16,22 @@
 ??? info "Kodi per Windows"
     **Installer per Windows**
 
-    * [Download Windows](https://kodi.tv/download/windows/) 
+    * <a href="https://kodi.tv/download/windows/" target="_blank">Windows</a> 
     * Selezionare sezione "**Recommended**"
     * Scaricare Installer 32bit o 64bit (**NON** Windows Store)
 
 ??? info "Kodi per Android / Android TV"
     **Installer per Android / Android TV**
 
-    * [Download Android/AndroidTv](https://kodi.tv/download/android/)
+    * <a href="https://kodi.tv/download/android/" target="_blank">Android/AbdroidTv</a>
     * Selezionare sezione "**Recommended**"
-    * Scaricare Installer ARMV7A 32bit (Tv/Chiavetta/Box/Firestick con Android fino alla v12)<br>
-      Scaricare installer ARMV8A 64bit (Smartphone/Tablet e altri dispositivi con Android dalla v14 in poi)
+    * Scaricare Installer ARMV7A 32bit (AndroidTv/Firestick Android 9 - 12)<br>
+      Scaricare installer ARMV8A 64bit (Smartphone/Tablet Android 12 - 16)
 
 ??? info "Kodi per macOS"
     **Installer per macOS**
 
-    * [Download macOS](https://kodi.tv/download/macos/)
+    * <a href="https://kodi.tv/download/macos/" target="_blank">macOS</a>
     * Selezionare sezione "**Recommended**"
     * Scaricare Installer Intel (x86_64) o ARM64
 
