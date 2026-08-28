@@ -17,25 +17,25 @@
        **Generare file ".conf" senza scadenza**
 
     * <a href="https://warp-generator.vercel.app" target="_blank">Config Generator</a>
-    * Premere il pulsante "Generate" per generare la configurazione
-    * Premere il pulsante "Copy" per copiare negli appunti la configurazione
+    * Premere il pulsante "**Generate**" per generare la configurazione
+    * Premere il pulsante "**Copy**" per copiare negli appunti la configurazione
     * <a href="https://campipaolo.github.io/Mandrakodi-Wiki/guide/converter.html" target="_blank">Convertitore per Wireguard</a>
-    * Nel box di testo "Input" incollare la configurazione
-    * Premere il pulsante "Converti" per generare configurazione nel box di testo "Ouput"
-    * Premere il pulsante "Scarica file" per salvare file ".conf"
+    * Nel box di testo "Input" **incollare** la configurazione
+    * Premere il pulsante "**Converti**" per generare configurazione nel box di testo "Ouput"
+    * Premere il pulsante "**Scarica file**" per salvare file ".conf"
     * N.B.: verificare che il file "wireguard" salvato abbia l'estensione "**.conf**" (se diversa, **rinominare** correggendo)
 
 ------
 
 !!! important "Fase 2 - Wireguard per AdroidTv/Firestick"
-    Apk per **AndroidTv/Firestick** 
+    Play Store / Apk **AndroidTv/Firestick** 
 
 ??? info "Wireguard"
     **AndroidTv/Firestick**
 
     * <a href="https://download.wireguard.com/android-client/" target="_blank">Wireguard</a>
-    * AndroidTv: installare con link "Google Play Store"
-    * Firestick: scaricare apk "com.wireguard.android-x.x.xxxxxxxx.apk"
+    * **AndroidTv**: installare con link "Google Play Store"
+    * **Firestick**: scaricare apk "com.wireguard.android-x.x.xxxxxxxx.apk"
 
 ------
 
@@ -45,7 +45,7 @@
 ??? info "Localsend"
     **Windows/macOS/Linux/Android/AndroidTv/iOS/Firestick**
 
-    * Installare "Localsend" su entrambi i dispositivi "mittente" e "ricevente"
+    * Installare "Localsend" su **entrambi** i dispositivi "mittente" e "ricevente"
     * <a href="https://localsend.org/it/download" target="_blank">Sito Web</a> Loalsend Windows/macOS/Linux/Android/AndroidTv/iOS<br>
     * Utenti **Firestick**: provare una o più fonti<br>
       <a href="https://f-droid.org/packages/org.localsend.localsend_app/" target="_blank"> F-Droid</a> scaricare apk "LocalSend-x.xx.x-android-arm32v7.apk"<br>
@@ -69,7 +69,7 @@
 
     **N.B.: chi ha scaricato apk con Downloader, ha già installato l'app, diversamente l'apk è presente nella cartella "Download"**<br> 
     
-    * In "Localsend" sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “**i**” elenca la cronologia dei file ricevuti
+    * In "**Localsend**" sul dispositivo "**ricevente**" in alto a destra l'icona a fianco alla “**i**” elenca la cronologia dei file ricevuti
     * Cliccare apk Wireguard 
     * Consentire installazione delle app da Localsend (se richiesto) e installarlo
     * Alla prima apertura, Wireguard potrebbe chiedere il permesso di accedere ai file
@@ -84,9 +84,9 @@
     **AndroidTv/Firestick**
 
 
-    * Aprire Wireguard, premere il pulsante "+", poi "Importa da file o archivio"
+    * Aprire Wireguard, premere il pulsante "**+**", poi "**Importa da file o archivio**"
     * Importare il file ".conf", sarà quindi presente nella schermata principale
-    * Cliccare l'interruttore in corrispondenza a destra per attivare/disattivare
+    * Cliccare l'**interruttore** in corrispondenza a destra per attivare/disattivare
     * Al primo avvio verrà chiesta conferma di attivazione
     * N.B.: qualora non fosse possibile selezionare il file ".conf" durante l'importazione, installare dallo Store **file manager** come "x-plore " o simili
 
