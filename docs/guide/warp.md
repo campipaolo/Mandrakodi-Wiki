@@ -3,7 +3,7 @@
 ------
 
 !!! tip "WARP"
-    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (Windows/macOS/Linux/Android/iOS) <a href="https://one.one.one.one/" target="_blank">*si installa da qui*</a>, **non richiede** alcuna configurazione<br>    - **Wireguard** (*AndroidTv/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (*Windows/macOS/Linux/Android/iOS*) <a href="https://one.one.one.one/" target="_blank">*si installa da qui*</a>, **non richiede** alcuna configurazione<br>    - **Wireguard** (*AndroidTv/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
@@ -27,7 +27,7 @@
 
 ------
 
-!!! important "Fase 2 - Wireguard per AdroidTv/Firestick"
+!!! important "Fase 2 - Wireguard per AndroidTv/Firestick"
     Play Store AndroidTv / Apk **Firestick** 
 
 ??? info "Wireguard"
@@ -98,10 +98,10 @@
 
 
     * Installare WG Tunnel
-    * AndroidTv/Firestick 32bit <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">wgtunnel-standalone-vx.x.x-armv7.apk</a>
-    * Smartphone/Tablet 64bit <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">wgtunnel-standalone-vx.x.x-armv64.apk</a>
-    * Windows 64bit <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">wgtunnel-x.x.x.x64.msix</a>
-    * Linux 64bit <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">wgtunnel_x.x.x_amd64.deb</a>
+    * wgtunnel-standalone-vx.x.x-armv7.apk <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">AndroidTv/Firestick 32bit</a>
+    * wgtunnel-standalone-vx.x.x-armv64.apk <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">Smartphone/Tablet 64bit</a>
+    * wgtunnel-x.x.x.x64.msix <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Windows 64bit</a></a>
+    * wgtunnel_x.x.x_amd64.deb <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Linux 64bit</a>
     * Avviare WG Tunnel
     * Alla prima apertura, WG Tunnel potrebbe chiedere il permesso di accedere ai file
     * Aperto WG Tunnel, premere il pulsante "**+**" e selezionare l'opzione "**importa da file**
