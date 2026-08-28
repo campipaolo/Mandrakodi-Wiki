@@ -176,8 +176,9 @@ Basta cambiare server DNS, impostandone uno che non oscura
 ??? info "Aruba"
     **Aruba  FTTH**
 
-    * Dns non si possono inserire né sul router dell’operatore né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile richiedere **IP Pubblico Dinamico** con una tantum €10
+    * Richiedere **IP Pubblico Dinamico** con una tantum €10
+    * Disattivare IPv6 dal modem e lasciare solo ipv4
+    * Impostare i dns sul router
 
 
 
