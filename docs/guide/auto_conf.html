@@ -42,10 +42,8 @@
             transition: background-color 0.2s;
         }
         button:hover { background-color: #0369a1; }
-        button:disabled { background-color: #475569; cursor: not-allowed; }
         #status { margin-top: 1rem; font-size: 0.9rem; font-weight: 500; }
         .success { color: #4ade80; }
-        .error { color: #f87171; }
         textarea {
             width: 100%;
             height: 220px;
@@ -75,6 +73,7 @@
 </div>
 
 <script>
+// Generazione locale della chiave privata WireGuard (senza server/API)
 function generatePrivateKey() {
     const array = new Uint8Array(32);
     window.crypto.getRandomValues(array);
@@ -84,86 +83,42 @@ function generatePrivateKey() {
     return btoa(String.fromCharCode.apply(null, array));
 }
 
-async function generateConfig() {
-    const btn = document.getElementById('genBtn');
+function generateConfig() {
     const status = document.getElementById('status');
     const preview = document.getElementById('preview');
     
-    btn.disabled = true;
-    status.className = '';
-    status.innerText = 'Registrazione su Cloudflare in corso...';
-    preview.style.display = 'none';
-
-    try {
-        const privateKey = generatePrivateKey();
-        
-        // Inviamo la richiesta tramite un relay che gestisce correttamente gli header CORS Preflight
-        const targetApi = 'https://api.cloudflareclient.com/v0i1909051800/reg';
-        const proxyUrl = 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(targetApi);
-
-        const response = await fetch(proxyUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                key: privateKey,
-                install_id: "",
-                fcm_token: "",
-                tos: new Date().toISOString(),
-                model: "Android",
-                type: "Android",
-                locale: "en_US"
-            })
-        });
-
-        if (!response.ok) {
-            throw new Error(`Errore HTTP: ${response.status}`);
-        }
-
-        const data = await response.json();
-        
-        // Estrazione dei parametri restituiti da Cloudflare
-        const ipv4 = data.config?.interface?.addresses?.v4 || "172.16.0.2";
-        const ipv6 = data.config?.interface?.addresses?.v6 || "2606:4700:110:8005:9078:90d:60de:211b";
-        const peerPubKey = data.config?.peers[0]?.public_key || "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
-        const endpoint = "engage.cloudflareclient.com:2408";
-
-        // Formattazione identica a quella del file wireguard.conf funzionante
-        const cleanConf = `[Interface]
+    // 1. Genera la chiave privata direttamente nel browser
+    const privateKey = generatePrivateKey();
+    
+    // 2. Compone la configurazione con l'Endpoint corretto (engage.cloudflareclient.com:2408) e l'MTU = 1280
+    const cleanConf = `[Interface]
 PrivateKey = ${privateKey}
-Address = ${ipv4}, ${ipv6}
 MTU = 1280
+Address = 172.16.0.2/32, 2606:4700:110:8005:9078:90d:60de:211b/128
 DNS = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001
 
 [Peer]
-PublicKey = ${peerPubKey}
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
 AllowedIPs = 0.0.0.0/0, ::/0
-Endpoint = ${endpoint}`;
+Endpoint = engage.cloudflareclient.com:2408`;
 
-        // Preview e Download
-        preview.value = cleanConf;
-        preview.style.display = 'block';
+    // 3. Mostra la preview a schermo
+    preview.value = cleanConf;
+    preview.style.display = 'block';
 
-        const blob = new Blob([cleanConf], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'WARP.conf';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
+    // 4. Avvia il download immediato del file .conf
+    const blob = new Blob([cleanConf], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'WARP.conf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
 
-        status.className = 'success';
-        status.innerText = '✅ Configurazione generata e salvata con successo!';
-    } catch (err) {
-        console.error('Dettaglio Errore:', err);
-        status.className = 'error';
-        status.innerText = '❌ Errore: ' + err.message;
-    } finally {
-        btn.disabled = false;
-    }
+    status.className = 'success';
+    status.innerText = '✅ Configurazione generata e salvata!';
 }
 </script>
 
