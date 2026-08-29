@@ -153,7 +153,7 @@ Basta cambiare server DNS, impostandone uno che non oscura
     * N.B.: necessario richiedere **IP Pubblico Dinamico** con una tantum €10 
     * Con un browser (Chrome, Firefox, ecc.) da un dispositivo connesso al Router 
     * Digitare nella barra degli indirizzi: 192.168.1.1 
-    * fare login come utente "admin", password è tutta la stringa dopo la voce "D-SN" compreso di "@aruba" (in minuscolo) riportata sul retro del router
+    * fare login come utente "admin",  tutta la stringa dopo la voce "D-SN", dopo l'ultimo carattere della stringa, scrivere "@aruba" (in minuscolo) riportata sul retro del router
     * Gestione e diagnosi, **Ipv6 Switch**
     * **abilitazione IPv6**: off 
     * Rete locale, LAN, **IPv4**, Server DHCP
