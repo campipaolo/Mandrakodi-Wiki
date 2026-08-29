@@ -61,7 +61,7 @@ Basta cambiare server DNS, impostandone uno che non oscura
 
     * Con un browser (Chrome, Firefox, ecc.) da un dispositivo connesso alla Station 
     * Digitare nella barra degli indirizzi: http://vodafone.station/ 
-    * Inserire le credenziali di accesso. 
+    * Inserire le credenziali di accesso 
       Se non sono state cambiate, si trovano sull'etichetta posta sotto / lato della Station 
     * Nell'angolo in alto a destra un menu a tendina,  o un pulsante che mostri la modalità  attuale (es. "Modalità base"), selezionare “**Modalità Utente Esperto**” 
     * Nel menu a sinistra o in alto, cliccare su "Internet" 
@@ -147,6 +147,25 @@ Basta cambiare server DNS, impostandone uno che non oscura
 
 
 
+??? info "Aruba"
+    **Aruba  FTTH**
+
+    * N.B.: necessario richiedere **IP Pubblico Dinamico** con una tantum €10 
+    * Con un browser (Chrome, Firefox, ecc.) da un dispositivo connesso al Router 
+    * Digitare nella barra degli indirizzi: 192.168.1.1 
+    * fare login come utente "admin", password è tutta la stringa dopo la voce "D-SN" compreso di "@aruba" (in minuscolo) riportata sul retro del router
+    * Gestione e diagnosi, **Ipv6 Switch**
+    * **abilitazione IPv6**: off 
+    * Rete locale, LAN, **IPv4**, Server DHCP
+    * Server DHCP: ON
+    * ISP dns: OFF 
+    * DNS Primario: inserire DNS primario in formato **Ipv4** 
+    * DNS Secondario: inserire DNS primario in formato **Ipv4** 
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
+    * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+
+
+
 ??? info "Tim"
     **Tim FTTC e FTTH**
 
@@ -169,16 +188,6 @@ Basta cambiare server DNS, impostandone uno che non oscura
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
     * E' possibile solo con **router di proprietà** *in cascata* o richiedendo **IP Pubblico Statico** a €4,90 al mese
-
-
-
-
-??? info "Aruba"
-    **Aruba  FTTH**
-
-    * Richiedere **IP Pubblico Dinamico** con una tantum €10
-    * Disattivare IPv6 dal modem e lasciare solo ipv4
-    * Impostare i dns sul router
 
 
 
