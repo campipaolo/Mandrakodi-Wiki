@@ -185,8 +185,9 @@ Basta cambiare server DNS, impostandone uno che non oscura
 ??? info "Edison"
     **Edison  FTTC e FTTH**
 
-    * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile solo con **router di proprietà**
+    * Dns non si possono inserire né sul router dell’operatore né sul singolo dispositivo poiché non vengono comunque accettati, è possibile solo:
+    * Solo Router di proprietà (rifare i passaggi di attivazione seguendo link inviato via mail al momento dell'attivazione linea)
+    * Router di proprietà in cascata a quello dell'operatore (dns da inserire su quello di proprietà)
 
 ------
 

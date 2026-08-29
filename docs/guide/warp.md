@@ -14,7 +14,7 @@
     Creare file ".conf" **senza scadenza** da utilizzare in Wireguard su AndroidTv/Firestick
 
 ??? info "Web Config Generator + Web Convertitore per Wireguard"
-       **Generare file ".conf" senza scadenza**
+       **Generare file ".conf" senza scadenza** (non usare app Dowmloader)
 
     * <a href="https://warp-generator.vercel.app" target="_blank">Config Generator</a>
     * Premere il pulsante "**Generate**" per generare la configurazione
