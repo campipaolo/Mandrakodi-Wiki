@@ -48,7 +48,7 @@
         .error { color: #f87171; }
         textarea {
             width: 100%;
-            height: 200px;
+            height: 220px;
             margin-top: 1rem;
             background-color: #0f172a;
             color: #38bdf8;
@@ -75,7 +75,7 @@
 </div>
 
 <script>
-// Generazione di chiavi random compatibili con WireGuard
+// Generazione di chiavi trasparenti Curve25519 per WireGuard
 function generatePrivateKey() {
     const array = new Uint8Array(32);
     window.crypto.getRandomValues(array);
@@ -92,56 +92,59 @@ async function generateConfig() {
     
     btn.disabled = true;
     status.className = '';
-    status.innerText = 'Generazione chiavi e configurazione...';
+    status.innerText = 'Registrazione su Cloudflare in corso...';
     preview.style.display = 'none';
 
     try {
         const privateKey = generatePrivateKey();
         
-        // Struttura backend per la registrazione diretta
-        const payload = {
-            key: privateKey,
-            install_id: "",
-            fcm_token: "",
-            tos: new Date().toISOString(),
-            model: "PC",
-            type: "Android",
-            locale: "en_US"
-        };
-
-        // Utilizzo del servizio serverless Vercel dedicato all'autenticazione WARP
-        const response = await fetch('https://warp-generator.vercel.app/api/reg', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload)
-        }).catch(() => null);
-
-        let ipv4 = "10.0.0.2", ipv6 = "fd01:5ca1:ab1e:8000::2";
+        // Chiamata all'API di registrazione Cloudflare tramite proxy CORS dedicato
+        const apiUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://api.cloudflareclient.com/v0i1909051800/reg');
         
-        if (response && response.ok) {
-            const data = await response.json();
-            if (data.config) {
-                ipv4 = data.config.interface.addresses.v4;
-                ipv6 = data.config.interface.addresses.v6;
-            }
-        }
+        const response = await fetch('https://corsproxy.io/?' + encodeURIComponent('https://api.cloudflareclient.com/v0i1909051800/reg'), {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'User-Agent': 'okhttp/3.12.1'
+            },
+            body: JSON.stringify({
+                install_id: "",
+                tos: new Date().toISOString(),
+                key: privateKey,
+                type: "Android",
+                locale: "en_US"
+            })
+        });
 
-        // Formattazione pulita in formato WireGuard (.conf)
+        if (!response.ok) throw new Error('Errore risposta da Cloudflare');
+
+        const data = await response.json();
+        
+        // Estrazione degli IP reali assegnati da Cloudflare
+        const ipv4 = data.config.interface.addresses.v4;
+        const ipv6 = data.config.interface.addresses.v6;
+        const peerPubKey = data.config.peers[0].public_key || "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
+        
+        // Impostiamo l'endpoint corretto "engage.cloudflareclient.com:2408"
+        const endpoint = "engage.cloudflareclient.com:2408";
+
+        // Composizione della configurazione perfettamente conforme
         const cleanConf = `[Interface]
 PrivateKey = ${privateKey}
-Address = ${ipv4}/32, ${ipv6}/128
-DNS = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1111
+Address = ${ipv4}, ${ipv6}
+MTU = 1280
+DNS = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001
 
 [Peer]
-PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+PublicKey = ${peerPubKey}
 AllowedIPs = 0.0.0.0/0, ::/0
-Endpoint = 162.159.192.1:2408`;
+Endpoint = ${endpoint}`;
 
-        // Visualizzazione preview
+        // Mostra preview
         preview.value = cleanConf;
         preview.style.display = 'block';
 
-        // Download automatico del file .conf
+        // Download del file .conf
         const blob = new Blob([cleanConf], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -153,11 +156,11 @@ Endpoint = 162.159.192.1:2408`;
         URL.revokeObjectURL(url);
 
         status.className = 'success';
-        status.innerText = '✅ Configurazione generata e file WARP.conf scaricato!';
+        status.innerText = '✅ Configurazione generata e salvata!';
     } catch (err) {
         console.error(err);
         status.className = 'error';
-        status.innerText = '❌ Impossibile generare il file. Verifica la connessione.';
+        status.innerText = '❌ Errore di generazione. Riprova tra pochi secondi.';
     } finally {
         btn.disabled = false;
     }
