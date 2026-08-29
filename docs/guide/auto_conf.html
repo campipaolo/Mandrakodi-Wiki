@@ -86,30 +86,34 @@ async function generateAndDownload() {
     preview.style.display = 'none';
 
     try {
-        // Generazione della chiave privata e pubblica WireGuard locale via Web Crypto API
-        const keyPair = await window.crypto.subtle.generateKey(
-            { name: "X25519" },
-            true,
-            ["deriveKey", "deriveBits"]
-        );
-        
-        // Per compatibilità immediata senza librerie esterne complesse, richiamiamo le API di supporto Cloudflare
-        const regResponse = await fetch('https://api.cloudflareclient.com/v0i1909051800/reg', {
+        // Uso del proxy CORS pubblico per aggirare il blocco browser verso le API Cloudflare
+        const proxyUrl = 'https://corsproxy.io/?';
+        const targetUrl = 'https://api.cloudflareclient.com/v0i1909051800/reg';
+
+        const regResponse = await fetch(proxyUrl + encodeURIComponent(targetUrl), {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ install_id: "", tos: new Date().toISOString() })
+            headers: { 
+                'Content-Type': 'application/json',
+                'User-Agent': 'okhttp/3.12.1'
+            },
+            body: JSON.stringify({ 
+                install_id: "", 
+                tos: new Date().toISOString(),
+                type: "Android",
+                locale: "en_US"
+            })
         });
 
-        if (!regResponse.ok) throw new Error('Errore durante la comunicazione con Cloudflare');
+        if (!regResponse.ok) throw new Error('Risposta API non valida');
 
         const data = await regResponse.json();
         
-        // Estrazione e pulizia dati (Formattazione WireGuard)
-        const privKey = data.config.interface.addresses.private_key || "<Inserisci_La_Tua_PrivateKey>";
+        // Estrazione e pulizia dati stile Mandrakodi (WireGuard)
+        const privKey = data.config.interface.addresses.private_key || "<Inserisci_PrivateKey_Manualmente>";
         const ipv4 = data.config.interface.addresses.v4;
         const ipv6 = data.config.interface.addresses.v6;
-        const pubKey = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="; // Cloudflare WARP Public Key
-        const endpoint = "162.159.192.1:2408";
+        const pubKey = data.config.peers[0].public_key || "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
+        const endpoint = data.config.peers[0].endpoint.host || "162.159.192.1:2408";
 
         const cleanConf = `[Interface]
 PrivateKey = ${privKey}
@@ -121,11 +125,11 @@ PublicKey = ${pubKey}
 AllowedIPs = 0.0.0.0/0, ::/0
 Endpoint = ${endpoint}`;
 
-        // Mostra la preview del testo pulito
+        // Mostra la preview del file pulito
         preview.value = cleanConf;
         preview.style.display = 'block';
 
-        // Download automatico del file .conf
+        // Download del file .conf
         const blob = new Blob([cleanConf], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
