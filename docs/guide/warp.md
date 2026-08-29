@@ -3,7 +3,7 @@
 ------
 
 !!! tip "WARP"
-    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (*Pc Windows/macOS/Linux - Smartphone/Tablet Android/iOS*) <a href="https://one.one.one.one/" target="_blank">*si installa da qui*</a>, **non richiede** alcuna configurazione<br>    - **Wireguard** (*AndroidTv Tv/Box/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
+    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** (*Pc Windows/macOS/Linux - Smartphone & Tablet Android/iOS*) <a href="https://one.one.one.one/" target="_blank">*si installa da qui*</a>, **non richiede** alcuna configurazione<br>    - **Wireguard** (*AndroidTv Tv/Box/Firestick*) una volta installato **necessita** del file ".conf" per funzionare correttamente 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
