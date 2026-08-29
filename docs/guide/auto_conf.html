@@ -75,7 +75,6 @@
 </div>
 
 <script>
-// Generazione di chiavi trasparenti Curve25519 per WireGuard
 function generatePrivateKey() {
     const array = new Uint8Array(32);
     window.crypto.getRandomValues(array);
@@ -92,14 +91,17 @@ async function generateConfig() {
     
     btn.disabled = true;
     status.className = '';
-    status.innerText = 'Generazione ed estrazione parametri in corso...';
+    status.innerText = 'Registrazione su Cloudflare in corso...';
     preview.style.display = 'none';
 
     try {
         const privateKey = generatePrivateKey();
         
-        // Registrazione tramite l'API backend nativa di Vercel senza proxy esterni intermedi
-        const response = await fetch('https://warp-generator.vercel.app/api/reg', {
+        // Inviamo la richiesta tramite un relay che gestisce correttamente gli header CORS Preflight
+        const targetApi = 'https://api.cloudflareclient.com/v0i1909051800/reg';
+        const proxyUrl = 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(targetApi);
+
+        const response = await fetch(proxyUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -109,25 +111,25 @@ async function generateConfig() {
                 install_id: "",
                 fcm_token: "",
                 tos: new Date().toISOString(),
-                model: "PC",
+                model: "Android",
                 type: "Android",
                 locale: "en_US"
             })
         });
 
-        if (!response.ok) throw new Error('Errore durante la comunicazione con il server');
+        if (!response.ok) {
+            throw new Error(`Errore HTTP: ${response.status}`);
+        }
 
         const data = await response.json();
         
-        // Estrazione degli IP reali restituiti da Cloudflare
-        const ipv4 = data.result?.config?.interface?.addresses?.v4 || data.config?.interface?.addresses?.v4 || "172.16.0.2";
-        const ipv6 = data.result?.config?.interface?.addresses?.v6 || data.config?.interface?.addresses?.v6 || "2606:4700:110:8005:9078:90d:60de:211b";
-        const peerPubKey = data.result?.config?.peers[0]?.public_key || data.config?.peers[0]?.public_key || "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
-        
-        // Endpoint e parametri identici al file wireguard.conf funzionante
+        // Estrazione dei parametri restituiti da Cloudflare
+        const ipv4 = data.config?.interface?.addresses?.v4 || "172.16.0.2";
+        const ipv6 = data.config?.interface?.addresses?.v6 || "2606:4700:110:8005:9078:90d:60de:211b";
+        const peerPubKey = data.config?.peers[0]?.public_key || "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
         const endpoint = "engage.cloudflareclient.com:2408";
 
-        // Composizione della configurazione WireGuard
+        // Formattazione identica a quella del file wireguard.conf funzionante
         const cleanConf = `[Interface]
 PrivateKey = ${privateKey}
 Address = ${ipv4}, ${ipv6}
@@ -139,11 +141,10 @@ PublicKey = ${peerPubKey}
 AllowedIPs = 0.0.0.0/0, ::/0
 Endpoint = ${endpoint}`;
 
-        // Mostra preview
+        // Preview e Download
         preview.value = cleanConf;
         preview.style.display = 'block';
 
-        // Download del file .conf
         const blob = new Blob([cleanConf], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -157,9 +158,9 @@ Endpoint = ${endpoint}`;
         status.className = 'success';
         status.innerText = '✅ Configurazione generata e salvata con successo!';
     } catch (err) {
-        console.error(err);
+        console.error('Dettaglio Errore:', err);
         status.className = 'error';
-        status.innerText = '❌ Errore durante la registrazione. Riprova.';
+        status.innerText = '❌ Errore: ' + err.message;
     } finally {
         btn.disabled = false;
     }
