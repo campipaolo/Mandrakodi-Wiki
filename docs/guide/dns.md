@@ -155,7 +155,7 @@ Basta cambiare server DNS, impostandone uno che non oscura
     * Digitare nella barra degli indirizzi: 192.168.1.1 
     * fare login come utente "admin",  tutta la stringa dopo la voce "D-SN", dopo l'ultimo carattere della stringa, scrivere "@aruba" (in minuscolo) riportata sul retro del router
     * Gestione e diagnosi, **Ipv6 Switch**
-    * **abilitazione IPv6**: off 
+    * **Abilitazione IPv6**: off 
     * Rete locale, LAN, **IPv4**, Server DHCP
     * Server DHCP: ON
     * ISP dns: OFF 
@@ -194,7 +194,7 @@ Basta cambiare server DNS, impostandone uno che non oscura
 ??? info "Edison"
     **Edison  FTTC e FTTH**
 
-    * Dns non si possono inserire né sul router dell’operatore né sul singolo dispositivo poiché non vengono comunque accettati, è possibile solo:
+    * Dns non si possono inserire né sul router dell’operatore né sul singolo dispositivo poiché non vengono comunque accettati, è possibile con:
     * Solo Router di proprietà (rifare i passaggi di attivazione seguendo link inviato via mail al momento dell'attivazione linea)
     * Router di proprietà in cascata a quello dell'operatore (dns da inserire su quello di proprietà)
 
