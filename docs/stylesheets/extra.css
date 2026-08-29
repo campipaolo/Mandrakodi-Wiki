@@ -45,3 +45,7 @@ mark,
 .md-typeset details:has(mark) > summary {
   font-weight: bold;
 }
+/* Assicura che i blocchi details contenenti risultati evidenziati rimangano visibili */
+.md-typeset details[open] {
+  display: block !important;
+}
