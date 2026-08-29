@@ -20,32 +20,15 @@
   --md-typeset-mark-color: #ffd600 !important; /* Giallo acceso */
 }
 
-/* 1. Forzatura del colore su tutti i tag mark (inclusi Admonition e Dark Mode) */
+/* Forzatura diretta su tutti gli elementi mark, inclusi quelli della ricerca in Dark Mode */
 mark,
 .md-typeset mark,
 .md-search-result__teaser mark,
-.md-typeset .admonition mark,
-.md-typeset details mark,
 [data-md-color-scheme="slate"] mark,
 [data-md-color-scheme="slate"] .md-typeset mark,
-[data-md-color-scheme="slate"] .md-search-result__teaser mark,
-[data-md-color-scheme="slate"] .md-typeset .admonition mark,
-[data-md-color-scheme="slate"] .md-typeset details mark {
+[data-md-color-scheme="slate"] .md-search-result__teaser mark {
   background-color: #ffd600 !important; /* Sfondo Giallo */
-  color: #000000 !important;             /* Testo Nero */
+  color: #000000 !important;             /* Testo Nero leggibile */
   padding: 0.1em 0.2em;
   border-radius: 2px;
-}
-
-/* 2. Mostra automaticamente i blocchi compressi (??? details) se contengono un risultato evidenziato */
-.md-typeset details:has(mark) {
-  display: block !important;
-}
-
-.md-typeset details:has(mark) > summary {
-  font-weight: bold;
-}
-/* Assicura che i blocchi details contenenti risultati evidenziati rimangano visibili */
-.md-typeset details[open] {
-  display: block !important;
 }
