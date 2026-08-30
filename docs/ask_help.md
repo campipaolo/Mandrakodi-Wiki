@@ -12,8 +12,8 @@
     * **Non contattare in privato gli Admin** previa richiesta scritta nella chat del gruppo
     * **Non contattare in privato gli Admin** qualora il gruppo risulti chiuso in sola lettura
     
-    *Chiunque* **non si attiene alle regole**, verrà *espulso dal gruppo*<br>
-    Si potrà rientrare, ma **dopo 3 espulsioni**, ci sarà il **BAN** 
+    *Chiunque* che **non si attiene alle regole**, verrà *espulso dal gruppo*<br>
+    Si potrà rientrare, ma **dopo 3 espulsioni**, è automatico il **BAN** 
 
 !!! tip "Gruppo Telegram: richiedere assistenza"
      **Prima** di scrivere nel gruppo, **leggere** tutta la sezione [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione [**FAQ**](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/). <br> Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto.<br> **N.B.:** *Qualunque messaggio che non contenga queste informazioni* sarà **eliminato** (*dopo 3 espulsioni dal gruppo, ci sarà il BAN*)
