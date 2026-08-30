@@ -3,7 +3,7 @@
 ------
 
 !!! warning "Gruppo Telegram: regolamento"
-    <span id="regole"></span>**Regolamento del Gruppo**
+    <span id="regole"></span>**Regole del Gruppo**
 
     * In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy (qualora poi venissero omessi nel periodo successivo all'entrata, *si verrà bannati*)
     * E' **vietato** *chiedere* **DOVE** vedere cosa, studiate l'addon e imparate le varie sezioni (*dopo 3 espulsioni dal gruppo, ci sarà il BAN*) 
