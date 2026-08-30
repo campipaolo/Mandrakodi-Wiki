@@ -33,14 +33,13 @@
 ??? info "Wireguard"
     **Chiavette/Tv/Box - Firestick**
 
-    * <a href="https://download.wireguard.com/android-client/" target="_blank">Wireguard</a>
-    * **Chiavette/Tv/Box**: installare con link "Google Play Store"
-    * **Firestick**: scaricare apk "com.wireguard.android-x.x.xxxxxxxx.apk"
+    * **Chiavette/Tv/Box**: installare Wireguard dal Google Play Store
+    * **Firestick**: <a href="https://download.wireguard.com/android-client/" target="_blank">scaricare apk Wireguard "com.wireguard.android-x.x.xxxxxxxx.apk"</a>
 
 ------
 
 !!! important "Fase 3 - Localsend"
-    **Inviare** file ".conf" a Chiavette/Tv/Box/Firestick (ed eventuale Apk per Firestick)
+    **Inviare** file ".conf" a Chiavette/Tv/Box/Firestick (ed eventuale Apk Wireguard per Firestick)
 
 ??? info "Localsend"
     **Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick**
