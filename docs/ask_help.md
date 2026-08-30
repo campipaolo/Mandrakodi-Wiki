@@ -8,6 +8,7 @@
     * In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy (qualora poi venissero omessi nel periodo successivo all'entrata, *si verrà bannati*)
     * E' **vietato** *chiedere* **DOVE** vedere cosa, studiate l'addon e imparate le varie sezioni (*dopo 3 espulsioni dal gruppo, ci sarà il BAN*) 
     * E' **vietato** *rispondere* alle domande che richiedono **DOVE** vedere cosa (*dopo 3 espulsioni dal gruppo, ci sarà il BAN*)
+    * E' **vietato** trattare *argomenti off topic* come: consigli su quale device usare/liste esterne all'addon/discussioni generali *non attinenti al gruppo di assistenza* (*dopo 3 espulsioni dal gruppo, ci sarà il BAN*)
     * **Non contattare in privato gli Admin** previa richiesta scritta nella chat del gruppo (*si verrà bannati*)
     * **Non contattare in privato gli Admin** qualora il gruppo risulti chiuso in sola lettura (*si verrà bannati*)
 
