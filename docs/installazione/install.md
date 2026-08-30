@@ -20,8 +20,8 @@
     * Selezionare sezione "**Recommended**"
     * Scaricare Installer 32bit o 64bit (**NON** Windows Store)
 
-??? info "Kodi per Smarthpone/Tablet Android - Chiavette/Tv/Box/Firestick"
-    **Installer per Smarthpone/Tablet Android - Chiavette/Tv/Box/Firestick**
+??? info "Kodi per Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick"
+    **Installer per Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick**
 
     * <a href="https://kodi.tv/download/android/" target="_blank">Android/AndroidTv</a>
     * Selezionare sezione "**Recommended**"
