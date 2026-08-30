@@ -34,7 +34,7 @@
     **Chiavette/Tv/Box - Firestick**
 
     * **Chiavette/Tv/Box**: installare Wireguard dal Google Play Store
-    * **Firestick**: <a href="https://download.wireguard.com/android-client/" target="_blank">scaricare apk Wireguard "com.wireguard.android-x.x.xxxxxxxx.apk"</a>
+    * **Firestick**: scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>
 
 ------
 

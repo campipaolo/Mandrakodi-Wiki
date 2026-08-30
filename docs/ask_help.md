@@ -6,8 +6,8 @@
     <span id="regole"></span>**Regolamento del Gruppo**
 
     * In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy: qualora poi venissero omessi nel periodo successivo all'entrata, *si verrà bannati*
-    * E' **vietato** *chiedere* **DOVE** vedere cosa (*pena ammonizioni e poi ban*) girate l'addon e imparate le varie sezioni
-    * E' **vietato** *rispondere* alle domande che richiedono **DOVE** vedere cosa (*pena ammonizioni e poi ban*)
+    * E' **vietato** *chiedere* **DOVE** vedere cosa (*dopo 3 ammonizioni c'è il ban*) girate l'addon e imparate le varie sezioni
+    * E' **vietato** *rispondere* alle domande che richiedono **DOVE** vedere cosa (*dopo 3 ammonizioni c'è il ban*)
     * **Non contattare in privato gli Admin** previa richiesta scritta nella chat del gruppo (*si verrà bannati*)
     * **Non contattare in privato gli Admin** qualora il gruppo risulti chiuso in sola lettura (*si verrà bannati*)
 
