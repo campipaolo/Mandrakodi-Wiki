@@ -70,10 +70,10 @@
 !!! important "EXTRA - AceServe con dispositivi poco performanti"
     Con *dispositivi poco performanti*  (tv/chiavetta con 1Gb/1,5Gb Ram e 8Gb storage) è consigliabile eseguire AceServe su **altro dispositivo** (generalmente smartphone) **purché connesso alla medesima rete,**  sfruttando maggiori risorse per cache disco e ram 
 
-??? info "Kodi su Tv/Chiavetta + AceServe su Smartphone"
+??? info "Kodi su Tv/Chiavetta + AceServe su Android Smartphone/Tablet"
     **Eseguire AceServe su dispositivo terzo**
 
-    * Installare AcesServe sullo smartphone
+    * Installare AcesServe su smartphone/tablet
     * Avviare AcesServe sullo smartphone
     * Avviare Kodi su Tv/Chiavetta, dalla pagina principale, scorrere su addon
     * Tenere premuto sull'icona di Mandrakodi, poi "Impostazioni"

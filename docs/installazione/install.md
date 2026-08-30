@@ -25,8 +25,8 @@
 
     * <a href="https://kodi.tv/download/android/" target="_blank">Android/AndroidTv</a>
     * Selezionare sezione "**Recommended**"
-    * Scaricare Installer ARMV7A 32bit (Chiavette/Tv/Box/Firestick Android 9 - 12)<br>
-      Scaricare installer ARMV8A 64bit (Smartphone/Tablet Android 12 - 16)
+    * Scaricare Installer ARMV7A 32bit - Chiavette/Tv/Box/Firestick (Android 9 - 12)<br>
+      Scaricare installer ARMV8A 64bit - Smartphone/Tablet (Android 12 - 16)
 
 ??? info "Kodi per macOS"
     **Installer per macOS**
