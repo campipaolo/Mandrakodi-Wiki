@@ -8,12 +8,12 @@
 ------
 
 !!! important "Players Esterni"
-    <span id="players"></span>A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Android/AndroidTv/Firestick che per Pc, di seguito i passaggi
+    <span id="players"></span>A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Smartphone/Tablet/Chiavette/Tv/Box/Firestick che per Windows, di seguito i passaggi
 
 !!! warning "Installare i vari players esterni"
     I players esterni (es. Ace, Mx Player, Wuffy Player, Ace) vanno **prima** installati sul dispositivo<br> [Mx Player Apk 32bit](https://) / [Mx Player Apk 64bit](https://)<br> [Wuffy Player Apk 32bit](https://) / [Wuffy Player Apk 64bit](https://)<br>[Ace (Guida installazione)](https://campipaolo.github.io/Mandrakodi-Wiki/guide/acestream/)
 
-??? info "Impostare Players Esterni con Android/AndroidTv/Firestick"
+??? info "Impostare Players Esterni con Smartphone/Tablet/Chiavette/Tv/Box/Firestick"
     **Avviare Kodi**
 
     * Entrare in Mandrakodi, sezione “**HELP ME!**”
@@ -37,6 +37,7 @@
 
  
 
+
 ------
 
 !!! important "Flussi MPD"
@@ -53,7 +54,7 @@
     * Premere "OK" per confermare
 
 !!! warning "Come cambiare risoluzione video"
-    Mentre si è in play, tasto centrale del telecomando o toccare touch smartphone <br> In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video' <br> Si apre finestra con **elenco** delle varie risoluzioni video disponibili da poter selezionare
+    Mentre si è in *play*, tasto centrale del telecomando o toccare touch smartphone <br> In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video' <br> Si apre finestra con **elenco** delle varie **risoluzioni video disponibili** da poter selezionare
 
 ------
 
