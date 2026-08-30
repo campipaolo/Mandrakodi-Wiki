@@ -166,6 +166,15 @@ Basta cambiare server DNS, impostandone uno che non oscura
 
 
 
+??? info "Edison"
+    **Edison  FTTC e FTTH**
+
+    * Dns non si possono inserire né sul router dell’operatore né sul singolo dispositivo poiché non vengono comunque accettati, è possibile con:
+    * Solo Router di proprietà (rifare i passaggi di attivazione seguendo link inviato via mail al momento dell'attivazione linea)
+    * Router di proprietà in cascata a quello dell'operatore (dns da inserire su quello di proprietà)
+
+
+
 ??? info "Tim"
     **Tim FTTC e FTTH**
 
@@ -190,13 +199,6 @@ Basta cambiare server DNS, impostandone uno che non oscura
     * E' possibile solo con **router di proprietà** *in cascata* o richiedendo **IP Pubblico Statico** a €4,90 al mese
 
 
-
-??? info "Edison"
-    **Edison  FTTC e FTTH**
-
-    * Dns non si possono inserire né sul router dell’operatore né sul singolo dispositivo poiché non vengono comunque accettati, è possibile con:
-    * Solo Router di proprietà (rifare i passaggi di attivazione seguendo link inviato via mail al momento dell'attivazione linea)
-    * Router di proprietà in cascata a quello dell'operatore (dns da inserire su quello di proprietà)
 
 ------
 

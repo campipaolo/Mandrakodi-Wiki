@@ -20,7 +20,7 @@
     * Avviare Acestream
 
 ??? info "AceServe per Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick"
-    **Installer MOD per Android Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick**
+    **Installer MOD per Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick**
 
     * <a href="https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1" target="_blank">Android ARMV7A 32bit</a> Chiavette/Tv/Box/Firestick (Android 9 - 12)
     
@@ -51,7 +51,7 @@
 
 
 
-!!! warning "ATTENZIONE"
+!!! warning "Attenzione"
     Per "Opzione DIRETTO" prima eseguire procedura per abilitare i "[Players Esterni](https://campipaolo.github.io/Mandrakodi-Wiki/guide/kodi_settings/)" (se non precedentemente eseguita)
 
 ??? info "Opzione **DIRETTO**"
