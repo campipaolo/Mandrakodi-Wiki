@@ -5,14 +5,14 @@
 !!! warning "Gruppo Telegram: regolamento"
     <span id="regole"></span>**Regolamento del Gruppo**
 
-    * In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy: qualora poi venissero omessi nel periodo successivo all'entrata, *si verrà bannati*
-    * E' **vietato** *chiedere* **DOVE** vedere cosa (*dopo 3 ammonizioni c'è il ban*) girate l'addon e imparate le varie sezioni
-    * E' **vietato** *rispondere* alle domande che richiedono **DOVE** vedere cosa (*dopo 3 ammonizioni c'è il ban*)
+    * In telegram impostare **nome utente** e **foto profilo** (anche generica) "*visibile a tutti*" nelle impostazioni della privacy (qualora poi venissero omessi nel periodo successivo all'entrata, *si verrà bannati*)
+    * E' **vietato** *chiedere* **DOVE** vedere cosa, studiate l'addon e imparate le varie sezioni (*dopo 3 espulsioni dal gruppo, ci sarà il BAN*) 
+    * E' **vietato** *rispondere* alle domande che richiedono **DOVE** vedere cosa (*dopo 3 espulsioni dal gruppo, ci sarà il BAN*)
     * **Non contattare in privato gli Admin** previa richiesta scritta nella chat del gruppo (*si verrà bannati*)
     * **Non contattare in privato gli Admin** qualora il gruppo risulti chiuso in sola lettura (*si verrà bannati*)
 
 !!! tip "Gruppo Telegram: richiedere assistenza"
-     Prima di scrivere nel gruppo, leggere tutta la sezione [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione [**FAQ**](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/). <br> Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto.<br> **NB:** Qualunque messaggio che non contenga queste informazioni sarà **eliminato** (*dopo 3 ammonizioni c'è il ban*)
+     **Prima** di scrivere nel gruppo, **leggere** tutta la sezione [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione [**FAQ**](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/). <br> Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto.<br> **NB:** Qualunque messaggio che non contenga queste informazioni sarà **eliminato** (*dopo 3 espulsioni dal gruppo, ci sarà il BAN*)
 
 !!! important "Come richiedere assistenza"
     <span id="info"></span>**Informazioni obbligatorie** per una *corretta richiesta* di assistenza / segnalazione

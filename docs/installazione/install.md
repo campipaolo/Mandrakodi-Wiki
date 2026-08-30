@@ -11,7 +11,7 @@
 ------
 
 !!! important "Fase 1 - Installazione Kodi"
-    **Installare** Kodi su Windows/maOS/Linux/Android/AndroidTv/iOS/Firestick
+    **Installare** Kodi su Windows/maOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick
 
 ??? info "Kodi per Windows"
     **Installer per Windows**
@@ -20,12 +20,12 @@
     * Selezionare sezione "**Recommended**"
     * Scaricare Installer 32bit o 64bit (**NON** Windows Store)
 
-??? info "Kodi per Android / Android TV"
-    **Installer per Android / Android TV**
+??? info "Kodi per Smarthpone/Tablet Android - Chiavette/Tv/Box/Firestick"
+    **Installer per Smarthpone/Tablet Android - Chiavette/Tv/Box/Firestick**
 
     * <a href="https://kodi.tv/download/android/" target="_blank">Android/AndroidTv</a>
     * Selezionare sezione "**Recommended**"
-    * Scaricare Installer ARMV7A 32bit (AndroidTv/Firestick Android 9 - 12)<br>
+    * Scaricare Installer ARMV7A 32bit (Chiavette/Tv/Box/Firestick Android 9 - 12)<br>
       Scaricare installer ARMV8A 64bit (Smartphone/Tablet Android 12 - 16)
 
 ??? info "Kodi per macOS"
