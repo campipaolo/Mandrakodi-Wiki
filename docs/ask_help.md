@@ -2,7 +2,9 @@
 
 ------
 
-!!! warning "Gruppo Telegram: <span id="regole"></span>regole del gruppo*
+
+<span id="regole"></span>
+!!! warning "Gruppo Telegram: regole del gruppo*
     
 
     * In telegram impostare **nome utente** (non monosillabi tipo "." e simili) e **foto profilo** (anche generica, *non monocromatica*) "*visibile a tutti*" nelle impostazioni della privacy
