@@ -35,7 +35,7 @@
 
     * **Chiavette/Tv/Box**: installare Wireguard dal Google Play Store
     * **Firestick**: scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>
-    * Firestick **Fire OS 5.x.x.x** [WireGuard Android 5.apk](http://u.pc.cd/chArtalK)
+    * Firestick **Fire OS 5.x.x.x** <a href="https://http://u.pc.cd/chArtalK/" target="_blank">"WireGuard Android 5.apk"</a>
 
 ------
 
@@ -47,7 +47,7 @@
 
     * Installare "Localsend" su **entrambi** i dispositivi "mittente" e "ricevente"
     * <a href="https://localsend.org/it/download" target="_blank">Sito Web</a> Loalsend Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick<br>
-    * Firestick **Fire OS 5.x.x.x** [LocalSend Android 5.apk](http://u.pc.cd/925)<br>
+    * Firestick **Fire OS 5.x.x.x** <a href="http://u.pc.cd/925" target="_blank">"LocalSend Android 5.apk"</a><br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare files da inviare
