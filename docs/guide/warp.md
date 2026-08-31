@@ -36,7 +36,7 @@
     * **Chiavette/Tv/Box**: installare Wireguard dal Google Play Store
     * **Firestick**: scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>
     * Firestick vecchia con **Android 5**<br>
-      <a href="https://github.com/campipaolo/Mandrakodi-Wiki/blob/main/docs/files/WireGuard_1_0_20210924_Android5.apk" target="_blank"> Localsend</a> scaricare apk "LocalSend_1_8_0_Android5.apk"<br>
+      <a href="https://github.com/campipaolo/Mandrakodi-Wiki/blob/e356bd3e5430a93c42ace373566f194520c8fc15/docs/files/WireGuard_1_0_20210924_Android 5.apk" target="_blank"> Localsend</a> scaricare apk "WireGuard_1_0_20210924_Android5.apk"<br>
 
 ------
 
@@ -49,7 +49,7 @@
     * Installare "Localsend" su **entrambi** i dispositivi "mittente" e "ricevente"
     * <a href="https://localsend.org/it/download" target="_blank">Sito Web</a> Loalsend Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick<br>
     * Firestick vecchia con **Android 5**<br>
-      <a href="https://github.com/campipaolo/Mandrakodi-Wiki/blob/main/docs/files/LocalSend_1_8_0_Android5.apk" target="_blank"> Localsend</a> scaricare apk "LocalSend_1_8_0_Android5.apk"<br>
+      <a href="https://github.com/campipaolo/Mandrakodi-Wiki/blob/e356bd3e5430a93c42ace373566f194520c8fc15/docs/files/LocalSend_1_8_0_Android5.apk" target="_blank"> Localsend</a> scaricare apk "LocalSend_1_8_0_Android5.apk"<br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare files da inviare
