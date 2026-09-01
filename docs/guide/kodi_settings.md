@@ -86,7 +86,7 @@
     * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
     * Sulla sinistra compare il menu "**Cache**"
     * Modalità Buffer: selezionare "Buffer di tutti i file system internet"
-    * Dimensione Memoria: "64 MB"
+    * Dimensione Memoria: "48 MB"
     * Premere "OK" per confermare [(Foto)](../images/Kodi_cache.png){ target="_blank" }
     * Uscire da Kodi e rientrare
 

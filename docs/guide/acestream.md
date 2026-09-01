@@ -26,6 +26,7 @@
     
     * <a href="https://www.dropbox.com/scl/fi/sz1kjiwgtnww1bjsmryfn/Aceserve-1.5.5-64bit.apk?rlkey=u8ekpvc4yq14wzvrwburg7jis&st=86575k8p&dl=1" target="_blank">Android ARMV8A 64bit</a> Smartphone/Tablet (Android 12 - 16)
     * Avviare AceServe una prima volta per dare i permessi
+    * Premere "START" per avviare [(Foto)](../images/aceserve_start.png){ target="_blank" }
     * Tornare alla home page col tasto dedicato per **lasciarlo aperto in background**
 
 ??? info "Acestream per Linux"
