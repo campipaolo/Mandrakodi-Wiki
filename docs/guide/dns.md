@@ -187,16 +187,17 @@ Basta cambiare server DNS, impostandone uno che non oscura
 ??? info "SKY Wifi"
     **SKY Wifi  FTTH**
 
-    * Dns non si possono inserire sul router dell’operatore
-    * Inserirli sul **singolo dispositivo**
+    * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo poiché non vengono comunque accettati
+    * Usare app "Dns Changer" o simili
 
 
 
 ??? info "Eolo"
     **Eolo FWA**
 
-    * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo, poiché non vengono comunque accettati
-    * E' possibile solo con **router di proprietà** *in cascata* o richiedendo **IP Pubblico Statico** a €4,90 al mese
+    * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo poiché non vengono comunque accettati, è possibile con:
+    * Router di proprietà in cascata a quello dell'operatore (dns da inserire su quello di proprietà) 
+    * Router di proprietà richiedendo **IP Pubblico Statico** a €4,90 al mese
 
 
 
