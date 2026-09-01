@@ -80,11 +80,13 @@
     **Chiavette/Tv/Box/Firestick**
 
 
-    * Aprire Wireguard, premere il pulsante "**+**", poi "**Importa da file o archivio**"
+    * Aprire Wireguard, premere il pulsante "**+**" <a href="https://github.com/campipaolo/Mandrakodi-Wiki/blob/main/docs/images/wireguard_home.jpg" target="_blank">"(Foto)"</a>
     * Importare il file ".conf", sarà quindi presente nella schermata principale
-    * Cliccare l'**interruttore** in corrispondenza a destra per attivare/disattivare
+    * N.B.: qualora non fosse possibile selezionare il file ".conf" durante l'importazione, installare dallo Store **file manager** come "X-Plore " o "Total Commander" (e simili)
+    * Cliccare sulla configurazione importata per attivare/disattivare 
     * Al primo avvio verrà chiesta conferma di attivazione
-    * N.B.: qualora non fosse possibile selezionare il file ".conf" durante l'importazione, installare dallo Store **file manager** come "x-plore " o simili
+    * Quando attivo, la configurazione selezionata appare blu con scritto "rx" "tx" <a href="https://github.com/campipaolo/Mandrakodi-Wiki/blob/main/docs/images/wireguard_test.jpg" target="_blank">"(Foto)"</a>
+    
 
 ------
 
