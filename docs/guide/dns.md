@@ -206,7 +206,7 @@ Basta cambiare server DNS, impostandone uno che non oscura
 !!! important "DNS su singolo dipositivo"
     <span id="dnsdispositivo"></span>Di seguito guide per impostare i DNS sui **singolo dispositivo** ove router non disponga di opzione per inserirli al suo interno e per connessioni di rete mobile
 
-??? info "Android"
+??? info "Android Smartphone/Tablet"
     **Smartphone/Tablet**
 
     * Impostazioni, rete e internet
@@ -222,8 +222,8 @@ Basta cambiare server DNS, impostandone uno che non oscura
     * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
-??? info "AndroidTv"
-    **Tv/Chiavetta/Box**
+??? info "Android Tv/Chiavette/Box"
+    **Tv/Chiavette/Box**
 
     * Impostazioni (icona a forma di ingranaggio in alto a destra)
     * Rete Internet 

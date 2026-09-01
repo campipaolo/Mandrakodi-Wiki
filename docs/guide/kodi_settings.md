@@ -40,6 +40,7 @@
 
  
 
+
 ------
 
 !!! important "Flussi MPD"
@@ -53,10 +54,10 @@
     * Tipo selezione del flusso: "**OSD manuale**"
     * Risoluzione massima:  "1080p"
     * Risoluzione massima per video DRM:  "1080p"
-    * Premere "OK" per confermare [(Foto)](../images/kodi_mpd_selezione.png){ target="_blank" }
+    * Premere "OK" per confermare [(Foto)](../images/kodi_inputstream_adaptive.png){ target="_blank" }
 
 !!! warning "Come cambiare risoluzione video"
-    Mentre si è in *play*, tasto centrale del telecomando o toccare touch smartphone <br> In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video' <br> Si apre finestra con **elenco** delle varie **risoluzioni video disponibili** da poter selezionare 
+    Mentre si è in *play*, tasto centrale del telecomando o toccare touch smartphone <br> In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video' <br> Si apre finestra con **elenco** delle varie **risoluzioni video disponibili** da poter selezionare
 
 ------
 
