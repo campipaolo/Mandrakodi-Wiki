@@ -32,3 +32,14 @@ mark,
   padding: 0.1em 0.2em;
   border-radius: 2px;
 }
+/* Forza il pulsante 'Back to top' fisso in basso a destra */
+.md-top {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  top: auto !important;
+  left: auto !important;
+  z-index: 100 !important;
+  margin: 0 !important;
+  opacity: 1 !important;
+}

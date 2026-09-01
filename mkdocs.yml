@@ -23,7 +23,7 @@ theme:
     - search.highlight
     - search.suggest
     - stylesheets/extra.css
-    
+        
 
 nav:
   - Home: index.md
