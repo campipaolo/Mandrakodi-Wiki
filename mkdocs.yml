@@ -20,6 +20,7 @@ theme:
         name: Passa al tema scuro
   features:
     - navigation.tabs
+    - navigation.top
     - search.highlight
     - search.suggest
     - stylesheets/extra.css
