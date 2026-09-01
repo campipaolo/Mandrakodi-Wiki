@@ -64,6 +64,6 @@
     **Soluzione:**  Il sito https://www.livesoccertv.com/it/schedules/ e informa su quali canali **italiani e stranieri** viene trasmesso l'evento live di interesse: *non fissarsi* sul solo contenuto con *commento in italiano*, i canali *stranieri* spesso offrono *maggiore qualità e stabilità*
 
 ??? info "15) Quando accedo a Mandrakodi / o in  una sezione,  la schermata è vuota con ".." sullo schermo"
-    **Motivo:** E' attivo il filtro "Già Visti" [(Foto)](../images/kodi_filtro_attivo.png){ target="_blank" } 
+    **Motivo:** E' attivo il filtro "Già Visti" [(Foto)](../images/kodi_filtro_attivo.png){ target="_blank" }  
     **Soluzione:**  Con telecomando spostarsi a sinistra / su Smarthpne & Tablet spostarsi sulla sinistra, appare menù "Opzioni visualizzazioni", cliccare su "Già Visti" e scorrere fino a "Tutto"  [(Foto)](../images/kodi_filtro_disattivare.png){ target="_blank" }
 
