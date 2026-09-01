@@ -22,7 +22,7 @@
     * <a href="https://campipaolo.github.io/Mandrakodi-Wiki/guide/converter.html" target="_blank">Convertitore per Wireguard</a>
     * Nel box di testo "Input" **incollare** la configurazione
     * Premere il pulsante "**Converti**" per generare configurazione nel box di testo "Ouput"
-    * Premere il pulsante "**Scarica file**" per salvare file ".conf"
+    * Premere il pulsante "**Scarica file**" per salvare file "wireguard.conf"
     * N.B.: verificare che il file "wireguard" salvato abbia l'estensione "**.conf**" (se diversa, **rinominare** correggendo)
 
 ------

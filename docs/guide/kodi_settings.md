@@ -23,7 +23,7 @@
     * Cliccare "PLAYER .XML (org.free.aceserve)"
     * Uscire da Kodi e rientrare, accedere a Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
-    * Tenere premuto sul link e selezionare voce "**riproduci con**"
+    * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
     * Dall'elenco selezionare player installato
 
 ??? info "Impostare Players Esterni con Windows"
@@ -35,13 +35,10 @@
     * Copiare il file nel percorso “C:/utenti/**tuonomeutente**/appdata/roaming/kodi/userdata”
     * Entrare in Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
-    * Tenere premuto sul link e selezionare voce "**riproduci con**"
+    * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
     * Dall'elenco selezionare player esterno
 
  
-
-
-
 
 ------
 
@@ -55,11 +52,11 @@
     * "Lettore Video Inputstream", Inputstream Adaptive", "**Configura**"
     * Tipo selezione del flusso: "**OSD manuale**"
     * Risoluzione massima:  "1080p"
-    * Risoluzione minima:  "720p"
-    * Premere "OK" per confermare
+    * Risoluzione massima per video DRM:  "1080p"
+    * Premere "OK" per confermare [(Foto)](../images/kodi_mpd_selezione.png){ target="_blank" }
 
 !!! warning "Come cambiare risoluzione video"
-    Mentre si è in *play*, tasto centrale del telecomando o toccare touch smartphone <br> In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video' <br> Si apre finestra con **elenco** delle varie **risoluzioni video disponibili** da poter selezionare
+    Mentre si è in *play*, tasto centrale del telecomando o toccare touch smartphone <br> In basso a destra icona a forma di ingranaggio, "impostazioni video", "traccia video' <br> Si apre finestra con **elenco** delle varie **risoluzioni video disponibili** da poter selezionare 
 
 ------
 
@@ -74,7 +71,7 @@
     * "Impostazioni"
     * Sezione "**Personal List**" poi "**app02**"
     * All'interno scrivere "no_time_shift"
-    ![daddylive_no_time_shift](../images/daddylive_no_time_shift.jpg)
+    * Premere "OK" per confermare [(Foto)](../images/daddylive_no_time_shift.jpg){ target="_blank" }
     * Uscire da Kodi e rientrare
 
 ------
@@ -90,6 +87,7 @@
     * Sulla sinistra compare il menu "**Cache**"
     * Modalità Buffer: selezionare "Buffer di tutti i file system internet"
     * Dimensione Memoria: "64 MB"
+    * Premere "OK" per confermare [(Foto)](../images/Kodi_cache.png){ target="_blank" }
     * Uscire da Kodi e rientrare
 
 
