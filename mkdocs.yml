@@ -22,6 +22,7 @@ theme:
     - navigation.tabs
     - search.highlight
     - search.suggest
+    - navigation.top
 
 nav:
   - Home: index.md
