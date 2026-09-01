@@ -15,4 +15,4 @@
 ------
 
 [:material-cog-box: Installazione ](installazione/install.md){.md-button .md-button--primary} [:material-book-open-page-variant: Guide ](guide/tutorials.md){.md-button .md-button--primary} [:material-comment-question: FAQ ](faq/faq.md){.md-button .md-button--primary}
-<a href="#" id="back-to-top-btn" title="Torna in cima">⬆</a>
+
