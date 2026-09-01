@@ -32,14 +32,27 @@ mark,
   padding: 0.1em 0.2em;
   border-radius: 2px;
 }
-/* Forza il pulsante 'Back to top' fisso in basso a destra */
-.md-top {
-  position: fixed !important;
-  bottom: 20px !important;
-  right: 20px !important;
-  top: auto !important;
-  left: auto !important;
-  z-index: 100 !important;
-  margin: 0 !important;
-  opacity: 1 !important;
+/* Pulsante Torna Su Sempre Visibile */
+#back-to-top-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 45px;
+  height: 45px;
+  background-color: #2196F3; /* Colore pulsante */
+  color: white !important;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  font-size: 22px;
+  text-decoration: none !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 99999;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+#back-to-top-btn:hover {
+  background-color: #0b7dda;
+  transform: scale(1.1);
 }
