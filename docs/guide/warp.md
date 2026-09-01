@@ -80,12 +80,12 @@
     **Chiavette/Tv/Box/Firestick**
 
 
-    * Aprire Wireguard, premere il pulsante "**+**" <a href="../images/wireguard_home.jpg" target="_blank">(Foto)</a>
+    * Aprire Wireguard, premere il pulsante "**+**" [(Foto)](../images/wireguard_home.jpg){ target="_blank" }
     * Importare il file ".conf", sarà quindi presente nella schermata principale
     * N.B.: qualora non fosse possibile selezionare il file ".conf" durante l'importazione, installare dallo Store **file manager** come "X-Plore " o "Total Commander" (e simili)
     * Cliccare sulla configurazione importata per attivare/disattivare 
     * Al primo avvio verrà chiesta conferma di attivazione
-    * Quando attivo, la configurazione selezionata appare blu con scritto "rx" "tx" <a href="../images/wireguard_test.jpg" target="_blank">(Foto)</a>
+    * Quando attivo, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" }
     
 
 ------
