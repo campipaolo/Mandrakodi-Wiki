@@ -16,7 +16,8 @@
     
 
 !!! tip "Gruppo Telegram: richiedere assistenza"
-     **Prima** di scrivere nel gruppo, **leggere** tutta la sezione [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione [**FAQ**](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/). <br> Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto.<br>
+     **Prima** di scrivere nel gruppo, **leggere** tutta la sezione [**guide**](https://campipaolo.github.io/Mandrakodi-Wiki/guide/tutorials/) e la sezione [**FAQ**](https://campipaolo.github.io/Mandrakodi-Wiki/faq/faq/). <br> Per segnalare eventuali errori o malfunzionamenti, è **obbligatorio indicare** quanto sotto richiesto.<br> **N.B.:** *Qualunque messaggio che non contenga queste informazioni* sarà **eliminato**, *chi persevera verrà *espulso dal gruppo*<br>
+Si potrà rientrare, ma **dopo 3 espulsioni**, è automatico il **BAN**
 
 !!! important "Come richiedere assistenza"
     <span id="info"></span>**Informazioni obbligatorie** per una *corretta richiesta* di assistenza / segnalazione
