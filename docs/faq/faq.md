@@ -67,7 +67,7 @@
     **Motivo:** E' attivo il filtro "Già Visti" [(Foto)](../images/kodi_filtro_attivo.png){ target="_blank" }<br>    **Soluzione:**  Con telecomando spostarsi a sinistra / su Smarthpne & Tablet spostarsi sulla sinistra, appare menù "Opzioni visualizzazioni", cliccare su "Già Visti" e scorrere fino a "Tutto"  [(Foto)](../images/kodi_filtro_disattivare.png){ target="_blank" }
 
 ??? info "16) Non è più presente sezione che utilizzavo spesso"
-    **Motivo:** Le fonti vanno e vengono, c'è da farsene una ragione e basta<br>    **Soluzione:** Non serve che tutti ripetutamente stiate a chiedere "perché/se tornerà/ ecc", si cerca autonomamente in altre sezioni all'interno dell'addon, come specificato nel regolamento.
+    **Motivo:** Le fonti *vanno e vengono*, c'è da farsene una ragione e basta<br>    **Soluzione:** Non serve che tutti ripetutamente stiate a chiedere "perché/se tornerà/ecc", si cerca autonomamente in altre sezioni all'interno dell'addon, come specificato nel regolamento.
 
 ??? info "17) E' consigliato l'utilizzo di una VPN?"
     **Motivo:** Solo se all'estero, per la visione di contenuti italiani in streaming, spesso geo bloccati<br>    **Soluzione:** Installare una VPN *autonomamente - senza richiedere supporto, ndr* - le **uniche** VPN che garantiscono l'anonimato, sono quelle che adottano la politica "**no-logs**"
