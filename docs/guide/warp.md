@@ -46,7 +46,7 @@
     **Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick**
 
     * Installare "Localsend" su **entrambi** i dispositivi "mittente" e "ricevente"
-    * <a href="https://localsend.org/it/download" target="_blank">Sito Web</a> Loalsend Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick<br>
+    * <a href="https://localsend.org/it/download" target="_blank">Loalsend</a>  Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick<br>
     * Firestick con **Fire OS 5.x.x.x**: [LocalSend Android 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/LocalSend_1_8_0_Android5.apk)<br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
@@ -86,7 +86,7 @@
     * Cliccare sulla configurazione importata per attivare/disattivare 
     * Al primo avvio verrà chiesta conferma di attivazione
     * Quando attivo, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" }
-    
+
 
 ------
 

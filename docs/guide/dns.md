@@ -13,9 +13,9 @@ Per provare se il vostro problema sia davvero legato ai DNS basta visitare con u
 Se la pagina non si apre, o se vi compare la scritta che il sito è sotto sequestro, avete i DNS di default
 
 ❓ Come posso RISOLVERE?
-Basta cambiare server DNS, impostandone uno che non oscura
+Basta **cambiare** server DNS, impostandone uno che non oscura
 
-!!! warning "DNS: Obbligatori al giorno d'oggi!"
+!!! warning "DNS: obbligatori al giorno d'oggi!"
     Mandrakodi, come anche altri addon, non fa altro che visitare i vari siti per estrapolarne il contenuto, anch'esso **senza** aver impostato i **DNS**, **non** sarà in grado di **raggiungere** i vari **siti** delle porprie fonti web
 
 ------

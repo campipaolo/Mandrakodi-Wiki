@@ -42,6 +42,7 @@
 
 
 
+
 ------
 
 !!! important "Flussi MPD"
@@ -87,7 +88,7 @@
     * Impostazioni, "**Servizi**"
     * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
     * Sulla sinistra compare il menu "**Cache**"
-    * Modalità Buffer: selezionare "Buffer di tutti i file system internet"
+    * Modalità Buffer: selezionare "Buffer di tutti i file system di rete"
     * Dimensione Memoria: "48 MB"
     * Premere "OK" per confermare [(Foto)](../images/Kodi_cache.png){ target="_blank" }
     * Uscire da Kodi e rientrare
