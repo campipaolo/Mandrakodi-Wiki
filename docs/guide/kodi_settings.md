@@ -8,15 +8,15 @@
 ------
 
 !!! important "Players Esterni"
-    <span id="players"></span>A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy ecc) per riprodurre flussi video <br>Vale sia per Smartphone/Tablet/Chiavette/Tv/Box/Firestick che per Windows, di seguito i passaggi
+    <span id="players"></span>A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy Player, ecc) per riprodurre flussi video <br>Vale sia per *Android* su Smartphone/Tablet/Chiavette/Tv/Box/Firestick che per *Pc* Windows, di seguito i passaggi
 
 !!! warning "Installare i vari players esterni"
-    I players esterni (es. Ace, Mx Player, Wuffy Player, Ace) vanno **prima** installati sul dispositivo<br>
+    I players esterni (es. Ace, Mx Player, Wuffy Player,  ecc) vanno **prima** installati sul dispositivo<br>
 
-   Mx Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk)<br>    Mx Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk)<br>    Wuffy Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk)<br>    Wuffy Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk
-​    )<br>    Ace [(Guida installazione)](https://campipaolo.github.io/Mandrakodi-Wiki/guide/acestream/)
+   Mx Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk) (Android)<br>    Mx Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk) (Android)<br>    Wuffy Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk) (Android)<br>    Wuffy Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk
+​    ) (Android)<br>    Ace (Android/Windows/Linux) [(Guida installazione)](https://campipaolo.github.io/Mandrakodi-Wiki/guide/acestream/)
 
-??? info "Impostare Players Esterni con Smartphone/Tablet/Chiavette/Tv/Box/Firestick"
+??? info "Impostare Players Esterni su Android Smartphone/Tablet/Chiavette/Tv/Box/Firestick"
     **Avviare Kodi**
 
     * Entrare in Mandrakodi, sezione “**HELP ME!**”
@@ -26,7 +26,7 @@
     * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
     * Dall'elenco selezionare player installato
 
-??? info "Impostare Players Esterni con Windows"
+??? info "Impostare Players Esterni su Pc Windows"
     **In Windows**
 
     * Scaricare <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/playercorefactory_windows.xml" target="_blank">playercorefactory_windows.xml</a> tasto destro/tenere prenuto sul link e salvare
@@ -40,9 +40,6 @@
 
  
 
-
-
-
 ------
 
 !!! important "Flussi MPD"
@@ -51,8 +48,8 @@
 ??? info "Impostazioni Flussi MPD"
     **Avviare Kodi**
 
-    * Impostazioni, "Addon", "I miei addon" "**Lettore Video Inputstream**", Inputstream Adaptive" 
-    * "Lettore Video Inputstream", Inputstream Adaptive", "**Configura**"
+    * Impostazioni, "Addon", "I miei addon", "**Lettore Video Inputstream**", Inputstream Adaptive" 
+    * "Lettore Video Inputstream", "Inputstream Adaptive", "**Configura**"
     * Tipo selezione del flusso: "**OSD manuale**"
     * Risoluzione massima:  "1080p"
     * Risoluzione massima per video DRM:  "1080p"

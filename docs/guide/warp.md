@@ -3,7 +3,7 @@
 ------
 
 !!! tip "WARP"
-    I links con dicitura "**WARP**" *esigono* l'utilizzo dei seguenti  Software/App  <br>    - **Warp** è per *Pc Windows/macOS/Linux & Smartphone-Tablet Android/iOS*, **non richiede** alcuna configurazione <a href="https://one.one.one.one/" target="_blank">(*si installa da qui*)</a><br>    - **Wireguard** è per *Chiavette/Tv/Box/Firestick*, **necessita** del file ".conf" per funzionare correttamente (di seguito passaggi per configurazione e installazione) 
+    I links con dicitura "**WARP**" *esigono* l'utilizzo di Software/App  <br>    - **Warp** è per *Pc Windows/macOS/Linux & Smartphone-Tablet Android/iOS*, **non richiede** alcuna configurazione <a href="https://one.one.one.one/" target="_blank">(*si installa da qui*)</a><br>    - **Wireguard** è per *Chiavette/Tv/Box/Firestick*, **necessita** del file ".conf" per funzionare correttamente (di seguito passaggi per configurazione e installazione) 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....
@@ -14,7 +14,7 @@
     Creare file ".conf" **senza scadenza** da utilizzare in Wireguard su Chiavette/Tv/Box/Firestick
 
 ??? info "Web Config Generator + Web Convertitore per Wireguard"
-       **Generare file ".conf" senza scadenza** (*non usare app Dowmloader*)
+       **Generare file ".conf" senza scadenza** (con Browser da Pc/Smartphone/Tablet - *non usare app Dowmloader*)
 
     * <a href="https://warp-generator.vercel.app" target="_blank">Config Generator</a>
     * Premere il pulsante "**Generate**" per generare la configurazione
@@ -31,7 +31,7 @@
     Play Store Chiavette/Tv/Box - Apk **Firestick** 
 
 ??? info "Wireguard"
-    **Chiavette/Tv/Box - Firestick**
+    **Chiavette/Tv/Box/Firestick**
 
     * **Chiavette/Tv/Box**: installare Wireguard dal Google Play Store
     * **Firestick**: scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>

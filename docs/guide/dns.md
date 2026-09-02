@@ -204,9 +204,9 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 ------
 
 !!! important "DNS su singolo dipositivo"
-    <span id="dnsdispositivo"></span>Di seguito guide per impostare i DNS sui **singolo dispositivo** ove router non disponga di opzione per inserirli al suo interno e per connessioni di rete mobile
+    <span id="dnsdispositivo"></span>Di seguito guide per impostare i DNS sui **singolo dispositivo** ove router non disponga di opzione per inserirli al suo interno e per connessioni di rete mobile/hotspot 
 
-??? info "Android Smartphone/Tablet"
+??? info "Android Smartphone/Tablet (a seconda della marca e del modello, alcuni passaggi potrebbero essere diversi)"
     **Smartphone/Tablet**
 
     * Impostazioni, rete e internet
@@ -238,7 +238,7 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 ??? info "Firestick"
-    **Chiavette Firestick Android**
+    **Chiavette Firestick Fire OS** 
 
     * Cliccare su "Impostazioni"
     * Selezionare "Sistemi" 
@@ -257,7 +257,7 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 
 
 
-??? info "Rete mobile"
+??? info "Rete mobile/Hotspot (a seconda della marca e del modello, alcuni passaggi potrebbero essere diversi)"
     **Smartphone/Tablet Android**
 
     * Impostazioni, rete e internet

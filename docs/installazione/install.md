@@ -3,7 +3,7 @@
 ------
 
 !!! warning "Importante"
-    Qualora Kodi fosse **pre installato** senza essere sicuri se installato con installer preso da sito, disinstallare e procedere seguendo istruzioni di seguito a seconda del Sistema Operativo 
+    Qualora Kodi fosse **pre installato** (es. da Store app del dispositivo) senza essere certi se installato con installer preso da proprio sito web, disinstallare e procedere seguendo istruzioni di seguito a seconda del Sistema Operativo 
 
 !!! tip "Attenzione"
     Per un pieno funzionamento di Kodi con tutte le sue dipendenze corrette, **scaricare Kodi dal proprio sito** per i vari Sistemi Operativi seguendo i passaggi sotto riportati
@@ -18,7 +18,7 @@
 
     * <a href="https://kodi.tv/download/windows/" target="_blank">Windows</a> 
     * Selezionare sezione "**Recommended**"
-    * Scaricare Installer 32bit o 64bit (**NON** Windows Store)
+    * Scaricare Installer 64bit (**NON** Windows Store)
 
 ??? info "Kodi per Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick"
     **Installer per Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick**
