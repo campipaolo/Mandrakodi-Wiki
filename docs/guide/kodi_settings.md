@@ -13,7 +13,7 @@
 !!! warning "Installare i vari players esterni"
     I players esterni (es. Ace, Mx Player, Wuffy Player, Ace) vanno **prima** installati sul dispositivo<br>
 
-​    Mx Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk)<br>    Mx Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk)<br>    Wuffy Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk)<br>    Wuffy Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk
+   Mx Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk)<br>    Mx Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk)<br>    Wuffy Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk)<br>    Wuffy Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk
 ​    )<br>    Ace [(Guida installazione)](https://campipaolo.github.io/Mandrakodi-Wiki/guide/acestream/)
 
 ??? info "Impostare Players Esterni con Smartphone/Tablet/Chiavette/Tv/Box/Firestick"
