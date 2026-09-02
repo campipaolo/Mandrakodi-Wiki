@@ -56,7 +56,7 @@
     Per "Opzione DIRETTO" prima eseguire procedura per abilitare i "[Players Esterni](https://campipaolo.github.io/Mandrakodi-Wiki/guide/kodi_settings/)" (se non precedentemente eseguita)
 
 ??? info "Opzione **DIRETTO**"
-    **Play con player esterno (es. Vlc, Mx Player)**
+    **Play fuori da Kodi (es. Vlc, Mx Player)**
 
     * Avviare Kodi
     * In Mandrakodi avviare un link Ace
