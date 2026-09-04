@@ -14,7 +14,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Spingi su Sync
+      - name: Sincronizza repository
         run: |
-          git remote add destination "https://x-access-token:${{ secrets.TEST_SYNC }}@github.com/campipaolo/Sync.git"
-          git push --force destination main
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git push --force https://${{ secrets.TEST_SYNC }}@github.com/campipaolo/Sync.git main
