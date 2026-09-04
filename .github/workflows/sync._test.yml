@@ -14,9 +14,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Configura Git e Push su Sync
+      - name: Push diretto su Sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.Test_Sync }}
         run: |
-          git config --global user.name "campipaolo"
-          git config --global user.email "campipaolo@users.noreply.github.com"
-          git remote add target "https://campipaolo:${{ secrets.Test_Sync }}@github.com/campipaolo/Sync.git"
+          git remote add target "https://x-access-token:${GITHUB_TOKEN}@github.com/campipaolo/Sync.git"
           git push --force target main
