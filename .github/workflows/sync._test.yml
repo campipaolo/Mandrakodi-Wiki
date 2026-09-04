@@ -1,0 +1,22 @@
+name: Sync With Test
+
+on:
+  push:
+    branches:
+      - main  # o il nome del tuo branch principale
+
+jobs:
+  git-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push it to the Test # Push sul repo dell'amico
+        uses: wangyucode/git-sync-action@v0.0.1
+        with:
+          destination_repo: "campipaolo/Sync" # "NOME_UTENTE_AMICO/NOME_REPO_AMICO"
+          destination_branch: "main"
+          destination_token: ${{ secrets.AMICO_TOKEN }}
