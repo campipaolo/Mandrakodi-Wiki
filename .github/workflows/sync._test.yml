@@ -6,17 +6,15 @@ on:
       - main
 
 jobs:
-  git-sync:
+  sincronizzazione:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout del codice
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Push diretto su Sync
-        env:
-          GITHUB_TOKEN: ${{ secrets.Test_Sync }}
+      - name: Esegui Sync su repository Sync
         run: |
-          git remote add target "https://x-access-token:${GITHUB_TOKEN}@github.com/campipaolo/Sync.git"
-          git push --force target main
+          git remote add destination "https://x-access-token:${{ secrets.TEST_SYNC }}@github.com/campipaolo/Sync.git"
+          git push --force destination main
