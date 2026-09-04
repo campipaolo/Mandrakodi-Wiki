@@ -16,5 +16,6 @@ jobs:
 
       - name: Esegui Sync su repository Sync
         run: |
-          git remote add destination "https://x-access-token:${{ secrets.TEST_SYNC }}@github.com/campipaolo/Sync.git"
-          git push --force destination main
+          git config --global user.name "campipaolo"
+          git config --global user.email "campipaolo@users.noreply.github.com"
+          git push --force "https://campipaolo:${{ secrets.TEST_SYNC }}@github.com/campipaolo/Sync.git" main:main
