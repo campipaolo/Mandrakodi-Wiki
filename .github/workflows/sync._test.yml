@@ -9,10 +9,12 @@ jobs:
   git-sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync to Target Repo
-        uses: wei/git-sync@v3
+      - name: Checkout del codice
+        uses: actions/checkout@v4
         with:
-          source_repo: "campipaolo/Mandrakodi-Wiki"
-          source_branch: "main"
-          destination_repo: "https://x-access-token:${{ secrets.Test_Sync }}@github.com/campipaolo/Sync.git"
-          destination_branch: "main"
+          fetch-depth: 0
+
+      - name: Push forzato su Sync
+        run: |
+          git remote add target "https://x-access-token:${{ secrets.Test_Sync }}@github.com/campipaolo/Sync.git"
+          git push --force target main
