@@ -109,5 +109,3 @@
     * Cliccare l'interruttore in corrispondeza sulla destra per attivare/disattivare 
     * Al primo avvio verrà chiesta conferma di attivazione 
 
-------
-
