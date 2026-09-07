@@ -14,7 +14,7 @@
     I players esterni (es. Ace, Mx Player, Wuffy Player,  ecc) vanno **prima** installati sul dispositivo<br>
 
    Mx Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk) (Android)<br>    Mx Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk) (Android)<br>    Wuffy Player [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk) (Android)<br>    Wuffy Player [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk
-​    ) (Android)<br>    Ace (Android/Windows/Linux) [(Guida installazione)](https://campipaolo.github.io/Mandrakodi-Wiki/guide/acestream/)
+​    ) (Android)<br>    Ace (Android/Windows/Linux) [(Guida installazione)](../guide/acestream.md/)
 
 ??? info "Impostare Players Esterni su Android Smartphone/Tablet/Chiavette/Tv/Box/Firestick"
     **Avviare Kodi**
@@ -39,6 +39,7 @@
     * Dall'elenco selezionare player esterno
 
  
+
 
 ------
 

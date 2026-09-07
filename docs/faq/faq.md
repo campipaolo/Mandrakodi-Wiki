@@ -75,3 +75,5 @@
 ??? info "18) Considerazioni in merito alle Leggi?"
     **Motivo:** Le Leggi esistono e sono di dominio pubblico, non è argomento di discussione del gruppo di assistenza<br>    **Soluzione:** Agire di conseguenza, come per tutte le altri Leggi esistenti
 
+??? info "19) Posso riprendere la visione di un contenuto?"
+    **Motivo:** I contenuti di Mandrakodi non si possono aggiungere alla libreria di kodi per riprendere la visione<br>    **Soluzione:** Rimettere  in play s scorrere avanti fino al punto desiderato
