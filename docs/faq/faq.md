@@ -21,7 +21,7 @@
 
 ??? info "4) Con i DNS attualmente impostati, **x.x.x.x - x.x.x.x**, potresti avere problemi a recuperare i link da alcuni siti"
     **Motivo:** MandraKodi ha trovato dei **DNS** diversi da quelli di Cloudflare e/o OpenDNS  
-    **Soluzione:** [Modificare i DNS](/guide/tutorials/dns.md) sul **router**, se possibile. In alternativa, modificarli sul device dove è installato Kodi
+    **Soluzione:** [Modificare i DNS](../guide/dns.md) sul **router**, se possibile. In alternativa, modificarli sul device dove è installato Kodi
 
 ??? info "5) Spiacenti, la fonte non è raggiungibile"
     **Motivo:** La sorgente impostata non è raggiungibile  
