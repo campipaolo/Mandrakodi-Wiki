@@ -32,7 +32,7 @@
     * Esito <a href="https://dnsleaktest.com" target="_blank">test dns</a>
       Selezionare "**Extended test**" e attendere, deve segnare ISP con nome dei dns impostati
 
-[:fontawesome-brands-telegram: Entra Nel Gruppo Teelegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
+[:fontawesome-brands-telegram: Entra Nel Gruppo Telegram](https://t.me/mandrakodi_support){.md-button .md-button--primary}
 
 ------
 
