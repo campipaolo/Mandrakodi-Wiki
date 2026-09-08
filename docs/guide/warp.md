@@ -19,7 +19,7 @@
     * <a href="https://warp-generator.vercel.app" target="_blank">Config Generator</a>
     * Premere il pulsante "**Generate**" per generare la configurazione
     * Premere il pulsante "**Copy**" per copiare negli appunti la configurazione
-    * <a href="https://campipaolo.github.io/Mandrakodi-Wiki/guide/converter.html" target="_blank">Convertitore per Wireguard</a>
+    * <a href="converter.html" target="_blank">Convertitore per Wireguard</a>
     * Nel box di testo "Input" **incollare** la configurazione
     * Premere il pulsante "**Converti**" per generare configurazione nel box di testo "Ouput"
     * Premere il pulsante "**Scarica file**" per salvare file "wireguard.conf"
