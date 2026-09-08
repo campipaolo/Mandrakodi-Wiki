@@ -8,7 +8,7 @@
 ------
 
 !!! important "Players Esterni"
-    <span id="players"></span>A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy Player, ecc) per riprodurre flussi video <br>Vale sia per *Android* su Smartphone/Tablet/Chiavette/Tv/Box/Firestick che per *Pc* Windows, di seguito i passaggi
+    <span id="players"></span>A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy Player, ecc) per riprodurre flussi video, più stabili del player interno di kodi molto "sensibile" ai flussi streaming <br>Vale sia per *Android* su Smartphone/Tablet/Chiavette/Tv/Box/Firestick che per *Pc* Windows, di seguito i passaggi
 
 !!! warning "Installare i vari players esterni"
     I players esterni (es. Ace, Mx Player, Wuffy Player,  ecc) vanno **prima** installati sul dispositivo<br>
@@ -20,7 +20,7 @@
     **Avviare Kodi**
 
     * Entrare in Mandrakodi, sezione “**HELP ME!**”
-    * Cliccare "PLAYER .XML (org.free.aceserve)"
+    * Cliccare "PLAYER .XML (org.free.aceserve)" e confermare
     * Uscire da Kodi e rientrare, accedere a Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
     * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
@@ -41,10 +41,11 @@
  
 
 
+
 ------
 
 !!! important "Flussi MPD"
-    I link MDP sfruttano la libreria di kodi "**inputstream-adaptive**" che *regola automaticamente* la risoluzione video del flusso a seconda della propria connessione e del dispositivo <br> E' possibile sia impostare dei valori min/max sia **selezionare** una **risoluzione video** a piacimento tra quelle disponibili per ogni flusso video 
+    I link MDP sfruttano la libreria di kodi "**inputstream-adaptive**" che *regola automaticamente* la risoluzione video del flusso a seconda della propria connessione e del dispositivo <br> E' possibile sia impostare dei valori min/max sia **selezionare** una **risoluzione video** a piacimento tra quelle disponibili per ogni flusso video<br> N.B.: questi link *sono fruibili solo con il player interno di kodi*, i players esterni non li gestiscono
 
 ??? info "Impostazioni Flussi MPD"
     **Avviare Kodi**

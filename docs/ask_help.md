@@ -10,6 +10,7 @@
     * E' **vietato** *rispondere* alle domande che richiedono **DOVE** vedere cosa
     * E' **vietato** trattare *argomenti off topic* come: consigli su quale device usare/liste esterne all'addon/discussioni generali *non attinenti al gruppo di assistenza*
     * E' **vietato** qualsiasi tipo di saluto "fine a se stesso", intasano la chat inutilmente
+    * E' **vietato** richiedere assistenza per la *Firestick*, contattare eventaule gruppo dedicato
     * **Non contattare in privato gli Admin** previa richiesta scritta nella chat del gruppo
     * **Non contattare in privato gli Admin** qualora il gruppo risulti chiuso in sola lettura
     * *Chiunque* che **non si attiene alle regole**, verrà *espulso dal gruppo*<br>
