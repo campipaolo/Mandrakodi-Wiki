@@ -77,3 +77,6 @@
 
 ??? info "19) Posso riprendere la visione di un contenuto?"
     **Motivo:** I contenuti di Mandrakodi non si possono aggiungere alla libreria di kodi per riprendere la visione<br>    **Soluzione:** Rimettere  in play scorrere avanti fino al punto desiderato
+
+??? info "20) Come verifico se l'addon è aggiornato all'ultima versione?"
+    **Motivo:** Raramente capita che all'apertura l'addon non si aggiorni<br>    **Soluzione:** In mandrakodi, sezione "Help Me", "Update Code" (verrà mostrato eventuale aggiornamento installato oppure conferma che l'addon è già aggiornato)
