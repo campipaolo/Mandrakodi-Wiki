@@ -3,7 +3,7 @@
 ------
 
 !!! tip "WARP"
-    I links con dicitura "**WARP**" *esigono* l'utilizzo di Software/App  <br>    - **Warp** è per *Pc Windows/macOS/Linux & Smartphone-Tablet Android/iOS*, **non richiede** alcuna configurazione <a href="https://one.one.one.one/" target="_blank">(*si installa da qui*)</a><br>    - **Wireguard** è per *Chiavette/Tv/Box/Firestick*, **necessita** del file ".conf" per funzionare correttamente (di seguito passaggi per configurazione e installazione) 
+    I links con dicitura "**WARP**" *esigono* l'utilizzo di Software/App  <br>    - **Warp** è per *Pc Windows/macOS/Linux & Smartphone-Tablet Android/iOS* <a href="https://one.one.one.one/" target="_blank">(*si installa da qui*) e **non richiede** alcuna configurazione, una volta avviato basta attivare il pulsante/cursore <br>    - **Wireguard** è per *Chiavette/Tv/Box/Firestick*, **necessita** del file ".conf" per funzionare correttamente (di seguito passaggi per configurazione e installazione) 
 
 !!! warning "Attenzione"
     File ".conf" è utilizzabile su *più dispositivi contemporaneamente* da stessa rete e tra reti diverse <br> **Sconsigliamo** di **condividere** il proprio file .conf **con più utenti**, ad esagerare finisce che Cloudlfare poi impone un   file diverso per ogni dispositivo e pure per ogni tipologia di rete....<br> N.B.: con Warp/Wireguard **la velocità si abbassa inevitabilmente**, con dispositivi poco performanti si consiglia di abbassare la risoluzione video  tramite "inputstream-adaptive" come da [impostazioni consigliate](kodi_settings.md)
