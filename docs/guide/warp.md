@@ -36,7 +36,7 @@
     * **Chiavette/Tv/Box**: installare Wireguard dal Google Play Store
     * **Firestick**: scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>
     * Firestick con **Fire OS 5.x.x.x**: [Wireguard Amdroid 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/WireGuard_1_0_20210924_Android5.apk)
-    * **Con alcuni modelli di Firestick** potrebbe essere necessario usare un file manager per selezionare file .conf durante l'importazione in Wireguard [Cx File Explorer](https://cxfileexplorer.com/?go=download)
+    * **Con alcuni modelli di Firestick** potrebbe essere necessario usare un file manager per selezionare file .conf durante l'importazione in Wireguard: [Cx File Explorer](https://cxfileexplorer.com/?go=download)
 
 ------
 

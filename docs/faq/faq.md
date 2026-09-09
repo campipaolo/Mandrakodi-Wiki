@@ -80,3 +80,6 @@
 
 ??? info "20) Come verifico se l'addon è aggiornato all'ultima versione?"
     **Motivo:** Raramente capita che all'apertura l'addon non si aggiorni<br>    **Soluzione:** In Mandrakodi, sezione "Help Me", "Update Code" (verrà mostrato eventuale aggiornamento installato oppure conferma che l'addon è già aggiornato)
+
+??? info "21) Durante la visione il player spesso si stoppa ed esce"
+    **Motivo:** Al netto del flusso che può essere instabile, anche il dispositivi poco performante può incidere<br>    **Soluzione:** Provare utilizzando un [player esterno](../guide/kodi_settings), se non migliora allora è questione di fonte sovraccarica e/o propria connessione
