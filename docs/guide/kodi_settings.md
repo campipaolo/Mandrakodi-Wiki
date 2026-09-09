@@ -8,7 +8,7 @@
 ------
 
 !!! important "Players Esterni"
-    <span id="players"></span>A partire da Kodi 21.2 è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy Player, ecc) per riprodurre flussi video, più stabili del player interno di kodi molto "sensibile" ai flussi streaming <br>Vale sia per *Android* su Smartphone/Tablet/Chiavette/Tv/Box/Firestick che per *Pc* Windows, di seguito i passaggi
+    <span id="players"></span>A partire da Kodi 21.2 per riprodurre flussi video è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy Player, ecc)  più stabili del player interno di kodi molto "sensibile" ai flussi streaming <br>Vale sia per *Android* su Smartphone/Tablet/Chiavette/Tv/Box/Firestick che per *Pc* Windows, di seguito i passaggi
 
 !!! warning "Installare i vari players esterni"
     I players esterni (es. Ace, Mx Player, Wuffy Player,  ecc) vanno **prima** installati sul dispositivo<br>
@@ -39,6 +39,7 @@
     * Dall'elenco selezionare player esterno
 
  
+
 
 
 
