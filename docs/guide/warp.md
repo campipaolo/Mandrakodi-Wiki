@@ -30,20 +30,24 @@
 !!! important "Fase 2 - Wireguard per Chiavette/Tv/Box/Firestick"
     Play Store Chiavette/Tv/Box - Apk **Firestick** + File Manager
 
-??? info "Wireguard"
+??? info "Wireguard + File Manager"
     **Chiavette/Tv/Box/Firestick**
 
-    * **Chiavette/Tv/Box**: installare Wireguard dal Google Play Store
-    * **Firestick**: scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>
-    * Firestick con **Fire OS 5.x.x.x**: [Wireguard Amdroid 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/WireGuard_1_0_20210924_Android5.apk)
-    * **Con alcuni modelli di Firestick** potrebbe essere necessario usare un file manager per selezionare file .conf durante l'importazione in Wireguard: [Cx File Explorer](https://cxfileexplorer.com/?go=download)
+    * **Chiavette/Tv/Box** 
+    * Installare dal Play Store "Wireguard"
+    * Installare dal Play Store "Total Commander - File Manager"<br>
     
-    N.B.: se ancora si hanno problemi, **non richiedete assistenza** nel gruppo, **come da regolamento**
+    * **Firestick FireOs 6.x/7.x** 
+    * Scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>
+    * installare dallo Store "Total Commander"<br>
+    
+    * Firestick con **Fire OS 5.x**
+    * Scaricare [Wireguard Amdroid 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/WireGuard_1_0_20210924_Android5.apk)
 
 ------
 
 !!! important "Fase 3 - Localsend"
-    **Inviare** a Chiavette/Tv/Box/Firestick  file ".conf"  e  Apk Wireguard+File Manager per Firestick
+    **Inviare** a Chiavette/Tv/Box/Firestick  file ".conf"  e  Apk Wireguard
 
 ??? info "Localsend"
     **Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick**
@@ -68,11 +72,11 @@
     **Firestick**
 
 
-    * In "**Localsend**" sul dispositivo "**ricevente**" in alto a destra l'icona a fianco alla “**i**” elenca la cronologia dei file ricevuti
-    * Cliccare apk Wireguard 
-    * Consentire installazione delle app da Localsend (se richiesto) e installarlo
-    * Alla prima apertura, Wireguard potrebbe chiedere il permesso di accedere ai file
-    * Concedere l'autorizzazione, se non appare richiesta, uscire e rientrare
+    * Avviare Total Commander
+    * Recarsi nella cartella "Download"
+    * Total Commander richiede conferma di accedere e di avere i permessi del caso, accettare
+    * Cliccare sul file apk di Wireguard
+    * Installare Wireguard e *NON avviarlo*
 
 ------
 
@@ -83,11 +87,21 @@
     **Chiavette/Tv/Box/Firestick**
 
 
-    * Aprire Wireguard, premere il pulsante "**+**" [(Foto)](../images/wireguard_home.jpg){ target="_blank" }
-    * Importare il file ".conf", sarà quindi presente nella schermata principale
+    *  **Chiavette/Tv/Box & Firestick FireOs 6.x/7.x**
+    * Avviare Total Commander
+    * Recarsi nella cartella "Download"
+    * Cliccare sul file ".conf"
+    * Selezionare "Apri con"
+    * Selezionare app Wireguard
     * Cliccare sulla configurazione importata per attivare/disattivare 
     * Al primo avvio verrà chiesta conferma di attivazione
-    * Quando attivo, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" }
+    * Quando attiva, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" } <br>
+    
+    * **Firestick FireOs 5.x**
+    * Avviare Wireguard
+    * Premere il pulsante "+" [(Foto)](../images/wireguard_home.jpg){ target="_blank" } <br>
+    * Navigare nella cartella "Download" e selezionare il file ".conf"
+    * Quando attiva, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" }
 
 
 
