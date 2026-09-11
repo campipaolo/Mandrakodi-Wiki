@@ -101,6 +101,8 @@
     * Avviare Wireguard
     * Premere il pulsante "+" [(Foto)](../images/wireguard_home.jpg){ target="_blank" } <br>
     * Navigare nella cartella "Download" e selezionare il file ".conf"
+    * Cliccare sulla configurazione importata per attivare/disattivare 
+    * Al primo avvio verrà chiesta conferma di attivazione
     * Quando attiva, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" }
 
 
