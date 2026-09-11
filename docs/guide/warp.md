@@ -87,7 +87,7 @@
     **Chiavette/Tv/Box/Firestick**
 
 
-    *  **Chiavette/Tv/Box & Firestick FireOs 6.x/7.x**
+    * **Chiavette/Tv/Box & Firestick FireOs 6.x/7.x**
     * Avviare Total Commander
     * Recarsi nella cartella "Download"
     * Cliccare sul file ".conf"
@@ -95,8 +95,8 @@
     * Selezionare app Wireguard
     * Cliccare sulla configurazione importata per attivare/disattivare 
     * Al primo avvio verrà chiesta conferma di attivazione
-    * Quando attiva, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" } <br>
-    
+    * Quando attiva, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" }
+    <br>
     * **Firestick FireOs 5.x**
     * Avviare Wireguard
     * Premere il pulsante "+" [(Foto)](../images/wireguard_home.jpg){ target="_blank" } <br>
