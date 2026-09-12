@@ -74,7 +74,7 @@
 </div>
 
 <script>
-  var SCRIPT_URL = "https://script.google.com/macros/s/TUO_SCRIPT_ID/exec";
+  var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxBf2aK5ILmULSlcuuGR6K47vsuJbdwj1b1jEtBwl8qMEzXCZRr0QKG5wc4ZAoVnj4/exec";
 
   var datiStruttura = {
     "SPORT": {
