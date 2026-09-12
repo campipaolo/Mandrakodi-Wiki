@@ -51,8 +51,8 @@
     <!-- PROBLEMA -->
     <label for="problema"><strong>Tipo di Problema (Obbligatorio):</strong></label>
     <select id="problema" name="problema" required style="width: 100%; padding: 8px; margin-top: 5px;">
-      <option value="INTERA sezione offline (NON singolo link)" selected>
-        INTERA sezione offline (NON singolo link)
+      <option value="INTERA **sezion**e non funzionante (*NON singolo link*)" selected>
+        INTERA **sezione** offline (*NON singolo link*)
       </option>
     </select>
     
