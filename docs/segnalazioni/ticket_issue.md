@@ -76,6 +76,7 @@
 <script>
   var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxBf2aK5ILmULSlcuuGR6K47vsuJbdwj1b1jEtBwl8qMEzXCZRr0QKG5wc4ZAoVnj4/exec";
 
+
   var datiStruttura = {
     "SPORT": {
       "Liste Eventi": [
@@ -172,10 +173,18 @@
     }
   }
 
-  // Carica la tabella segnalazioni aperte
+// Carica la tabella segnalazioni aperte
   function loadReports() {
-    fetch(SCRIPT_URL + "?action=getOpen")
-      .then(function(res) { return res.json(); })
+    fetch(SCRIPT_URL + "?action=getOpen", {
+      method: "GET",
+      redirect: "follow"
+    })
+      .then(function(res) {
+        if (!res.ok) {
+          throw new Error("Risposta rete non valida: " + res.statusText);
+        }
+        return res.json();
+      })
       .then(function(data) {
         var tbody = document.getElementById('tabella-segnalazioni');
         tbody.innerHTML = '';
@@ -185,15 +194,21 @@
         }
         data.forEach(function(item) {
           tbody.innerHTML += '<tr style="border-bottom: 1px solid #444;">' +
-            '<td>' + item.data + '</td>' +
-            '<td><span style="background: #333; padding: 2px 6px; border-radius: 4px;">' + item.sezione + '</span></td>' +
-            '<td><strong>' + item.contenuto + '</strong></td>' +
-            '<td>' + item.problema + '</td>' +
-            '<td><span style="background: #ff9800; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #000;">' + item.stato + '</span></td>' +
+            '<td>' + (item.data || '') + '</td>' +
+            '<td><span style="background: #333; padding: 2px 6px; border-radius: 4px;">' + (item.sezione || '') + '</span></td>' +
+            '<td><strong>' + (item.contenuto || '') + '</strong></td>' +
+            '<td>' + (item.problema || '') + '</td>' +
+            '<td><span style="background: #ff9800; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #000;">' + (item.stato || '') + '</span></td>' +
           '</tr>';
         });
       })
-      .catch(function(err) { console.error("Errore caricamento:", err); });
+      .catch(function(err) {
+        console.error("Errore caricamento:", err);
+        var tbody = document.getElementById('tabella-segnalazioni');
+        if (tbody) {
+          tbody.innerHTML = '<tr><td colspan="5" style="color:#ff5252;">Impossibile caricare le segnalazioni. Verificare il foglio Google.</td></tr>';
+        }
+      });
   }
 
   // Invio Form
