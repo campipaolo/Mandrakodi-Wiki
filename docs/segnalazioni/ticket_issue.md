@@ -22,7 +22,7 @@
   <h3>Segnala un contenuto non funzionante</h3>
   <form id="reportForm">
 
-    <!-- LIVALLO 1: MACRO CATEGORIA -->
+    <!-- LIVELLO 1: MACRO CATEGORIA -->
     <label>Categoria Principale (Obbligatorio):</label><br>
     <select id="cat_principale" required style="width:100%; padding: 8px; margin: 8px 0;">
       <option value="">-- Seleziona Categoria --</option>
@@ -137,17 +137,20 @@
   const warningDiv = document.getElementById('duplicate-warning');
   const btnSubmit = document.getElementById('btnSubmit');
 
-  // Gestione Cambio Categoria Principale
-  catPrincipale.addEventListener('change', () => {
-    const val = catPrincipale.value;
+  // POPOLA SUB-CATEGORIA
+  catPrincipale.addEventListener('change', function() {
+    const val = this.value;
     catSecondaria.innerHTML = '<option value="">-- Seleziona Sotto-Categoria --</option>';
     contenutoSpecifico.innerHTML = '<option value="">-- Prima seleziona la Sotto-Categoria --</option>';
     contenutoSpecifico.disabled = true;
 
     if (val && datiStruttura[val]) {
       catSecondaria.disabled = false;
-      Object.keys(datiStruttura[val]).forEach(subCat => {
-        catSecondaria.innerHTML += `<option value="${subCat}">${subCat}</option>`;
+      Object.keys(datiStruttura[val]).forEach(function(subCat) {
+        const opt = document.createElement('option');
+        opt.value = subCat;
+        opt.textContent = subCat;
+        catSecondaria.appendChild(opt);
       });
     } else {
       catSecondaria.disabled = true;
@@ -155,16 +158,19 @@
     checkDuplicate();
   });
 
-  // Gestione Cambio Sotto-Categoria
-  catSecondaria.addEventListener('change', () => {
+  // POPOLA CONTENUTO SPECIFICO
+  catSecondaria.addEventListener('change', function() {
     const macro = catPrincipale.value;
-    const sub = catSecondaria.value;
+    const sub = this.value;
     contenutoSpecifico.innerHTML = '<option value="">-- Seleziona Contenuto/Lista --</option>';
 
-    if (macro && sub && datiStruttura[macro][sub]) {
+    if (macro && sub && datiStruttura[macro] && datiStruttura[macro][sub]) {
       contenutoSpecifico.disabled = false;
-      datiStruttura[macro][sub].forEach(item => {
-        contenutoSpecifico.innerHTML += `<option value="${item}">${item}</option>`;
+      datiStruttura[macro][sub].forEach(function(item) {
+        const opt = document.createElement('option');
+        opt.value = item;
+        opt.textContent = item;
+        contenutoSpecifico.appendChild(opt);
       });
     } else {
       contenutoSpecifico.disabled = true;
@@ -174,7 +180,7 @@
 
   contenutoSpecifico.addEventListener('change', checkDuplicate);
 
-  // Controllo Duplicati via API
+  // CONTROLLO DUPLICATI
   async function checkDuplicate() {
     const macro = catPrincipale.value;
     const sub = catSecondaria.value;
@@ -198,10 +204,14 @@
       } catch (e) {
         console.error("Errore verifica duplicato", e);
       }
+    } else {
+      warningDiv.style.display = 'none';
+      btnSubmit.disabled = false;
+      btnSubmit.style.opacity = '1';
     }
   }
 
-  // Caricamento segnalazioni aperte in testata
+  // CARICAMENTO SEGNALAZIONI
   async function loadReports() {
     try {
       const res = await fetch(`${SCRIPT_URL}?action=getOpen`);
@@ -209,7 +219,7 @@
       const tbody = document.getElementById('tabella-segnalazioni');
       tbody.innerHTML = '';
 
-      if (data.length === 0) {
+      if (!data || data.length === 0) {
         tbody.innerHTML = '<tr><td colspan="5">Nessuna segnalazione attiva al momento.</td></tr>';
         return;
       }
@@ -226,12 +236,12 @@
         `;
       });
     } catch (e) {
-      console.error(e);
+      console.error("Errore caricamento tabella:", e);
     }
   }
 
- // Invio Form Corretto con gestione CORS
-  document.getElementById('reportForm').addEventListener('submit', async (e) => {
+  // INVIO FORM
+  document.getElementById('reportForm').addEventListener('submit', async function(e) {
     e.preventDefault();
     btnSubmit.innerText = "Invio in corso...";
     btnSubmit.disabled = true;
@@ -250,7 +260,7 @@
     try {
       await fetch(SCRIPT_URL, {
         method: 'POST',
-        mode: 'no-cors', // Evita il blocco CORS su Google Apps Script
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -258,20 +268,24 @@
       });
     
       alert('Segnalazione inviata con successo!');
-      document.getElementById('reportForm').reset();
-      catSecondaria.disabled = true;
-      catSecondaria.innerHTML = '<option value="">-- Prima seleziona la Categoria --</option>';
-      contenutoSpecifico.disabled = true;
-      contenutoSpecifico.innerHTML = '<option value="">-- Prima seleziona la Sotto-Categoria --</option>';
       
-      // Ricarica la lista dopo un piccolo ritardo per dare tempo allo script di aggiornare il foglio
+      // RESET PULITO
+      document.getElementById('reportForm').reset();
+      catSecondaria.innerHTML = '<option value="">-- Prima seleziona la Categoria --</option>';
+      catSecondaria.disabled = true;
+      contenutoSpecifico.innerHTML = '<option value="">-- Prima seleziona la Sotto-Categoria --</option>';
+      contenutoSpecifico.disabled = true;
+    
       setTimeout(loadReports, 1500);
     
     } catch (error) {
-      console.error('Errore durante l invio:', error);
-      alert('Si è verificato un errore durante l invio. Riprova.');
+      console.error('Errore durante invio:', error);
+      alert('Si è verificato un errore durante l invio.');
     } finally {
       btnSubmit.innerText = "Invia Segnalazione";
       btnSubmit.disabled = false;
     }
   });
+
+  loadReports();
+</script>
