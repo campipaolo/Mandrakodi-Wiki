@@ -230,7 +230,7 @@
     }
   }
 
-  // Invio Form
+ // Invio Form Corretto con gestione CORS
   document.getElementById('reportForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     btnSubmit.innerText = "Invio in corso...";
@@ -247,19 +247,31 @@
       piattaforma: document.getElementById('piattaforma').value
     };
     
-    await fetch(SCRIPT_URL, {
-      method: 'POST',
-      body: JSON.stringify(payload)
-    });
+    try {
+      await fetch(SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors', // Evita il blocco CORS su Google Apps Script
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
     
-    alert('Segnalazione inviata con successo!');
-    document.getElementById('reportForm').reset();
-    catSecondaria.disabled = true;
-    contenutoSpecifico.disabled = true;
-    btnSubmit.innerText = "Invia Segnalazione";
-    btnSubmit.disabled = false;
-    loadReports();
+      alert('Segnalazione inviata con successo!');
+      document.getElementById('reportForm').reset();
+      catSecondaria.disabled = true;
+      catSecondaria.innerHTML = '<option value="">-- Prima seleziona la Categoria --</option>';
+      contenutoSpecifico.disabled = true;
+      contenutoSpecifico.innerHTML = '<option value="">-- Prima seleziona la Sotto-Categoria --</option>';
+      
+      // Ricarica la lista dopo un piccolo ritardo per dare tempo allo script di aggiornare il foglio
+      setTimeout(loadReports, 1500);
+    
+    } catch (error) {
+      console.error('Errore durante l invio:', error);
+      alert('Si è verificato un errore durante l invio. Riprova.');
+    } finally {
+      btnSubmit.innerText = "Invia Segnalazione";
+      btnSubmit.disabled = false;
+    }
   });
-
-  loadReports();
-</script>
