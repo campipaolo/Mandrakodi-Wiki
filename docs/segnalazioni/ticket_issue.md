@@ -1,252 +1,136 @@
-<!-- TABELLA SEGNALAZIONI APERTE -->
-<div id="lista-segnalazioni-box" style="background: #1e1e2e; color: #fff; padding: 15px; border-radius: 8px; margin-bottom: 25px;">
-  <h3 style="margin-top:0; color: #ffab00;">⚠️ Segnalazioni Attive / Non Funzionanti</h3>
-  <table style="width:100%; border-collapse: collapse; color: #fff;">
-    <thead>
-      <tr style="border-bottom: 2px solid #444; text-align: left;">
-        <th>Data</th>
-        <th>Categoria</th>
-        <th>Sotto-Categoria / Contenuto</th>
-        <th>Problema</th>
-        <th>Stato</th>
-      </tr>
-    </thead>
-    <tbody id="tabella-segnalazioni">
-      <tr><td colspan="5">Caricamento segnalazioni...</td></tr>
-    </tbody>
-  </table>
-</div>
+var menuData = {}; // Conterrà la mappa inviata da Apps Script
 
-<!-- FORM DI SEGNALAZIONE -->
-<div style="background: #2a2a3c; padding: 20px; border-radius: 8px; color: #fff;">
-  <h3>Segnala un contenuto non funzionante</h3>
-  <form id="reportForm">
-
-    <!-- LIVELLO 1: MACRO CATEGORIA -->
-    <label>Categoria Principale (Obbligatorio):</label><br>
-    <select id="cat_principale" required onchange="aggiornaSubCat()" style="width:100%; padding: 8px; margin: 8px 0; background: #1e1e2e; color: #fff; border: 1px solid #555;">
-      <option value="">-- Seleziona Categoria --</option>
-      <option value="SPORT">SPORT</option>
-      <option value="LIVE">LIVE</option>
-      <option value="ONDEMAND">ONDEMAND</option>
-      <option value="RADIO">RADIO</option>
-    </select><br>
-    
-    <!-- LIVELLO 2: SOTTO CATEGORIA -->
-    <label>Sotto-Categoria (Obbligatorio):</label><br>
-    <select id="cat_secondaria" required disabled onchange="aggiornaContenuti()" style="width:100%; padding: 8px; margin: 8px 0; background: #1e1e2e; color: #fff; border: 1px solid #555;">
-      <option value="">-- Prima seleziona la Categoria --</option>
-    </select><br>
-    
-    <!-- LIVELLO 3: CONTENUTO SPECIFICO -->
-    <label>Contenuto / Lista Specifica (Obbligatorio):</label><br>
-    <select id="contenuto_specifico" required disabled style="width:100%; padding: 8px; margin: 8px 0; background: #1e1e2e; color: #fff; border: 1px solid #555;">
-      <option value="">-- Prima seleziona la Sotto-Categoria --</option>
-    </select><br>
-    
-    <div id="duplicate-warning" style="display:none; background: #d32f2f; color: white; padding: 10px; border-radius: 4px; margin: 8px 0;">
-      ❌ <strong>Attenzione:</strong> Risulta già una segnalazione attiva per questo specifico contenuto!
-    </div>
-    
-    <!-- PROBLEMA -->
-    <label for="problema"><strong>Tipo di Problema (Obbligatorio):</strong></label>
-    <select id="problema" name="problema" required style="width: 100%; padding: 8px; margin-top: 5px;">
-      <option value="INTERA SEZIONE non accessibile/vuota (NON singolo/i link non funzionante/i)" selected>
-        INTERA SEZIONE non accessibile/vuota (NON singolo/i link non funzionante/i)
-      </option>
-    </select>
-    
-    <!-- PIATTAFORMA -->
-    <label>Dispositivo / Sistema (Obbligatorio):</label><br>
-    <select id="piattaforma" required style="width:100%; padding: 8px; margin: 8px 0; background: #1e1e2e; color: #fff; border: 1px solid #555;">
-      <option value="">-- Seleziona Piattaforma --</option>
-      <option value="Android TV / Firestick">Android TV / Firestick</option>
-      <option value="Windows">Windows</option>
-      <option value="Linux / CoreELEC">Linux / CoreELEC</option>
-      <option value="Altro">Altro</option>
-    </select><br><br>
-    
-    <button type="submit" id="btnSubmit" style="background: #2196F3; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold;">Invia Segnalazione</button>
-  </form>
-</div>
-
-<script>
-  var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxBf2aK5ILmULSlcuuGR6K47vsuJbdwj1b1jEtBwl8qMEzXCZRr0QKG5wc4ZAoVnj4/exec";
-
-
-  var datiStruttura = {
-    "SPORT": {
-      "Liste Eventi": [
-        "Lista 1 (Daddy)",
-        "Lista 2 (Platin - Ace)",
-        "Lista 3 (Sportzonline)",
-        "Lista 4 (SportzX)",
-        "Lista 5 (CDN)",
-        "Lista 6 (Fitlibre)"
-      ],
-      "Liste Canali": [
-        "MPD (Nazioni)",
-        "MPD (All)",
-        "Sky",
-        "Sky 2",
-        "Lista Ace 1",
-        "Free Live Sport",
-        "Mediahosting Channel",
-        "Lista 1 (Github 1)",
-        "Lista 2 (Github 2)",
-        "Lista 3 (Rocktalk)",
-        "Lista 4 (Partite)",
-        "Lista 5 (Sportsonline)",
-        "Lista 6 (Sports99)",
-        "Lista 7 (Rustinco Tv)",
-        "Lista 8 (Daddy)"
-      ],
-      "Roja Tube": [
-        "Roja Tube"
-      ],
-      "Sport Replay": [
-        "Soccer Replay",
-        "Motor Sport Replay",
-        "NBA Replay",
-        "WNBA Replay",
-        "Eurolegue Replay",
-        "NFL Condensed Replay",
-        "UFC Replay",
-        "Tennis Replay",
-        "WWE Replay"
-      ]
-    },
-    "LIVE": {
-      "Generale": ["Tutti i canali LIVE"]
-    },
-    "ONDEMAND": {
-      "Generale": ["Tutti i contenuti ONDEMAND"]
-    },
-    "RADIO": {
-      "Generale": ["Tutte le stazioni RADIO"]
-    }
-  };
-
-  function aggiornaSubCat() {
-    var cat = document.getElementById('cat_principale').value;
-    var subSelect = document.getElementById('cat_secondaria');
-    var itemSelect = document.getElementById('contenuto_specifico');
-
-    subSelect.innerHTML = '<option value="">-- Seleziona Sotto-Categoria --</option>';
-    itemSelect.innerHTML = '<option value="">-- Prima seleziona la Sotto-Categoria --</option>';
-    itemSelect.disabled = true;
-    
-    if (cat && datiStruttura[cat]) {
-      subSelect.disabled = false;
-      for (var sub in datiStruttura[cat]) {
-        var opt = document.createElement('option');
-        opt.value = sub;
-        opt.text = sub;
-        subSelect.appendChild(opt);
-      }
-    } else {
-      subSelect.disabled = true;
-    }
-  }
-
-  function aggiornaContenuti() {
-    var cat = document.getElementById('cat_principale').value;
-    var sub = document.getElementById('cat_secondaria').value;
-    var itemSelect = document.getElementById('contenuto_specifico');
-
-    itemSelect.innerHTML = '<option value="">-- Seleziona Contenuto/Lista --</option>';
-    
-    if (cat && sub && datiStruttura[cat] && datiStruttura[cat][sub]) {
-      itemSelect.disabled = false;
-      var lista = datiStruttura[cat][sub];
-      for (var i = 0; i < lista.length; i++) {
-        var opt = document.createElement('option');
-        opt.value = lista[i];
-        opt.text = lista[i];
-        itemSelect.appendChild(opt);
-      }
-    } else {
-      itemSelect.disabled = true;
-    }
-  }
-
-// Carica la tabella segnalazioni aperte
-  function loadReports() {
-    fetch(SCRIPT_URL + "?action=getOpen", {
-      method: "GET",
-      redirect: "follow"
-    })
-      .then(function(res) {
-        if (!res.ok) {
-          throw new Error("Risposta rete non valida: " + res.statusText);
-        }
-        return res.json();
-      })
-      .then(function(data) {
-        var tbody = document.getElementById('tabella-segnalazioni');
-        tbody.innerHTML = '';
-        if (!data || data.length === 0) {
-          tbody.innerHTML = '<tr><td colspan="5">Nessuna segnalazione attiva al momento.</td></tr>';
-          return;
-        }
-        data.forEach(function(item) {
-          tbody.innerHTML += '<tr style="border-bottom: 1px solid #444;">' +
-            '<td>' + (item.data || '') + '</td>' +
-            '<td><span style="background: #333; padding: 2px 6px; border-radius: 4px;">' + (item.sezione || '') + '</span></td>' +
-            '<td><strong>' + (item.contenuto || '') + '</strong></td>' +
-            '<td>' + (item.problema || '') + '</td>' +
-            '<td><span style="background: #ff9800; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #000;">' + (item.stato || '') + '</span></td>' +
-          '</tr>';
-        });
-      })
-      .catch(function(err) {
-        console.error("Errore caricamento:", err);
-        var tbody = document.getElementById('tabella-segnalazioni');
-        if (tbody) {
-          tbody.innerHTML = '<tr><td colspan="5" style="color:#ff5252;">Impossibile caricare le segnalazioni. Verificare il foglio Google.</td></tr>';
-        }
-      });
-  }
-
-  // Invio Form
-  document.getElementById('reportForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    var btn = document.getElementById('btnSubmit');
-    btn.innerText = "Invio in corso...";
-    btn.disabled = true;
-
-    var macro = document.getElementById('cat_principale').value;
-    var sub = document.getElementById('cat_secondaria').value;
-    var item = document.getElementById('contenuto_specifico').value;
-    
-    var payload = {
-      sezione: macro,
-      contenuto: macro + ' > ' + sub + ' > ' + item,
-      problema: document.getElementById('problema').value,
-      piattaforma: document.getElementById('piattaforma').value
-    };
-    
-    fetch(SCRIPT_URL, {
-      method: 'POST',
-      mode: 'no-cors',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    })
-    .then(function() {
-      alert('Segnalazione inviata con successo!');
-      document.getElementById('reportForm').reset();
-      document.getElementById('cat_secondaria').disabled = true;
-      document.getElementById('contenuto_specifico').disabled = true;
-      btn.innerText = "Invia Segnalazione";
-      btn.disabled = false;
-      setTimeout(loadReports, 1500);
+// 1. Carica la struttura dei menu al caricamento della pagina
+function loadMenu() {
+  fetch(SCRIPT_URL + "?action=getMenu", { method: "GET", redirect: "follow" })
+    .then(function(res) { return res.json(); })
+    .then(function(data) {
+      menuData = data;
+      popolaCategoriePrincipali();
     })
     .catch(function(err) {
-      alert('Errore invio!');
-      btn.innerText = "Invia Segnalazione";
-      btn.disabled = false;
+      console.error("Errore caricamento menu:", err);
     });
+}
+
+// 2. Popola il primo menu: Categoria Principale
+function popolaCategoriePrincipali() {
+  var catSelect = document.getElementById("categoria-principale");
+  catSelect.innerHTML = '<option value="">-- Seleziona Categoria --</option>';
+
+  // Mappa delle Categorie Principali in base alle intestazioni del foglio
+  var categorie = [
+    { label: menuData["A"] ? menuData["A"][0] : "SPORT", key: "A" },
+    { label: menuData["I"] ? menuData["I"][0] : "LIVE", key: "I" },
+    { label: menuData["K"] ? menuData["K"][0] : "ONDEMAND", key: "K" },
+    { label: menuData["M"] ? menuData["M"][0] : "RADIO", key: "M" }
+  ];
+
+  categorie.forEach(function(cat) {
+    if (cat.label) {
+      var opt = document.createElement("option");
+      opt.value = cat.key;
+      opt.textContent = cat.label;
+      catSelect.appendChild(opt);
+    }
+  });
+}
+
+// 3. Gestore cambio Categoria Principale -> Popola Sotto-Categoria
+function onCategoriaChange() {
+  var catKey = document.getElementById("categoria-principale").value;
+  var subSelect = document.getElementById("sotto-categoria");
+  var contentSelect = document.getElementById("contenuto-lista");
+
+  subSelect.innerHTML = '<option value="">-- Seleziona Sotto-Categoria --</option>';
+  contentSelect.innerHTML = '<option value="">-- Seleziona Contenuto --</option>';
+
+  if (!catKey) return;
+
+  if (catKey === "A") {
+    // SPORT: ha 4 sotto-categorie (A1, A2, A3, A4)
+    var subSport = [
+      { code: "A1", label: menuData["B"] ? menuData["B"][0] : "Liste Eventi" },
+      { code: "A2", label: menuData["D"] ? menuData["D"][0] : "Liste Canali" },
+      { code: "A3", label: menuData["F"] ? menuData["F"][0] : "Roja Tube" },
+      { code: "A4", label: menuData["G"] ? menuData["G"][0] : "Sport Replay" }
+    ];
+    subSport.forEach(function(item) {
+      if (item.label) {
+        var opt = document.createElement("option");
+        opt.value = item.code;
+        opt.textContent = item.label;
+        subSelect.appendChild(opt);
+      }
+    });
+  } else if (catKey === "I") {
+    // LIVE: le sotto-categorie sono in B1 (Colonna J)
+    var itemsB1 = menuData["B1"] || [];
+    itemsB1.forEach(function(item) {
+      var opt = document.createElement("option");
+      opt.value = "B1:" + item;
+      opt.textContent = item;
+      subSelect.appendChild(opt);
+    });
+  } else if (catKey === "K") {
+    // ONDEMAND: le sotto-categorie sono in C1 (Colonna L)
+    var itemsC1 = menuData["C1"] || [];
+    itemsC1.forEach(function(item) {
+      var opt = document.createElement("option");
+      opt.value = "C1:" + item;
+      opt.textContent = item;
+      subSelect.appendChild(opt);
+    });
+  } else if (catKey === "M") {
+    // RADIO: non ha sotto-categorie, seleziona in automatico Generale
+    var opt = document.createElement("option");
+    opt.value = "M_GEN";
+    opt.textContent = "Generale";
+    opt.selected = true;
+    subSelect.appendChild(opt);
+    onSottoCategoriaChange(); // Popola direttamente i contenuti
+  }
+}
+
+// 4. Gestore cambio Sotto-Categoria -> Popola Contenuto / Lista Specifica
+function onSottoCategoriaChange() {
+  var catKey = document.getElementById("categoria-principale").value;
+  var subValue = document.getElementById("sotto-categoria").value;
+  var contentSelect = document.getElementById("contenuto-lista");
+
+  contentSelect.innerHTML = '<option value="">-- Seleziona Contenuto --</option>';
+
+  if (!subValue) return;
+
+  var list = [];
+
+  if (subValue === "A1") {
+    list = menuData["C"] || []; // Colonna C (A1A - Liste Eventi)
+  } else if (subValue === "A2") {
+    list = menuData["E"] || []; // Colonna E (A2A - Liste Canali)
+  } else if (subValue === "A3") {
+    list = ["Roja Tube"]; // Selezione singola
+  } else if (subValue === "A4") {
+    list = menuData["H"] || []; // Colonna H (A4A - Sport Replay)
+  } else if (subValue.indexOf("B1:") === 0 || subValue.indexOf("C1:") === 0) {
+    // Per LIVE e ONDEMAND la sotto-categoria è già lo specifico canale/sezione
+    list = [subValue.split(":")[1]];
+  } else if (catKey === "M") {
+    list = menuData["M"] ? menuData["M"].slice(1) : []; // Colonna Radio
+  }
+
+  list.forEach(function(item) {
+    var opt = document.createElement("option");
+    opt.value = item;
+    opt.textContent = item;
+    contentSelect.appendChild(opt);
   });
 
-  loadReports();
-</script>
+  // Se c'è solo un elemento, selezionalo automaticamente
+  if (list.length === 1) {
+    contentSelect.selectedIndex = 1;
+  }
+}
+
+// Inizializza i menu all'apertura
+document.addEventListener("DOMContentLoaded", loadMenu);
