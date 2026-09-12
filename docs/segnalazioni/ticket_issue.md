@@ -50,14 +50,12 @@
     
     <!-- PROBLEMA -->
     <label>Tipo di Problema (Obbligatorio):</label><br>
-    <select id="problema" required style="width:100%; padding: 8px; margin: 8px 0; background: #1e1e2e; color: #fff; border: 1px solid #555;">
-      <option value="">-- Seleziona Problema --</option>
-      <option value="Link non funzionante / No Stream">Link non funzionante / No Stream</option>
-      <option value="Buffering continuo">Buffering continuo</option>
-      <option value="Audio/Video fuori sincro">Audio/Video fuori sincro</option>
-      <option value="Traccia audio errata">Traccia audio errata</option>
-      <option value="Canale/Lista offline">Canale/Lista offline</option>
-    </select><br>
+    <label for="problema"><strong>Tipo di Problema (Obbligatorio):</strong></label>
+    <select id="problema" name="problema" required style="width: 100%; padding: 8px; margin-top: 5px;">
+      <option value="INTERA sezione offline (NON singolo link)" selected>
+        INTERA sezione offline (NON singolo link)
+      </option>
+    </select>
     
     <!-- PIATTAFORMA -->
     <label>Dispositivo / Sistema (Obbligatorio):</label><br>
