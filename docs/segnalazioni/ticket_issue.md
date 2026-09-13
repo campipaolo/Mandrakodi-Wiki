@@ -198,10 +198,7 @@ title: Segnalazioni
         subSel.appendChild(opt);
       });
     } else if (cat === "On Demand") {
-      var opts = ["Movie Club"];
-      var listeGeneriche = rawData["OnDemand_Liste"] || [];
-      listeGeneriche.forEach(function(l) { opts.push(l); });
-      
+      var opts = ["Movie Club", "Anime & Cartoon", "Old Tv", "Doctor Who", "Raiplay", "Pluto Tv", "Federmoto Tv", "MandraTube"];
       opts.forEach(function(o) {
         var opt = document.createElement("option");
         opt.value = o; opt.textContent = o;
@@ -256,7 +253,8 @@ title: Segnalazioni
     } else if (cat === "On Demand") {
       if (sub === "Movie Club") {
         groupCont.style.display = "block";
-        (rawData["OnDemand_MovieClub"] || []).forEach(function(i) {
+        var movieOpts = ["Sala 1", "K-Drama", "Vod Iptv 1", "Vod Iptv 2"];
+        movieOpts.forEach(function(i) {
           var opt = document.createElement("option");
           opt.value = i; opt.textContent = i;
           contSel.appendChild(opt);
