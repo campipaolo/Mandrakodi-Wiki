@@ -102,7 +102,7 @@ title: Segnalazioni
     <div style="margin-bottom: 20px; background: #3a2e12; border: 1px solid #ffa000; padding: 12px; border-radius: 6px;">
       <label style="cursor: pointer; display: flex; align-items: flex-start; gap: 10px;">
         <input type="checkbox" id="check-conferma" required style="margin-top: 3px;">
-        <span><strong>Confermo:</strong> La segnalazione riguarda l'<strong>INTERA sezione o lista</strong> non funzionante e non un singolo canale/link temporaneamente offline.</span>
+        <span><strong>Confermo:</strong> La segnalazione riguarda l'<strong>INTERA sezione o sottosezione</strong> non funzionante e non un singolo canale/link temporaneamente offline.</span>
       </label>
     </div>
     
@@ -117,6 +117,7 @@ title: Segnalazioni
 (function() {
   var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwTQJzxvLspR-1GdYh1wOXSLrF8h4TIeswEAIUJGtM9z1I4pIUZD3N_ANO2oewKmaI/exec";
   var rawData = {};
+
 
   function init() {
     loadReports();
