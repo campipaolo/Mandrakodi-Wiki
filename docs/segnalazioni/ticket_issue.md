@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Segnalazioni
+
 ---
 
 <style>
@@ -16,7 +17,9 @@ title: Segnalazioni
   .status-msg { margin-top: 15px; padding: 10px; border-radius: 4px; display: none; text-align: center; }
 </style>
 
+
 <div class="ticket-container">
+
 
   <h2>📋 Segnalazioni Attive</h2>
   <div style="overflow-x: auto;">
@@ -38,11 +41,14 @@ title: Segnalazioni
     </table>
   </div>
 
+
   <hr style="border: 0; border-top: 1px solid #444; margin: 30px 0;">
+
 
   <h2>📌 Invia Nuova Segnalazione</h2>
 
   <form id="form-segnalazione" class="ticket-form">
+
 
     <!-- Livello 1: Categoria Madre -->
     <div class="form-group">
@@ -118,7 +124,6 @@ title: Segnalazioni
   var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwTQJzxvLspR-1GdYh1wOXSLrF8h4TIeswEAIUJGtM9z1I4pIUZD3N_ANO2oewKmaI/exec";
   var rawData = {};
 
-
   function init() {
     loadReports();
     loadMenu();
@@ -133,7 +138,9 @@ title: Segnalazioni
     var tbody = document.getElementById('tabella-segnalazioni');
     if (!tbody) return;
 
-    fetch(SCRIPT_URL + "?action=getOpen", { method: "GET", redirect: "follow" })
+    var cacheBuster = "&_ts=" + new Date().getTime();
+    
+    fetch(SCRIPT_URL + "?action=getOpen" + cacheBuster, { method: "GET" })
       .then(function(res) { return res.json(); })
       .then(function(data) {
         tbody.innerHTML = '';
@@ -151,13 +158,14 @@ title: Segnalazioni
           '</tr>';
         });
       })
-      .catch(function() {
+      .catch(function(err) {
+        console.error("Errore caricamento segnalazioni:", err);
         tbody.innerHTML = '<tr><td colspan="5" style="text-align: center;">Nessuna segnalazione attiva.</td></tr>';
       });
   }
 
   function loadMenu() {
-    fetch(SCRIPT_URL + "?action=getMenu", { method: "GET", redirect: "follow" })
+    fetch(SCRIPT_URL + "?action=getMenu", { method: "GET" })
       .then(function(res) { return res.json(); })
       .then(function(data) { rawData = data; })
       .catch(function(err) { console.error("Errore recupero menu:", err); });
@@ -318,7 +326,7 @@ title: Segnalazioni
       if (data.result === "success") {
         msg.style.background = "#1b5e20";
         msg.style.color = "#fff";
-        msg.innerHTML = "✅ Segnalazione inviata con successo!";
+        msg.innerHTML = "✅ Segnalazione inviata con successo!<br><small style='margin-top:5px; display:inline-block;'>🔄 Ricarica la pagina per visualizzare la richiesta inviata.</small>";
         document.getElementById("form-segnalazione").reset();
         onCatChange();
         loadReports();
