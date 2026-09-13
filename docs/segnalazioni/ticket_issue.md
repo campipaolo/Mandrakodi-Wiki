@@ -115,7 +115,7 @@ title: Segnalazioni
 
 <script>
 (function() {
-  var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxBf2aK5ILmULSlcuuGR6K47vsuJbdwj1b1jEtBwl8qMEzXCZRr0QKG5wc4ZAoVnj4/exec";
+  var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwTQJzxvLspR-1GdYh1wOXSLrF8h4TIeswEAIUJGtM9z1I4pIUZD3N_ANO2oewKmaI/exec";
   var rawData = {};
 
   function init() {
