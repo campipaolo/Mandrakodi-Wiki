@@ -1,29 +1,41 @@
-# Programmazione F1 e MotoGP
+# Calendario F1 e MotoGP
 
-<div id="events-container">Caricamento eventi in corso...</div>
+<div id="events-container">Caricamento in corso...</div>
 
 <script>
 async function loadEvents() {
-  try {
-    const response = await fetch('../../events.json');
-    const events = await response.json();
-    const container = document.getElementById('events-container');
+  const container = document.getElementById('events-container');
 
-    if (events.length === 0) {
-      container.innerHTML = '<p>Nessun evento disponibile al momento.</p>';
-      return;
+  // Prova prima a leggere il file nella stessa cartella, poi risale alla root
+  const paths = ['./events.json', '../../events.json', '/events.json'];
+  let data = null;
+
+  for (const path of paths) {
+    try {
+      const res = await fetch(path);
+      if (res.ok) {
+        data = await res.json();
+        break;
+      }
+    } catch (e) {
+      continue;
     }
-    
-    let html = '<ul>';
-    events.forEach(ev => {
-      html += `<li><strong>[${ev.category}]</strong> ${ev.raw_event}</li>`;
-    });
-    html += '</ul>';
-    
-    container.innerHTML = html;
-  } catch (err) {
-    document.getElementById('events-container').innerHTML = '<p>Errore nel caricamento del file JSON.</p>';
   }
+
+  if (!data || data.length === 0) {
+    container.innerHTML = '<p>Nessun evento trovato al momento.</p>';
+    return;
+  }
+
+  let html = '<ul style="list-style-type: none; padding: 0;">';
+  data.forEach(item => {
+    html += `<li style="margin-bottom: 8px; padding: 8px; border-bottom: 1px solid #ccc;">
+      <strong>[${item.category}]</strong> ${item.event}
+    </li>`;
+  });
+  html += '</ul>';
+
+  container.innerHTML = html;
 }
 
 loadEvents();
