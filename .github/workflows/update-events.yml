@@ -3,26 +3,32 @@ name: Aggiorna Eventi EPG
 on:
   schedule:
     - cron: '0 */6 * * *' # Esegue ogni 6 ore
-  workflow_dispatch:
+  workflow_dispatch: # Abilita il pulsante "Run workflow" da GitHub web
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      # STEP 1: Scarica i file del repository nella macchina virtuale
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      # STEP 2: Configura Python
       - name: Configura Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
+      # STEP 3: Installa le librerie
       - name: Installa dipendenze
         run: |
           pip install requests beautifulsoup4
 
+      # STEP 4: Esegue lo script presente nella root
       - name: Esegui estrazione
         run: python get_events.py
 
+      # STEP 5: Salva le modifiche e invia il file generato
       - name: Commit e Push delle modifiche
         run: |
           git config --global user.name 'github-actions[bot]'

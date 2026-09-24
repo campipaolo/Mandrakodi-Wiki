@@ -5,7 +5,7 @@
 <script>
 async function loadEvents() {
   try {
-    const response = await fetch('./events.json');
+    const response = await fetch('../../events.json');
     const events = await response.json();
     const container = document.getElementById('events-container');
 
