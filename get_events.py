@@ -13,60 +13,83 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
+# Parole chiave da ignorare (menu, header, elementi statici)
+IGNORE_KEYWORDS = [
+    "home", "channels list", "18 plus", "embed api", "movies", 
+    "live sports categories", "soccer", "cricket", "nba", "nfl", 
+    "tennis", "formula 1", "motogp", "mlb", "boxing", "ufc"
+]
+
+def clean_text(text):
+    return " ".join(text.split())
+
+def is_valid_event(text):
+    text_lower = text.lower()
+    # Scarta se è un elemento del menu
+    for ignore in IGNORE_KEYWORDS:
+        if text_lower == ignore or text_lower.startswith("⚽") or text_lower.startswith("☰"):
+            return False
+    # Accetta solo se contiene informazioni reali (es. orari, canali o nomi di gare/sessioni)
+    return len(text) > 8
+
 def fetch_events():
     events = []
-    
-    # 1. Scraping diretto dalle pagine F1 e MotoGP
+
     for category, url in URLS.items():
         try:
             res = requests.get(url, headers=HEADERS, timeout=10)
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, 'html.parser')
-                # Estrae le righe di testo contenenti eventi/canali
-                for element in soup.find_all(['p', 'div', 'li', 'tr']):
-                    text = element.get_text(strip=True)
-                    if any(kw in text.lower() for kw in ['f1', 'formula', 'motogp', 'ch2', 'ch1', 'sky', 'channel']):
-                        if len(text) > 10 and len(text) < 200:
+                
+                # Cerca le righe della tabella dei palinsesti o i blocchi contenenti i link ai canali
+                rows = soup.select('table tr, .event-item, .schedule-item')
+                
+                if rows:
+                    for row in rows:
+                        text = clean_text(row.get_text())
+                        if is_valid_event(text):
                             events.append({
                                 "category": category,
                                 "event": text,
                                 "url": url,
                                 "updated_at": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
                             })
+                else:
+                    # Fallback se non ci sono tabelle: estrae solo i paragrafi o link con canali/orari
+                    for item in soup.find_all(['tr', 'p', 'a']):
+                        text = clean_text(item.get_text())
+                        if is_valid_event(text) and any(c in text.lower() for c in ['ch', 'sky', 'channel', 'stream', '00:', '11:', '12:', '13:', '14:', '15:', '16:', '17:', '18:', '19:', '20:', '21:']):
+                            events.append({
+                                "category": category,
+                                "event": text,
+                                "url": url,
+                                "updated_at": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+                            })
+
         except Exception as e:
             print(f"Errore su {category}: {e}")
 
-    # Fallback API in caso di pagina vuota
-    if not events:
-        try:
-            api_res = requests.get("https://daddylive.app/api/stream/epg.php", headers=HEADERS, timeout=10)
-            if api_res.status_code == 200:
-                data = api_res.json()
-                for item in data:
-                    name = str(item.get("channel_name", "")).upper()
-                    if "F1" in name or "MOTOGP" in name:
-                        events.append({
-                            "category": "F1" if "F1" in name else "MotoGP",
-                            "event": f"{name} - {item.get('title', 'Evento in diretta')}",
-                            "url": "https://daddylive.app",
-                            "updated_at": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-                        })
-        except Exception as e:
-            print(f"Errore API fallback: {e}")
+    # Rimuove eventuali duplicati mantenendo l'ordine
+    unique_events = []
+    seen = set()
+    for ev in events:
+        if ev['event'] not in seen:
+            seen.add(ev['event'])
+            unique_events.append(ev)
 
-    return events
+    return unique_events
 
 if __name__ == "__main__":
     data = fetch_events()
     
-    # Salva il file nella root
+    # Salva nella root
     with open("events.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print("Salvato events.json nella root.")
 
-    # Salva una copia direttamente dentro docs/calendario/ per evitare qualsiasi errore 404
+    # Salva anche in docs/calendario/ se esiste la cartella
     target_dir = os.path.join("docs", "calendario")
     if os.path.exists(target_dir):
         with open(os.path.join(target_dir, "events.json"), "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print("Salvato events.json anche in docs/calendario/.")
+            
+    print(f"Estratti {len(data)} eventi validi.")
