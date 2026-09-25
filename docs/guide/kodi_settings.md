@@ -47,6 +47,11 @@
     * **Rinominare** il file in "playercorefactory.xml" 
     * Con file manager **abilitare** la visualizzazione di file e cartelle nascoste
     * Nella propria Home Copiare il file nel percorso “.var/app/tv.kodi.Kodi/data/userdata”
+    * Aprire il terminale e digitare:<br>
+    ```bash
+    sudo flatpak override tv.kodi.Kodi --talk-name=org.freedesktop.Flatpak 
+    sudo flatpak override tv.kodi.Kodi --filesystem=host
+    ```
     * Entrare in Mandrakodi
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
     * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
