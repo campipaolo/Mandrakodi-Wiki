@@ -43,7 +43,7 @@
 ??? info "Impostare Players Esterni su Pc Linux"
     **In Linux** con Kodi Flatpak
 
-    * Scaricare <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/playercorefactory_linux.xml" target="_blank">playercorefactory_windows.xml</a> tasto destro/tenere prenuto sul link e salvare
+    * Scaricare <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/playercorefactory_linux.xml" target="_blank">playercorefactory_linux.xml</a> tasto destro/tenere prenuto sul link e salvare
     * **Rinominare** il file in "playercorefactory.xml" 
     * Con file manager **abilitare** la visualizzazione di file e cartelle nascoste
     * Nella propria Home Copiare il file nel percorso “.var/app/tv.kodi.Kodi/data/userdata”
@@ -51,8 +51,8 @@
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
     * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
     * Dall'elenco selezionare player esterno
-    * N.B.: chi utilizza player in formato Flatpak deve modificare nel playercorefactory.xml  <args></args> come di seguito inserendo nome pacchetto<br>
-    <args>--host flatpak run org.videolan.VLC "{1}"</args>
+    * N.B.: chi utilizza player in formato Flatpak deve modificare nel playercorefactory.xml "<args></args>" inserendo nome pacchetto come di seguito (senza le "")<br>
+    "<args>--host flatpak run org.videolan.VLC "{1}"</args>"
 
 
 
