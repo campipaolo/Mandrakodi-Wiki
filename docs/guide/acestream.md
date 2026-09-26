@@ -32,8 +32,8 @@
 ??? info "Acestream per Linux"
     **Pacchetti per Linux**
 
-    * <a href="https://github.com/jaimejj54/acestream-flatpak/releases/latest" target="_blank">Flatpak (Distro senza Snap)</a> (Usare opzione "ENGINE")
-    * <a href="https://snapcraft.io/acestreamplayer" target="_blank">Snap (Distro senza Flatpak)</a> (Usare opzione "DIRETTO")
+    * <a href="https://github.com/jaimejj54/acestream-flatpak/releases/latest" target="_blank">Flatpak (Distro senza Snap)</a> - Usare opzione "ENGINE"
+    * <a href="https://snapcraft.io/acestreamplayer" target="_blank">Snap (Distro senza Flatpak)</a> - Usare opzione "DIRETTO"
     * Avviare Acestream
 
 ??? info "Acestream per macOS"
