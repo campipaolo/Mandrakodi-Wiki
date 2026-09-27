@@ -54,7 +54,7 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 ------
 
 !!! important "Guide per router di rete fissa"
-    <span id="router"></span>Di seguito guide per impostare i DNS sui router dei principali Internet Service Provider Italiani (menù/voci **potrebbero variare leggermente** a seconda del modello e del firmware cambiato nel tempo)
+    <span id="dnsrouter"></span>Di seguito guide per impostare i DNS sui router dei principali Internet Service Provider Italiani (menù/voci **potrebbero variare leggermente** a seconda del modello e del firmware cambiato nel tempo)
 
 ??? info "Vodafone"
     **Vodafone Station FTTC e FTTH**
