@@ -35,8 +35,8 @@
 
 ------
 
-!!! important "Invio File Log"
-    <span id="log"></span>Qualora in chat venga richiesto di fornire un "**Log**" seguire le seguenti indicazioni  
+!!! important "<span id="log">Invio File Log</span>"
+    Qualora in chat venga richiesto di fornire un "**Log**" seguire le seguenti indicazioni  
 
 ??? info "Invio Log"
     **Avviare Kodi**
