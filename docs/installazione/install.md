@@ -154,7 +154,7 @@
 
 ------
 
-!!! important "Fase 2 - Installazione addon Mandrakodi"    
+!!! important "<span id="addon">Fase 2 - Installazione addon Mandrakodi</span>"    
     <span id="addon"></span>Installare l'addon **Mandrakodi**
 
 ??? info "Mandrakodi"
