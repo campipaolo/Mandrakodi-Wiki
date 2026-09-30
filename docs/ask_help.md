@@ -2,8 +2,7 @@
 
 ------
 
-!!! warning "Gruppo Telegram: regolamento"
-    <span id="regole"></span>
+!!! warning "<span id="regole">Gruppo Telegram: regolamento</span>"
 
     * In telegram impostare **nome utente** (non monosillabi tipo "." e simili) e **foto profilo** (anche generica, *non monocromatica*) "*visibile a tutti*" nelle impostazioni della privacy
     * E' **vietato** *chiedere* **DOVE** vedere cosa, studiate l'addon e imparate le varie sezioni

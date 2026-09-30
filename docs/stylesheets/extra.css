@@ -32,3 +32,17 @@
     margin: 6px 8px 6px 0;
   }
 }
+@keyframes highlightTarget {
+  0% {
+    background-color: rgba(255, 235, 59, 0.5); /* Giallo acceso */
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+/* Evidenzia l'elemento target dell'URL */
+:target {
+  animation: highlightTarget 2.5s ease-out;
+  border-radius: 4px;
+}
