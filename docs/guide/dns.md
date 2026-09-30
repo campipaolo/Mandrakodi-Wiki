@@ -20,8 +20,8 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 
 ------
 
-!!! important "DNS suggeriti"    
-    <span id="dns"></span>Di seguito elenco DNS suggeriti per rete **fissa** e **mobile** (scegliere uno dei due proposti)
+!!! warning "<span id="dns">DNS suggeriti</span>"    
+    Di seguito elenco DNS suggeriti per rete **fissa** e **mobile** (scegliere uno dei due proposti)
 
 ??? info "DNS rete fissa"
     **Elenco DNS**
@@ -53,8 +53,8 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 
 ------
 
-!!! important "Guide per router di rete fissa"
-    <span id="dnsrouter"></span>Di seguito guide per impostare i DNS sui router dei principali Internet Service Provider Italiani (menù/voci **potrebbero variare leggermente** a seconda del modello e del firmware cambiato nel tempo)
+!!! important "<span id="dnsrouter">Guide per router di rete fissa</span>"
+    Di seguito guide per impostare i DNS sui router dei principali Internet Service Provider Italiani (menù/voci **potrebbero variare leggermente** a seconda del modello e del firmware cambiato nel tempo)
 
 ??? info "Vodafone"
     **Vodafone Station FTTC e FTTH**
@@ -203,8 +203,8 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 
 ------
 
-!!! important "DNS su singolo dipositivo"
-    <span id="dnsdispositivo"></span>Di seguito guide per impostare i DNS sui **singolo dispositivo** ove router non disponga di opzione per inserirli al suo interno e per connessioni di rete mobile/hotspot 
+!!! warning "<span id="dnsdispositivo">DNS su singolo dipositivo</span>"
+    Di seguito guide per impostare i DNS sui **singolo dispositivo** ove router non disponga di opzione per inserirli al suo interno e per connessioni di rete mobile/hotspot 
 
 ??? info "Android Smartphone/Tablet (a seconda della marca e del modello, alcuni passaggi potrebbero essere diversi)"
     **Smartphone/Tablet**
