@@ -43,6 +43,6 @@
 
 /* Evidenzia l'elemento target dell'URL */
 :target {
-  animation: highlightTarget 2.5s ease-out;
+  animation: highlightTarget 3.5s ease-out;
   border-radius: 4px;
 }
