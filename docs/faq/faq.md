@@ -55,13 +55,13 @@
     **Motivo:** Le fonti da cui attinge Mandrakodi non sono gestite direttamente dallo sviluppatore  
     **Soluzione:**  il lavoro dello sviluppatore si ferma al **recupero** dei link, il quale **una volta mandato in Play**, non può fare nulla per qualunque problema di streaming vi si presenti 
 
-??? info "13) Perchè per ogni canale live non c'è riportata guida EPG?"
-    **Motivo:** Lo sviluppatore ha creato una sezione apposita che raggruppa gli EPG per ogni canale live presente  
-    **Soluzione:**  Nella sezione "**Live**" sottosezione "**Italy Epg**" si trovano i canali italiani con la propria programmazione
+??? info "13) Esiste una guida elettronica ai programmi (EPG) di tutti i canali?"
+    **Motivo:** Mandrakodi dispone di una sezione apposita con gli EPG dei soli *canali italiani del digitale terrestre*  
+    **Soluzione:**  Nella sezione "**Live**" sottosezione "**Italy Epg**" si trova la programmazione di tali canali con i **link cliccabili** 
 
-??? info "14) Come posso sapere su quale canale viene trasmesso un evento live?"
-    **Motivo:** L'addon non prevede EPG degli eventi live  
-    **Soluzione:**  Nella pagina inziale di questa Wiki c'è "widget" con pulsante alla pagina calendario settimanale degli eventi sportivi con info su canali **italiani e stranieri** dove vengono trasmessi: *non fissarsi* sul solo contenuto con *commento in italiano*, i canali *stranieri* spesso offrono *maggiore qualità e stabilità*
+??? info "14) Come posso sapere su quale canale viene trasmesso un evento sportivo live?"
+    **Motivo:** La Wiki dispone di un  *calendario settimanale degli eventi sportivi*  
+    **Soluzione:**  Nella Home Page della  Wiki c'è "widget" e pulsante del calendario con info sui canali **italiani e stranieri** dove vengono trasmessi, canali da ricercare autonomamante nella varie sezioni dell'addon (*non fissarsi* sul solo contenuto con *commento in italiano*, i canali *stranieri* spesso offrono *maggiore qualità e stabilità*) 
 
 ??? info "15) Quando accedo a Mandrakodi / o in  una sezione,  la schermata è vuota con ".." sullo schermo"
     **Motivo:** E' attivo il filtro "Già Visti" [(Foto)](../images/kodi_filtro_attivo.png){ target="_blank" }<br>    **Soluzione:**  Con telecomando spostarsi a sinistra / su Smarthpne & Tablet spostarsi sulla sinistra, appare menù "Opzioni visualizzazioni", cliccare su "Già Visti" e scorrere fino a "Tutto"  [(Foto)](../images/kodi_filtro_disattivare.png){ target="_blank" }
