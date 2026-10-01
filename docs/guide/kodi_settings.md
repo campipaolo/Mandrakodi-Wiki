@@ -11,12 +11,6 @@
     A partire da Kodi 21.2 per riprodurre flussi video è possibile sfruttare **players esterni** (es. Ace, Vlc, Mx Player, Wuffy Player, ecc)  più stabili del player interno di kodi molto "sensibile" ai flussi streaming <br>Vale sia per *Android* su Smartphone/Tablet/Chiavette/Tv/Box/Firestick che per *Pc* Windows, di seguito i passaggi
 
 !!! warning "Installare i vari players esterni"
-    I players esterni (es. Ace, Mx Player, Wuffy Player,  ecc) vanno **prima** installati sul dispositivo<br>
-
-  Mx Player (Android) [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk)<br>    Mx Player (Android) [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk)<br>    Wuffy Player (Android) [Tv/Chiavette/Box/Firestick](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk)<br>    Wuffy Player (Android) [Smartphone/Tablet](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk
-    )<br>    Ace (Android/Windows/Linux) [(Guida installazione)](../guide/acestream.md/)
-
-!!! warning "Installare i vari players esterni"
     I players esterni (es. Ace, Mx Player, Wuffy Player,  ecc) vanno **prima** installati sul dispositivo
 
     * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk" target="_blank">Mx Player (Android)</a>  Tv/Chiavette/Box/Firestick<br>
