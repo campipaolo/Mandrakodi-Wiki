@@ -279,7 +279,7 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
     Sullo Smartphone Android:<br>
     * "Dns Privato" disattivato<br>
     
-    Su Tablet/Chiavetta/Tv/Box/Firestick (FireOS v6.x/7.x):
+    Su Tablet/Chiavetta/Tv/Box/Firestick (FireOS v6.x/7.x):<br>
     * Scaricare [Dns Changer](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/DNSChanger-32bit.apk)
     * Avviare e selezionare i DNS da applicare 
 
