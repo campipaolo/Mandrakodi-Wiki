@@ -154,7 +154,7 @@
     ```
     <br>
     
-    Installer tramite Snap (Ubuntu e derivate con Snap)
+    Installer tramite Snap (Ubuntu e derivate con Snap)<br>
     * Da terminale digitare:
     <br>
     ```bash
@@ -162,8 +162,8 @@
     ```
     <br>
     
-    Installer tramite ppa (Deb per Ubuntu e derivate)
-    N.B.: il ppa **non è ufficiale** ma mantenuto dallo sviluppatore, **non si garantisce continuità**
+    Installer tramite ppa (Deb per Ubuntu e derivate)<br>
+    N.B.: il ppa **non è ufficiale** ma mantenuto dallo sviluppatore, **non si garantisce continuità**<br>
     * Da terminale digitare:
     <br>
     ```bash
