@@ -141,16 +141,44 @@
     	* Per app importanti, **preferisci App Store** o metodi ufficiali Apple
 
 ??? info "Kodi per Linux"
+    **Installer per Linux**
 
-    Installer Flatpak
-    
+    Installer ufficiale tramite Flatpak (Distro NON basate su Snap)
+     
     * <a href="https://flathub.org/en/apps/tv.kodi.Kodi" target="_blank">Linux</a>
     * Premere pulsante "Install" o installare dal proprio Store
     * Oppure da terminale digitare:
-    
+    <br>
     ```bash
     sudo flatpak install flathub tv.kodi.Kodi
     ```
+    <br>
+    
+    Installer tramite Snap (Ubuntu e derivate con Snap)
+    * Da terminale digitare:
+    <br>
+    ```bash
+    sudo snap install kodi-omega
+    ```
+    <br>
+    
+    Installer tramite ppa (Deb per Ubuntu e derivate)
+    N.B.: il ppa **non è ufficiale** ma mantenuto dallo sviluppatore, **non si garantisce continuità**
+    * Da terminale digitare:
+    <br>
+    ```bash
+    sudo add-apt-repository ppa:ubuntuhandbook1/kodi
+    ```
+    <br>
+    ```bash
+    sudo apt update && sudo apt install kodi
+    ```
+    <br>
+    ```bash
+    sudo apt install kodi-inputstream-adaptive kodi-inputstream-ffmpegdirect kodi-pvr-iptvsimple
+    ```
+    <br>
+    * Avviare Kodi, confermare attivazione delle dipendenze (senza modificare niente)
 
 ------
 

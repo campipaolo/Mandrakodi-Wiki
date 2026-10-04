@@ -20,7 +20,7 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 
 ------
 
-!!! warning "<span id="dns">DNS suggeriti</span>"    
+!!! important "<span id="dns">DNS suggeriti</span>"    
     Di seguito elenco DNS suggeriti per rete **fissa** e **mobile** (scegliere uno dei due proposti)
 
 ??? info "DNS rete fissa"
@@ -56,8 +56,8 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 !!! important "<span id="dnsrouter">Guide per router di rete fissa</span>"
     Di seguito guide per impostare i DNS sui router dei principali Internet Service Provider Italiani (menù/voci **potrebbero variare leggermente** a seconda del modello e del firmware cambiato nel tempo)
 
-??? info "Vodafone"
-    **Vodafone Station FTTC e FTTH**
+??? info "Vodafone FTTC & FTTH (Station Wifi 6)"
+    **Vodafone Station Revolution (FTTC) e Vodafone Station Wifi 6 (FTTH)**
 
     * Con un browser (Chrome, Firefox, ecc.) da un dispositivo connesso alla Station 
     * Digitare nella barra degli indirizzi: http://vodafone.station/ 
@@ -73,6 +73,12 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
     * Riavviare Vodafine Station 
     * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
+
+??? info "Vodafone FTTC  & FTTH (Modem 7)"
+    **Vodafone Modem Seven FTTC & FTTH**
+
+    * Dns non si possono inserire sul router dell’operatore 
+    * Inserirli sul **singolo dispositivo**
 
 
 
@@ -257,7 +263,7 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 
 
 
-??? info "Rete mobile/Hotspot (a seconda della marca e del modello, alcuni passaggi potrebbero essere diversi)"
+??? info "Rete mobile: Smartphone/Tablet (a seconda della marca e del modello, alcuni passaggi potrebbero essere diversi)"
     **Smartphone/Tablet Android**
 
     * Impostazioni, rete e internet
@@ -267,5 +273,13 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
     * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
+??? info "Rete Mobile: Smartphone Android + Tablet/Chiavetta/Tv/Box/Firestick in Hotspot "
+    **Smartphone Android + dispositivo in Hotspot**
 
+    Sullo Smartphone Android:<br>
+    * "Dns Privato" disattivato
+    <br>
+    Su Tablet/Chiavetta/Tv/Box/Firestick (FireOS v6.x/7.x):<br>
+    * Scaricare [Dns Changer](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/DNSChanger-32bit.apk)
+    * Avviare e selezionare i DNS da applicare 
 
