@@ -280,6 +280,6 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
     * "Dns Privato" disattivato<br>
     
     Su Tablet/Chiavetta/Tv/Box/Firestick (FireOS v6.x/7.x):<br>
-    * Scaricare [Dns Changer](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/DNSChanger-32bit.apk)
+    * Scaricare [Dns Changer](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/DNSChanger-32bit.apk)<br>
     * Avviare e selezionare i DNS da applicare 
 
