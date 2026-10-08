@@ -30,20 +30,6 @@
     * Premere "START" per avviare [(Foto)](../images/aceserve_start.png){ target="_blank" }
     * Tornare alla home page col tasto dedicato per **lasciarlo aperto in background**
 
-!!! important "Localsend (invio apk  a dispositivo no touch)"
-    **Inviare** apk a Chiavette/Tv/Box/Firestick
-
-    * Installare "Localsend" su **entrambi** i dispositivi "mittente" e "ricevente"
-    * <a href="https://localsend.org/it/download" target="_blank">Loalsend</a>  Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick<br>
-    * Firestick con **Fire OS 5.x.x.x**: [LocalSend Android 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/LocalSend_1_8_0_Android5.apk)<br>
-    * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
-    * Sul dispositivo "mittente" premere "Invia" e poi "File" 
-    * Selezionare files da inviare
-    * Selezionare dispositivo "ricevente"
-    * Sul dispositivo "ricevente" dare conferma per ricevere  
-    * N.B.: la cartella "**Download**" è quella di default per la ricezione dei files
-    * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “i” elenca la cronologia
-
 
 
 ??? info "Acestream per Linux"
@@ -166,6 +152,22 @@
     ```json
     "error": null
     ```
+
+------
+
+!!! important "Localsend (invio apk  a dispositivo no touch)"
+    **Inviare** apk a Chiavette/Tv/Box/Firestick
+
+    * Installare "Localsend" su **entrambi** i dispositivi "mittente" e "ricevente"
+    * <a href="https://localsend.org/it/download" target="_blank">Loalsend</a>  Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick<br>
+    * Firestick con **Fire OS 5.x.x.x**: [LocalSend Android 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/LocalSend_1_8_0_Android5.apk)<br>
+    * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
+    * Sul dispositivo "mittente" premere "Invia" e poi "File" 
+    * Selezionare files da inviare
+    * Selezionare dispositivo "ricevente"
+    * Sul dispositivo "ricevente" dare conferma per ricevere  
+    * N.B.: la cartella "**Download**" è quella di default per la ricezione dei files
+    * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “i” elenca la cronologia
 
 ------
 
