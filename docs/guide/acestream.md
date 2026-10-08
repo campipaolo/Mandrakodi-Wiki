@@ -183,7 +183,7 @@
 
 
 !!! warning "Attenzione"
-    Per "Opzione DIRETTO" prima eseguire procedura per abilitare i "[Players Esterni](../guide/kodi_settings.md#players)" (se non precedentemente eseguita)
+    Per "Opzione DIRETTO" prima eseguire procedura per abilitare i "[Players Esterni](../guide/players.md)" (se non precedentemente eseguita)
 
 ??? info "Opzione **DIRETTO**"
     **Play fuori da Kodi (es. Vlc, Mx Player)**
