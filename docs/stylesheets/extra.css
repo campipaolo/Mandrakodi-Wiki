@@ -15,6 +15,7 @@
   font-size: 0.80rem; /* Il default di Material è 0.8rem (~16px). Puoi provarlo a 0.75rem o 0.7rem */
 }
 /* Sovrascrive le variabili CSS globali di MkDocs per l'evidenziazione */
+/*
 :root,
 [data-md-color-scheme="slate"] {
   --md-typeset-mark-color: #ffd600 !important; /* Giallo acceso */
