@@ -15,7 +15,7 @@
     * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk" target="_blank">Wuffy Player (Android)</a>  Smartphone/Tablet<br>
     * Acestream [Guida Installazione](../guide/acestream.md/)<br>
 
-
+------
 
 !!! important "Localsend (invio apk  a dispositivo no touch)"
     **Inviare** apk a Chiavette/Tv/Box/Firestick
@@ -31,7 +31,7 @@
     * N.B.: la cartella "**Download**" è quella di default per la ricezione dei files
     * Sul dispositivo "ricevente" in alto a destra l'icona a fianco alla “i” elenca la cronologia
 
-
+------
 
 ??? info "Impostare Players Esterni su Android Smartphone/Tablet/Chiavette/Tv/Box/Firestick"
     **Avviare Kodi**
@@ -42,6 +42,8 @@
     * Selezionare canale (verificare se dispone di seconda pagina con link all'interno)
     * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
     * Dall'elenco selezionare player installato
+
+------
 
 ??? info "Impostare Players Esterni su Pc Windows"
     **In Windows**
@@ -55,7 +57,7 @@
     * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
     * Dall'elenco selezionare player esterno
 
-
+------
 
 ??? info "Impostare Players Esterni su Pc Linux"
     **In Linux** con Kodi Flatpak
