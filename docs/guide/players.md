@@ -43,7 +43,7 @@
     * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
     * Dall'elenco selezionare player installato
 
-------
+
 
 ??? info "Impostare Players Esterni su Pc Windows"
     **In Windows**
@@ -57,7 +57,7 @@
     * Tenere premuto sul link e selezionare voce "**riproduci con**" [(Foto)](../images/kodi_riproduci_con.png){ target="_blank" }
     * Dall'elenco selezionare player esterno
 
-------
+
 
 ??? info "Impostare Players Esterni su Pc Linux"
     **In Linux** con Kodi Flatpak
