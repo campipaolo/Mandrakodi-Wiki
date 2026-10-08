@@ -20,8 +20,8 @@ theme:
         name: Passa al tema scuro
   features:
     - navigation.tabs
-    - search.highlight
-    - search.suggest
+   # - search.highlight
+   # - search.suggest
     - stylesheets/extra.css
         
 
