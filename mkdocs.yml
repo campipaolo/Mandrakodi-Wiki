@@ -46,8 +46,4 @@ extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - js/extra.js
-plugins:
-  - search:
-      exclude:
-        - guide/warp.md
-  - social
+

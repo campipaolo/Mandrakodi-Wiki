@@ -17,5 +17,5 @@
 !!! important "App/Software esterni a Kodi"
     **Tutorials** per App/Software necessari ad alcune sezioni di Mandrakodi
 
- [:material-book-open-page-variant: Players Esterni](players.md){ .md-button .md-button--primary }     [:material-book-open-page-variant: Acestream](acestream.md){ .md-button .md-button--primary }
+ [:material-book-open-page-variant: Players Esterni](players.md){ .md-button .md-button--primary }     [:material-book-open-page-variant: Acestream](acestream.md){ .md-button .md-button--primary }   [:material-book-open-page-variant: WARP](warp.md){ .md-button .md-button--primary }
 
