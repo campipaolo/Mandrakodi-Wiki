@@ -51,12 +51,33 @@
     * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
     * Sulla sinistra compare il menu "**Cache**"
     * Modalità Buffer: selezionare "Buffer di tutti i file system di rete"
-    * Dimensione Memoria: "48 MB"
+    * Dimensione Memoria: provare valori tra "48 MB" e "128 MB" per non saturare ram libera
+    * Fattore di lettura: provare valori tra 4 e 5 
     * Premere "OK" per confermare [(Foto)](../images/Kodi_cache.png){ target="_blank" }
     * Uscire da Kodi e rientrare
 
 !!! warning "Attenzione"
     Si ricorda che, in ogni caso, **quando il server della fonte è sovraccarico il buffering persiste comunque**
+
+------
+
+!!! important "Accelerazione Video"
+    Se Kodi si chiude e va in crash alla riproduzione di video, stabilizzazione di flussi video pesanti e/o le liste IPTV instabili sui vecchi hardware
+
+??? info "Accelerazione Hardware"
+    **Avviare Kodi**
+
+    * Impostazioni, "**Lettore**"
+    * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
+    * Menà "Video", disattivare "Consenti accelerazione hardware - MediaCodec (Surface)"
+    * Tenere attiva voce "MediaCodec standard"
+    * Dimensione Memoria: provare valori tra "48 MB" e "128 MB" per non saturare ram libera
+    * Fattore di lettura: provare valori tra 4 e 5 
+    * Premere "OK" per confermare [(Foto)](../images/Kodi_cache.png){ target="_blank" }
+    * Uscire da Kodi e rientrare
+
+!!! warning "Attenzione"
+    Si ricorda che, in ogni caso, **si tratta di flussi reperiti nel web e non fonti ufficiali** e che impostazioni consigliate non garantiscono stabilità e visione perfetta
 
 
 
