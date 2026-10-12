@@ -71,9 +71,6 @@
     * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
     * Menà "Video", disattivare "Consenti accelerazione hardware - MediaCodec (Surface)"
     * Tenere attiva voce "MediaCodec standard"
-    * Dimensione Memoria: provare valori tra "48 MB" e "128 MB" per non saturare ram libera
-    * Fattore di lettura: provare valori tra 4 e 5 
-    * Premere "OK" per confermare [(Foto)](../images/Kodi_cache.png){ target="_blank" }
     * Uscire da Kodi e rientrare
 
 !!! warning "Attenzione"
