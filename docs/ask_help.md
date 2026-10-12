@@ -4,7 +4,7 @@
 
 !!! warning "<span id="regole">Gruppo Telegram: regolamento</span>"
 
-    * In telegram impostare **nome utente** (non monosillabi tipo "." e simili) e **foto profilo** (anche generica, *non monocromatica*) "*visibile a tutti*" nelle impostazioni della privacy
+    * In telegram impostare **nome profilo** (non monosillabi tipo "." e simili) e **foto profilo** (anche generica, *non monocromatica*) "*visibile a tutti*" nelle impostazioni della privacy
     * E' **vietato** *chiedere* **DOVE** vedere cosa, studiate l'addon e imparate le varie sezioni
     * E' **vietato** *rispondere* alle domande che richiedono **DOVE** vedere cosa
     * E' **vietato** trattare *argomenti off topic* come: consigli su quale device usare/liste esterne all'addon/discussioni generali *non attinenti al gruppo di assistenza*
