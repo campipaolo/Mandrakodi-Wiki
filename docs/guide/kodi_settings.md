@@ -5,6 +5,9 @@
 !!! tip "Impostazioni Kodi"
     **Settaggi consigliati** per migliori prestazioni dei vari flussi video 
 
+!!! warning "Attenzione"
+    Si ricorda che, in ogni caso, **si tratta di flussi reperiti nel web e non fonti ufficiali** e che impostazioni consigliate non garantiscono stabilità e visione perfetta
+
 ------
 
 !!! important "Flussi MPD"
@@ -73,8 +76,7 @@
     * Tenere attiva voce "MediaCodec standard"
     * Uscire da Kodi e rientrare
 
-!!! warning "Attenzione"
-    Si ricorda che, in ogni caso, **si tratta di flussi reperiti nel web e non fonti ufficiali** e che impostazioni consigliate non garantiscono stabilità e visione perfetta
+
 
 
 
