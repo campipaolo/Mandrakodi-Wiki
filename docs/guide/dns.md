@@ -264,10 +264,10 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 ??? info "Iphone"
     **Smartphone**
 
-    * Dal App Store installare "App DNS & IP Changer - Secure VPN"
+    * Da App Store installare "App DNS & IP Changer - Secure VPN"
     * Selezionare i Dns desiderati
     * Da iPhone eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
-    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
+    * Eeguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 
@@ -301,8 +301,8 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
     * Nessuna modifica da apportare<br>
     
     Su Tablet/Chiavetta/Tv/Box/Firestick (FireOS v6.x/7.x):<br>
-    * Installare [Dns Changer](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/DNSChanger-32bit.apk)<br> (Codice Downloader: 3588028)
-    * Avviare e selezionare i DNS da applicare 
-    * Da app Downloader eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
+    * Installare [Dns Changer](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/DNSChanger-32bit.apk) (Codice Downloader: 3588028)<br> 
+    * Avviare e selezionare i DNS da applicare<br> 
+    * Da app Downloader eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a> <br>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
