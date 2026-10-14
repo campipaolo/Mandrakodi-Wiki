@@ -266,7 +266,6 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
 
     * Da App Store installare "App DNS & IP Changer - Secure VPN"
     * Selezionare i Dns desiderati
-    * Da iPhone eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Eeguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
     * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
