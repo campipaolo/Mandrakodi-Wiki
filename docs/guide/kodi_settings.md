@@ -72,7 +72,7 @@
 
     * Impostazioni, "**Lettore**"
     * In basso a sinistra cliccare sul pulsante "Base" fino a selezionare "Esperto"
-    * Menà "Video", disattivare "Consenti accelerazione hardware - MediaCodec (Surface)"
+    * Menù "Video", disattivare "Consenti accelerazione hardware - MediaCodec (Surface)"
     * Tenere attiva voce "MediaCodec standard"
     * Uscire da Kodi e rientrare
 
