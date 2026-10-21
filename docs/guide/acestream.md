@@ -22,9 +22,9 @@
 ??? info "AceServe per Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick"
     **Installer MOD per Android Smarthpone/Tablet/Chiavette/Tv/Box/Firestick**
 
-    * <a href="https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1" target="_blank">Android ARMV7A 32bit</a> Chiavette/Tv/Box/Firestick (Android 9 - 12)
+    * <a href="https://www.dropbox.com/scl/fi/uz8q15arnixvo47e9odbm/Aceserve-1.5.5-32bit.apk?rlkey=lhvtazx8sfqmrbd4qdsfsw1l9&st=nzwzt76l&dl=1" target="_blank">Android ARMV7A 32bit</a> Chiavette/Tv/Box/Firestick Android 9 - 12 (Downloader: 6823138)
     <br>
-    * <a href="https://www.dropbox.com/scl/fi/sz1kjiwgtnww1bjsmryfn/Aceserve-1.5.5-64bit.apk?rlkey=u8ekpvc4yq14wzvrwburg7jis&st=86575k8p&dl=1" target="_blank">Android ARMV8A 64bit</a> Smartphone/Tablet (Android 12 - 16)
+    * <a href="https://www.dropbox.com/scl/fi/sz1kjiwgtnww1bjsmryfn/Aceserve-1.5.5-64bit.apk?rlkey=u8ekpvc4yq14wzvrwburg7jis&st=86575k8p&dl=1" target="_blank">Android ARMV8A 64bit</a> Smartphone/Tablet Android 12 - 16 (Downloader: 8728368)
     <br>
     * Avviare AceServe una prima volta per dare i permessi
     * Premere "START" per avviare [(Foto)](../images/aceserve_start.png){ target="_blank" }
@@ -160,7 +160,7 @@
 
     * Installare "Localsend" su **entrambi** i dispositivi "mittente" e "ricevente"
     * <a href="https://localsend.org/it/download" target="_blank">Loalsend</a>  Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick<br>
-    * Firestick con **Fire OS 5.x.x.x**: [LocalSend Android 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/LocalSend_1_8_0_Android5.apk)<br>
+    * Firestick con **Fire OS 5.x.x.x**: [LocalSend Android 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/LocalSend_1_8_0_Android5.apk)(Downloader: 8728368)<br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare files da inviare
