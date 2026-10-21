@@ -39,12 +39,12 @@
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
     
     * **Firestick FireOs 6.x/7.x** 
-    * Scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>
+    * Scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a> (Downloader: 654540)
     * installare dallo Store "Total Commander"<br>
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
     
     * Firestick con **Fire OS 5.x**
-    * Scaricare [Wireguard Amdroid 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/WireGuard_1_0_20210924_Android5.apk)
+    * Scaricare [Wireguard Amdroid 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/WireGuard_1_0_20210924_Android5.apk) (Downloader: 2354861)
 
 ------
 
@@ -56,7 +56,7 @@
 
     * Installare "Localsend" su **entrambi** i dispositivi "mittente" e "ricevente"
     * <a href="https://localsend.org/it/download" target="_blank">Loalsend</a>  Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick<br>
-    * Firestick con **Fire OS 5.x.x.x**: [LocalSend Android 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/LocalSend_1_8_0_Android5.apk)<br>
+    * Firestick con **Fire OS 5.x.x.x**: [LocalSend Android 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/LocalSend_1_8_0_Android5.apk)(Downloader: 8728368)<br>
     * Avviare Localsend **prima** sul dispositivo "ricevente" e **poi** su quello "mittente"
     * Sul dispositivo "mittente" premere "Invia" e poi "File" 
     * Selezionare files da inviare
