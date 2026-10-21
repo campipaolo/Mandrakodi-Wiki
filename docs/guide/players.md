@@ -8,15 +8,15 @@
 !!! warning "Installare i vari players esterni"
     I players esterni (es. Ace, Mx Player, Wuffy Player,  ecc) vanno **prima** installati sul dispositivo
 
-    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk" target="_blank">Mx Player (Android)</a>  Tv/Chiavette/Box/Firestick<br>
-    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk" target="_blank">Mx Player (Android)</a>  Smartphone/Tablet<br>
-    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk" target="_blank">Wuffy Player (Android)</a>  Tv/Chiavette/Box/Firestick<br>
-    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk" target="_blank">Wuffy Player (Android)</a>  Smartphone/Tablet<br>
+    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-32bit.apk" target="_blank">Mx Player (Android)</a>  Tv/Chiavette/Box/Firestick (Downloader. 2750605)<br>
+    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk" target="_blank">Mx Player (Android)</a>  Smartphone/Tablet (Downloader: 2376404)<br>
+    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk" target="_blank">Wuffy Player (Android)</a>  Tv/Chiavette/Box/Firestick (Downloader: 9749951)<br>
+    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk" target="_blank">Wuffy Player (Android)</a>  Smartphone/Tablet(Downloader: 6544533)<br>
     * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk" target="_blank">Wuffy Player (Android)</a>  Smartphone/Tablet<br>
     * Acestream [Guida Installazione](../guide/acestream.md/)<br>
 
 ------
-
+ 
 !!! important "Localsend (invio apk  a dispositivo no touch)"
     **Inviare** apk a Chiavette/Tv/Box/Firestick
 
