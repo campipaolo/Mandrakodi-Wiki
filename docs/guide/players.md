@@ -12,7 +12,6 @@
     * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/mx-player-64bit.apk" target="_blank">Mx Player (Android)</a>  Smartphone/Tablet (Downloader: 2376404)<br>
     * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-32bit.apk" target="_blank">Wuffy Player (Android)</a>  Tv/Chiavette/Box/Firestick (Downloader: 9749951)<br>
     * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk" target="_blank">Wuffy Player (Android)</a>  Smartphone/Tablet(Downloader: 6544533)<br>
-    * <a href="https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wuffy-player-64bit.apk" target="_blank">Wuffy Player (Android)</a>  Smartphone/Tablet<br>
     * Acestream [Guida Installazione](../guide/acestream.md/)<br>
 
 ------
