@@ -36,10 +36,12 @@
     * **Chiavette/Tv/Box** 
     * Installare dal Play Store "Wireguard"
     * Installare dal Play Store "Total Commander - File Manager"<br>
+    Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk)<br>
     
     * **Firestick FireOs 6.x/7.x** 
     * Scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a>
     * installare dallo Store "Total Commander"<br>
+    Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk)<br>
     
     * Firestick con **Fire OS 5.x**
     * Scaricare [Wireguard Amdroid 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/WireGuard_1_0_20210924_Android5.apk)
