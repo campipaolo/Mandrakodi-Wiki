@@ -83,3 +83,7 @@
 
 ??? info "21) Durante la visione il player spesso si stoppa ed esce"
     **Motivo:** Al netto del flusso che può essere instabile, anche un dispositivo poco performante può incidere<br>    **Soluzione:** Provare utilizzando un [Player Esterno](../guide/players.md), se non migliora allora è questione di fonte sovraccarica e/o propria connessione
+
+??? info "22) File zip Resolver non si installa bloccandosi"
+    **Motivo:** Connessione e/o sorgente lenta<br>
+    **Soluzione:** Tramite browser o app downloader scaricare zip file Resolver all'indirizzo "https://mandrakodi.github.io/", <br> In Kodi: Impostazioni, addon, installa da file zip, dispositivo esterno, navigare nella cartella dove è stato salvato il file e selezionarlo (generalmente cartella Download o Scaricati et simila)
