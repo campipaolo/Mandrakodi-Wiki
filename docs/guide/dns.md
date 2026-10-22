@@ -194,7 +194,9 @@ Basta **cambiare** server DNS, impostandone uno che non oscura
     **SKY Wifi  FTTH**
 
     * Dns non si possono inserire né sul router dell’operatore  né sul singolo dispositivo poiché non vengono comunque accettati
-    * Scaricare [Dns Changer](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/DNSChanger-32bit.apk)<br> (Codice Downloader: 3588028)
+    * Scaricare [Dns Changer](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/DNSChanger-32bit.apk)<br> (Codice Downloader: 3588028)<be>
+    * Eseguire <a href="https://dnsleaktest.com" target="_blank">test dns</a>
+    * Selezionare "Extended test" e attendere, deve segnare ISP con nome dei dns impostati
 
 
 
