@@ -39,7 +39,7 @@
     **Motivo:** Il link recuperato da MandraKodi e inviato al player non funziona  
     **Soluzione:** Cambiare link cercando autonomamente come da regolamento
 
-??? info "9) Link Sky Scaduto xx/xx/xxxx xx:xx:xx"
+??? info "9) Link Sky Scaduto xx/xx/xxxx xx:xx:xx (Sezione Sport/Lista Canali/Sky oppure Live/Sky)"
     **Motivo:** Il "Token" viene **aggiornato** manualmente **ogni giorno SOLO SE** lo sviluppatore può farlo  
     **Soluzione:** Cambiare sezione **senza segnalare e/o chiedere quando e se verrà aggiornato**
 
