@@ -130,7 +130,6 @@
 
     * Installare WG Tunnel
     * <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">Chiavette/Tv/Box/Firestick 32bit</a> (wgtunnel-standalone-vx.x.x-armv7.apk)
-    * <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">Smartphone/Tablet 64bit</a> (wgtunnel-standalone-vx.x.x-armv64.apk)
     * <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Windows 64bit</a></a> (wgtunnel-x.x.x.x64.msix)
     * <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Linux 64bit</a> (wgtunnel_x.x.x_amd64.deb)
     * Avviare WG Tunnel
