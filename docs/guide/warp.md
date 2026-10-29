@@ -10,10 +10,10 @@
 
 ------
 
-!!! important "Fase 1 - creare file configurazione per Wireguard"
-    Creare file ".conf" **senza scadenza** da utilizzare in Wireguard su Chiavette/Tv/Box/Firestick
+!!! important "Fase 1 - creare file configurazione per Wireguard/WG Tunnel"
+    Creare file ".conf" **senza scadenza** da utilizzare in Wireguard/WG Tunnel su Chiavette/Tv/Box/Firestick
 
-??? info "Web Config Generator + Web Convertitore per Wireguard"
+??? info "Web Config Generator + Web Convertitore per Wireguard/WG Tunnel"
        **Generare file ".conf" senza scadenza** (con Browser da Pc/Smartphone/Tablet - *non usare app Dowmloader*)
 
     * <a href="https://warp-generator.vercel.app" target="_blank">Config Generator</a>
@@ -27,10 +27,10 @@
 
 ------
 
-!!! important "Fase 2 - Wireguard per Chiavette/Tv/Box/Firestick"
+!!! important "Fase 2 - Wireguard/WG Tunnel per Chiavette/Tv/Box/Firestick"
     Play Store Chiavette/Tv/Box - Apk **Firestick** + File Manager
 
-??? info "Wireguard + File Manager"
+??? info "Wireguard/WG Tunnel + File Manager"
     **Chiavette/Tv/Box/Firestick**
 
     * **Chiavette/Tv/Box (Android 9-10)** 
