@@ -127,7 +127,7 @@
 
 ------
 
-!!! important " EXTRA - WG Tunnel (sempre con file ".conf")"
+!!! important " EXTRA - WG Tunnel per Pc Desktop (sempre con file ".conf")"
     Installare **alternativa** "WG Tunnel" su Windows/Linux/macOS
 
 ??? info "WG Tunnel"
