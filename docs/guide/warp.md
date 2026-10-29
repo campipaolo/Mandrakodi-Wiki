@@ -60,7 +60,7 @@
 ------
 
 !!! important "Fase 3 - Localsend"
-    **Inviare** a Chiavette/Tv/Box/Firestick  file ".conf"  e  Apk Wireguard
+    **Inviare** a Chiavette/Tv/Box/Firestick  file ".conf"  e  Apk Wireguard/WG Tunnel 
 
 ??? info "Localsend"
     **Windows/macOS/Linux/Android/iOS/Chiavette/Tv/Box/Firestick**
@@ -78,25 +78,25 @@
 
 ------
 
-!!! important "Fase 4 - Installare Wireguard  su  Firestick"
-    **Installazione** Wireguard su **Firestick**
+!!! important "Fase 4 - Installare Wireguard/WG Tunnel su  Firestick"
+    **Installazione** Wireguard/WG Tunnel su **Firestick**
 
-??? info "Wireguard su Firestick"
+??? info "Wireguard/WG Tunnel su Firestick"
     **Firestick**
 
 
     * Avviare Total Commander
     * Recarsi nella cartella "Download"
     * Total Commander richiede conferma di accedere e di avere i permessi del caso, accettare
-    * Cliccare sul file apk di Wireguard
-    * Installare Wireguard e *NON avviarlo*
+    * Cliccare sul file apk di Wireguard/WG Tunnel 
+    * Installare Wireguard/WG Tunnel e *NON avviarlo*
 
 ------
 
-!!! important " Fase 5 - Configurare Wireguard"
-    **Impostare** Wireguard su Chiavette/Tv/Box/Firestick
+!!! important " Fase 5 - Configurare Wireguard/WG Tunnel"
+    **Impostare** Wireguard/WG Tunnel su Chiavette/Tv/Box/Firestick
 
-??? info "Wireguard"
+??? info "Wireguard/WG Tunnel"
     **Chiavette/Tv/Box/Firestick**
 
 
