@@ -1,8 +1,8 @@
-name: Mirror WgTunnel APKs
+ name: Mirror WgTunnel APKs
 
 on:
   schedule:
-    # Esegue il controllo ogni giorno alle 08:00 (puoi modificarlo a piacimento)
+    # Esegue il controllo ogni giorno alle 08:00
     - cron: '0 8 * * *'
   workflow_dispatch: # Permette l'avvio manuale dalla scheda "Actions" di GitHub
 
@@ -10,57 +10,65 @@ jobs:
   mirror:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Necessario per pubblicare e modificare i file nella Release
+      contents: write # Necessario per scrivere e aggiornare i file nella Release
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Get latest release info from wgtunnel/android
-        id: fetch_release
+      - name: Download, Rename and Prepare APKs
         run: |
-          API_URL="https://api.github.com/repos/wgtunnel/android/releases/latest"
-          echo "Fetching release from $API_URL"
-          
-          # Scarica il JSON della release e usa node/python o curl/jq nativo per estrarre i link
-          RESPONSE=$(curl -s "$API_URL")
-          
-          # Estrae i browser_download_url per arm64 e armv7 usando python (già preinstallato su runner)
-          echo "download_urls<<EOF" >> $GITHUB_OUTPUT
-          echo "$RESPONSE" | python3 -c '
-import sys, json
-data = json.load(sys.stdin)
-for asset in data.get("assets", []):
-    name = asset.get("name", "")
-    url = asset.get("browser_download_url", "")
-    if "arm64" in name and name.endswith(".apk"):
-        print(f"ARM64_URL={url}")
-    elif "armv7" in name and name.endswith(".apk"):
-        print(f"ARMV7_URL={url}")
-' >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          python3 -setCode: |
+            import urllib.request
+            import json
+            import os
 
-      - name: Download and Rename APKs
-        run: |
-          # Carica le variabili dall output dello step precedente
-          eval "${{ steps.fetch_release.outputs.download_urls }}"
-          
-          echo "Downloading ARM64: $ARM64_URL"
-          curl -L -o wgtunnel_64bit.apk "$ARM64_URL"
-          
-          echo "Downloading ARMV7: $ARMV7_URL"
-          curl -L -o wgtunnel_32bit.apk "$ARMV7_URL"
-          
-          ls -la wgtunnel_*.apk
+            api_url = "https://api.github.com/repos/wgtunnel/android/releases/latest"
+            print(f"Fetching release from {api_url}")
+            
+            req = urllib.request.Request(
+                api_url, 
+                headers={"User-Agent": "Mozilla/5.0"}
+            )
+            
+            with urllib.request.urlopen(req) as response:
+                data = json.loads(response.read().decode())
+
+            arm64_url = None
+            armv7_url = None
+
+            for asset in data.get("assets", []):
+                name = asset.get("name", "")
+                url = asset.get("browser_download_url", "")
+                if "arm64" in name and name.endswith(".apk"):
+                    arm64_url = url
+                elif "armv7" in name and name.endswith(".apk"):
+                    armv7_url = url
+
+            if arm64_url:
+                print(f"Downloading ARM64 from {arm64_url}")
+                urllib.request.urlretrieve(arm64_url, "wgtunnel_64bit.apk")
+            else:
+                print("Error: ARM64 APK not found!")
+                exit(1)
+
+            if armv7_url:
+                print(f"Downloading ARMV7 from {armv7_url}")
+                urllib.request.urlretrieve(armv7_url, "wgtunnel_32bit.apk")
+            else:
+                print("Error: ARMV7 APK not found!")
+                exit(1)
+            
+            print("Download and renaming completed successfully.")
 
       - name: Upload to Release 'Files'
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: Files
           files: |
             wgtunnel_64bit.apk
             wgtunnel_32bit.apk
           body: "Aggiornamento automatico dei file APK di WgTunnel dall'ultima versione ufficiale."
-          overwrite: true # Sovrascrive i file esistenti se hanno lo stesso nome
+          overwrite: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
