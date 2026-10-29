@@ -137,6 +137,7 @@
     * Installare WG Tunnel
     * <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Windows 64bit</a></a> (wgtunnel-x.x.x.x64.msix)
     * <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Linux 64bit</a> (wgtunnel_x.x.x_amd64.deb)
+    * <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Mac 64bit</a> (wgtunnel-x.x.x-mac-arm64.dmg)
     * Avviare WG Tunnel
     * Alla prima apertura, WG Tunnel potrebbe chiedere il permesso di accedere ai file
     * Aperto WG Tunnel, premere il pulsante "**+**" e selezionare l'opzione "**importa da file**
