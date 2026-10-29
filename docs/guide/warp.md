@@ -33,13 +33,23 @@
 ??? info "Wireguard + File Manager"
     **Chiavette/Tv/Box/Firestick**
 
-    * **Chiavette/Tv/Box** 
+    * **Chiavette/Tv/Box (Android 9-10)** 
     * Installare dal Play Store "Wireguard"
     * Installare dal Play Store "Total Commander - File Manager"<br>
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
+
+    * **Chiavette/Tv/Box (Android 11-12-14)** 
+    * Installare dal Play Store "WG Tunnel"
+    * Installare dal Play Store "File Manager Plus"<br>
+    Apk [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
     
     * **Firestick FireOs 6.x/7.x** 
     * Scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a> (Downloader: 654540)
+    * installare dallo Store "Total Commander"<br>
+    Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
+
+    * **Firestick FireOs 8.x** 
+    * Scaricare apk WG Tunnel <a href="[https://download.wireguard.com/android-client/](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk)" target="_blank"></a> (Downloader: 9570857)
     * installare dallo Store "Total Commander"<br>
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
     
@@ -89,12 +99,12 @@
     **Chiavette/Tv/Box/Firestick**
 
 
-    * **Chiavette/Tv/Box & Firestick FireOs 6.x/7.x**
+    * **Chiavette/Tv/Box & Firestick FireOs 6.x/7.x/8.x**
     * Avviare Total Commander
     * Recarsi nella cartella "Download"
     * Cliccare sul file ".conf"
     * Selezionare "Apri con"
-    * Selezionare app Wireguard
+    * Selezionare app Wireguard/WG Tunnel 
     * Cliccare sulla configurazione importata per attivare/disattivare 
     * Al primo avvio verrà chiesta conferma di attivazione
     * Quando attiva, la configurazione selezionata appare blu con scritto "rx" "tx" [(Foto)](../images/wireguard_test.jpg){ target="_blank" }
