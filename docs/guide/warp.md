@@ -37,11 +37,14 @@
     * Installare dal Play Store "Wireguard"
     * Installare dal Play Store "Total Commander - File Manager"<br>
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
+    
 
     * **Chiavette/Tv/Box (Android 11-12-14)** 
     * Installare dal Play Store "WG Tunnel"<br>
     Apk:[WG Tunnel](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk) (Downloader: 9570857)<br>
     * Installare dal Play Store "File Manager Plus"<br>
+    Apk [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
+    N.B.: in alternativa installare dal Play Store "File Manager Plus"<br>
     Apk [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
     
     * **Firestick FireOs 6.x/7.x** 
@@ -53,6 +56,8 @@
     * Apk:[WG Tunnel](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk) (Downloader: 9570857)<br>
     * installare dallo Store "Total Commander"<br>
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
+    N.B.: in alternativa installare "File Manager Plus"<br>
+    Apk [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
     
     * Firestick con **Fire OS 5.x**
     * Scaricare [Wireguard Amdroid 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/WireGuard_1_0_20210924_Android5.apk) (Downloader: 2354861)
@@ -85,9 +90,9 @@
     **Firestick**
 
 
-    * Avviare Total Commander
+    * Avviare Total Commander/File Manager Plus 
     * Recarsi nella cartella "Download"
-    * Total Commander richiede conferma di accedere e di avere i permessi del caso, accettare
+    * Total Commander/File Manager Plus richiede conferma di accedere e di avere i permessi del caso, accettare
     * Cliccare sul file apk di Wireguard/WG Tunnel 
     * Installare Wireguard/WG Tunnel e *NON avviarlo*
 
@@ -101,7 +106,7 @@
 
 
     * **Chiavette/Tv/Box & Firestick FireOs 6.x/7.x/8.x**
-    * Avviare Total Commander
+    * Avviare Total Commander/File Manager Plus 
     * Recarsi nella cartella "Download"
     * Cliccare sul file ".conf"
     * Selezionare "Apri con"
