@@ -49,7 +49,7 @@
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
 
     * **Firestick FireOs 8.x** 
-    * Scaricare apk WG Tunnel <a href="[https://download.wireguard.com/android-client/](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk)" target="_blank"></a> (Downloader: 9570857)
+    * Scaricare apk WG Tunnel<a href="[https://download.wireguard.com/android-client/](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk)" target="_blank">"wgtunnel_64bit.apk"</a> (Downloader: 9570857)
     * installare dallo Store "Total Commander"<br>
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
     
