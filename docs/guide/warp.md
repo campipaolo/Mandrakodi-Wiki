@@ -128,14 +128,13 @@
 ------
 
 !!! important " EXTRA - WG Tunnel (sempre con file ".conf")"
-    Installare **alternativa** "WG Tunnel" su Windows/Linux/Android/Chiavette/Tv/Box/Firestick
+    Installare **alternativa** "WG Tunnel" su Windows/Linux/macOS
 
 ??? info "WG Tunnel"
-    **Windows/Linux/Android/Chiavette/Tv/Box/Firestick**
+    **Windows/Linux/macOS**
 
 
     * Installare WG Tunnel
-    * <a href="https://github.com/wgtunnel/android/releases/latest" target="_blank">Chiavette/Tv/Box/Firestick 32bit</a> (wgtunnel-standalone-vx.x.x-armv7.apk)
     * <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Windows 64bit</a></a> (wgtunnel-x.x.x.x64.msix)
     * <a href="https://github.com/wgtunnel/desktop/releases/latest" target="_blank">Linux 64bit</a> (wgtunnel_x.x.x_amd64.deb)
     * Avviare WG Tunnel
