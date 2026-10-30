@@ -44,8 +44,6 @@
     Apk:[WG Tunnel](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk) (Downloader: 9570857)<br>
     * Installare dal Play Store "File Manager Plus"<br>
     Apk [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
-    N.B.: in alternativa installare dal Play Store "File Manager Plus"<br>
-    Apk [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
     
     * **Firestick FireOs 6.x/7.x** 
     * Scaricare apk Wireguard <a href="https://download.wireguard.com/android-client/" target="_blank">"com.wireguard.android-x.x.xxxxxxxx.apk"</a> (Downloader: 654540)
