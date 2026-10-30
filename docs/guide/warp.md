@@ -41,7 +41,7 @@
 
     * **Chiavette/Tv/Box (Android 11-12-14)** 
     * Installare dal Play Store "WG Tunnel"<br>
-    Apk:[WG Tunnel](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk) (Downloader: 9570857)<br>
+    Apk:[WG Tunnel](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk) (Downloader: 9343231)<br>
     * Installare dal Play Store "File Manager Plus"<br>
     Apk [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
     
@@ -51,7 +51,7 @@
     Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
 
     * **Firestick FireOs 8.x** 
-    * Apk:[WG Tunnel](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk) (Downloader: 9570857)<br>
+    * Apk:[WG Tunnel](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk) (Downloader: 9343231)<br>
     * Apk: [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
     
     * Firestick con **Fire OS 5.x**
