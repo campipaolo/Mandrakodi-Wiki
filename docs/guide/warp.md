@@ -52,10 +52,7 @@
 
     * **Firestick FireOs 8.x** 
     * Apk:[WG Tunnel](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/wgtunnel_64bit.apk) (Downloader: 9570857)<br>
-    * installare dallo Store "Total Commander"<br>
-    Apk:[Total Commander](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/TotalCommander_362_32bit.apk) (Downloader: 1039245)<br>
-    N.B.: in alternativa installare "File Manager Plus"<br>
-    Apk [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
+    * Apk: [File Manager Plus](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/file_manager_3_8_2-32bit.apk)<br> (Codice Downloader: 1745381)<br>
     
     * Firestick con **Fire OS 5.x**
     * Scaricare [Wireguard Amdroid 5](https://github.com/campipaolo/Mandrakodi-Wiki/releases/download/Files/WireGuard_1_0_20210924_Android5.apk) (Downloader: 2354861)
