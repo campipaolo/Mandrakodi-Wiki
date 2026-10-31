@@ -1,9 +1,10 @@
-name: Mirror WgTunnel APKs
+name: Mirror WgTunnel APKs Automatically
 
 on:
   schedule:
-    - cron: '0 8 * * *'
-  workflow_dispatch:
+    # Esegue il controllo automatico ogni giorno alle 08:00 UTC
+    - cron: '0 * * * *'
+  workflow_dispatch: # Mantiene comunque la possibilità di avviarla manualmente
 
 jobs:
   mirror:
@@ -15,15 +16,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download and Prepare APKs
+      - name: Check for new version and Download
         run: |
           python3 -c '
           import urllib.request
           import json
           import sys
+          import os
 
           api_url = "https://api.github.com/repos/wgtunnel/android/releases/latest"
-          print(f"Fetching release from {api_url}")
+          print(f"Checking latest release from {api_url}")
           
           req = urllib.request.Request(api_url, headers={"User-Agent": "Mozilla/5.0"})
           
@@ -33,6 +35,9 @@ jobs:
           except Exception as e:
               print(f"Error fetching API: {e}")
               sys.exit(1)
+
+          latest_tag = data.get("tag_name")
+          print(f"Latest official version found: {latest_tag}")
 
           arm64_url = None
           armv7_url = None
@@ -45,20 +50,20 @@ jobs:
               elif "armv7" in name and name.endswith(".apk"):
                   armv7_url = url
 
-          if arm64_url:
-              print(f"Downloading ARM64...")
-              urllib.request.urlretrieve(arm64_url, "wgtunnel_64bit.apk")
-          else:
-              print("Error: ARM64 APK not found!")
+          if not arm64_url or not armv7_url:
+              print("Error: Required APK assets not found!")
               sys.exit(1)
 
-          if armv7_url:
-              print(f"Downloading ARMV7...")
-              urllib.request.urlretrieve(armv7_url, "wgtunnel_32bit.apk")
-          else:
-              print("Error: ARMV7 APK not found!")
-              sys.exit(1)
+          print("Downloading ARM64...")
+          urllib.request.urlretrieve(arm64_url, "wgtunnel_64bit.apk")
           
+          print("Downloading ARMV7...")
+          urllib.request.urlretrieve(armv7_url, "wgtunnel_32bit.apk")
+          
+          # Salva il tag in una variabile d ambiente di GitHub per usarla nel messaggio di rilascio
+          with open(os.environ["GITHUB_ENV"], "a") as env_file:
+              env_file.write(f"WGTUNNEL_VERSION={latest_tag}\n")
+
           print("Download completed successfully.")
           '
 
@@ -69,7 +74,8 @@ jobs:
           files: |
             wgtunnel_64bit.apk
             wgtunnel_32bit.apk
-          body: "Aggiornamento automatico dei file APK di WgTunnel dall ultima versione ufficiale."
+          body: "Aggiornamento automatico sincronizzato con l ultima versione ufficiale di WgTunnel: ${{ env.WGTUNNEL_VERSION }}"
           overwrite: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
