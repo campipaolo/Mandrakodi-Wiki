@@ -2,9 +2,8 @@ name: Mirror WgTunnel APKs Automatically
 
 on:
   schedule:
-    # Esegue il controllo automatico ogni 3h
-    - cron: ​'0 */3 * * *'
-  workflow_dispatch: # Mantiene comunque la possibilità di avviarla manualmente
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 jobs:
   mirror:
@@ -23,26 +22,47 @@ jobs:
           import json
           import sys
           import os
+          import re
 
-          api_url = "https://api.github.com/repos/wgtunnel/android/releases/latest"
-          print(f"Checking latest release from {api_url}")
-          
-          req = urllib.request.Request(api_url, headers={"User-Agent": "Mozilla/5.0"})
-          
+          upstream_api = "https://api.github.com/repos/wgtunnel/android/releases/latest"
+          local_release_api = "https://api.github.com/repos/campipaolo/Mandrakodi-Wiki/releases/tags/Files"
+          headers = {"User-Agent": "Mozilla/5.0"}
+
+          def fetch_json(url):
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req) as resp:
+                  return json.loads(resp.read().decode())
+
           try:
-              with urllib.request.urlopen(req) as response:
-                  data = json.loads(response.read().decode())
+              upstream_data = fetch_json(upstream_api)
           except Exception as e:
-              print(f"Error fetching API: {e}")
+              print(f"Error fetching upstream release: {e}")
               sys.exit(1)
 
-          latest_tag = data.get("tag_name")
-          print(f"Latest official version found: {latest_tag}")
+          latest_tag = upstream_data.get("tag_name", "").strip()
+          print(f"Latest upstream version: {latest_tag}")
+
+          current_version = None
+          try:
+              local_data = fetch_json(local_release_api)
+              body = local_data.get("body", "") or ""
+              match = re.search(r"Versione:\s*(\S+)", body)
+              if match:
+                  current_version = match.group(1).strip()
+              print(f"Current mirrored version in release Files: {current_version}")
+          except Exception as e:
+              print(f"Could not read existing Files release version (will proceed): {e}")
+
+          if latest_tag and current_version == latest_tag:
+              print("Already up to date. Skipping download and upload.")
+              with open(os.environ["GITHUB_ENV"], "a") as env_file:
+                  env_file.write("SHOULD_UPLOAD=false\n")
+              sys.exit(0)
 
           arm64_url = None
           armv7_url = None
 
-          for asset in data.get("assets", []):
+          for asset in upstream_data.get("assets", []):
               name = asset.get("name", "")
               url = asset.get("browser_download_url", "")
               if "arm64" in name and name.endswith(".apk"):
@@ -56,26 +76,26 @@ jobs:
 
           print("Downloading ARM64...")
           urllib.request.urlretrieve(arm64_url, "wgtunnel_64bit.apk")
-          
+
           print("Downloading ARMV7...")
           urllib.request.urlretrieve(armv7_url, "wgtunnel_32bit.apk")
-          
-          # Salva il tag in una variabile d ambiente di GitHub per usarla nel messaggio di rilascio
+
           with open(os.environ["GITHUB_ENV"], "a") as env_file:
               env_file.write(f"WGTUNNEL_VERSION={latest_tag}\n")
+              env_file.write("SHOULD_UPLOAD=true\n")
 
           print("Download completed successfully.")
           '
 
       - name: Upload to Release 'Files'
+        if: env.SHOULD_UPLOAD == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: Files
           files: |
             wgtunnel_64bit.apk
             wgtunnel_32bit.apk
-          body: "Aggiornamento automatico sincronizzato con l ultima versione ufficiale di WgTunnel: ${{ env.WGTUNNEL_VERSION }}"
+          body: "Versione: ${{ env.WGTUNNEL_VERSION }}"
           overwrite: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
