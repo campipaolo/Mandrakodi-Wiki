@@ -2,8 +2,8 @@ name: Mirror WgTunnel APKs Automatically
 
 on:
   schedule:
-    # Esegue il controllo automatico ogni giorno alle 08:00 UTC
-    - cron: '0 * * * *'
+    # Esegue il controllo automatico ogni 3h
+    - cron: ​'0 */3 * * *'
   workflow_dispatch: # Mantiene comunque la possibilità di avviarla manualmente
 
 jobs:
