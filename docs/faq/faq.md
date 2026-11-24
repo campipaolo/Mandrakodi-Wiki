@@ -90,4 +90,4 @@
 
 ??? info "23) Password non valida"
     **Motivo:** La password è scritta sbagliata o è da rigenerare [(Foto)](../images/mandrakodi_psw_error.jpg){ target="_blank" }<br>
-    **Soluzione:** Premendo il pulsante "SI" è possibile vedere la password *attualmente impostatoa* e verificare se combacia con quella generata dal Bot tramite pulsante dedicato (**non inviare MAI lo screenshot**) [(Foto)](../images/mandrakodi_psw_verify.jpg){ target="_blank" }<br>
+    **Soluzione:** Premendo il pulsante "SI" è possibile vedere la password *attualmente impostata* e verificare se combacia con quella generata dal Bot tramite pulsante dedicato (**non inviare MAI lo screenshot**) [(Foto)](../images/mandrakodi_psw_verify.jpg){ target="_blank" }<br> Qualora il problema persista, disinstallare Mandrakodi e reinstallarlo eliminando i dati utente quando richiesto.
