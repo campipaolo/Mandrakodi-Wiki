@@ -87,3 +87,7 @@
 ??? info "22) File zip Resolver non si installa bloccandosi"
     **Motivo:** Connessione e/o sorgente lenta<br>
     **Soluzione:** Tramite browser o app downloader scaricare zip file Resolver all'indirizzo "https://mandrakodi.github.io/", <br> In Kodi: Impostazioni, addon, installa da file zip, dispositivo esterno, navigare nella cartella dove è stato salvato il file e selezionarlo (generalmente cartella Download o Scaricati et simila)
+
+??? info "23) Password non valida"
+    **Motivo:** La password è scritta sbagliata o è da rigenerare [(Foto)](../images/mandrakodi_psw_error.jpg){ target="_blank" }<br>
+    **Soluzione:** Premendo il pulsante "SI" è possibile vedere la password *attualmente impostatoa* e verificare se combacia con quella generata dal Bot tramite pulsante dedicato (**non inviare MAI lo screenshot**) [(Foto)](../images/mandrakodi_psw_verify.jpg){ target="_blank" }<br>
