@@ -128,6 +128,6 @@
   7. Nella maschera inserire l'URL preso dal bot `@mandrakodibot` e premere **OK**:
 
      ![kodi_mandra_settings2](../images/kodi_mandra_settings2.jpg)
-     8. Accedere all'addon Mandrakodi ed inserire la password press dal bot `@mandrakodibot`  tramite il pulsante dedicato 
+     8. Accedere all'addon Mandrakodi ed inserire la password press dal bot `@mandrakodibot`  tramite il pulsante dedicato (per eventuali errori seguire la sezione "[FAQ](../faq/faq.md)"
 
      ![mandrakodi_bot_psw](../images/mandrakodi_bot_psw.png)
