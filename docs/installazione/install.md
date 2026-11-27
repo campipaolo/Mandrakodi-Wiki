@@ -319,6 +319,6 @@
     
          ![kodi_mandra_settings2](../images/kodi_mandra_settings2.jpg)
          
-      8. Accedere all'addon Mandrakodi ed inserire la password presa dal bot `@mandrakodibot`  tramite il pulsante dedicato (per eventuali errori consultare la sezione "[FAQ](../faq/faq.md)")
+      8. Nella maschera inserire la password presa dal bot `@mandrakodibot`  tramite il pulsante dedicato e premere **OK** <br>(per eventuali errori consultare la sezione "[FAQ](../faq/faq.md)")
 
      ![mandrakodi_bot_psw](../images/mandrakodi_bot_psw.png)
