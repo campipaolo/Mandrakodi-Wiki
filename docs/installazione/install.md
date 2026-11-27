@@ -315,7 +315,7 @@
     
          ![kodi_mandra_settings1](../images/kodi_mandra_settings1.jpg)
     
-      7. Nella maschera inserire l'URL preso dal bot `@mandrakodibot` e premere **OK**:
+      7. Nella maschera inserire l'URL preso dal bot `@mandrakodibot` tramite il pulsante dedicato e premere **OK**:
     
          ![kodi_mandra_settings2](../images/kodi_mandra_settings2.jpg)
          
